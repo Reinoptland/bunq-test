@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import { privacy } from '../../actions/users'
 import PrivacyForm from './PrivacyForm'
-import { Redirect } from 'react-router-dom'
+//import { Redirect } from 'react-router-dom'
 //import bunqPrivacy from '../../constants'
 
 class PrivacyDetails extends PureComponent {
@@ -11,9 +11,9 @@ class PrivacyDetails extends PureComponent {
     }
 
     render() {
-        if (this.props.currentUser) return (
-            <Redirect to='https://halloroos.nl/over-roos/privacy' />
-        )
+        // if (this.props.currentUser) return (
+        //     <Redirect to='https://halloroos.nl/over-roos/privacy' />
+        // )
         return (
             <div>
                 <h1>Privacy</h1>
@@ -26,7 +26,7 @@ class PrivacyDetails extends PureComponent {
 
 const mapStateToProps = function (state) {
     return {
-        currentUser: state.currentUser,
+        //currentUser: state.currentUser,
         //error: state.privacy.error
     }
 }
