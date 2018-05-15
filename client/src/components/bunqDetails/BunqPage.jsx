@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import { bunqLogin } from '../../actions/users'
 import BunqForm from './BunqForm'
-import { Redirect } from 'react-router-dom'
+//import { Redirect } from 'react-router-dom'
 
 class BunqDetails extends PureComponent {
     handleSubmit = (data) => {
@@ -10,10 +10,6 @@ class BunqDetails extends PureComponent {
     }
 
     render() {
-        if (this.props.currentUser) return (
-            <Redirect to="/" />
-        )
-
         return (
             <div>
                 <h1>Bunq Login</h1>
@@ -28,7 +24,6 @@ class BunqDetails extends PureComponent {
 
 const mapStateToProps = function (state) {
     return {
-        currentUser: state.currentUser,
         //error: state.bunqLogin.error
     }
 }
