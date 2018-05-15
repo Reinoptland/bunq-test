@@ -1,15 +1,21 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Roos/Bunq",
+  "name": "Roos X Bunq",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "192.png",
+      "sizes":"192x192 512x512",
+      "type": "image/png"
     }
   ],
-  "start_url": "./index.html",
   "display": "standalone",
+  "start_url": "./index.html",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "orientation": "portrait"
 }

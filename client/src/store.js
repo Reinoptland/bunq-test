@@ -9,16 +9,10 @@ const devTools = window.devToolsExtension ? window.devToolsExtension() : f => f
 
 
 const enhancer = compose(
-    applyMiddleware(ReduxThunk, storeJwt),
-    devTools
+  applyMiddleware(ReduxThunk, storeJwt),
+  devTools
 )
 
 const store = createStore(reducer, enhancer)
-
-// when JWT was coming from localStorage, connect via websockets
-// const initialCurrentUser = store.getState().currentUser
-// if (initialCurrentUser) {
-//   initialCurrentUser
-// }
 
 export default store
