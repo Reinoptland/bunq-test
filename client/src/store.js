@@ -7,6 +7,7 @@ const reducer = combineReducers(reducers)
 
 const devTools = window.devToolsExtension ? window.devToolsExtension() : f => f
 
+
 const enhancer = compose(
     applyMiddleware(ReduxThunk, storeJwt),
     devTools
@@ -15,9 +16,9 @@ const enhancer = compose(
 const store = createStore(reducer, enhancer)
 
 // when JWT was coming from localStorage, connect via websockets
-const initialCurrentUser = store.getState().currentUser
+// const initialCurrentUser = store.getState().currentUser
 // if (initialCurrentUser) {
-//     socket.connect(store.dispatch, initialCurrentUser.jwt)
+//   initialCurrentUser
 // }
 
 export default store
