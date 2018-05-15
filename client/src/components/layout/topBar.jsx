@@ -13,11 +13,11 @@ const TopBar = (props) => {
     const { location, history, user } = props
 
     return (
-        <AppBar position="absolute" style={{ background: 'linear-gradient(to right, #E84435, #F57F17)', zIndex: 10 }}>
+        <AppBar position="absolute" style={{ fontFamily:'', background: 'linear-gradient(to right, #E84435, #F57F17)', zIndex: 10 }}>
             <Toolbar>
-                <Typography variant="title" color="inherit" style={{ flex: 1 }}>
-                    roos
-        </Typography>
+                <Typography variant="title" color="inherit" style={{ textAlign: 'center', flex: 1 }}>
+                        Roos - need to add svg or png
+                </Typography>
                 {
                     user &&
                     <Button color="inherit">{user.firstName}</Button>
@@ -33,7 +33,7 @@ const TopBar = (props) => {
                 }
                 {
                     location.pathname.indexOf('games/') > 0 &&
-                    <Button color="inherit" onClick={() => history.push('/games')}>All Games</Button>
+                    <Button color="inherit" onClick={() => history.push('/dashboard')}>Dashboard</Button>
                 }
                 {
                     /games$/.test(location.pathname) &&
