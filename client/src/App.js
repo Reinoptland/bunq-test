@@ -8,6 +8,7 @@ import LogoutPage from './components/logout/LogoutPage'
 import register, { unregister } from './registerServiceWorker'
 import SignupPage from './components/signup/SignupPage'
 import BunqPage from './components/bunqDetails/BunqPage'
+import TopBar from './components/layout/TopBar'
 
 class App extends Component {
   componentWillMount(){
@@ -22,6 +23,7 @@ class App extends Component {
       <Router>
         <div>
           <nav>
+            <TopBar />
           </nav>
           <main>
             <Route exact path='/login' component={LoginPage}/>
