@@ -1,11 +1,13 @@
 import users from './users'
-import login from './login'
 import signup from './signup'
 import currentUser from './currentUser'
+import login from './login'
+import bunq from './bunq'
 
 export default {
-  users,
-  login,
-  currentUser,
-  signup
+    users,
+    signup,
+    login,
+    bunq,
+    currentUser,
 }

@@ -7,6 +7,7 @@ import LogoutPage from './components/logout/LogoutPage'
 // import ContractsPage from './components/contracts/ContractsPage'
 import register, { unregister } from './registerServiceWorker'
 import SignupPage from './components/signup/SignupPage'
+import BunqPage from './components/bunqDetails/BunqPage'
 
 class App extends Component {
   componentWillMount(){
