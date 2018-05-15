@@ -26,7 +26,7 @@ class App extends Component {
           <main>
             <Route exact path='/login' component={LoginPage}/>
             <Route exact path="/logout" component={LogoutPage} />
-            {/* <Route exact path='/bunq' component={BunqPage}/> */}
+            <Route exact path='/bunq' component={BunqPage}/>
             {/* <Route exact path='/transactions' component={TransactionsPage}/> */}
             {/* <Route exact path='/contracts' component={ContractsPage}/> */}
             <Route exact path='/signup' component={SignupPage}/>
