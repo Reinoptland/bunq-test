@@ -1,5 +1,5 @@
 import { JsonController, Get, Param, HttpCode, Put, Body, Post, Delete, NotFoundError, Authorized } from 'routing-controllers'
-import User from '../users/entity'
+import User from './entity'
 import { io } from '../index'
 
 
