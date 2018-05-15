@@ -79,3 +79,45 @@ export const getUsers = () => (dispatch, getState) => {
     })
     .catch(err => console.error(err))
 }
+    type: USER_LOGOUT
+})
+
+export const signup = (email, password) => (dispatch) =>
+    request
+        .post(`${baseUrl}/users`)
+        .send({ firstName: email, lastName: email, email, password })
+        .then(result => {
+            dispatch({
+                type: USER_SIGNUP_SUCCESS
+            })
+        })
+        .catch(err => {
+            if (err.status === 400) {
+                dispatch({
+                    type: USER_SIGNUP_FAILED,
+                    payload: err.response.body.message || 'Unknown error'
+                })
+            }
+            else {
+                console.error(err)
+            }
+        })
+
+export const getUsers = () => (dispatch, getState) => {
+    const state = getState()
+    if (!state.currentUser) return null
+    const jwt = state.currentUser.jwt
+
+    if (isExpired(jwt)) return dispatch(logout())
+
+    request
+        .get(`${baseUrl}/users`)
+        .set('Authorization', `Bearer ${jwt}`)
+        .then(result => {
+            dispatch({
+                type: UPDATE_USERS,
+                payload: result.body
+            })
+        })
+        .catch(err => console.error(err))
+}
