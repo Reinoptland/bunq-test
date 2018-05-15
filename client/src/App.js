@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import SignupPage from './components/signup/SignupPage'
+import LoginPage from './components/login/LoginPage'
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
 
 class App extends Component {
