@@ -7,6 +7,7 @@ import * as bcrypt from 'bcrypt'
 @Entity()
 export default class User extends BaseEntity {
 
+  [x: string]: any;
   @PrimaryGeneratedColumn()
   id?: number
 
@@ -19,12 +20,12 @@ export default class User extends BaseEntity {
   lastName: string
 
   @IsEmail()
-  @Column('text')
+  @Column('text', {nullable: false})
   email: string
 
   @IsString()
-  @Column('text')
-  @Exclude({ toPlainOnly: true })
+  @Column('text', {nullable: false})
+  @Exclude({ toPlainOnly: true})
   password: string
 
   async setPassword(rawPassword: string) {
