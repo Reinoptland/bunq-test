@@ -10,7 +10,9 @@
     "@types/koa-multer": "^1.0.0",
     "@types/koa-router": "^7.0.28",
     "@types/node": "^10.0.9",
+    "@types/socketio-jwt-auth": "^0.0.0",
     "bcrypt": "^2.0.1",
+    "jsonwebtoken": "^8.2.1",
     "kcors": "^2.2.1",
     "koa": "^2.5.1",
     "koa-bodyparser": "^4.2.0",
@@ -18,6 +20,8 @@
     "koa-router": "^7.4.0",
     "pg": "^7.4.3",
     "routing-controllers": "^0.7.7",
+    "socket.io": "^2.1.0",
+    "socketio-jwt-auth": "^0.0.6",
     "typeorm": "^0.2.5",
     "typescript": "^2.8.3"
   },

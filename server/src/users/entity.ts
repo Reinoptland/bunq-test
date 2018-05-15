@@ -19,11 +19,11 @@ export default class User extends BaseEntity {
   lastName: string
 
   @IsEmail()
-  @Column('text', {nullable: false})
+  @Column('text')
   email: string
 
   @IsString()
-  @Column('text', {nullable: false})
+  @Column('text')
   @Exclude({ toPlainOnly: true })
   password: string
 
@@ -39,7 +39,6 @@ export default class User extends BaseEntity {
   @Column('boolean', {default: false, nullable: true})
   permission: boolean
 
-  @IsString()
   @Column('text',  {default: null, nullable: true})
   bunqKey: string
 }
