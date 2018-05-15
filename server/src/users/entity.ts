@@ -36,7 +36,7 @@ export default class User extends BaseEntity {
   return bcrypt.compare(rawPassword, this.password)
   }
 
-  @Column('boolean', {default: null, nullable: true})
+  @Column('boolean', {default: false, nullable: true})
   permission: boolean
 
   @IsString()
