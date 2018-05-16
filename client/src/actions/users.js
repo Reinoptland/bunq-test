@@ -6,7 +6,6 @@ const baseUrl = 'http://localhost:4000'
 
 export const ADD_USER = 'ADD_USER'
 export const UPDATE_USER = 'UPDATE_USER'
-export const UPDATE_USERS = 'UPDATE_USERS'
 
 export const USER_LOGIN_SUCCESS = 'USER_LOGIN_SUCCESS'
 export const USER_LOGIN_FAILED = 'USER_LOGIN_FAILED'
@@ -36,7 +35,10 @@ export const login = (email, password) => (dispatch) =>
     .then(result => {
       dispatch({
         type: USER_LOGIN_SUCCESS,
-        payload: result.body
+        payload: {
+          jwt: result.body.jwt,
+          user: result.body.user
+        }
       })
     })
     .catch(err => {
@@ -71,25 +73,6 @@ export const signup = (data) => (dispatch) =>
         console.error(err)
       }
     })
-
-export const getUsers = () => (dispatch, getState) => {
-  const state = getState()
-  if (!state.currentUser) return null
-  const jwt = state.currentUser.jwt
-
-  if (isExpired(jwt)) return dispatch(logout())
-
-  request
-    .get(`${baseUrl}/users`)
-    .set('Authorization', `Bearer ${jwt}`)
-    .then(result => {
-      dispatch({
-        type: UPDATE_USERS,
-        payload: result.body
-      })
-    })
-    .catch(err => console.error(err))
-}
 
 export const bunqLogin = (key) => (dispatch) =>
   request
