@@ -5,11 +5,22 @@ import { Redirect } from 'react-router-dom'
 
 
 export default class FeedbackForm extends PureComponent {
+    state = {}
+
     handleSubmit = (e) => {
         e.preventDefault()
         this.props.onSubmit(this.state)
 
     }
+
+    handleChange = (event) => {
+        const { name, value } = event.target
+
+        this.setState({
+            [name]: value
+        })
+    }
+
 
     render() {
         return (
@@ -32,7 +43,7 @@ export default class FeedbackForm extends PureComponent {
                     <label> Additional Remarks:</label>
                     <input type="text" id="text" />
                     <br />
-                    <button type="submit">Submit</button>
+                    <button type="submit" onChange={this.handleChange}>Submit</button>
                 </div>
             </form>
         )
