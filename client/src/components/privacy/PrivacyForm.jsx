@@ -1,12 +1,9 @@
 import React, { PureComponent } from 'react'
-import Button from '@material-ui/core/Button';
-import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider'
+import Button from 'material-ui/Button';
+import Dialog, { DialogContent, DialogContentText, DialogTitle} from 'material-ui/Dialog';
+// import DialogActions from 'material-ui/DialogActions';
+import Typography from 'material-ui/Typography';
+import Divider from 'material-ui/Divider'
 
 
 export class AlertDialog extends React.Component {
@@ -17,7 +14,7 @@ export class AlertDialog extends React.Component {
   handleClickOpen = () => {
       this.setState({ open: true });
   };
-
+ 
   handleClose = () => {
       this.setState({ open: false });
   };

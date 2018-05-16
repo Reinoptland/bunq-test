@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { feedback } from '../../actions/users'
 //import FeedbackForm from './FeedbackForm'
 import { Redirect } from 'react-router-dom'
-//import { RadioButton, RadioButtonGroup } from 'material-ui/RadioButton';
+import { RadioButton, RadioButtonGroup } from 'material-ui/Radio';
 
 
 class FeedbackPage extends PureComponent {
@@ -12,29 +12,28 @@ class FeedbackPage extends PureComponent {
     }
 
     render() {
-        const styles = {
-            block: {
-                maxWidth: 250,
-            },
-            radioButton: {
-                marginBottom: 16,
-            },
-        };
-
         return (
-            <div>   
-                <br/>
-                <br />
+            <form> 
+
                 <h1>Feedback</h1>
-                {/* <RadioButtonGroup name="shipSpeed" defaultSelected="not_light">
-                    <RadioButton
-                        value="light"
-                        label="Simple"
-                        style={styles.radioButton}
-                    />
-                </RadioButtonGroup> */}
-                <p style={{ color: 'red' }}> Thanks for your feedback</p>
-            </div>
+                <div> Why did You not accept?
+                    <br/>
+                    <input type="radio" id="radioButton"/>
+                    <label label> I don't have Bunq </label> 
+                    <br />
+                    <input type="radio" id="radioButton" />
+                    <label label> I don't understand PSD </label>
+                    <br />
+                    <input type="radio" id="radioButton" />
+                    <label label> I don't trust the internet </label>
+                    <br />
+                    <input type="radio" id="radioButton" />
+                    <label label> I changed my mind </label>   
+                    <br/> 
+                    <label label> Additional Remarks</label>
+                    <input type="text" id="text"/>
+                </div>
+            </form>
         )
     }
 }
