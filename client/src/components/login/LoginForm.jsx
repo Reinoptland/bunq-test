@@ -27,7 +27,7 @@ export default class LoginForm extends PureComponent {
         </div>
 
         <div>
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">Wachtwoord</label>
           <input type="password" name="password" id="password" value={
             this.state.password || ''
           } onChange={this.handleChange} />

@@ -26,8 +26,8 @@ export default class SignupForm extends PureComponent {
           } onChange={this.handleChange} />
         </div>
         <div>
-          <label htmlFor="lastNmae">Achternaam</label>
-          <input type="lastNmae" name="lastNmae" id="lastNmae" value={
+          <label htmlFor="lastName">Achternaam</label>
+          <input type="lastName" name="lastName" id="lastName" value={
             this.state.lastName || ''
           } onChange={this.handleChange} />
         </div>
