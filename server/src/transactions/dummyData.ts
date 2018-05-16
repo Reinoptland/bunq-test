@@ -5,7 +5,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "231,10",
+        "value": "-231.10",
         "currency": "string"
       },
       "alias": {
@@ -149,7 +149,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "95,00",
+        "value": "-95.00",
         "currency": "string"
       },
       "alias": {
@@ -293,7 +293,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "46,50",
+        "value": "-46.50",
         "currency": "string"
       },
       "alias": {
@@ -437,7 +437,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "44,36",
+        "value": "-44.36",
         "currency": "string"
       },
       "alias": {
@@ -581,7 +581,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "115,00",
+        "value": "-115.00",
         "currency": "string"
       },
       "alias": {
@@ -725,7 +725,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "7,48",
+        "value": "-7.48",
         "currency": "string"
       },
       "alias": {
@@ -869,7 +869,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "130,38",
+        "value": "-130.38",
         "currency": "string"
       },
       "alias": {
@@ -1013,7 +1013,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "13,03",
+        "value": "-13.03",
         "currency": "string"
       },
       "alias": {
@@ -1157,7 +1157,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "11,45",
+        "value": "-11.45",
         "currency": "string"
       },
       "alias": {
@@ -1301,7 +1301,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "95,00",
+        "value": "-95.00",
         "currency": "string"
       },
       "alias": {
@@ -1445,7 +1445,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "44,36",
+        "value": "-44.36",
         "currency": "string"
       },
       "alias": {
@@ -1589,7 +1589,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "7,48",
+        "value": "-7.48",
         "currency": "string"
       },
       "alias": {
@@ -1733,7 +1733,7 @@ export const data = [
       "updated": "string",
       "monetary_account_id": 0,
       "amount": {
-        "value": "46,50",
+        "value": "-46.50",
         "currency": "string"
       },
       "alias": {
