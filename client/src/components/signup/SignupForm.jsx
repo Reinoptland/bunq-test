@@ -19,34 +19,34 @@ export default class SignupForm extends PureComponent {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <div>
+      <form onSubmit={this.handleSubmit} className="signupForm">
+        <div className="signupFormLabels">
           <label htmlFor="firstName">Voornaam</label>
           <input type="firstName" name="firstName" id="firstName" value={
             this.state.firstName || ''
           } onChange={this.handleChange} />
         </div>
-        <div>
+        <div className="signupFormLabels">
           <label htmlFor="lastName">Achternaam</label>
           <input type="lastName" name="lastName" id="lastName" value={
             this.state.lastName || ''
           } onChange={this.handleChange} />
         </div>
-        <div>
+        <div className="signupFormLabels">
           <label htmlFor="email">Email</label>
           <input type="email" name="email" id="email" value={
             this.state.email || ''
           } onChange={this.handleChange} />
         </div>
 
-        <div>
+        <div className="signupFormLabels">
           <label htmlFor="password">Wachtwoord</label>
           <input type="password" name="password" id="password" value={
             this.state.password || ''
           } onChange={this.handleChange} />
         </div>
 
-        <div>
+        <div className="signupFormLabels">
           <label htmlFor="confirmPassword">Herhaal wachtwoord</label>
           <input type="password" name="confirmPassword" id="confirmPassword" value={
             this.state.confirmPassword || ''
@@ -60,7 +60,7 @@ export default class SignupForm extends PureComponent {
           <p style={{ color: 'red' }}>De wachtwoorden zijn anders!</p>
         }
 
-        <button type="submit">Aanmelden</button>
+        <button type="submit" className="signupButton">Aanmelden</button>
       </form>
     )
   }
