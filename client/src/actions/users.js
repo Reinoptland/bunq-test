@@ -134,13 +134,14 @@ export const privacy = () => (dispatch) =>
       }
     })
 
-export const feedback = () => (dispatch) =>
+export const feedback = (id) => (dispatch, getState) =>
   request
-    .post(`${baseUrl}/feedback`)
-    .then(result => {
-      console.log(result)
+    .post(`${baseUrl}/users/${id}/feedbacks`)
+    .then(response => {
+      console.log('response')
       dispatch({
         type: USER_FEEDBACK,
-        payload: result.body
+        payload: response.body.feedback
       })
+      .catch(err => console.error(err))
     })

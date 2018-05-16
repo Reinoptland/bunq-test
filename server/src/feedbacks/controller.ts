@@ -35,12 +35,13 @@ export default class FeedbackController {
     }
     
     // posts a new feedback per user 
-    @Post('/users/:id/feedbacks')
+    @Post('/users/:id/feedback') 
     async createFeedback(
-      @Body() feedback: Feedback,
-      @Param('id') id: number
+     @Body() feedback: Feedback,
+       @Param('id') id: number
     ) {
       const user = await User.findOne(id)
+      console.log('backend feedback')
       if(!user) throw new NotFoundError('A user with this Id does not exist')
   
       const createdFeedback = await Feedback.create({...feedback, user}).save()
