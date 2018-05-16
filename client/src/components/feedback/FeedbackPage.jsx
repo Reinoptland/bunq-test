@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { feedback } from '../../actions/users'
 //import FeedbackForm from './FeedbackForm'
 import { Redirect } from 'react-router-dom'
-//import { RadioButton, RadioButtonGroup } from 'material-ui/RadioButton';
+//import { RadioButton, RadioButtonGroup } from 'material-ui/Radio';
 
 
 class FeedbackPage extends PureComponent {
@@ -12,29 +12,31 @@ class FeedbackPage extends PureComponent {
     }
 
     render() {
-        const styles = {
-            block: {
-                maxWidth: 250,
-            },
-            radioButton: {
-                marginBottom: 16,
-            },
-        };
-
         return (
-            <div>   
-                <br/>
-                <br />
+            <form>
+
                 <h1>Feedback</h1>
-                {/* <RadioButtonGroup name="shipSpeed" defaultSelected="not_light">
-                    <RadioButton
-                        value="light"
-                        label="Simple"
-                        style={styles.radioButton}
-                    />
-                </RadioButtonGroup> */}
-                <p style={{ color: 'red' }}> Thanks for your feedback</p>
-            </div>
+                <div className="feedbackForm">
+                    <h2>Why did you not accept?</h2>
+                    <input type="radio" id="contactChoice1" name="contact" value="option1" />
+                    <label for="contactChoice1"> I don't have Bunq </label>
+                    <br />
+                    <input type="radio" id="contactChoice2" name="contact" value="option2" />
+                    <label for="contactChoice2"> I don't understand PSD </label>
+                    <br />
+                    <input type="radio" id="contactChoice3" name="contact" value="option3" />
+                    <label for="contactChoice3"> I don't trust the internet </label>
+                    <br />
+                    <input type="radio" id="contactChoice4" name="contact" value="option4" />
+                    <label for="contactChoice4"> I changed my mind </label>
+                    <br />
+                    <br />
+                    <label> Additional Remarks:</label>
+                    <input type="text" id="text" />
+                    <br />
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
         )
     }
 }
