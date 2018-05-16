@@ -8,6 +8,8 @@ import TransactionsPage from './components/dashboard/TransactionsPage'
 import register, { unregister } from './registerServiceWorker'
 import SignupPage from './components/signup/SignupPage'
 import BunqPage from './components/bunqDetails/BunqPage'
+import TopBar from './components/layout/topBar'
+//import FeedbackPage from './components/feedback/FeedbackPage'
 
 class App extends Component {
   componentWillMount(){
@@ -22,11 +24,13 @@ class App extends Component {
       <Router>
         <div>
           <nav>
+            <TopBar />
           </nav>
           <main>
             <Route exact path='/login' component={LoginPage}/>
             <Route exact path="/logout" component={LogoutPage} />
             <Route exact path='/bunq' component={BunqPage}/>
+            {/* <Route exact path='/feedback' component={FeedbackPage} /> */}
             <Route exact path='/transactions' component={TransactionsPage}/>
             {/* <Route exact path='/contracts' component={ContractsPage}/> */}
             <Route exact path='/signup' component={SignupPage}/>

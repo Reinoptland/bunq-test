@@ -13,15 +13,21 @@ export const USER_LOGIN_FAILED = 'USER_LOGIN_FAILED'
 
 export const USER_LOGOUT = 'USER_LOGOUT'
 
+export const USER_FEEDBACK = 'USER_FEEDBACK'
+
 export const USER_SIGNUP_SUCCESS = 'USER_SIGNUP_SUCCESS'
 export const USER_SIGNUP_FAILED = 'USER_SIGNUP_FAILED'
 
 export const USER_BUNQ_SUCCESS = 'USER_BUNQ_SUCCESS'
 export const USER_BUNQ_FAILED = 'USER_BUNQ_FAILED'
 
+export const USER_ACCEPT_PRIVACY = 'USER_ACCEPT_PRIVACY'
+export const USER_DECLINE_PRIVACY = 'USER_DECLINE_PRIVACY'
+
 export const logout = () => ({
   type: USER_LOGOUT
 })
+
 
 export const login = (email, password) => (dispatch) =>
   request
@@ -105,4 +111,35 @@ export const bunqLogin = (key) => (dispatch) =>
       else {
         console.error(err)
       }
+    })
+
+export const privacy = () => (dispatch) =>
+  request
+    .post(`${baseUrl}/privacy`)
+    .then(result => {
+      dispatch({
+        type: USER_ACCEPT_PRIVACY,
+        payload: result.body
+      })
+    })
+    .catch(err => {
+      if (err.status === 400) {
+        dispatch({
+          type: USER_DECLINE_PRIVACY,
+          payload: err.response.body.message || 'Unknown error'
+        })
+      }
+      else {
+        console.error(err)
+      }
+    })
+
+export const feedback = () => (dispatch) =>
+  request
+    .post(`${baseUrl}/feedback`)
+    .then(result => {
+      dispatch({
+        type: USER_FEEDBACK,
+        payload: result.body
+      })
     })
