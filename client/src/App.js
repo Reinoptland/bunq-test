@@ -9,6 +9,7 @@ import register, { unregister } from './registerServiceWorker'
 import SignupPage from './components/signup/SignupPage'
 import BunqPage from './components/bunqDetails/BunqPage'
 import TopBar from './components/layout/topBar'
+import BottomNav from './components/layout/bottomNav'
 import FeedbackPage from './components/feedback/FeedbackPage'
 
 class App extends Component {
@@ -29,6 +30,9 @@ class App extends Component {
             <Route exact path='/signup' component={SignupPage}/>
             <Route exact path="/" render={() => <Redirect to="/dashboard" />} />
           </main>
+          <nav> 
+            <BottomNav />
+          </nav>
         </div>
       </Router>
     );
