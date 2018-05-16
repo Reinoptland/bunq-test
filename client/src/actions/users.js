@@ -121,6 +121,7 @@ export const feedback = () => (dispatch) =>
   request
     .post(`${baseUrl}/feedback`)
     .then(result => {
+      console.log(result)
       dispatch({
         type: USER_FEEDBACK,
         payload: result.body

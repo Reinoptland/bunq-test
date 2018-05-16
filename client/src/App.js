@@ -5,7 +5,6 @@ import LoginPage from './components/login/LoginPage'
 import LogoutPage from './components/logout/LogoutPage'
 import DashboardPage from './components/dashboard/DashboardPage'
 import ContractsPage from './components/contracts/ContractsPage'
-import register, { unregister } from './registerServiceWorker'
 import SignupPage from './components/signup/SignupPage'
 import BunqPage from './components/bunqDetails/BunqPage'
 import TopBar from './components/layout/topBar'
@@ -27,7 +26,7 @@ class App extends Component {
             <Route exact path='/dashboard' component={DashboardPage}/>
             <Route exact path='/contracts' component={ContractsPage}/>
             <Route exact path='/signup' component={SignupPage}/>
-            <Route exact path="/" render={() => <Redirect to="/dashboard" />} />
+            <Route exact path="/" render={() => <Redirect to="/login" />} />
           </main>
         </div>
       </Router>

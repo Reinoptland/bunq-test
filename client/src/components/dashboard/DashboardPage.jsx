@@ -11,6 +11,7 @@ class DashboardPage extends PureComponent {
       this.props.fetchTransactions(1)
     }
   }
+
   render(){
     if (!this.props.user) return (
       <Redirect to="/login" />

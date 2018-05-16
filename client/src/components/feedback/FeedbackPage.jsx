@@ -1,40 +1,23 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import { feedback } from '../../actions/users'
-//import FeedbackForm from './FeedbackForm'
 import { Redirect } from 'react-router-dom'
-//import { RadioButton, RadioButtonGroup } from 'material-ui/RadioButton';
-
+import FeedbackForm from './FeedbackForm'
 
 class FeedbackPage extends PureComponent {
-    handleSubmit = () => {
-        this.props.feedback()
+    handleSubmit = (data) => {
+        this.props.feedback(data)
     }
 
     render() {
-        const styles = {
-            block: {
-                maxWidth: 250,
-            },
-            radioButton: {
-                marginBottom: 16,
-            },
-        };
-
         return (
-            <div>   
-                <br/>
-                <br />
+            <form>
+
                 <h1>Feedback</h1>
-                {/* <RadioButtonGroup name="shipSpeed" defaultSelected="not_light">
-                    <RadioButton
-                        value="light"
-                        label="Simple"
-                        style={styles.radioButton}
-                    />
-                </RadioButtonGroup> */}
-                <p style={{ color: 'red' }}> Thanks for your feedback</p>
-            </div>
+                <div className="feedbackForm">
+                    <FeedbackForm onSubmit={this.handleSubmit} />
+                </div>
+            </form>
         )
     }
 }

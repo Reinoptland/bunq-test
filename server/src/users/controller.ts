@@ -4,15 +4,6 @@ import User from './entity'
 @JsonController()
 export default class UserController {
 
-  // requests all users
-  // @Authorized()
-  @Get('/users')
-  async allUsers(){
-    const users = await User.find()
-    if (!users) throw new NotFoundError('Users table doesn\'t exist')
-    return {users}
-  }
-
   // requests one user
   @Authorized()
   @Get('/users/:id')
@@ -29,13 +20,6 @@ export default class UserController {
   async createUser(
     @Body() data: User
   ) {
-      // const {firstName, lastName, email} = data
-      // const user = {
-      //   firstName,
-      //   lastName, 
-      //   email,
-      //   password
-      // }
     const {password, ...rest} = data
     const entity = User.create(rest)
     await entity.setPassword(password)

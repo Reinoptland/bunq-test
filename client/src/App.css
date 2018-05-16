@@ -1,3 +1,18 @@
+body {
+  margin: 20px;
+  padding: 20px;
+}
+
+@font-face {
+  font-family: 'BrandonText-Regular';
+  src: local('brandontext-regular'), url(./fonts/brandontext-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'BrandonText-Bold';
+  src: local('brandontext-bold'), url(./fonts/brandontext-bold.woff) format('woff');
+}
+
 .App {
   text-align: center;
 }
@@ -9,6 +24,7 @@
 
 .App-header {
   background-color: #222;
+  font-family: BrandonText-Regular, sans-serif;
   height: 150px;
   padding: 20px;
   color: white;
@@ -22,7 +38,50 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+p {
+  font-family: 'BrandonText-Regular';
+  font-size: 20px;
+  color: #4A4A4A;
+}
+
+h1 {
+  font-family: 'BrandonText-Bold';
+  font-size: 40px;
+  color: #4A4A4A;
+}
+
+.signupFormLabels{
+  margin-bottom: 10px;
+}
+
+.signupFormLabels label {
+  margin-right: 10px;
+}
+
+.signupFormLabels input {
+  padding: 5px 30px 5px 3px;
+}
+
+.roosTitle {
+  margin-bottom: 30px;
+}
+
+.signupButton {
+  margin-top: 20px;
+  padding: 13px 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: linear-gradient(#e84435, #f57f17);
+  color: white;
+  border: none;
+}
+
+.signupButton:hover{
+  background: #e84435;
+}
+  
+.feedbackForm input {
+  border: 1px solid #333;
+  margin-left: 10px;
 }
