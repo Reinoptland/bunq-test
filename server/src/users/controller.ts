@@ -4,15 +4,6 @@ import User from './entity'
 @JsonController()
 export default class UserController {
 
-  // requests all users
-  // @Authorized()
-  @Get('/users')
-  async allUsers(){
-    const users = await User.find()
-    if (!users) throw new NotFoundError('Users table doesn\'t exist')
-    return {users}
-  }
-
   // requests one user
   @Authorized()
   @Get('/users/:id')
