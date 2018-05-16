@@ -1,8 +1,9 @@
-import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm'
+import { Entity, PrimaryGeneratedColumn, Column, JoinColumn, OneToMany } from 'typeorm'
 import { BaseEntity } from 'typeorm/repository/BaseEntity'
 import { Exclude } from "class-transformer";
 import { IsEmail, IsString} from 'class-validator'
 import * as bcrypt from 'bcrypt'
+import Transaction from "../transactions/entity"
 
 @Entity()
 export default class User extends BaseEntity {
@@ -42,4 +43,8 @@ export default class User extends BaseEntity {
 
   @Column('text',  {default: null, nullable: true})
   bunqKey: string
+
+  @OneToMany(_ => Transaction, transaction => transaction.user)
+  @JoinColumn()
+  transactions: Transaction[]
 }
