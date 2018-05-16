@@ -1,6 +1,8 @@
-import { JsonController, Get, Param, Body, NotFoundError, Post } from 'routing-controllers'
+import { JsonController, Get, Param, NotFoundError, Post } from 'routing-controllers'
 import Transaction from './entity'
 import User from '../users/entity'
+import { data } from './dummyData';
+import { getContracts } from './logic';
 
 
 @JsonController()
@@ -18,7 +20,7 @@ export default class TransactionController {
     }
 
     // gets one specific transaction for one specific user
-    @Get('/transactions/:id')
+    @Get('/users/:id/transactions/:id')
     async transaction(
         @Param('id') id: number
     ) {
@@ -29,15 +31,19 @@ export default class TransactionController {
     // posts a new transaction per user 
     @Post('/users/:id/transactions')
     async createDetailedTransaction(
-      @Body() transaction: Transaction,
       @Param('id') id: number
     ) {
       const user = await User.findOne(id)
       if(!user) throw new NotFoundError('A user with this Id does not exist')
+      
+      const contracts = getContracts(data)
+
+      contracts.map(async contract => await Transaction.create({...contract, user}).save())
+      
+      const transactions = await Transaction.find({where: {user: id}})
+      if(!transactions) throw new NotFoundError('This user has no transactions yet!')
   
-      const createdTransaction = await Transaction.create({...transaction, user}).save()
-  
-      return createdTransaction
+      return transactions
     }
 
 
