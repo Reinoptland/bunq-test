@@ -5,6 +5,7 @@ import login from './login'
 import bunq from './bunq'
 import privacy from './privacy'
 import feedback from './feedback'
+import transactions from './transactions'
 
 export default {
     users,
@@ -13,5 +14,6 @@ export default {
     bunq,
     currentUser,
     privacy,
-    feedback
+    feedback,
+    transactions
 }
