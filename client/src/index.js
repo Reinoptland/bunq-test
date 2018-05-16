@@ -5,12 +5,16 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux'
 import store from './store'
+import CssBaseline from 'material-ui/CssBaseline'
+
 
 registerServiceWorker();
 ReactDOM.render(
-<Provider store={store}>
-  <App />
-</Provider>
+  <Provider store={store}>
+    <CssBaseline>
+      <App />
+    </CssBaseline>
+  </Provider>
   , document.getElementById('root'));
 //   let deferredPrompt;
 

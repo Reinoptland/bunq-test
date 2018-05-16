@@ -4,21 +4,14 @@ import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
 import LoginPage from './components/login/LoginPage'
 import LogoutPage from './components/logout/LogoutPage'
 import TransactionsPage from './components/dashboard/TransactionsPage'
-// import ContractsPage from './components/contracts/ContractsPage'
+import ContractsPage from './components/contracts/ContractsPage'
 import register, { unregister } from './registerServiceWorker'
 import SignupPage from './components/signup/SignupPage'
 import BunqPage from './components/bunqDetails/BunqPage'
 import TopBar from './components/layout/topBar'
-//import FeedbackPage from './components/feedback/FeedbackPage'
+import FeedbackPage from './components/feedback/FeedbackPage'
 
 class App extends Component {
-  componentWillMount(){
-    register()
-  }
-
-  componentWillUnmount(){
-    unregister()
-  }
   render() {
     return (
       <Router>
@@ -26,15 +19,15 @@ class App extends Component {
           <nav>
             <TopBar />
           </nav>
-          <main style={{margin: 80}}>
+          <main style={{margin: '80px 0 0 20px'}}>
             <Route exact path='/login' component={LoginPage}/>
             <Route exact path="/logout" component={LogoutPage} />
             <Route exact path='/bunq' component={BunqPage}/>
-            {/* <Route exact path='/feedback' component={FeedbackPage} /> */}
-            <Route exact path='/transactions' component={TransactionsPage}/>
-            {/* <Route exact path='/contracts' component={ContractsPage}/> */}
+            <Route exact path='/feedback' component={FeedbackPage} />
+            <Route exact path='/dashboard' component={TransactionsPage}/>
+            <Route exact path='/contracts' component={ContractsPage}/>
             <Route exact path='/signup' component={SignupPage}/>
-            <Route exact path="/" render={() => <Redirect to="/transactions" />} />
+            <Route exact path="/" render={() => <Redirect to="/dashboard" />} />
           </main>
         </div>
       </Router>

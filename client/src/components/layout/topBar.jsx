@@ -1,4 +1,3 @@
-
 import React from 'react'
 import AppBar from 'material-ui/AppBar'
 import Toolbar from 'material-ui/Toolbar'
@@ -7,7 +6,7 @@ import Button from 'material-ui/Button'
 import { withRouter } from 'react-router'
 import { userId } from '../../jwt'
 import { connect } from 'react-redux'
-
+import { logo, comment, person } from './logo'
 
 const TopBar = (props) => {
   const { location, history, user } = props
@@ -15,9 +14,18 @@ const TopBar = (props) => {
   return (
     <AppBar position="absolute" style={{ fontFamily: '', background: 'linear-gradient(to right, #E84435, #F57F17)', zIndex: 10 }}>
       <Toolbar>
+        <a href='/dashboard'>
+          {person()}
+        </a>
         <Typography variant="title" color="inherit" style={{ textAlign: 'center', flex: 1 }}>
-          roos
-                </Typography>
+
+        <a href='/'>
+          {logo()}
+        </a>
+          </Typography>
+        <a href='/email'>
+          {comment()}
+        </a>
         {
           user &&
           <Button color="inherit">{user.firstName}</Button>
