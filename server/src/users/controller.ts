@@ -1,7 +1,5 @@
 import { JsonController, Get, Param, HttpCode, Put, Body, Post, Delete, NotFoundError, Authorized } from 'routing-controllers'
 import User from './entity'
-import { io } from '../index'
-
 
 @JsonController()
 export default class UserController {
@@ -35,11 +33,6 @@ export default class UserController {
     const entity = User.create(rest)
     await entity.setPassword(password)
     const user = await entity.save()
-
-    io.emit('action', {
-      type: 'ADD_USER',
-      payload: entity
-    })
 
     return user
   }
