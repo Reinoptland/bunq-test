@@ -19,7 +19,7 @@ const TopBar = (props) => {
         </a>
         <Typography variant="title" color="inherit" style={{ textAlign: 'center', flex: 1 }}>
 
-        <a href='/'>
+        <a href='/login'>
           {logo()}
         </a>
           </Typography>

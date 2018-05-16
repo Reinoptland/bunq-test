@@ -74,10 +74,11 @@ export const signup = (data) => (dispatch) =>
       }
     })
 
-export const bunqLogin = (key) => (dispatch) =>
+export const bunqLogin = (id, key) => (dispatch) =>{
+  console.log(id, key)
   request
-    .post(`${baseUrl}/logins`)
-    .send({ key })
+    .post(`${baseUrl}/users/${id}/transactions`)
+    .send({ id, key })
     .then(result => {
       dispatch({
         type: USER_BUNQ_SUCCESS,
@@ -93,8 +94,9 @@ export const bunqLogin = (key) => (dispatch) =>
       }
       else {
         console.error(err)
-      }
-    })
+      }}
+    )
+  }
 
 export const privacy = () => (dispatch) =>
   request

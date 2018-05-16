@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import pieGraph from './Graph'
-import { Grid, Typography } from 'material-ui';
+import { Grid, Typography, Button } from 'material-ui';
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
