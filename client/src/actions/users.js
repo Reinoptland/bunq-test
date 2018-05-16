@@ -11,6 +11,8 @@ export const USER_LOGIN_FAILED = 'USER_LOGIN_FAILED'
 
 export const USER_LOGOUT = 'USER_LOGOUT'
 
+export const USER_FEEDBACK = 'USER_FEEDBACK'
+
 export const USER_SIGNUP_SUCCESS = 'USER_SIGNUP_SUCCESS'
 export const USER_SIGNUP_FAILED = 'USER_SIGNUP_FAILED'
 
@@ -128,4 +130,14 @@ export const privacy = () => (dispatch) =>
       else {
         console.error(err)
       }
+    })
+
+export const feedback = () => (dispatch) =>
+  request
+    .post(`${baseUrl}/feedback`)
+    .then(result => {
+      dispatch({
+        type: USER_FEEDBACK,
+        payload: result.body
+      })
     })
