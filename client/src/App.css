@@ -71,7 +71,6 @@ h1 {
   padding: 13px 25px;
   border-radius: 5px;
   font-size: 14px;
-  /* font-weight: bold; */
   text-transform: uppercase;
   background: linear-gradient(#e84435, #f57f17);
   color: white;
@@ -80,4 +79,9 @@ h1 {
 
 .signupButton:hover{
   background: #e84435;
+}
+  
+.feedbackForm input {
+  border: 1px solid #333;
+  margin-left: 10px;
 }

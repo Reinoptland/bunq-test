@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import pieGraph from './Graph'
 
-export default class TransactionsPage extends PureComponent {
+export default class DashboardPage extends PureComponent {
   
   render(){
     const data = [["Category", "Amount"], ["Insurance", 700], ["Mobile", 90], ["Health", 100], ["Internet, tv and Phone", 200], ['Other', 25]]
