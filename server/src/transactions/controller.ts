@@ -1,4 +1,4 @@
-import { JsonController, Get, Param, Body, NotFoundError, Post } from 'routing-controllers'
+import { JsonController, Get, Param, NotFoundError, Post } from 'routing-controllers'
 import Transaction from './entity'
 import User from '../users/entity'
 import { data } from './dummyData';
