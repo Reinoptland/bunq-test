@@ -49,3 +49,6 @@ jspm_packages
 target
 .vscode
 .DS_Store
+
+# yarn.lock
+.lock

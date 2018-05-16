@@ -1,18 +1,22 @@
-import { JsonController, Get, Param, HttpCode, Put, Body, Post, Delete, NotFoundError } from 'routing-controllers'
-import User from '../users/entity'
+import { JsonController, Get, Param, HttpCode, Put, Body, Post, Delete, NotFoundError, Authorized } from 'routing-controllers'
+import User from './entity'
+import { io } from '../index'
+
 
 @JsonController()
 export default class UserController {
 
   // requests all users
+  // @Authorized()
   @Get('/users')
   async allUsers(){
     const users = await User.find()
     if (!users) throw new NotFoundError('Users table doesn\'t exist')
     return {users}
   }
-  
+
   // requests one user
+  @Authorized()
   @Get('/users/:id')
   async user(
     @Param('id') id: number
@@ -25,12 +29,19 @@ export default class UserController {
   @Post('/users')
   @HttpCode(201)
   async createUser(
-    @Body() user: User
+    @Body() data: User
   ) {
-    const {password, ...rest} = user
+    const {password, ...rest} = data
     const entity = User.create(rest)
     await entity.setPassword(password)
-    return entity.save()
+    const user = await entity.save()
+
+    io.emit('action', {
+      type: 'ADD_USER',
+      payload: entity
+    })
+
+    return user
   }
   // edits a user
   @Put('/users/:id')
