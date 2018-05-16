@@ -18,7 +18,7 @@ export default class TransactionController {
     }
 
     // gets one specific transaction for one specific user
-    @Get('/users/:id/transactions/:id')
+    @Get('/transactions/:id')
     async transaction(
         @Param('id') id: number
     ) {
