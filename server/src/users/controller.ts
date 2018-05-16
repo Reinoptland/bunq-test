@@ -7,7 +7,7 @@ import { io } from '../index'
 export default class UserController {
 
   // requests all users
-  @Authorized()
+  // @Authorized()
   @Get('/users')
   async allUsers(){
     const users = await User.find()
