@@ -26,7 +26,8 @@ export default class LoginController {
 
     const jwt = sign({id: user.id!})
     return {
-      jwt
+      jwt,
+      user
     }
   }
 
