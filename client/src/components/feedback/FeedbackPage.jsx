@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { feedback } from '../../actions/users'
 //import FeedbackForm from './FeedbackForm'
 import { Redirect } from 'react-router-dom'
-import { RadioButton, RadioButtonGroup } from 'material-ui/Radio';
+//import { RadioButton, RadioButtonGroup } from 'material-ui/Radio';
 
 
 class FeedbackPage extends PureComponent {
@@ -16,7 +16,7 @@ class FeedbackPage extends PureComponent {
             <form> 
 
                 <h1>Feedback</h1>
-                <div> Why did You not accept?
+                <div> Why did you not accept?
                     <br/>
                     <input type="radio" id="radioButton"/>
                     <label label> I don't have Bunq </label> 
@@ -32,6 +32,8 @@ class FeedbackPage extends PureComponent {
                     <br/> 
                     <label label> Additional Remarks</label>
                     <input type="text" id="text"/>
+                    <br/>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         )
