@@ -11,7 +11,7 @@ class LoginPage extends PureComponent {
 
   render() {
     if (this.props.currentUser && this.props.currentUser.user) return (
-      <Redirect to="/" />
+      <Redirect to="/bunq" />
     )
 
     return (
