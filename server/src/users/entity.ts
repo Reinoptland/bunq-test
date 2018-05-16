@@ -4,6 +4,8 @@ import { Exclude } from "class-transformer";
 import { IsEmail, IsString} from 'class-validator'
 import * as bcrypt from 'bcrypt'
 import Transaction from "../transactions/entity"
+import Feedback from "../feedbacks/entity"
+
 
 @Entity()
 export default class User extends BaseEntity {
@@ -47,4 +49,8 @@ export default class User extends BaseEntity {
   @OneToMany(_ => Transaction, transaction => transaction.user)
   @JoinColumn()
   transactions: Transaction[]
+
+  @OneToMany(_ => Feedback, feedback => feedback.user)
+  @JoinColumn()
+  feedbacks: Transaction[]
 }
