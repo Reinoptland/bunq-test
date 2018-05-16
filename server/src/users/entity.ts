@@ -8,7 +8,7 @@ import Transaction from "../transactions/entity"
 @Entity()
 export default class User extends BaseEntity {
 
-  [x: string]: any;
+  // [x: string]: any;
   @PrimaryGeneratedColumn()
   id?: number
 
