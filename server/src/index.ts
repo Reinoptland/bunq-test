@@ -4,6 +4,7 @@ import setupDb from './db'
 import UserController from './users/controller'
 import LoginController from './logins/controller'
 import TransactionController from './transactions/controller'
+import FeedbackController from './feedbacks/controller'
 import { verify } from './jwt'
 import User from './users/entity'
 import * as Koa from 'koa'
@@ -19,7 +20,8 @@ useKoaServer(app, {
   controllers: [
     UserController,
     LoginController,
-    TransactionController
+    TransactionController,
+    FeedbackController
   ],
   authorizationChecker: (action: Action) => {
     const header: string = action.request.headers.authorization
