@@ -6,7 +6,6 @@ const baseUrl = 'http://localhost:4000'
 
 export const ADD_USER = 'ADD_USER'
 export const UPDATE_USER = 'UPDATE_USER'
-export const UPDATE_USERS = 'UPDATE_USERS'
 
 export const USER_LOGIN_SUCCESS = 'USER_LOGIN_SUCCESS'
 export const USER_LOGIN_FAILED = 'USER_LOGIN_FAILED'
@@ -14,11 +13,13 @@ export const USER_LOGIN_FAILED = 'USER_LOGIN_FAILED'
 export const USER_LOGOUT = 'USER_LOGOUT'
 
 export const USER_FEEDBACK = 'USER_FEEDBACK'
+export const USER_FEEDBACK_ERROR = 'USER_FEEDBACK_ERROR'
 
 export const USER_SIGNUP_SUCCESS = 'USER_SIGNUP_SUCCESS'
 export const USER_SIGNUP_FAILED = 'USER_SIGNUP_FAILED'
 
 export const USER_BUNQ_SUCCESS = 'USER_BUNQ_SUCCESS'
+export const USER_BUNQ_ADDED = 'USER_BUNQ_ADDED'
 export const USER_BUNQ_FAILED = 'USER_BUNQ_FAILED'
 
 export const USER_ACCEPT_PRIVACY = 'USER_ACCEPT_PRIVACY'
@@ -36,7 +37,10 @@ export const login = (email, password) => (dispatch) =>
     .then(result => {
       dispatch({
         type: USER_LOGIN_SUCCESS,
-        payload: result.body
+        payload: {
+          jwt: result.body.jwt,
+          user: result.body.user
+        }
       })
     })
     .catch(err => {
@@ -72,35 +76,27 @@ export const signup = (data) => (dispatch) =>
       }
     })
 
-export const getUsers = () => (dispatch, getState) => {
-  const state = getState()
-  if (!state.currentUser) return null
-  const jwt = state.currentUser.jwt
-
-  if (isExpired(jwt)) return dispatch(logout())
-
+export const bunqLogin = (id, bunqKey) => (dispatch) => {
+  console.log(id, bunqKey)
   request
-    .get(`${baseUrl}/users`)
-    .set('Authorization', `Bearer ${jwt}`)
-    .then(result => {
+    .put(`${baseUrl}/users/${id}`)
+    .send({ id, bunqKey })
+    .then(response => {
       dispatch({
-        type: UPDATE_USERS,
-        payload: result.body
+        type: USER_BUNQ_ADDED
       })
     })
-    .catch(err => console.error(err))
-}
-
-export const bunqLogin = (key) => (dispatch) =>
-  request
-    .post(`${baseUrl}/logins`)
-    .send({ key })
-    .then(result => {
-      dispatch({
-        type: USER_BUNQ_SUCCESS,
-        payload: result.body
-      })
-    })
+    .then(
+      request
+        .post(`${baseUrl}/users/${id}/transactions`)
+        .send({ id, bunqKey })
+        .then(result => {
+          dispatch({
+            type: USER_BUNQ_SUCCESS,
+            payload: result.body
+          })
+        })
+    )
     .catch(err => {
       if (err.status === 400) {
         dispatch({
@@ -111,11 +107,16 @@ export const bunqLogin = (key) => (dispatch) =>
       else {
         console.error(err)
       }
-    })
+    }
+    )
+}
 
-export const privacy = () => (dispatch) =>
+export const privacy = (id) => (dispatch) =>{
+  const permission = true
+  console.log(permission, id)
   request
-    .post(`${baseUrl}/privacy`)
+    .put(`${baseUrl}/users/${id}`)
+    .send({id, permission})
     .then(result => {
       dispatch({
         type: USER_ACCEPT_PRIVACY,
@@ -132,15 +133,27 @@ export const privacy = () => (dispatch) =>
       else {
         console.error(err)
       }
-    })
+    })}
 
-export const feedback = () => (dispatch) =>
+export const feedback = (id) => (dispatch, getState) =>
   request
-    .post(`${baseUrl}/feedback`)
-    .then(result => {
-      console.log(result)
+    .post(`${baseUrl}/users/${id}/feedbacks`)
+    .then(response => {
+      console.log('response')
       dispatch({
         type: USER_FEEDBACK,
-        payload: result.body
+        payload: response.body.feedback
       })
+      .catch(err => console.error(err))
+    })
+    .catch(err => {
+      if (err.status === 400) {
+        dispatch({
+          type: USER_FEEDBACK_ERROR,
+          payload: err.response.body.message || 'Unknown error'
+        })
+      }
+      else {
+        console.error(err)
+      }
     })

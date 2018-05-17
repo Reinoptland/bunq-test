@@ -1,6 +1,7 @@
 body {
   margin: 20px;
   padding: 20px;
+  color: #51595f
 }
 
 @font-face {
@@ -15,11 +16,6 @@ body {
 
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
 }
 
 .App-header {
@@ -41,13 +37,13 @@ body {
 p {
   font-family: 'BrandonText-Regular';
   font-size: 20px;
-  color: #4A4A4A;
+  color: #51595f;
 }
 
 h1 {
   font-family: 'BrandonText-Bold';
   font-size: 40px;
-  color: #4A4A4A;
+  color: #51595f;
 }
 
 .signupFormLabels{
@@ -62,19 +58,26 @@ h1 {
   padding: 5px 30px 5px 3px;
 }
 
+/* .signupFormLabels input:focus {
+  outline: 2px solid #e84435;
+  color: #51595f
+} */
+
 .roosTitle {
   margin-bottom: 30px;
 }
 
 .signupButton {
   margin-top: 20px;
-  padding: 13px 25px;
-  border-radius: 5px;
+  padding: 10px 25px;
+  border-radius: 3px;
   font-size: 14px;
   text-transform: uppercase;
-  background: linear-gradient(#e84435, #f57f17);
+  background: linear-gradient(0.25turn,#e84435, #f57f17);
   color: white;
   border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .signupButton:hover{
@@ -82,9 +85,32 @@ h1 {
 }
   
 .feedbackForm input {
-  border: 1px solid #333;
+  border: 1px solid #bec1c2;
   margin-left: 10px;
 }
+
+#PieChart {
+  margin:auto;
+}
+.feedbackForm label{
+  margin-left: 10px;
+  font-family: 'BrandonText-Bold';
+}
+
+.feedbackForm textarea:focus{
+  outline: 2px solid #e84435;
+  color: #51595f;
+}
+
+.feedbackForm textarea{
+  padding: 5px 5px 30px 5px;
+  width: 230px;
+  border-radius: 3px;
+  color: #51595f;
+  border-color: #bec1c2;
+  margin-left: 10px;
+}
+
 
 .bottom-nav {
     background-color: #fff;
@@ -107,3 +133,88 @@ h1 {
     position: relative; 
     bottom: 48%
 }
+
+.remarksLabel{
+  margin-right: 20px;
+  bottom: 200px;
+ }
+
+.feedbackTitle {
+  font-size: 28px;
+  font-family: 'BrandonText-Bold';
+  margin-top: 50px;
+}
+
+.feedbackText {
+  font-size: 20px;
+  font-family: 'BrandonText-Bold';
+}
+
+.feedbackButton{
+  margin-top: 30px;
+  padding: 10px 25px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #51595f;
+  border: 2px solid #e2e6e7;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.feedbackButton:hover{
+  color: #e84435;
+}
+
+.remarks {
+display: flex;
+flex-direction: row;
+justify-content: start;
+align-items: center;
+margin-top: 30px;
+}
+
+.bunqButton {
+  margin-top: 50px;
+  padding: 10px 25px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: linear-gradient(0.25turn,#e84435, #f57f17);
+  color: white;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.bunqButton:hover {
+  background: #e84435;
+}
+
+.privacyTypography .privacyButton {
+  margin-top: 30px;
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #51595f;
+  border: 2px solid #e2e6e7;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.privacyTypography .privacyButton:hover{
+  color: #e84435;
+}
+
+.bunqKeyInput{
+  margin-left: 20px;
+  padding: 5px 30px 5px 3px;
+  width: 200px;
+}
+
+.bunqKeyInput:focus{
+  outline: 2px solid #e84435;
+  color: #51595f
+}
+

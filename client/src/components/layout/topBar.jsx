@@ -19,11 +19,11 @@ const TopBar = (props) => {
         </a>
         <Typography variant="title" color="inherit" style={{ textAlign: 'center', flex: 1 }}>
 
-        <a href='/'>
+        <a href='/login'>
           {logo()}
         </a>
           </Typography>
-        <a href='/email'>
+        <a href='mailto:service@halloroos.nl'>
           {comment()}
         </a>
         {
@@ -44,7 +44,7 @@ const TopBar = (props) => {
           <Button color="inherit" onClick={() => history.push('/dashboard')}>Dashboard</Button>
         }
         {
-          /games$/.test(location.pathname) &&
+          /dashboard$/.test(location.pathname) &&
           <Button color="inherit" onClick={() => history.push('/logout')}>Log out</Button>
         }
       </Toolbar>

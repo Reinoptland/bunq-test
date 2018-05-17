@@ -10,14 +10,18 @@ const pieGraph = ({ ...props }) => {
         options={
           {
             title: "Your Transactions",
-            pieHole: 0.5,
+            backgroundColor: 'transparent',
+            pieHole: 0.6,
             colors: props.colors,
+            chartArea: {
+              width: '90%',
+              height: '90%'
+            },
           }
         }
         graph_id="PieChart"
-        chartArea={{ width: "100%", height: "100%" }}
         legend_toggle
-      />
+        />
     </div>
   );
 }

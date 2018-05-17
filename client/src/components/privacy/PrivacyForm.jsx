@@ -3,31 +3,40 @@ import Button from 'material-ui/Button';
 import Dialog, { DialogContent, DialogContentText, DialogTitle } from 'material-ui/Dialog';
 import Typography from 'material-ui/Typography';
 import Divider from 'material-ui/Divider'
+import {privacy} from '../../actions/users'
+import {Link} from 'react-router-dom'
 
 
 export class AlertDialog extends React.Component {
   state = {
-    open: false,
+    open: true,
   };
 
   handleClickOpen = () => {
     this.setState({ open: true });
   };
 
-  handleClose = () => {
+  handleClose = (e) => {
+    if(e.target.textContent === 'Agree'){
+      // dispatch action to update permissions
+      this.props.privacy(this.props.user)
+    }
     this.setState({ open: false });
   };
 
   render() {
+    console.log(this.props.privacy)
     return (
       <div>
-      <Typography variant='body2'><Button onClick={this.handleClickOpen}>Privacybeleid</Button></Typography>
+      <Typography variant='body2' className="privacyTypography"><Button onClick={this.handleClickOpen} className="privacyButton">Privacybeleid</Button></Typography>
         <Dialog
             open={this.state.open}
             onClose={this.handleClose}
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"
             style={{margin: '2rem'}}
+            disableBackdropClick={true}
+            disableEscapeKeyDown={true}
         >
           <DialogTitle id="alert-dialog-title">{"Privacybeleid van Roos"}</DialogTitle>
             <DialogContent>
@@ -186,10 +195,12 @@ export class AlertDialog extends React.Component {
                 te raadplegen indien van je Roos gebruik maakt.
                   </Typography>
                 <Divider style={{margin: '1.5rem 0'}} />
+                <Link to='/feedback'>
                 <Button onClick={this.handleClose} color="primary">
-                    Disagree
+                  Disagree
                 </Button>
-                <Button onClick={this.handleClose} color="primary">
+                </Link>
+                <Button name='agree' onClick={this.handleClose} color="primary">
                     Agree
                 </Button>
               </DialogContentText>                
