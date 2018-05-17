@@ -11,6 +11,7 @@ import BunqPage from './components/bunqDetails/BunqPage'
 import TopBar from './components/layout/topBar'
 import BottomNav from './components/layout/bottomNav'
 import FeedbackPage from './components/feedback/FeedbackPage'
+import ProfilePage from './components/profile/ProfilePage'
 import { withTheme } from 'material-ui/styles'
 
 
@@ -29,6 +30,7 @@ class App extends Component {
             <Route exact path='/feedback' component={FeedbackPage} />
             <Route exact path='/dashboard' component={DashboardPage} />
             <Route exact path='/contracts' component={ContractsPage} />
+            <Route exact path='/profile' component={ProfilePage} />
             <Route exact path='/signup' component={SignupPage} />
             <Route exact path="/" render={() => <Redirect to="/dashboard" />} />
           </main>
