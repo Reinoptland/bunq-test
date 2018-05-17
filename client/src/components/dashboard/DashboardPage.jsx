@@ -31,11 +31,7 @@ class DashboardPage extends PureComponent {
     if (!this.props.user || this.props.user === null) return (
       <Redirect to="/login" />
     )
-<<<<<<< Updated upstream
-    if(this.props.user.permission === false){
-=======
     if(this.props.user.permission === false || this.props.user.bunqKey === 'null'){
->>>>>>> Stashed changes
       return( <Redirect to="/bunq"/>)
     }
     let data = [["Category", "Amount"],[]]

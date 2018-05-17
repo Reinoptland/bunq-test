@@ -15,11 +15,6 @@ class BunqDetails extends PureComponent {
   }
 
   render() {
-<<<<<<< Updated upstream
-    {console.log(this.props.user)}
-    if(this.props.user === null) {
-      return(<Redirect to='/login'/>)
-=======
     console.log(this.props.user)
     if (this.props.user === null) {
       return (<Redirect to='/login' />)
@@ -28,7 +23,6 @@ class BunqDetails extends PureComponent {
     if (this.props.user.bunqKey !== 'null' || this.props.user.bunqKey !== 'NULL' || this.props.user.bunqKey !== null) {
       // return (<Redirect to='/dashboard' />)
       // console.log(this.props.user.bunq)
->>>>>>> Stashed changes
     }
     return (
       <div>
