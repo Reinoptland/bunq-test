@@ -19,14 +19,14 @@ export default class BunqForm extends PureComponent {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form className="bunqKeyForm" onSubmit={this.handleSubmit}>
         <div>
-          <label htmlFor="email">Bunq Key</label>
-          <input type="key" name="key" id="key" value={
+          <label htmlFor="email" className="bunqKeyLabel">Bunq Key</label>
+          <input className="bunqKeyInput" type="key" name="key" id="key" value={
             this.state.key || ''
           } onChange={this.handleChange} />
         </div>
-          <button type="submit">Volgende</button>
+          <button type="submit" className="bunqButton">Volgende</button>
       </form>
     )
   }
