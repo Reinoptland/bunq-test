@@ -86,10 +86,6 @@ h1 {
   margin-left: 10px;
 }
 
-.my-pretty-chart-container {
-  display: flex !important;
-}
-
 #PieChart {
   margin:auto;
 }

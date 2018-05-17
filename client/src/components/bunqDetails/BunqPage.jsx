@@ -21,7 +21,7 @@ class BunqDetails extends PureComponent {
     }
 
     if (this.props.user.bunqKey !== 'null' || this.props.user.bunqKey !== 'NULL' || this.props.user.bunqKey !== null) {
-      // return (<Redirect to='/dashboard' />)
+      return (<Redirect to='/dashboard' />)
       // console.log(this.props.user.bunq)
     }
     return (
