@@ -1,4 +1,4 @@
-import { USER_BUNQ_FAILED } from '../actions/users'
+import { USER_BUNQ_FAILED, USER_BUNQ_ADDED } from '../actions/users'
 
 export default function (state = {}, { type, payload }) {
     switch (type) {
@@ -6,6 +6,9 @@ export default function (state = {}, { type, payload }) {
             return {
                 error: payload
             }
+
+        case USER_BUNQ_ADDED:
+        return state
 
         default:
             return state
