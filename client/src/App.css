@@ -58,10 +58,10 @@ h1 {
   padding: 5px 30px 5px 3px;
 }
 
-.signupFormLabels input:focus {
+/* .signupFormLabels input:focus {
   outline: 2px solid #e84435;
   color: #51595f
-}
+} */
 
 .roosTitle {
   margin-bottom: 30px;
@@ -149,4 +149,48 @@ flex-direction: row;
 justify-content: start;
 align-items: center;
 margin-top: 30px;
+}
+
+.bunqButton {
+  margin-top: 50px;
+  padding: 10px 25px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: linear-gradient(0.25turn,#e84435, #f57f17);
+  color: white;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.bunqButton:hover {
+  background: #e84435;
+}
+
+.privacyTypography .privacyButton {
+  margin-top: 30px;
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #51595f;
+  border: 2px solid #e2e6e7;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.privacyTypography .privacyButton:hover{
+  color: #e84435;
+}
+
+.bunqKeyInput{
+  margin-left: 20px;
+  padding: 5px 30px 5px 3px;
+  width: 200px;
+}
+
+.bunqKeyInput:focus{
+  outline: 2px solid #e84435;
+  color: #51595f
 }

@@ -11,7 +11,6 @@ class BunqDetails extends PureComponent {
       this.props.bunqLogin(this.props.user.id, data.key)
       return (<Redirect to='/dashboard' />)
     }
-    return (<Redirect to='/dashboard' />)
   }
 
   render() {
@@ -20,10 +19,10 @@ class BunqDetails extends PureComponent {
       return (<Redirect to='/login' />)
     }
 
-    if (this.props.user.bunqKey !== 'null' || this.props.user.bunqKey !== 'NULL' || this.props.user.bunqKey !== null) {
-      return (<Redirect to='/dashboard' />)
-      // console.log(this.props.user.bunq)
-    }
+    // if (this.props.user.bunqKey !== 'null' || this.props.user.bunqKey !== 'NULL' || this.props.user.bunqKey !== null) {
+    //   return (<Redirect to='/dashboard' />)
+    //   // console.log(this.props.user.bunq)
+    // }
     return (
       <div>
         <h1>Bunq Login</h1>

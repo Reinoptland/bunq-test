@@ -28,7 +28,7 @@ export class AlertDialog extends React.Component {
     console.log(this.props.privacy)
     return (
       <div>
-      <Typography variant='body2'><Button onClick={this.handleClickOpen}>Privacybeleid</Button></Typography>
+      <Typography variant='body2' className="privacyTypography"><Button onClick={this.handleClickOpen} className="privacyButton">Privacybeleid</Button></Typography>
         <Dialog
             open={this.state.open}
             onClose={this.handleClose}
