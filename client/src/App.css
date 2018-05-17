@@ -216,3 +216,14 @@ margin-top: 30px;
   color: #51595f
 }
 
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
+  outline: 0px;
+}
