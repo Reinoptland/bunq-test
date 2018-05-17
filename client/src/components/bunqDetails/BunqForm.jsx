@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { Redirect } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default class BunqForm extends PureComponent {
   state = {}
@@ -26,8 +26,7 @@ export default class BunqForm extends PureComponent {
             this.state.key || ''
           } onChange={this.handleChange} />
         </div>
-
-        <button type="submit">Volgende</button>
+          <button type="submit">Volgende</button>
       </form>
     )
   }
