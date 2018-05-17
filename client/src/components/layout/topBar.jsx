@@ -23,7 +23,7 @@ const TopBar = (props) => {
           {logo()}
         </a>
           </Typography>
-        <a href='/email'>
+        <a href='mailto:service@halloroos.nl'>
           {comment()}
         </a>
         {

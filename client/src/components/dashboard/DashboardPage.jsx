@@ -23,7 +23,7 @@ class DashboardPage extends PureComponent {
   componentWillMount() {
     if(this.props.user === null) return (<Redirect to='/login' />)
     if (this.props.transactions === null) {
-      this.props.fetchTransactions(1)
+      this.props.fetchTransactions(this.props.user.id)
     }
   }
 
