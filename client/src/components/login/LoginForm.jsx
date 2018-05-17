@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import {Input, InputLabel, TextField} from 'material-ui'
 
 export default class LoginForm extends PureComponent {
   state = {}
@@ -20,15 +21,15 @@ export default class LoginForm extends PureComponent {
     return (
       <form onSubmit={this.handleSubmit} className="signupForm">
         <div className="signupFormLabels">
-          <label htmlFor="email">Email</label>
-          <input type="email" name="email" id="email" value={
+          <TextField label='email'
+           type="email" name="email" id="email" value={
             this.state.email || ''
           } onChange={this.handleChange} />
         </div>
 
         <div className="signupFormLabels">
-          <label htmlFor="password">Wachtwoord</label>
-          <input type="password" name="password" id="password" value={
+          <TextField label='wachtwoord'
+           type="password" name="password" id="password" value={
             this.state.password || ''
           } onChange={this.handleChange} />
         </div>

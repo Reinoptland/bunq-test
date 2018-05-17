@@ -6,7 +6,9 @@ import FeedbackForm from './FeedbackForm'
 
 class FeedbackPage extends PureComponent {
     handleSubmit = (data) => {
+        console.log(data)
         this.props.feedback(data)
+        console.log('data')
     }
 
     render() {
