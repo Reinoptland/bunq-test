@@ -20,7 +20,7 @@ class BottomNav extends Component {
                     <a href='/dashboard'>
                     <img src="../../../icons/advies.svg" alt="advies-icon"></img>
                     </a>
-                    <a href='/dashboard'>
+                    <a href='/login'>
                     <img src="../../../icons/meer.svg" alt="meer-icon"></img>
                     </a>
                 </div>
