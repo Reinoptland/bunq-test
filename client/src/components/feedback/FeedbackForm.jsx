@@ -28,10 +28,8 @@ export default class FeedbackForm extends PureComponent {
                 <div className="feedbackForm">
                 
                     <h2>Why did you not accept?</h2>
-                    <input type="radio" id="Choice1" name="contact" value={
-                    this.state.option1 || ''
-                      } onChange={this.handleChange}/>
-                   <label for="Choice1"> I don't have Bunq </label>
+                    <input type="radio" id="contactChoice1" name="contact" value="option1" onChange={this.handleChange}/>
+                   <label for="contactChoice1"> I don't have Bunq </label>
                     <br />
                     
                     <input type="radio" id="contactChoice2" name="contact" value="option2"onChange={this.handleChange} />
