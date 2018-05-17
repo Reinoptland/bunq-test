@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../../App.css'
+import MeerMenu from "./meerMenu"
 
 class BottomNav extends Component {
 
@@ -16,9 +17,8 @@ class BottomNav extends Component {
                     <a href='/'>
                     <img src="../../../icons/advies.svg" alt="advies-icon"></img>
                     </a>
-                    <a href='/login'>
-                    <img src="../../../icons/meer.svg" alt="meer-icon"></img>
-                    </a>
+                    <MeerMenu/>
+                    
                 </div>
 
             </div>
@@ -28,3 +28,4 @@ class BottomNav extends Component {
 }
 
 export default BottomNav
+
