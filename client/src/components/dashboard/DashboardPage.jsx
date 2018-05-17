@@ -31,7 +31,7 @@ class DashboardPage extends PureComponent {
       <Redirect to="/login" />
     )
     if(this.props.user.permission === false){
-      return( <Redirect to="/sorry"/>)
+      return( <Redirect to="/bunq"/>)
     }
     let data = [["Category", "Amount"],[]]
     const colors = ['#127ECF', '#90C227', '#F57E18', '#E94435']

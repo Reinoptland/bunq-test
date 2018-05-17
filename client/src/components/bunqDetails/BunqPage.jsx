@@ -3,23 +3,21 @@ import { connect } from 'react-redux'
 import { bunqLogin, privacy } from '../../actions/users'
 import BunqForm from './BunqForm'
 import { AlertDialog } from '../privacy/PrivacyForm'
-import { Redirect } from 'react-router-dom'
+import { Redirect, Link } from 'react-router-dom'
 
 class BunqDetails extends PureComponent {
   handleSubmit = (data) => {
     if(this.props.user && this.props.user !==  null) {
       this.props.bunqLogin(this.props.user.id, data.key)
+      return (<Redirect to='/dashboard' />)
     }
   }
   
   render() {
     {console.log(this.props.user)}
-    {if(this.props.user === null) {
+    if(this.props.user === null) {
       return(<Redirect to='/login'/>)
-    }}
-    {if(this.props.user.bunqKey !== 'null'){
-      return (<Redirect to='/dashboard'/>)
-    }}
+    }
     return (
       <div>
         <h1>Bunq Login</h1>

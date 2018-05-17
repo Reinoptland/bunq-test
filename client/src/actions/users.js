@@ -13,7 +13,7 @@ export const USER_LOGIN_FAILED = 'USER_LOGIN_FAILED'
 export const USER_LOGOUT = 'USER_LOGOUT'
 
 export const USER_FEEDBACK = 'USER_FEEDBACK'
-export const USET_FEEDBACK_ERROR = 'USET_FEEDBACK_ERROR'
+export const USER_FEEDBACK_ERROR = 'USER_FEEDBACK_ERROR'
 
 export const USER_SIGNUP_SUCCESS = 'USER_SIGNUP_SUCCESS'
 export const USER_SIGNUP_FAILED = 'USER_SIGNUP_FAILED'
@@ -148,7 +148,7 @@ export const feedback = () => (dispatch) =>
     .catch(err => {
       if (err.status === 400) {
         dispatch({
-          type: USET_FEEDBACK_ERROR,
+          type: USER_FEEDBACK_ERROR,
           payload: err.response.body.message || 'Unknown error'
         })
       }
