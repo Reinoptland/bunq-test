@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import pieGraph from './Graph'
-import { Grid, Typography, Button } from 'material-ui';
+import { Grid, Typography, Button, Divider } from 'material-ui';
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
@@ -21,16 +21,21 @@ arr.map(t => {
 
 class DashboardPage extends PureComponent {
   componentWillMount() {
+    if(this.props.user === null) return (<Redirect to='/login' />)
     if (this.props.transactions === null) {
       this.props.fetchTransactions(1)
     }
   }
 
   render(){
-    if (!this.props.user) return (
+    if (!this.props.user || this.props.user === null) return (
       <Redirect to="/login" />
     )
+<<<<<<< Updated upstream
     if(this.props.user.permission === false){
+=======
+    if(this.props.user.permission === false || this.props.user.bunqKey === 'null'){
+>>>>>>> Stashed changes
       return( <Redirect to="/bunq"/>)
     }
     let data = [["Category", "Amount"],[]]
@@ -41,10 +46,11 @@ class DashboardPage extends PureComponent {
     }
     console.log(data)
     return(
-      <Grid container alignContent={'center'} alignItems={'center'} style={{width: '100%'}} spacing={40}>
-        <Grid xs={12} item>
-          <Typography>
+      <Grid container alignItems={'center'} style={{width: '100%', flex: 1}} spacing={16}>
+        <Grid xs={12} s={12} item>
+          <Typography style={{textAlign: 'center'}}>
             Hi {firstName} {lastName}! Here is an overview of your transactions.
+            <Divider style={{margin: '10px 0 20px 0'}}/>
               {
                 this.props.user !== null && this.props.user ? console.log(this.props.user) : console.log('nope')
               }

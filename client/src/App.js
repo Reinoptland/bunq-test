@@ -10,6 +10,8 @@ import SignupPage from './components/signup/SignupPage'
 import BunqPage from './components/bunqDetails/BunqPage'
 import TopBar from './components/layout/topBar'
 import FeedbackPage from './components/feedback/FeedbackPage'
+import { withTheme } from 'material-ui/styles'
+
 
 class App extends Component {
   render() {
@@ -35,4 +37,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withTheme()(App);

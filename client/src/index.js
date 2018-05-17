@@ -6,13 +6,29 @@ import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux'
 import store from './store'
 import CssBaseline from 'material-ui/CssBaseline'
+import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#e84435',
+      background: 'linear-gradient(0.25turn,#e84435, #f57f17)'
+    },
+    secondary: {
+      light: '#0066ff',
+      main: '#0044ff',
+      contrastText: '#ffcc00',
+    },
+  },
+});
 
 registerServiceWorker();
 ReactDOM.render(
   <Provider store={store}>
     <CssBaseline>
-      <App />
+      <MuiThemeProvider theme={theme}>
+        <App />
+      </MuiThemeProvider>
     </CssBaseline>
   </Provider>
   , document.getElementById('root'));
