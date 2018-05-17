@@ -44,7 +44,7 @@ const TopBar = (props) => {
           <Button color="inherit" onClick={() => history.push('/dashboard')}>Dashboard</Button>
         }
         {
-          /games$/.test(location.pathname) &&
+          /dashboard$/.test(location.pathname) &&
           <Button color="inherit" onClick={() => history.push('/logout')}>Log out</Button>
         }
       </Toolbar>
