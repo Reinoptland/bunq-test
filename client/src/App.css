@@ -126,11 +126,7 @@ h1 {
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-/* .left-icons, .right-icons {
-    width: 45%;
-    display: flex;
-    justify-content: space-evenly
-} */
+
 .add-button img {
     position: relative; 
     bottom: 48%

@@ -13,7 +13,7 @@ class BottomNav extends Component {
                     <a href='/contracts'>
                     <img src="../../../icons/contracten.svg" alt="contract-icon"></img>
                     </a>
-                    <a href='/dashboard'>
+                    <a href='/'>
                     <img src="../../../icons/advies.svg" alt="advies-icon"></img>
                     </a>
                     <a href='/login'>
