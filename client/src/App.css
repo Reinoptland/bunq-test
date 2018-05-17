@@ -89,6 +89,9 @@ h1 {
   margin-left: 10px;
 }
 
+#PieChart {
+  margin:auto;
+}
 .feedbackForm label{
   margin-left: 10px;
   font-family: 'BrandonText-Bold';

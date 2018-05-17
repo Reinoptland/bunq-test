@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import { TextField } from 'material-ui';
 
 export default class SignupForm extends PureComponent {
   state = {}
@@ -21,34 +22,34 @@ export default class SignupForm extends PureComponent {
     return (
       <form onSubmit={this.handleSubmit} className="signupForm">
         <div className="signupFormLabels">
-          <label htmlFor="firstName">Voornaam</label>
-          <input type="firstName" name="firstName" id="firstName" value={
+          <TextField label='first name'
+           type="firstName" name="firstName" id="firstName" value={
             this.state.firstName || ''
           } onChange={this.handleChange} />
         </div>
         <div className="signupFormLabels">
-          <label htmlFor="lastName">Achternaam</label>
-          <input type="lastName" name="lastName" id="lastName" value={
+          <TextField label='last name'
+           type="lastName" name="lastName" id="lastName" value={
             this.state.lastName || ''
           } onChange={this.handleChange} />
         </div>
         <div className="signupFormLabels">
-          <label htmlFor="email">Email</label>
-          <input type="email" name="email" id="email" value={
+          <TextField label='email'
+           type="email" name="email" id="email" value={
             this.state.email || ''
           } onChange={this.handleChange} />
         </div>
 
         <div className="signupFormLabels">
-          <label htmlFor="password">Wachtwoord</label>
-          <input type="password" name="password" id="password" value={
+          <TextField label='wachtwoord'
+           type="password" name="password" id="password" value={
             this.state.password || ''
           } onChange={this.handleChange} />
         </div>
 
         <div className="signupFormLabels">
-          <label htmlFor="confirmPassword">Herhaal wachtwoord</label>
-          <input type="password" name="confirmPassword" id="confirmPassword" value={
+          <TextField label='herhaal wachtwoord'
+           type="password" name="confirmPassword" id="confirmPassword" value={
             this.state.confirmPassword || ''
           } onChange={this.handleChange} />
         </div>
