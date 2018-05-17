@@ -4,11 +4,12 @@ import Dialog, { DialogContent, DialogContentText, DialogTitle } from 'material-
 import Typography from 'material-ui/Typography';
 import Divider from 'material-ui/Divider'
 import {privacy} from '../../actions/users'
+import {Link} from 'react-router-dom'
 
 
 export class AlertDialog extends React.Component {
   state = {
-    open: false,
+    open: true,
   };
 
   handleClickOpen = () => {
@@ -34,6 +35,8 @@ export class AlertDialog extends React.Component {
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"
             style={{margin: '2rem'}}
+            disableBackdropClick={true}
+            disableEscapeKeyDown={true}
         >
           <DialogTitle id="alert-dialog-title">{"Privacybeleid van Roos"}</DialogTitle>
             <DialogContent>
@@ -192,9 +195,11 @@ export class AlertDialog extends React.Component {
                 te raadplegen indien van je Roos gebruik maakt.
                   </Typography>
                 <Divider style={{margin: '1.5rem 0'}} />
+                <Link to='/feedback'>
                 <Button onClick={this.handleClose} color="primary">
-                    Disagree
+                  Disagree
                 </Button>
+                </Link>
                 <Button name='agree' onClick={this.handleClose} color="primary">
                     Agree
                 </Button>
