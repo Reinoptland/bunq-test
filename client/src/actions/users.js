@@ -13,11 +13,13 @@ export const USER_LOGIN_FAILED = 'USER_LOGIN_FAILED'
 export const USER_LOGOUT = 'USER_LOGOUT'
 
 export const USER_FEEDBACK = 'USER_FEEDBACK'
+export const USET_FEEDBACK_ERROR = 'USET_FEEDBACK_ERROR'
 
 export const USER_SIGNUP_SUCCESS = 'USER_SIGNUP_SUCCESS'
 export const USER_SIGNUP_FAILED = 'USER_SIGNUP_FAILED'
 
 export const USER_BUNQ_SUCCESS = 'USER_BUNQ_SUCCESS'
+export const USER_BUNQ_ADDED = 'USER_BUNQ_ADDED'
 export const USER_BUNQ_FAILED = 'USER_BUNQ_FAILED'
 
 export const USER_ACCEPT_PRIVACY = 'USER_ACCEPT_PRIVACY'
@@ -74,17 +76,27 @@ export const signup = (data) => (dispatch) =>
       }
     })
 
-export const bunqLogin = (id, key) => (dispatch) =>{
-  console.log(id, key)
+export const bunqLogin = (id, bunqKey) => (dispatch) => {
+  console.log(id, bunqKey)
   request
-    .post(`${baseUrl}/users/${id}/transactions`)
-    .send({ id, key })
-    .then(result => {
+    .put(`${baseUrl}/users/${id}`)
+    .send({ id, bunqKey })
+    .then(response => {
       dispatch({
-        type: USER_BUNQ_SUCCESS,
-        payload: result.body
+        type: USER_BUNQ_ADDED
       })
     })
+    .then(
+      request
+        .post(`${baseUrl}/users/${id}/transactions`)
+        .send({ id, bunqKey })
+        .then(result => {
+          dispatch({
+            type: USER_BUNQ_SUCCESS,
+            payload: result.body
+          })
+        })
+    )
     .catch(err => {
       if (err.status === 400) {
         dispatch({
@@ -94,13 +106,17 @@ export const bunqLogin = (id, key) => (dispatch) =>{
       }
       else {
         console.error(err)
-      }}
+      }
+    }
     )
-  }
+}
 
-export const privacy = () => (dispatch) =>
+export const privacy = (id) => (dispatch) =>{
+  const permission = true
+  console.log(permission, id)
   request
-    .post(`${baseUrl}/privacy`)
+    .put(`${baseUrl}/users/${id}`)
+    .send({id, permission})
     .then(result => {
       dispatch({
         type: USER_ACCEPT_PRIVACY,
@@ -117,7 +133,7 @@ export const privacy = () => (dispatch) =>
       else {
         console.error(err)
       }
-    })
+    })}
 
 export const feedback = () => (dispatch) =>
   request
@@ -128,4 +144,15 @@ export const feedback = () => (dispatch) =>
         type: USER_FEEDBACK,
         payload: result.body
       })
+    })
+    .catch(err => {
+      if (err.status === 400) {
+        dispatch({
+          type: USET_FEEDBACK_ERROR,
+          payload: err.response.body.message || 'Unknown error'
+        })
+      }
+      else {
+        console.error(err)
+      }
     })

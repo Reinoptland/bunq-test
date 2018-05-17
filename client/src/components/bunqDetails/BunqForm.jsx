@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import { Redirect } from 'react-router-dom'
 
 export default class BunqForm extends PureComponent {
   state = {}

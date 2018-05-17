@@ -30,6 +30,9 @@ class DashboardPage extends PureComponent {
     if (!this.props.user) return (
       <Redirect to="/login" />
     )
+    if(this.props.user.permission === false){
+      return( <Redirect to="/sorry"/>)
+    }
     let data = [["Category", "Amount"],[]]
     const colors = ['#127ECF', '#90C227', '#F57E18', '#E94435']
     const {firstName, lastName} = this.props.user
