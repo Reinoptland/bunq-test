@@ -115,20 +115,18 @@ h1 {
 .bottom-nav {
     background-color: #fff;
     /* overflow: auto;  */
-    padding: 15px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     position: fixed;
     bottom: 0px;
     left:0px; 
     right:0px;  
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-.left-icons, .right-icons {
-    width: 45%;
-    display: flex;
-    justify-content: space-evenly
-}
+
 .add-button img {
     position: relative; 
     bottom: 48%
