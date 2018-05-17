@@ -26,8 +26,9 @@ export default class FeedbackForm extends PureComponent {
         return (
             <form onSubmit={this.handleSubmit}>
                 <div className="feedbackForm">
-                
-                    <h2>Why did you not accept?</h2>
+                    <h3 className="feedbackText"> You have not accepted our <em> Privacy </em> agreement.<br/><br/><strong>ROOS</strong> has strict data protection rules. Unfortunately, at this time <br/> we cannot let you proceed.
+                    Please fill out our  feedback form <br/>and let us know how we can improve our app.</h3>
+                    <h2 className="feedbackTitle">Why did you not accept?</h2>
                     <input type="radio" id="contactChoice1" name="contact" value="option1" onChange={this.handleChange}/>
                    <label for="contactChoice1"> I don't have Bunq </label>
                     <br />
@@ -45,12 +46,14 @@ export default class FeedbackForm extends PureComponent {
                     <br />
                     <br />
                     
-                    <label> Additional Remarks:</label>
+                    <div className="remarks">
+                    <label className="remarksLabel"> Additional Remarks:</label>
                     
-                    <input type="remarks" id="remarks" name='remarks' value={
+                    <textarea type="text-area" id="remarks" name='remarks' value={
                     this.state.remarks || '' } onChange={this.handleChange}/>
                     <br />
-                    <button type="submit">Submit</button>
+                    </div>
+                    <button type="submit" className="feedbackButton">Submit</button>
                     
                 </div>
             </form>
