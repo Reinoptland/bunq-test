@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import pieGraph from './Graph'
-import { Grid, Typography, Button, Divider } from 'material-ui';
+import { Grid, Typography, Divider } from 'material-ui';
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
@@ -15,6 +15,7 @@ arr.map(t => {
   if(t.type === 'insurance') insurance = insurance + value
   if(t.type === 'telecom') telecom = telecom + value
   if(t.type === 'energy') energy = energy + value
+  return {insurance, energy, telecom}
 })
   return [["Category", "Amount"], ["Insurance", insurance], ["Telecom", telecom], ["Energy", energy]]
 }

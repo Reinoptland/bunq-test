@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import { feedback } from '../../actions/users'
-import { Redirect } from 'react-router-dom'
 import FeedbackForm from './FeedbackForm'
 
 class FeedbackPage extends PureComponent {

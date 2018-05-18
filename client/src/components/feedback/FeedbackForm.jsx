@@ -1,14 +1,10 @@
 import React, { PureComponent } from 'react'
-import { connect } from 'react-redux'
-import { feedback } from '../../actions/users'
-import { Redirect } from 'react-router-dom'
 
 export default class FeedbackForm extends PureComponent {
     state = {}
 
     handleSubmit = (e) => {
       e.preventDefault()
-      console.log(this.state)
       this.props.onSubmit(this.state)
     }
   
