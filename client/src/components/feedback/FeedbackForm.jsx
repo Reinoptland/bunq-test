@@ -26,34 +26,35 @@ export default class FeedbackForm extends PureComponent {
         return (
             <form onSubmit={this.handleSubmit}>
                 <div className="feedbackForm">
-                    <h3 className="feedbackText"> You have not accepted our <em> Privacy </em> agreement.<br/><br/><strong>ROOS</strong> has strict data protection rules. Unfortunately, at this time <br/> we cannot let you proceed.
-                    Please fill out our  feedback form <br/>and let us know how we can improve our app.</h3>
-                    <h2 className="feedbackTitle">Why did you not accept?</h2>
+                    <h3 className="feedbackText"> U heeft onze <em> Privacy </em> overeenkomst niet geaccepteerd.<br/><br/><strong>ROOS</strong> heeft strikte gegevensbeschermingsregels. Helaas, kunnen wij<br/> 
+                    op dit moment u niet laten doorgaan. Vul alstublieft ons feedbackformulier in<br/> 
+                    en laat ons weten hoe we onze app kunnen verbeteren.</h3>
+                    <h2 className="feedbackTitle">Waarom heeft u geweigerd?</h2>
                     <input type="radio" id="contactChoice1" name="contact" value="option1" onChange={this.handleChange}/>
-                   <label for="contactChoice1"> I don't have Bunq </label>
+                   <label for="contactChoice1"> Ik heb geen Bunq account</label>
                     <br />
                     
                     <input type="radio" id="contactChoice2" name="contact" value="option2"onChange={this.handleChange} />
-                    <label for="contactChoice2"> I don't understand PSD </label>
+                    <label for="contactChoice2"> PSD regelement is mij niet duidelijk</label>
                     <br />
                     
                     <input type="radio" id="contactChoice3" name="contact" value="option3" onChange={this.handleChange}/>
-                    <label for="contactChoice3"> I don't trust the internet </label>
+                    <label for="contactChoice3"> Ik vind het te riskant om mijn gegevens op internet te plaatsen</label>
                     <br />
                     
                     <input type="radio" id="contactChoice4" name="contact" value="option4" onChange={this.handleChange}/>
-                    <label for="contactChoice4"> I changed my mind </label>
+                    <label for="contactChoice4"> Ik ben van gedachte veranderd</label>
                     <br />
                     <br />
                     
                     <div className="remarks">
-                    <label className="remarksLabel"> Additional Remarks:</label>
+                    <label className="remarksLabel">Additionele opmerking:</label>
                     
                     <textarea type="text-area" id="remarks" name='remarks' value={
                     this.state.remarks || '' } onChange={this.handleChange}/>
                     <br />
                     </div>
-                    <button type="submit" className="feedbackButton">Submit</button>
+                    <button type="submit" className="feedbackButton">Verzenden</button>
                     
                 </div>
             </form>
