@@ -47,6 +47,17 @@ h1 {
   color: #51595f;
 }
 
+h2 {
+  font-family: 'BrandonText-Regular';
+}
+
+h3 {
+  font-family: 'BrandonText-Regular';
+}
+
+h4 {
+  font-family: 'BrandonText-Regular';
+}
 .signupForm {
   margin-right: 5%;
 }
@@ -239,6 +250,64 @@ a:focus {
   text-decoration: none;
   color: black;
   outline: 0px;
+}
+
+ .editForm .editProfile {
+  margin-top: 30px;
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #51595f;
+  border: 2px solid #e2e6e7;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'BrandonText-Regular';
+}
+
+
+.editProfileForm .saveEditedProfile {
+  margin-top: 40px;
+  padding: 10px 25px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: linear-gradient(0.25turn,#e84435, #f57f17);
+  color: white;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'BrandonText-Regular';
+}
+
+.editProfileForm .saveEditedProfile:hover {
+  background: #e84435;
+}
+
+.editProfileForm .editProfileLabel {
+  margin-right: 10px;
+  margin-bottom: 25px;
+  font-family: 'BrandonText-Regular';
+}
+
+.privacyOnEditPage .privacyButtonOnEditPage {
+  padding: 8px 15px;
+  border-radius: 3px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #51595f;
+  border: 2px solid #e2e6e7;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'BrandonText-Regular';
+}
+
+.privacyOnEditPage .privacyButtonOnEditPage:hover{
+  color: #e84435;
+}
+
+.readPrivacyTitle {
+  font-family: 'BrandonText-Regular';
 }
 
 .center {
