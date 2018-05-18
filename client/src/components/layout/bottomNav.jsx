@@ -8,21 +8,17 @@ class BottomNav extends Component {
     render() {
         return (
             <div className='bottom-nav'>
-                <div className='bottom-nav'>
                     <Link to='/dashboard'>
                     <img src="../../../icons/home.svg" alt="home-icon"></img>
                     </Link>
                     <Link to='/contracts'>
                     <img src="../../../icons/contracten.svg" alt="contract-icon"></img>
                     </Link>
-                    <Link to='/bunq'>
-                    <img src="../../../icons/key.svg" alt="advies-icon"></img>
-                    </Link>
-                    <MeerMenu/>
-                </div>
-
+                    <Link to='/bunq' >
+                    <img className='sleutelIcon' src="../../../icons/horizontalkey.svg" alt="key-icon"></img>
+                    </Link>            
+                <MeerMenu className="meerMenu" />
             </div>
-
         );
     }
 }
