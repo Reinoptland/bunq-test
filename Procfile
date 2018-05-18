@@ -1,1 +1,1 @@
-web: cd ./server/target && yarn start
+web: cd server/target && yarn start
