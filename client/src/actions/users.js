@@ -163,10 +163,11 @@ export const feedback = (id) => (dispatch, getState) =>
     })
 
 
-export const fetchProfile = (id) => (dispatch, getState) => {
+export const fetchProfile = (id) => (dispatch) => {
+  console.log("console loggind acxtion id", id)
   request
     .get(`${baseUrl}/users/${id}/`)
-    .send(id)
+    // .send(id)
     .then(result => dispatch({
       type: FETCH_USER_PROFILE,
       payload: result.body
@@ -185,7 +186,7 @@ export const fetchProfile = (id) => (dispatch, getState) => {
 
 
     export const updateProfile = (id, updates) => (dispatch) => {
-      console.log(id, updates)
+      // console.log(id, updates)
       request
         .put(`${baseUrl}/users/${id}`)
         .send(updates)

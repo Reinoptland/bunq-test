@@ -14,12 +14,12 @@ class ProfilePage extends PureComponent {
   }
 
   componentWillMount() {
-     console.log("props user ", this.props.user)
+     console.log("props user riga 17", this.props.user)
 
     if(this.props.user === null) return (<Redirect to='/login' />)
-    if (this.props.user === null) {
-      this.props.fetchProfile(this.props.user)
-    }
+    
+    if (this.props.user !== null) { 
+      this.props.fetchProfile(this.props.user)}
   }
 
   toggleEdit = () => {
