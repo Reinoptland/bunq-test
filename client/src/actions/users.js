@@ -139,16 +139,17 @@ export const privacy = (id) => (dispatch) =>{
       }
     })}
 
-export const feedback = (id) => (dispatch, getState) =>
+export const feedback = (data, id) => (dispatch, getState) =>{
+  console.log(data, id)
   request
-    .post(`${baseUrl}/users/${id}/feedbacks`)
+    .post(`${baseUrl}/users/${id}/feedback`)
+    .send(data)
     .then(response => {
       console.log('response')
       dispatch({
         type: USER_FEEDBACK,
-        payload: response.body.feedback
+        payload: response.body
       })
-      .catch(err => console.error(err))
     })
     .catch(err => {
       if (err.status === 400) {
@@ -161,7 +162,7 @@ export const feedback = (id) => (dispatch, getState) =>
         console.error(err)
       }
     })
-
+}
 
 export const fetchProfile = (id) => (dispatch, getState) => {
   request

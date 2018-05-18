@@ -3,7 +3,6 @@ import Button from 'material-ui/Button';
 import Dialog, { DialogContent, DialogContentText, DialogTitle } from 'material-ui/Dialog';
 import Typography from 'material-ui/Typography';
 import Divider from 'material-ui/Divider'
-import {privacy} from '../../actions/users'
 import {Link} from 'react-router-dom'
 
 
@@ -21,11 +20,12 @@ export class AlertDialog extends React.Component {
       // dispatch action to update permissions
       this.props.privacy(this.props.user)
     }
-    this.setState({ open: false });
+    if(e.target.textContent === 'Disagree') {
+      this.setState({ open: false });
+    }
   };
 
   render() {
-    console.log(this.props.privacy)
     return (
       <div>
       <Typography variant='body2' className="privacyTypography"><Button onClick={this.handleClickOpen} className="privacyButton">Privacybeleid</Button></Typography>
@@ -34,7 +34,7 @@ export class AlertDialog extends React.Component {
             onClose={this.handleClose}
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"
-            style={{margin: '2rem'}}
+            style={{margin: 'auto'}}
             disableBackdropClick={true}
             disableEscapeKeyDown={true}
         >
