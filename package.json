@@ -6,6 +6,6 @@
   "author": "Charise Walraven <cherri.walraven@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "cd server && yarn install"
+    "postinstall": "cd server && npm install"
   }
 }
