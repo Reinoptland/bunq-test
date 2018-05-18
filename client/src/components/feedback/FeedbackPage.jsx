@@ -21,6 +21,7 @@ class FeedbackPage extends PureComponent {
             </div>
         )
     }
+}
 
 const mapStateToProps = function (state) {
   return {
@@ -28,5 +29,6 @@ const mapStateToProps = function (state) {
     user: state.currentUser ? state.currentUser.user : null
   }
 }
+
 
 export default connect(mapStateToProps, { feedback })(FeedbackPage)
