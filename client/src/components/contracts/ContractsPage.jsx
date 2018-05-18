@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import Typography from 'material-ui/Typography'
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
+import {Redirect} from 'react-router-dom'
 
 const renderContract = ({ ...props }) => {
   console.log(props)
@@ -23,6 +24,7 @@ class ContractsPage extends PureComponent {
     // console.log(this.props)
     const { transactions } = this.props
     console.log(transactions)
+    if(this.props.user === null || !this.props.user) return( <Redirect to='/login' /> )
     return (
       <div>
         {
@@ -61,7 +63,8 @@ class ContractsPage extends PureComponent {
 }
 
 const mapStateToProps = (state, props) => ({
-  transactions: state.transactions
+  transactions: state.transactions,
+  user: state.currentUser ? state.currentUser.user : null
 })
 
 export default connect(mapStateToProps, { fetchTransactions })(ContractsPage)
