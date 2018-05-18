@@ -20,9 +20,9 @@ const TopBar = (props) => {
         </Link>
         <Typography variant="title" color="inherit" style={{ textAlign: 'center', flex: 1 }}>
 
-        <a href='/login'>
+       
           {logo()}
-        </a>
+    
           </Typography>
         <a href='mailto:service@halloroos.nl'>
           {comment()}
