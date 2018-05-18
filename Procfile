@@ -1,0 +1,1 @@
+web: ./server/www yarn start
