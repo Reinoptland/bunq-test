@@ -22,15 +22,13 @@ arr.map(t => {
 class DashboardPage extends PureComponent {
   componentWillMount() {
     if(this.props.user === null) return (<Redirect to='/login' />)
-    if (this.props.transactions === null) {
+    if (this.props.transactions === null && this.props.user) {
       this.props.fetchTransactions(this.props.user.id)
     }
   }
 
   render(){
-    if (!this.props.user || this.props.user === null) return (
-      <Redirect to="/login" />
-    )
+    if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
     if(this.props.user.permission === false || this.props.user.bunqKey === 'null'){
       return( <Redirect to="/bunq"/>)
     }
