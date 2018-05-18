@@ -80,8 +80,12 @@ export const signup = (data) => (dispatch) =>
       }
     })
 
-export const bunqLogin = (id, bunqKey) => (dispatch) => {
-  console.log(id, bunqKey)
+export const bunqLogin = (id, bunqKey) => (dispatch, getState) => {
+  const state = getState()
+  if (!state.currentUser) return null
+  const jwt = state.currentUser.jwt
+
+  if (isExpired(jwt)) return dispatch(logout())
   request
     .put(`${baseUrl}/users/${id}`)
     .send({ id, bunqKey })
@@ -115,9 +119,13 @@ export const bunqLogin = (id, bunqKey) => (dispatch) => {
     )
 }
 
-export const privacy = (id) => (dispatch) =>{
+export const privacy = (id) => (dispatch, getState) =>{
+  const state = getState()
+  if (!state.currentUser) return null
+  const jwt = state.currentUser.jwt
+
+  if (isExpired(jwt)) return dispatch(logout())
   const permission = true
-  console.log(permission, id)
   request
     .put(`${baseUrl}/users/${id}`)
     .send({id, permission})
@@ -139,14 +147,19 @@ export const privacy = (id) => (dispatch) =>{
       }
     })}
 
-export const feedback = (id) => (dispatch, getState) =>
+export const feedback = (data, id) => (dispatch, getState) =>{
+  const state = getState()
+  if (!state.currentUser) return null
+  const jwt = state.currentUser.jwt
+
+  if (isExpired(jwt)) return dispatch(logout())
   request
-    .post(`${baseUrl}/users/${id}/feedbacks`)
+    .post(`${baseUrl}/users/${id}/feedback`)
+    .send(data)
     .then(response => {
-      console.log('response')
       dispatch({
         type: USER_FEEDBACK,
-        payload: response.body.feedback
+        payload: response.body
       })
       .catch(err => console.error(err))
     })
@@ -161,9 +174,14 @@ export const feedback = (id) => (dispatch, getState) =>
         console.error(err)
       }
     })
-
+}
 
 export const fetchProfile = (id) => (dispatch, getState) => {
+  const state = getState()
+  if (!state.currentUser) return null
+  const jwt = state.currentUser.jwt
+
+  if (isExpired(jwt)) return dispatch(logout())
   request
     .get(`${baseUrl}/users/${id}/`)
     .send(id)
