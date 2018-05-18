@@ -61,7 +61,7 @@ class DashboardPage extends PureComponent {
 }
 
 const maspStateToProps = (state, props) => ({
-  user: state.currentUser.user ? state.currentUser.user : null ,
+  user: state.currentUser ? state.currentUser.user : null ,
   transactions: state.transactions
 })
 
