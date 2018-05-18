@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import {Link} from 'react-router-dom'
+import TermsPage from './termPage'
 
 class MeerMenu extends React.Component {
   state = {
@@ -36,7 +37,7 @@ class MeerMenu extends React.Component {
           onClose={this.handleClose}
         >
         
-          <Link to='/terms'><MenuItem onClick={this.handleClose}>Terms and conditions</MenuItem></Link>
+          <Link to='/terms' component={TermsPage}><MenuItem onClick={this.handleClose}>Terms and conditions</MenuItem></Link>
           <Link to='/settings'><MenuItem onClick={this.handleClose}>Settings</MenuItem></Link>
           <Link to='/logout'><MenuItem onClick={this.handleClose}>Logout</MenuItem></Link>
         </Menu>
