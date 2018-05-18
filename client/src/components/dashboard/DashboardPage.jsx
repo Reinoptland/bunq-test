@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import pieGraph from './Graph'
-import { Grid, Typography, Button, Divider } from 'material-ui';
+import { Grid, Typography, Divider } from 'material-ui';
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
@@ -15,6 +15,7 @@ arr.map(t => {
   if(t.type === 'insurance') insurance = insurance + value
   if(t.type === 'telecom') telecom = telecom + value
   if(t.type === 'energy') energy = energy + value
+  return {insurance, energy, telecom}
 })
   return [["Category", "Amount"], ["Insurance", insurance], ["Telecom", telecom], ["Energy", energy]]
 }
@@ -22,15 +23,13 @@ arr.map(t => {
 class DashboardPage extends PureComponent {
   componentWillMount() {
     if(this.props.user === null) return (<Redirect to='/login' />)
-    if (this.props.transactions === null) {
+    if (this.props.transactions === null && this.props.user) {
       this.props.fetchTransactions(this.props.user.id)
     }
   }
 
   render(){
-    if (!this.props.user || this.props.user === null) return (
-      <Redirect to="/login" />
-    )
+    if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
     if(this.props.user.permission === false || this.props.user.bunqKey === 'null'){
       return( <Redirect to="/bunq"/>)
     }
@@ -61,7 +60,7 @@ class DashboardPage extends PureComponent {
 }
 
 const maspStateToProps = (state, props) => ({
-  user: state.currentUser.user ? state.currentUser.user : null ,
+  user: state.currentUser ? state.currentUser.user : null ,
   transactions: state.transactions
 })
 

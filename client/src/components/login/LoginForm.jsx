@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import {Input, InputLabel, TextField} from 'material-ui'
+import { TextField } from 'material-ui'
 
 export default class LoginForm extends PureComponent {
   state = {}

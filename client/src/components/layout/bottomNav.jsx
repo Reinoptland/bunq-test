@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../../App.css'
 import MeerMenu from "./meerMenu"
+import {Link} from 'react-router-dom'
 
 class BottomNav extends Component {
 
@@ -8,15 +9,15 @@ class BottomNav extends Component {
         return (
             <div className='bottom-nav'>
                 <div className='bottom-nav'>
-                    <a href='/dashboard'>
+                    <Link to='/dashboard'>
                     <img src="../../../icons/home.svg" alt="home-icon"></img>
-                    </a>
-                    <a href='/contracts'>
+                    </Link>
+                    <Link to='/contracts'>
                     <img src="../../../icons/contracten.svg" alt="contract-icon"></img>
-                    </a>
-                    <a href='/'>
+                    </Link>
+                    <Link to='/'>
                     <img src="../../../icons/advies.svg" alt="advies-icon"></img>
-                    </a>
+                    </Link>
                     <MeerMenu/>
                     
                 </div>

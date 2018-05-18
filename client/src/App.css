@@ -58,6 +58,9 @@ h3 {
 h4 {
   font-family: 'BrandonText-Regular';
 }
+.signupForm {
+  margin-right: 5%;
+}
 
 .signupFormLabels{
   margin-bottom: 10px;
@@ -77,7 +80,7 @@ h4 {
 } */
 
 .roosTitle {
-  margin-bottom: 30px;
+  margin: 2rem 0 3rem 0;
 }
 
 .signupButton {
@@ -91,6 +94,7 @@ h4 {
   border: none;
   font-weight: bold;
   letter-spacing: 1px;
+  width: 100%;
 }
 
 .signupButton:hover{
@@ -122,6 +126,10 @@ h4 {
   color: #51595f;
   border-color: #bec1c2;
   margin-left: 10px;
+}
+
+.radio {
+  margin: 0 0 0 -100px; 
 }
 
 .bottom-nav {
@@ -228,6 +236,10 @@ margin-top: 30px;
   color: #51595f
 }
 
+.privacyTypography{
+  font-size: 20px;
+  font-family: 'BrandonText-Bold';
+}
 
 a {
   text-decoration: none;
@@ -296,4 +308,14 @@ a:focus {
 
 .readPrivacyTitle {
   font-family: 'BrandonText-Regular';
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inloggen {
+  margin-right: 10%;
 }

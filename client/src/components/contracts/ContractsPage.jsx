@@ -2,9 +2,9 @@ import React, { PureComponent } from 'react';
 import Typography from 'material-ui/Typography'
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
+import {Redirect} from 'react-router-dom'
 
 const renderContract = ({ ...props }) => {
-  console.log(props)
   return (
     <Typography>
       <Typography variant='headline'>{props.contractName}</Typography>
@@ -22,16 +22,13 @@ class ContractsPage extends PureComponent {
   render() {
     // console.log(this.props)
     const { transactions } = this.props
-    console.log(transactions)
+    console.log(this.props.user)
+    if(this.props.user === null || !this.props.user) return( <Redirect to='/login' /> )
     return (
       <div>
-        {
-          transactions ? console.log(transactions) : console.log('nope')
-        }
         <Typography style={{margin: '0 0 30px 0'}} variant='display1'> Insurance
         {
             transactions ? transactions.map(t => {
-              console.log(t.type)
               return t.type === 'insurance' ?
                 (renderContract(t)) : null
             }) : <p>Contracts loading...</p>
@@ -40,7 +37,6 @@ class ContractsPage extends PureComponent {
         <Typography style={{ margin: '30px 0' }} variant='display1'> Telecom
           {
             transactions ? transactions.map(t => {
-              console.log(t.type)
               return t.type === 'telecom' ?
                 (renderContract(t)) : null
             }) : <p>Contracts loading...</p>
@@ -49,7 +45,6 @@ class ContractsPage extends PureComponent {
         <Typography style={{ margin: '30px 0' }} variant='display1'> Energy
         {
             transactions ? transactions.map(t => {
-              console.log(t.type)
               return t.type === 'energy' ?
                 (renderContract(t)) : null
             }) : <p>Contracts loading...</p>
@@ -61,7 +56,8 @@ class ContractsPage extends PureComponent {
 }
 
 const mapStateToProps = (state, props) => ({
-  transactions: state.transactions
+  transactions: state.transactions,
+  user: state.currentUser ? state.currentUser.user : null
 })
 
 export default connect(mapStateToProps, { fetchTransactions })(ContractsPage)

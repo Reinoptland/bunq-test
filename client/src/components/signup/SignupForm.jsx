@@ -22,13 +22,13 @@ export default class SignupForm extends PureComponent {
     return (
       <form onSubmit={this.handleSubmit} className="signupForm">
         <div className="signupFormLabels">
-          <TextField label='first name'
+          <TextField label='voornaam'
            type="firstName" name="firstName" id="firstName" value={
             this.state.firstName || ''
           } onChange={this.handleChange} />
         </div>
         <div className="signupFormLabels">
-          <TextField label='last name'
+          <TextField label='achternaam'
            type="lastName" name="lastName" id="lastName" value={
             this.state.lastName || ''
           } onChange={this.handleChange} />
@@ -58,7 +58,7 @@ export default class SignupForm extends PureComponent {
           this.state.password &&
           this.state.confirmPassword &&
           this.state.password !== this.state.confirmPassword &&
-          <p style={{ color: 'red' }}>De wachtwoorden zijn anders!</p>
+          <p style={{ color: 'red' }}>De wachtwoorden komen niet overeen!</p>
         }
 
         <button type="submit" className="signupButton">Aanmelden</button>

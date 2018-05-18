@@ -45,11 +45,11 @@ class ProfilePage extends PureComponent {
     return(
       <div className="editForm">
           <h1>
-            This is an overview of your profile details:  </h1>
-               <p>First name: {firstName}</p> 
-               <p>Last name: {lastName}</p> 
-               <p>Email address: {email}</p> 
-               <p>Permission: {permission===true ? "True" : "False"}</p> 
+            Dit is een overzicht van u profiel gegevens:
+               <p>voornaam: {firstName}</p> 
+               <p>achternaam: {lastName}</p> 
+               <p>email: {email}</p> 
+               <p>akkoord (privacy): {permission===true ? "True" : "False"}</p> 
                <p>Bunq Key: {bunqKey}</p> 
                {
                this.props.user !== null && this.props.user ? console.log("this.props.user = ", this.props.user) : console.log('nope')

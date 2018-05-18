@@ -1,33 +1,34 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import { feedback } from '../../actions/users'
-import { Redirect } from 'react-router-dom'
 import FeedbackForm from './FeedbackForm'
 
 class FeedbackPage extends PureComponent {
-    handleSubmit = (data) => {
-        console.log(data)
-        this.props.feedback(data)
-        console.log('data')
-    }
+  handleSubmit = (data) => {
+    // console.log(data)
+    this.props.feedback(data, this.props.user.id)
+    // console.log('data')
+  }
 
     render() {
         return (
-            <form>
+            <div>
 
-                <h1>Feedback</h1>
+                <h1 style={{textAlign: 'center', margin:'0 0 0 -5px'}}>Feedback</h1>
                 <div className="feedbackForm">
                     <FeedbackForm onSubmit={this.handleSubmit} />
                 </div>
-            </form>
+            </div>
         )
     }
 }
 
 const mapStateToProps = function (state) {
-    return {
-        feedback: state.feedback
-    }
+  return {
+    feedback: state.feedback,
+    user: state.currentUser ? state.currentUser.user : null
+  }
 }
+
 
 export default connect(mapStateToProps, { feedback })(FeedbackPage)

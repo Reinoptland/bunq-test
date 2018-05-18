@@ -5,7 +5,6 @@ import LoginPage from './components/login/LoginPage'
 import LogoutPage from './components/logout/LogoutPage'
 import DashboardPage from './components/dashboard/DashboardPage'
 import ContractsPage from './components/contracts/ContractsPage'
-import register, { unregister } from './registerServiceWorker'
 import SignupPage from './components/signup/SignupPage'
 import BunqPage from './components/bunqDetails/BunqPage'
 import TopBar from './components/layout/topBar'
@@ -13,6 +12,7 @@ import BottomNav from './components/layout/bottomNav'
 import FeedbackPage from './components/feedback/FeedbackPage'
 import ProfilePage from './components/profile/ProfilePage'
 import { withTheme } from 'material-ui/styles'
+import TermsPage from './components/layout/termPage'
 
 
 class App extends Component {
@@ -32,7 +32,8 @@ class App extends Component {
             <Route exact path='/contracts' component={ContractsPage} />
             <Route exact path='/profile' component={ProfilePage} />
             <Route exact path='/signup' component={SignupPage} />
-            <Route exact path="/" render={() => <Redirect to="/dashboard" />} />
+            <Route exact path='/terms' component={TermsPage} />
+            <Route exact path="/" render={() => <Redirect to="/login" />} />
           </main>
           <nav> 
             <BottomNav />

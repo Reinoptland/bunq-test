@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { bunqLogin, privacy } from '../../actions/users'
 import BunqForm from './BunqForm'
 import { AlertDialog } from '../privacy/PrivacyForm'
-import { Redirect, Link } from 'react-router-dom'
+import { Redirect } from 'react-router-dom'
 
 class BunqDetails extends PureComponent {
   handleSubmit = (data) => {
@@ -24,7 +24,7 @@ class BunqDetails extends PureComponent {
     //   // console.log(this.props.user.bunq)
     // }
     return (
-      <div>
+      <div className='center'>
         <h1>Bunq Login</h1>
 
         <BunqForm onSubmit={this.handleSubmit} />

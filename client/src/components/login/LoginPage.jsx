@@ -18,8 +18,8 @@ class LoginPage extends PureComponent {
   }
 
     return (
-      <div>
-        <h1>Inloggen</h1>
+      <div className='center'>
+        <h1 className='inloggen'>Inloggen</h1>
 
         <LoginForm onSubmit={this.handleSubmit} />
 

@@ -15,7 +15,7 @@ class SignupPage extends PureComponent {
     )
 
     return (
-      <div>
+      <div className='center'>
         <h1 className="roosTitle">Welkom bij Roos</h1>
 
         <SignupForm onSubmit={this.handleSubmit} />
