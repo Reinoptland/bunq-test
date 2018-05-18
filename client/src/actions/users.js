@@ -25,6 +25,10 @@ export const USER_BUNQ_FAILED = 'USER_BUNQ_FAILED'
 export const USER_ACCEPT_PRIVACY = 'USER_ACCEPT_PRIVACY'
 export const USER_DECLINE_PRIVACY = 'USER_DECLINE_PRIVACY'
 
+export const FETCH_USER_PROFILE = "FETCH_USER_PROFILE"
+export const FETCH_USER_PROFILE_FAILED = "FETCH_USER_PROFILE_FAILED"
+
+
 export const logout = () => ({
   type: USER_LOGOUT
 })
@@ -157,3 +161,27 @@ export const feedback = (id) => (dispatch, getState) =>
         console.error(err)
       }
     })
+
+
+export const fetchProfile = (id) => (dispatch, getState) => {
+  request
+    .get(`${baseUrl}/users/${id}/`)
+    .send(id)
+    .then(result => dispatch({
+      type: FETCH_USER_PROFILE,
+      payload: result.body
+    }))
+    .catch(err => {
+      if (err.status === 400) {
+        dispatch({
+          type: FETCH_USER_PROFILE_FAILED,
+          payload: err.response.body.message || 'Unknown error'
+        })
+      }
+      else {
+        console.error(err)
+      }
+    })
+}
+
+

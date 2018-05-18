@@ -4,6 +4,7 @@ import Toolbar from 'material-ui/Toolbar'
 import Typography from 'material-ui/Typography'
 import Button from 'material-ui/Button'
 import { withRouter } from 'react-router'
+import {Link} from "react-router-dom"
 import { userId } from '../../jwt'
 import { connect } from 'react-redux'
 import { logo, comment, person } from './logo'
@@ -14,9 +15,9 @@ const TopBar = (props) => {
   return (
     <AppBar position="absolute" style={{ fontFamily: '', background: 'linear-gradient(to right, #E84435, #F57F17)', zIndex: 10 }}>
       <Toolbar>
-        <a href='/dashboard'>
+        <Link to='/profile'>
           {person()}
-        </a>
+        </Link>
         <Typography variant="title" color="inherit" style={{ textAlign: 'center', flex: 1 }}>
 
         <a href='/login'>
