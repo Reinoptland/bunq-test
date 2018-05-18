@@ -32,7 +32,7 @@ class App extends Component {
             <Route exact path='/contracts' component={ContractsPage} />
             <Route exact path='/profile' component={ProfilePage} />
             <Route exact path='/signup' component={SignupPage} />
-            <Route exact path="/" render={() => <Redirect to="/dashboard" />} />
+            <Route exact path="/" render={() => <Redirect to="/login" />} />
           </main>
           <nav> 
             <BottomNav />
