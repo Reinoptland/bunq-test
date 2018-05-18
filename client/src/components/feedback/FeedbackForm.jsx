@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react'
 
 export default class FeedbackForm extends PureComponent {
+
     state = {}
 
     handleSubmit = (e) => {
@@ -64,4 +65,5 @@ export default class FeedbackForm extends PureComponent {
           
         )
     }
+
 }

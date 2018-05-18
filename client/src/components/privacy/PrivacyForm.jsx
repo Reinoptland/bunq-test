@@ -16,13 +16,11 @@ export class AlertDialog extends React.Component {
   };
 
   handleClose = (e) => {
-    if(e.target.textContent === 'Agree'){
+    if (e.target.textContent === 'Akkoord'){
       // dispatch action to update permissions
       this.props.privacy(this.props.user)
     }
-    if(e.target.textContent === 'Disagree') {
       this.setState({ open: false });
-    }
   };
 
   render() {
