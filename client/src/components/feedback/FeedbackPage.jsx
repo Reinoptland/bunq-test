@@ -13,13 +13,13 @@ class FeedbackPage extends PureComponent {
 
     render() {
         return (
-            <form>
+            <div>
 
-                <h1>Feedback</h1>
+                <h1 style={{textAlign: 'center', margin:'0 0 0 -5px'}}>Feedback</h1>
                 <div className="feedbackForm">
                     <FeedbackForm onSubmit={this.handleSubmit} />
                 </div>
-            </form>
+            </div>
         )
     }
 }

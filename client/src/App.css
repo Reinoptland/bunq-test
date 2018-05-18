@@ -47,6 +47,10 @@ h1 {
   color: #51595f;
 }
 
+.signupForm {
+  margin-right: 5%;
+}
+
 .signupFormLabels{
   margin-bottom: 10px;
 }
@@ -65,7 +69,7 @@ h1 {
 } */
 
 .roosTitle {
-  margin-bottom: 30px;
+  margin: 2rem 0 3rem 0;
 }
 
 .signupButton {
@@ -79,6 +83,7 @@ h1 {
   border: none;
   font-weight: bold;
   letter-spacing: 1px;
+  width: 100%;
 }
 
 .signupButton:hover{
@@ -110,6 +115,10 @@ h1 {
   color: #51595f;
   border-color: #bec1c2;
   margin-left: 10px;
+}
+
+.radio {
+  margin: 0 0 0 -100px; 
 }
 
 .bottom-nav {
@@ -226,4 +235,14 @@ a:focus {
   text-decoration: none;
   color: black;
   outline: 0px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inloggen {
+  margin-right: 10%;
 }

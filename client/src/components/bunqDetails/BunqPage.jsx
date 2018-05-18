@@ -24,7 +24,7 @@ class BunqDetails extends PureComponent {
     //   // console.log(this.props.user.bunq)
     // }
     return (
-      <div>
+      <div className='center'>
         <h1>Bunq Login</h1>
 
         <BunqForm onSubmit={this.handleSubmit} />
