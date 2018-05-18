@@ -1,1 +1,1 @@
-web: ./server/www yarn start
+web: ./server/target yarn start
