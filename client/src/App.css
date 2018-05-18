@@ -227,3 +227,38 @@ a:focus {
   color: black;
   outline: 0px;
 }
+
+ .editForm .editProfile {
+  margin-top: 30px;
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #51595f;
+  border: 2px solid #e2e6e7;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+.editProfileForm .saveEditedProfile {
+  /* margin-top: 30px; */
+  padding: 10px 25px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: linear-gradient(0.25turn,#e84435, #f57f17);
+  color: white;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.editProfileForm .saveEditedProfile:hover {
+  background: #e84435;
+}
+
+.editProfileForm .editProfileLabel {
+  margin-right: 10px;
+  margin-bottom: 25px;
+}

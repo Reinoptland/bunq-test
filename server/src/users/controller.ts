@@ -33,6 +33,7 @@ export default class UserController {
     @Param('id') id: number,
     @Body() update : Partial<User>
   ){
+    console.log(update)
     const user = await User.findOne(id)
     if (!user) throw new NotFoundError('User doesn\'t exist')
 

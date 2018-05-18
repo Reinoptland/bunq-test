@@ -181,7 +181,22 @@ export const fetchProfile = (id) => (dispatch, getState) => {
       else {
         console.error(err)
       }
-    })
-}
+    })}
+
+
+    export const updateProfile = (id, updates) => (dispatch) => {
+      console.log(id, updates)
+      request
+        .put(`${baseUrl}/users/${id}`)
+        .send(updates)
+        .then(result => {
+          dispatch({
+            type: UPDATE_USER,
+            payload: result.body
+          })
+        })
+        .catch(err => console.error(err))
+    }
+
 
 
