@@ -6,9 +6,9 @@ import FeedbackForm from './FeedbackForm'
 
 class FeedbackPage extends PureComponent {
     handleSubmit = (data) => {
-        console.log(data)
-        this.props.feedback(data)
-        console.log('data')
+        // console.log(data)
+        this.props.feedback(data, this.props.user.id)
+        // console.log('data')
     }
 
     render() {
@@ -26,7 +26,8 @@ class FeedbackPage extends PureComponent {
 
 const mapStateToProps = function (state) {
     return {
-        feedback: state.feedback
+        feedback: state.feedback,
+        user: state.currentUser ? state.currentUser.user : null
     }
 }
 
