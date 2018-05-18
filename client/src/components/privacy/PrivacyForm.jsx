@@ -279,14 +279,16 @@ export class AlertDialog extends React.Component {
                 te raadplegen indien van je Roos gebruik maakt.
                   </Typography>
                 <Divider style={{margin: '1.5rem 0'}} />
-                <Link to='/feedback'>
-                <Button onClick={this.handleClose} color="primary">
-                  Niet akkoord
-                </Button>
-                </Link>
-                <Button name='agree' onClick={this.handleClose} color="primary">
-                    Akkoord
-                </Button>
+                <div style={{position: 'relative', left: '45%'}}>
+                  <Link to='/feedback'>
+                    <Button onClick={this.handleClose} color="primary" variant='raised' style={{marginRight: 20, marginLeft: 20}}>
+                      Niet akkoord
+                    </Button>
+                  </Link>
+              <Button variant='raised' name='agree' onClick={this.handleClose} color="primary" style={{ marginLeft: 20}}>
+                      Akkoord
+                  </Button>
+                </div>
               </DialogContentText>                
             </DialogContent>
         </Dialog>

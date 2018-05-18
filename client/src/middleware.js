@@ -5,9 +5,12 @@ export const storeJwt = store => next => action => {
   try {
     if (action.type === USER_LOGIN_SUCCESS) {
       localStorage.setItem(localStorageJwtKey, action.payload.jwt)
+      localStorage.setItem('user', action.payload.user.id)
+
     }
     if (action.type === USER_LOGOUT) {
       localStorage.removeItem(localStorageJwtKey)
+      localStorage.removeItem('user')
     }
   }
   catch (e) {

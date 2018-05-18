@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import { feedback } from '../../actions/users'
-import { Redirect } from 'react-router-dom'
 import FeedbackForm from './FeedbackForm'
 
 class FeedbackPage extends PureComponent {
@@ -11,18 +10,17 @@ class FeedbackPage extends PureComponent {
     // console.log('data')
   }
 
-  render() {
-    return (
-      <form>
+    render() {
+        return (
+            <div>
 
-        <h1>Feedback</h1>
-        <div className="feedbackForm">
-          <FeedbackForm onSubmit={this.handleSubmit} />
-        </div>
-      </form>
-    )
-  }
-}
+                <h1 style={{textAlign: 'center', margin:'0 0 0 -5px'}}>Feedback</h1>
+                <div className="feedbackForm">
+                    <FeedbackForm onSubmit={this.handleSubmit} />
+                </div>
+            </div>
+        )
+    }
 
 const mapStateToProps = function (state) {
   return {
