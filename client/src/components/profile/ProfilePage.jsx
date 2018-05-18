@@ -7,9 +7,6 @@ import { Redirect } from 'react-router-dom'
 class ProfilePage extends PureComponent {
   
   componentWillMount() {
-      const profile = this.props.user
-      console.log("props user " + this.props.user)
-
     if(this.props.user === null) return (<Redirect to='/login' />)
     if (this.props.user !== null) {
       this.props.fetchProfile(this.props.user.id)
@@ -22,7 +19,6 @@ class ProfilePage extends PureComponent {
     )
 
     const {firstName, lastName, email, permission, bunqKey } = this.props.user
-    permission===true ? "True" : "False"
     return(
           <h1>
             This is an overview of your profile details:
