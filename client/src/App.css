@@ -109,6 +109,9 @@ h4 {
 #PieChart {
   margin:auto;
 }
+#BarChart {
+  margin:auto;
+}
 .feedbackForm label{
   margin-left: 10px;
   font-family: 'BrandonText-Bold';
