@@ -46,6 +46,8 @@ class ProfilePage extends PureComponent {
       <div className="editForm">
           <h1>
             Dit is een overzicht van u profiel gegevens:
+            </h1>
+
                <p>voornaam: {firstName}</p> 
                <p>achternaam: {lastName}</p> 
                <p>email: {email}</p> 
