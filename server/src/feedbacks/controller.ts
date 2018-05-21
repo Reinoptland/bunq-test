@@ -1,7 +1,7 @@
 import { JsonController, Get, Param, Body, NotFoundError, Post, Delete } from 'routing-controllers'
 import Feedback from './entity'
 import User from '../users/entity'
-import { userInfo } from 'os';
+// import { userInfo } from 'os';
 
 
 @JsonController()
