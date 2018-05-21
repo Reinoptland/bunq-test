@@ -319,3 +319,9 @@ a:focus {
 .inloggen {
   margin-right: 10%;
 }
+
+.privacyTypography .deleteUserButton {
+  margin-top: 30px;
+  font-family: 'BrandonText-Bold';
+  text-decoration: underline;
+}
