@@ -16,10 +16,16 @@ export default class Transaction extends BaseEntity {
   contractName: string
 
   @Column('text')
+  IBAN: string
+
+  @Column('text')
   date: string
 
   @Column('text')
   value: string
+
+  @Column('text')
+  remarks: string
 
   @Column('text')
   type: string
