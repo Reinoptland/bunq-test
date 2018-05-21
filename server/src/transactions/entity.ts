@@ -1,6 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn } from 'typeorm'
 import { BaseEntity } from 'typeorm/repository/BaseEntity'
 import User from "../users/entity"
+import { ExtendedColumnOptions } from "typeorm-encrypted"
 
 @Entity()
 export default class Transaction extends BaseEntity {
@@ -12,21 +13,54 @@ export default class Transaction extends BaseEntity {
   @JoinColumn()
   user: User
 
-  @Column('text')
+  @Column(<ExtendedColumnOptions>{
+    type: "varchar",
+    nullable: true,
+    encrypt: {
+      key: "d85117047fd06d3afa79b6e44ee3a52eb426fc24c3a2e3667732e8da0342b4da",
+      algorithm: "aes-256-cbc",
+      ivLength: 16
+    }
+  })
   contractName: string
 
-  @Column('text')
-  IBAN: string
 
   @Column('text')
+  iban: string
+
+  @Column(<ExtendedColumnOptions>{
+    type: "varchar",
+    nullable: true,
+    encrypt: {
+      key: "d85117047fd06d3afa79b6e44ee3a52eb426fc24c3a2e3667732e8da0342b4da",
+      algorithm: "aes-256-cbc",
+      ivLength: 16
+    }
+  })
   date: string
 
-  @Column('text')
+  @Column(<ExtendedColumnOptions>{
+    type: "varchar",
+    nullable: true,
+    encrypt: {
+      key: "d85117047fd06d3afa79b6e44ee3a52eb426fc24c3a2e3667732e8da0342b4da",
+      algorithm: "aes-256-cbc",
+      ivLength: 16
+    }
+  })
   value: string
 
   @Column('text')
   remarks: string
 
-  @Column('text')
+  @Column(<ExtendedColumnOptions>{
+    type: "varchar",
+    nullable: true,
+    encrypt: {
+      key: "d85117047fd06d3afa79b6e44ee3a52eb426fc24c3a2e3667732e8da0342b4da",
+      algorithm: "aes-256-cbc",
+      ivLength: 16
+    }
+  })
   type: string
 }
