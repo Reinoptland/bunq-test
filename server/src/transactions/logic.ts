@@ -1,32 +1,68 @@
-  export function getContracts (arrayOfObjects) {
-      const currentDate = new Date()
-      const startingDate = currentDate.setDate(currentDate.getDate() - 90)
+const contractSoorten = {
+  verzekeringen: ["Zilveren", "DELA NATURA", "CZ Groep"],
+  telecom: ["ZIGGO", "TELE2", "BEN"],
+  energie: ["ENECO ", "Essent "]
+}
 
-      const lastThreeMonth = arrayOfObjects.filter(object => new Date(object.created).getTime() > startingDate )
+export const getTransactions = (csvData, contractSoorten) => {
 
-      //To change in case there are other types of payments that need to be considered
-      const paymentType = ["PAYMENT"]
+  const currentDate = new Date()
+  const startingDate = currentDate.setDate(currentDate.getDate() - 180)
 
-      const payments = lastThreeMonth.filter(object => paymentType.indexOf(object.sub_type) > -1)
-
-      //To symplify the object with only the required information
-      const mappedPayments = payments.map(object => ({contractName: object.counterparty_alias.display_name, date: object.created, value: object.amount.value}))
-
-
-      const insurance = ["Zilveren Kruis Zorgverzekeringen NV", "DELA NATURA- EN LEVENSVE", "CZ Groep Zorgverzekeraar"]
-      const energy = ["ENECO SERVICES", "Essent Retail Energie B.V."]
-      const telecom = ["ZIGGO SERVICES BV", "TELE2 NEDERLAND B.V."]
+  const lastSixMonth = csvData.filter(object => {
       
-      const newMappedPayments = mappedPayments.map(object => {
-        if (insurance.indexOf(object.contractName) > -1) return {...object, type: "insurance"}
-        else if(energy.indexOf(object.contractName) > -1) return {...object, type: "energy"}
-        else if(telecom.indexOf(object.contractName) > -1) return {...object, type: "telecom"}
-        else return null
-      })
+      const year = object['Datum'].slice(0, 4)
+      const month = object['Datum'].slice(4,6)
+      const day = object['Datum'].slice(6, 8)
+      const date = year + '-' + month + '-' + day
+
+      return new Date(date).getTime() > startingDate 
+  })
+
+  const payments = lastSixMonth.filter(object => object['Af Bij'] === 'Af')
+
+  const mappedPayments = payments.map(object => ({
+      datum: object['Datum'], 
+      contractNaam: object['Naam / Omschrijving'], 
+      tegenrekening: object['Tegenrekening'], 
+      bedrag: '-' + object['Bedrag (EUR)'].replace(/,/, '.'), 
+      mededelingen: object['Mededelingen']
+  }))
+  .map(object => {
+    if (contractSoorten.verzekeringen.filter(string => object.contractNaam.includes(string)).length > 0) return {...object, soort: "verzekering"}
+    else if(contractSoorten.energie.filter(string => object.contractNaam.includes(string)).length > 0) return {...object, soort: "energie"}
+    else if(contractSoorten.telecom.filter(string => object.contractNaam.includes(string)).length > 0) return {...object, soort: "telecom"}
+    else return object
+  })
+
+  const contracten = mappedPayments.filter(object => Object.keys(object).includes('soort'))
+  
+  const rest = mappedPayments.filter(object => !Object.keys(object).includes('soort'))
+
+  const recurrentPayments = rest.map(object => {
+      if (rest.filter(obj => obj.contractNaam === object.contractNaam && Number(obj.bedrag) > (Number(object.bedrag) - 3) && Number(obj.bedrag) < (Number(object.bedrag) + 3)).length >= 5) return {...object, soort: "overige"}
+  }).filter(object => object !== undefined)
+
+  return contracten.concat(recurrentPayments)
+}
 
 
 
-      return newMappedPayments.filter(object => object !== null)
-  }
 
+export const getOnlyContractsNamesAndTotals = (transactions) => {
+  const contractsNames = transactions
+      .map(transaction => transaction.contractNaam)
+      .filter((v, i, a) => a.indexOf(v) === i);
+  
+  const totals = contractsNames.map(contract => {
+      const total = transactions
+          .filter(transaction => 
+              transaction.contractNaam === contract)
+          .map(transaction => Number(transaction.bedrag))
+          .reduce((total, transaction) => total + transaction)
+      return {contractNaam: contract, totaal: total.toFixed(2)}
+  })
 
+return totals
+  
+}
