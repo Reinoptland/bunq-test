@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react'
 import pieGraph from './Graph'
 import BarGraph from './BarGraph'
+// import LineGraph from './LineGraph'
 import { Grid, Typography, Divider } from 'material-ui';
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
@@ -12,14 +13,16 @@ const calculateTransactions = (arr) => {
   let insurance = 0 
   let telecom = 0  
   let energy = 0 
+  let other = 0
 arr.map(t => {
   let value =  (- Number(t.value))
   if(t.type === 'insurance') insurance = insurance + value
   if(t.type === 'telecom') telecom = telecom + value
   if(t.type === 'energy') energy = energy + value
-  return {insurance, energy, telecom}
+  if(t.type === 'other') other= other + value
+  return {insurance, energy, telecom, other}
 })
-  return [["Category", "Amount", {role: 'style'}, { role: 'annotation'}], ["Insurance", insurance, colors[0], "Insurance"], ["Telecom", telecom, colors[1], "Telecom"], ["Energy", energy, colors[2], "Energy"]]
+  return [["Category", "Amount", {role: 'style'}, { role: 'annotation'}], ["Insurance", insurance, colors[0], "Insurance"], ["Telecom", telecom, colors[1], "Telecom"], ["Energy", energy, colors[2], "Energy"], ["Other", other, colors[3], "Other"]]
 }
 
 class DashboardPage extends PureComponent {
@@ -45,7 +48,7 @@ class DashboardPage extends PureComponent {
       <div>
       <Grid container alignItems={'center'} style={{width: '100%', flex: 1}} spacing={16}>
         <Grid xs={12} s={12} item>
-          <Typography style={{textAlign: 'center'}}>
+          <div style={{textAlign: 'center'}}>
             Hi {firstName} {lastName}! Here is an overview of your transactions.
             <Divider style={{margin: '10px 0 20px 0'}}/>
             {
@@ -54,7 +57,7 @@ class DashboardPage extends PureComponent {
             {
               BarGraph({ data, colors})
             }
-          </Typography>
+          </div>
         </Grid>
       </Grid>
       </div>
