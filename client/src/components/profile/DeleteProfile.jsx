@@ -18,7 +18,7 @@ export default class AlertDeleteUser extends React.Component {
       };
     
     handleClose = (e) => {
-       if (e.target.textContent === 'yes'){
+       if (e.target.textContent === 'Ja'){
           // dispatch action to delete user
         this.props.deleteUserFeedback(this.props.user)
         this.props.deleteUserTransactions(this.props.user)
@@ -43,7 +43,7 @@ export default class AlertDeleteUser extends React.Component {
         render() {
             return (
               <div>
-              <Typography variant='body2' className="privacyTypography"><Button onClick={this.handleClickOpen} className="deleteUserButton">Delete User</Button></Typography>
+              <Typography variant='body2' className="privacyTypography"><Button onClick={this.handleClickOpen} className="deleteUserButton">Account verwijderen</Button></Typography>
                 <Dialog
                     open={this.state.open}
                     onClose={this.handleClose}
@@ -52,22 +52,22 @@ export default class AlertDeleteUser extends React.Component {
                     style={{margin: 'auto'}}
                     >
 
-                    <DialogTitle id="alert-dialog-title">{"Are you sure you want to delete your account?"}</DialogTitle>
+                    <DialogTitle id="alert-dialog-title">{"Bent u zeker dat u uw account willt verwijderen?"}</DialogTitle>
                     <DialogContent>
                       <DialogContentText id="alert-dialog-description">
                       <Typography align='justify' paragraph={true}>
-                      If you click "yes" your account will be removed permanently.
+                      Als u 'ja' kiezen zullen uw account permanent gesloten worden.
                         </Typography>
                         <Divider style={{margin: '1.5rem 0'}} />
                 <div style={{position: 'relative', left: '45%'}}>
                   <Link to='/profile'>
                     <Button onClick={this.handleClose} color="primary" variant='raised' style={{marginRight: 20, marginLeft: 20}}>
-                      No
+                      Nee
                     </Button>
                   </Link>
                 <Link to='/profile'>
               <Button variant='raised' name='agree' onClick={this.handleClose} color="primary" style={{ marginLeft: 20}}>
-                      yes
+                      Ja
                   </Button>
                  </Link>
                 </div>
