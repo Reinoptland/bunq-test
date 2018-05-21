@@ -5,6 +5,7 @@ import { snakeCase } from 'typeorm/util/StringUtils'
 import User from './users/entity';
 import Transaction from "./transactions/entity"
 import Feedback from "./feedbacks/entity"
+import { AutoEncryptSubscriber } from "typeorm-encrypted"
 
 class CustomNamingStrategy extends DefaultNamingStrategy implements NamingStrategyInterface {
 
@@ -36,7 +37,8 @@ export default () =>
       ],
       synchronize: true,
       logging: true,
-      namingStrategy: new CustomNamingStrategy()
+      namingStrategy: new CustomNamingStrategy(),
+      subscribers: [ AutoEncryptSubscriber ]
   })
   .then(_ => console.log('Connected to Postgres with TypeORM'))
     
