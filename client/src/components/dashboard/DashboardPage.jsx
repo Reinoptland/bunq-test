@@ -22,7 +22,7 @@ arr.map(t => {
   if(t.type === 'other') other= other + value
   return {insurance, energy, telecom, other}
 })
-  return [["Category", "Amount", {role: 'style'}, { role: 'annotation'}], ["Insurance", insurance, colors[0], "Insurance"], ["Telecom", telecom, colors[1], "Telecom"], ["Energy", energy, colors[2], "Energy"], ["Other", other, colors[3], "Other"]]
+  return [["Categorie", "Bedrag", {role: 'style'}, { role: 'annotation'}], ["Verzekering", insurance, colors[0], "Verzekering"], ["Telecom", telecom, colors[1], "Telecom"], ["Energie", energy, colors[2], "Energie"], ["Overig", other, colors[3], "Other"]]
 }
 
 class DashboardPage extends PureComponent {
@@ -49,11 +49,8 @@ class DashboardPage extends PureComponent {
       <Grid container alignItems={'center'} style={{width: '100%', flex: 1}} spacing={16}>
         <Grid xs={12} s={12} item>
           <div style={{textAlign: 'center'}}>
-            Hi {firstName} {lastName}! Here is an overview of your transactions.
+            Hi {firstName} {lastName}! Hier vindt je een overzicht van je transacties.
             <Divider style={{margin: '10px 0 20px 0'}}/>
-            {
-              this.props.user !== null && this.props.user ? console.log(this.props.user) : console.log('nope')
-            }
             {
               BarGraph({ data, colors})
             }
@@ -65,9 +62,9 @@ class DashboardPage extends PureComponent {
   }
 }
 
-const maspStateToProps = (state, props) => ({
+const mapStateToProps = (state, props) => ({
   user: state.currentUser ? state.currentUser.user : null ,
   transactions: state.transactions
 })
 
-export default connect(maspStateToProps, { fetchTransactions })(DashboardPage)
+export default connect(mapStateToProps, { fetchTransactions })(DashboardPage)

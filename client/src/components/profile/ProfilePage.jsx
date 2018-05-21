@@ -65,7 +65,7 @@ class ProfilePage extends PureComponent {
                this.props.user !== null && this.props.user ? console.log("this.props.user = ", this.props.user) : console.log('nope')
                }
           {!this.state.editProfile &&
-          <Button onClick={this.toggleEdit} className="editProfile">Edit Information</Button>
+          <Button onClick={this.toggleEdit} className="editProfile">Wijzig</Button>
           }
           <br></br>
           {
