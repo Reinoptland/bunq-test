@@ -1,1876 +1,15479 @@
 export const data = [
-    {
-      "id": 0,
-      "created": "2018-05-14 16:32:08.477323",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-231.10",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "Zilveren Kruis Zorgverzekeringen NV",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "REQUEST",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-05-14 16:32:08.477323",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-95.00",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "ENECO SERVICES",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "PAYMENT",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-05-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-46.50",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "ZIGGO SERVICES BV",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "PAYMENT",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-05-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-44.36",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "TELE2 NEDERLAND B.V.",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "PAYMENT",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-05-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-115.00",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "Essent Retail Energie B.V.",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "PAYMENT",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-05-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-7.48",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "DELA NATURA- EN LEVENSVE",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "PAYMENT",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-05-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-130.38",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "CZ Groep Zorgverzekeraar",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "PAYMENT",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-05-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-13.03",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "ST PARKEERGELDEN NL",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "PAYMENT",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-05-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-11.45",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "Albert Heijn 4107 AMSTERDAM NLD",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "PAYMENT",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-01-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-95.00",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "ENECO SERVICES",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "PAYMENT",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-05-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-44.36",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "TELE2 NEDERLAND B.V.",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "REQUEST",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-05-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-7.48",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "DELA NATURA- EN LEVENSVE",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "REQUEST",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "created": "2018-03-14 18:24:50.247560",
-      "updated": "string",
-      "monetary_account_id": 0,
-      "amount": {
-        "value": "-46.50",
-        "currency": "string"
-      },
-      "alias": {
-        "iban": "string",
-        "display_name": "string",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "counterparty_alias": {
-        "iban": "string",
-        "display_name": "ZIGGO SERVICES BV",
-        "avatar": {
-          "uuid": "string",
-          "anchor_uuid": "string",
-          "image": [
-            {
-              "attachment_public_uuid": "string",
-              "content_type": "string",
-              "height": 0,
-              "width": 0
-            }
-          ]
-        },
-        "label_user": {
-          "uuid": "string",
-          "display_name": "string",
-          "country": "string",
-          "avatar": {
-            "uuid": "string",
-            "anchor_uuid": "string",
-            "image": [
-              {
-                "attachment_public_uuid": "string",
-                "content_type": "string",
-                "height": 0,
-                "width": 0
-              }
-            ]
-          },
-          "public_nick_name": "string"
-        },
-        "country": "string",
-        "bunq_me": {
-          "type": "string",
-          "value": "string",
-          "name": "string"
-        },
-        "is_light": true,
-        "swift_bic": "string",
-        "swift_account_number": "string"
-      },
-      "description": "string",
-      "type": "string",
-      "sub_type": "PAYMENT",
-      "bunqto_status": "string",
-      "bunqto_sub_status": "string",
-      "bunqto_share_url": "string",
-      "bunqto_expiry": "string",
-      "bunqto_time_responded": "string",
-      "attachment": [
-        {
-          "id": 0,
-          "monetary_account_id": 0
-        }
-      ],
-      "merchant_reference": "string",
-      "batch_id": 0,
-      "scheduled_id": 0,
-      "address_shipping": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "address_billing": {
-        "street": "string",
-        "house_number": "string",
-        "po_box": "string",
-        "postal_code": "string",
-        "city": "string",
-        "country": "string",
-        "province": "string"
-      },
-      "geolocation": {
-        "latitude": 0,
-        "longitude": 0,
-        "altitude": 0,
-        "radius": 0
-      },
-      "allow_chat": true,
-      "request_reference_split_the_bill": [
-        {
-          "type": "string",
-          "id": 0
-        }
-      ]
-    }
-  ]
-
-  
+  {
+    "Datum": 20180518,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-05-2018 08:31 Transactie:L76582 Term:94JY26"
+  },
+  {
+    "Datum": 20180517,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-05-2018 08:16 Transactie:H8S4I9 Term:94JY26"
+  },
+  {
+    "Datum": 20180517,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,35",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-05-2018 08:19 Transactie:H8S5X9 Term:15BPS6"
+  },
+  {
+    "Datum": 20180517,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-05-2018 13:20 Transactie:F5I1L0 Term:88416101"
+  },
+  {
+    "Datum": 20180517,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180516,
+    "Naam / Omschrijving": "Gein AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-05-2018 18:35 Transactie:D51565 Term:3KT3VN"
+  },
+  {
+    "Datum": 20180515,
+    "Naam / Omschrijving": "ALBERT HEIJN 1676 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,35",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-05-2018 08:33 Transactie:9622T7 Term:NM541W"
+  },
+  {
+    "Datum": 20180515,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,87",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-05-2018 09:17 Transactie:64C2A6 Term:88416101"
+  },
+  {
+    "Datum": 20180515,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,21",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-05-2018 20:13 Transactie:91G7Q6 Term:64WV8C"
+  },
+  {
+    "Datum": 20180514,
+    "Naam / Omschrijving": "GVB voertuig T2066CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-05-2018 08:36 Transactie:6367J9 Term:69Y2HM"
+  },
+  {
+    "Datum": 20180514,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180514,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-05-2018 11:00 Transactie:43O3J4 Term:XMX98J"
+  },
+  {
+    "Datum": 20180514,
+    "Naam / Omschrijving": "ALBERT HEIJN 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-05-2018 12:23 Transactie:45O0L1 Term:5YCL5G"
+  },
+  {
+    "Datum": 20180514,
+    "Naam / Omschrijving": "GVB voertuig T2079CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-05-2018 15:59 Transactie:54H3A0 Term:74K2LY"
+  },
+  {
+    "Datum": 20180514,
+    "Naam / Omschrijving": "Ingenico",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL39RABO0301242844",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "23,95",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Ingenico Omschrijving: 4060644978 0020001944513619 Description Hans Prijsoptiek B.V. IBAN: NL39RABO0301242844 Kenmerk: 13-05-2018 21:51 0020001944513619"
+  },
+  {
+    "Datum": 20180514,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-05-2018 09:23 Transactie:U7M4C1 Term:88416101"
+  },
+  {
+    "Datum": 20180510,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "40,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180509,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,55",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-05-2018-08-06-2018 IBAN: NL38INGB0703076094 Kenmerk: 7547007 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180508,
+    "Naam / Omschrijving": "Vlaamsch Broodhuys AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-05-2018 09:46 Transactie:J814E7 Term:QV1WT5"
+  },
+  {
+    "Datum": 20180508,
+    "Naam / Omschrijving": "iZ *Arc Light Hold AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-05-2018 12:21 Transactie:G8R813 Term:---"
+  },
+  {
+    "Datum": 20180508,
+    "Naam / Omschrijving": "8010-246-UvARECHA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,15",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-05-2018 18:51 Transactie:J0J1O9 Term:Z524DX"
+  },
+  {
+    "Datum": 20180507,
+    "Naam / Omschrijving": "CCV*MCDONALDS EERSTE V AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,05",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-05-2018 20:09 Transactie:27P744 Term:CT615803"
+  },
+  {
+    "Datum": 20180507,
+    "Naam / Omschrijving": "CCV*HET AMSTERDAMSE PR AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-05-2018 22:58 Transactie:75L416 Term:CT085201"
+  },
+  {
+    "Datum": 20180507,
+    "Naam / Omschrijving": "'t Ballonnetje AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-05-2018 23:45 Transactie:75U7P0 Term:V3Z1BM"
+  },
+  {
+    "Datum": 20180504,
+    "Naam / Omschrijving": "Albert Heijn 4107 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,58",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-05-2018 12:38 Transactie:02V852 Term:046MTF"
+  },
+  {
+    "Datum": 20180504,
+    "Naam / Omschrijving": "Albert Heijn 4107 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-05-2018 12:39 Transactie:0381Y3 Term:XLK7R6"
+  },
+  {
+    "Datum": 20180504,
+    "Naam / Omschrijving": "Stichting Derdengelden Buckaroo",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL60INGB0653455348",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Stichting Derdengelden Buckaroo Omschrijving: Swapfiets Delft BV: 1-5 Original Normal 31 dagen: 15.00 IBAN: NL60INGB0653455348 Kenmerk: 8DD139C1449F403D92F9605BB12038D3 Machtiging ID: 0YF-2-49907-83273 Incassant ID: NL39ZZZ302317620000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180503,
+    "Naam / Omschrijving": "7e contante storting",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "Betreft kosten storting ING BANK N.V."
+  },
+  {
+    "Datum": 20180502,
+    "Naam / Omschrijving": "ALBERT HEIJN 1009 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,21",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-05-2018 09:04 Transactie:V2C382 Term:006GL3"
+  },
+  {
+    "Datum": 20180502,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-05-2018 12:54 Transactie:S67533 Term:88416101"
+  },
+  {
+    "Datum": 20180502,
+    "Naam / Omschrijving": "Gein AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-05-2018 19:34 Transactie:U7L0Y6 Term:3KT3VN"
+  },
+  {
+    "Datum": 20180502,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-05-2018 20:18 Transactie:U8D872 Term:64WV8C"
+  },
+  {
+    "Datum": 20180502,
+    "Naam / Omschrijving": "iZ *Arc Light Hold AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-04-2018 12:47 Transactie:P147B1 Term:---"
+  },
+  {
+    "Datum": 20180430,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "498,15",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "ING-Kantoor Rokin Amster 00008248 PASVOLGNR 001 30-04-2018 17:43 TRANSACTIENR 11447"
+  },
+  {
+    "Datum": 20180430,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "500,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent May IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180430,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-04-2018 09:11 Transactie:L9Y7S7 Term:XMX98J"
+  },
+  {
+    "Datum": 20180430,
+    "Naam / Omschrijving": "Hr D da Cunha Esteves",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL79INGB0700409408",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "16,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hr D da Cunha Esteves Omschrijving: buger IBAN: NL79INGB0700409408"
+  },
+  {
+    "Datum": 20180430,
+    "Naam / Omschrijving": "Belastingdienst",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL89INGB0000004820",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "70,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Belastingdienst Omschrijving: 5646.12.273.H5601 IBAN: NL89INGB0000004820"
+  },
+  {
+    "Datum": 20180427,
+    "Naam / Omschrijving": "Automatiek Febo B.V. AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-04-2018 22:55 Transactie:D618F7 Term:J0M3MR"
+  },
+  {
+    "Datum": 20180427,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "101,35",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Mei 2018 t/m mei 2018 IBAN: NL87INGB0000717127 Kenmerk: 10024436141 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180426,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-04-2018 09:04 Transactie:35Q962 Term:88416101"
+  },
+  {
+    "Datum": 20180425,
+    "Naam / Omschrijving": "TERRACINO ANNA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT20L0306962198100000001716",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "200,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: TERRACINO ANNA Omschrijving: Spese per il corso IBAN: IT20L0306962198100000001716"
+  },
+  {
+    "Datum": 20180425,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,04",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908015113997 IBAN: NL61COBA0733974775 Kenmerk: 500915396179 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180424,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-04-2018 12:40 Transactie:80Y148 Term:88416101"
+  },
+  {
+    "Datum": 20180424,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,55",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-04-2018 20:34 Transactie:A3Z7K9 Term:64WV8C"
+  },
+  {
+    "Datum": 20180423,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,62",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2018-10168693 0020001921686548 Order Number 2018-10168693 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 22-04-2018 20:23 0020001921686548"
+  },
+  {
+    "Datum": 20180423,
+    "Naam / Omschrijving": "The Happy Bull AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-04-2018 21:51 Transactie:A3D5Q6 Term:28T0T1"
+  },
+  {
+    "Datum": 20180423,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-04-2018 08:46 Transactie:A6V4Y9 Term:543KG8"
+  },
+  {
+    "Datum": 20180420,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-04-2018 13:09 Transactie:3025H2 Term:88416101"
+  },
+  {
+    "Datum": 20180420,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL86INGB0002445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "95,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: MAAND MEI NR. 564612273T800013 VOORSCHOT ZORGTOESLAG 2018 (LEAHY ) MEER INFO OP WWW.TOESLAGEN.NL IBAN: NL86INGB0002445588 Kenmerk: GVSXX20180417061332664"
+  },
+  {
+    "Datum": 20180419,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,87",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-04-2018 09:22 Transactie:88S9R4 Term:88416101"
+  },
+  {
+    "Datum": 20180418,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-04-2018 12:56 Transactie:646510 Term:88416101"
+  },
+  {
+    "Datum": 20180418,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-04-2018 18:43 Transactie:81R9W2 Term:BM15Z1"
+  },
+  {
+    "Datum": 20180418,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-04-2018 19:15 Transactie:82Z3F0 Term:BM15Z1"
+  },
+  {
+    "Datum": 20180417,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-04-2018 00:00 Transactie:3141L2 Term:88416101"
+  },
+  {
+    "Datum": 20180416,
+    "Naam / Omschrijving": "NS-Schiphol 211 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,42",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-04-2018 21:05 Transactie:18W6V6 Term:09T3DF"
+  },
+  {
+    "Datum": 20180416,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-04-2018 11:22 Transactie:70F1H2 Term:543KG8"
+  },
+  {
+    "Datum": 20180416,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-04-2018 11:38 Transactie:71Q0Y0 Term:578QY7"
+  },
+  {
+    "Datum": 20180416,
+    "Naam / Omschrijving": "NS-Amsterdam C.201 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-04-2018 12:21 Transactie:751326 Term:5T7Z01"
+  },
+  {
+    "Datum": 20180416,
+    "Naam / Omschrijving": "IZ *Arc Light Holding AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-04-2018 09:27 Transactie:2012Y9 Term:88416101"
+  },
+  {
+    "Datum": 20180413,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,29",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-04-2018 20:49 Transactie:153924 Term:578QY7"
+  },
+  {
+    "Datum": 20180412,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-04-2018 08:22 Transactie:90K270 Term:2H484D"
+  },
+  {
+    "Datum": 20180412,
+    "Naam / Omschrijving": "ALBERT HEIJN 1676 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,29",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-04-2018 08:24 Transactie:90Q0O7 Term:589Z0V"
+  },
+  {
+    "Datum": 20180412,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "85,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: mac charger IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180412,
+    "Naam / Omschrijving": "Kosten BasisPakket",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "1 jan t/m 31 mrt 2018 ING BANK N.V."
+  },
+  {
+    "Datum": 20180410,
+    "Naam / Omschrijving": "Hans Prijsoptiek B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL68DEUT0447287117",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "23,95",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hans Prijsoptiek B.V. Omschrijving: 3011907 1150000865608118 Description HANS ANDERS WEBWINKEL IBAN: NL68DEUT0447287117 Kenmerk: 10-04-2018 08:23 1150000865608118"
+  },
+  {
+    "Datum": 20180410,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "22,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180410,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180410,
+    "Naam / Omschrijving": "LVS TABAKSAUTOMAAT SON EN BREUGE",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-04-2018 19:49 Transactie:15S9B8 Term:CT479089"
+  },
+  {
+    "Datum": 20180410,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-04-2018 19:45 Transactie:1576O4 Term:522B9K"
+  },
+  {
+    "Datum": 20180409,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-04-2018 11:51 Transactie:7647I1 Term:543KG8"
+  },
+  {
+    "Datum": 20180409,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,77",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-04-2018 12:18 Transactie:7713V2 Term:710LFN"
+  },
+  {
+    "Datum": 20180409,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,79",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-04-2018 12:24 Transactie:778641 Term:15BPS6"
+  },
+  {
+    "Datum": 20180409,
+    "Naam / Omschrijving": "Albert Heijn 8634 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,53",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-04-2018 20:34 Transactie:94Z3Y1 Term:J86JL9"
+  },
+  {
+    "Datum": 20180409,
+    "Naam / Omschrijving": "LVS TABAKSAUTOMAAT SON EN BREUGE",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-04-2018 19:27 Transactie:67F5R4 Term:CT479359"
+  },
+  {
+    "Datum": 20180409,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,55",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-04-2018-08-05-2018 IBAN: NL38INGB0703076094 Kenmerk: 6853285 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180406,
+    "Naam / Omschrijving": "ALBERT HEIJN 1009 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,37",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-04-2018 20:21 Transactie:86X5V6 Term:409Z86"
+  },
+  {
+    "Datum": 20180405,
+    "Naam / Omschrijving": "Stichting Derdengelden Buckaroo",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL60INGB0653455348",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Stichting Derdengelden Buckaroo Omschrijving: Swapfiets Delft BV: 1-4 Original Normal 30 dagen: 15.00 IBAN: NL60INGB0653455348 Kenmerk: EAA1535075C344118150DC38EB367082 Machtiging ID: 0YF-2-49907-83273 Incassant ID: NL39ZZZ302317620000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180404,
+    "Naam / Omschrijving": "Broodzaak ASB 9399 AMSTERDAM ZUI",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-04-2018 18:39 Transactie:10A7F0 Term:9Y44D4"
+  },
+  {
+    "Datum": 20180404,
+    "Naam / Omschrijving": "AH to go Bijlmer5833",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-04-2018 18:41 Transactie:10W3Z2 Term:24SRZ0"
+  },
+  {
+    "Datum": 20180404,
+    "Naam / Omschrijving": "CCV*BEIAARD GROEP NL W AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "29,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-04-2018 20:31 Transactie:88F9K6 Term:CT311985"
+  },
+  {
+    "Datum": 20180404,
+    "Naam / Omschrijving": "CCV*BEIAARD GROEP NL W AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-04-2018 20:54 Transactie:88Z2S4 Term:CT311985"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "McDonald's Muntplein AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,55",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-03-2018 20:26 Transactie:0089W6 Term:2HC406"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "CCV*CAFE SCHINKELHAVEN AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-03-2018 21:34 Transactie:62V966 Term:CT441558"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "CCV*CAFE SCHINKELHAVEN AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-03-2018 23:18 Transactie:6506I3 Term:CT465966"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,61",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-04-2018 21:48 Transactie:89H021 Term:543KG8"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "450,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "ING-Kantoor Eerste van S 00008279 PASVOLGNR 001 31-03-2018 13:58 TRANSACTIENR 10641"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "Kruidvat 3409 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,72",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-03-2018 14:57 Transactie:33U1G1 Term:17QC01"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,26",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-03-2018 21:40 Transactie:52G889 Term:XMX98J"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "AH togo A'damOst 5822 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-03-2018 22:01 Transactie:53Q2D7 Term:5VTV04"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-03-2018 21:49 Transactie:5398W4 Term:94JY26"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "NS-Schiphol 213 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-03-2018 22:53 Transactie:5423N3 Term:0B819N"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,64",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-04-2018 10:17 Transactie:69V012 Term:578QY7"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180403,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "500,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent April IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180329,
+    "Naam / Omschrijving": "ALBERT HEIJN 1676 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,29",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-03-2018 08:33 Transactie:24I016 Term:NPT153"
+  },
+  {
+    "Datum": 20180328,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,30",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2018-9922519 0020001896099529 Order Number 2018-9922519 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 28-03-2018 19:35 0020001896099529"
+  },
+  {
+    "Datum": 20180328,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-03-2018 08:22 Transactie:97E1X6 Term:C8QG34"
+  },
+  {
+    "Datum": 20180328,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,79",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-03-2018 08:23 Transactie:97E2L6 Term:726VJ4"
+  },
+  {
+    "Datum": 20180328,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,33",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-03-2018 08:24 Transactie:97L0G8 Term:18PL10"
+  },
+  {
+    "Datum": 20180328,
+    "Naam / Omschrijving": "GVB voertuig T825 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-03-2018 20:24 Transactie:92W899 Term:1YW316"
+  },
+  {
+    "Datum": 20180327,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180327,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Groceries - Feenstra IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180327,
+    "Naam / Omschrijving": "GVB voertuig T2016CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-03-2018 08:29 Transactie:62G4K6 Term:39RND9"
+  },
+  {
+    "Datum": 20180327,
+    "Naam / Omschrijving": "CCV*CAFE ORLOFI AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-03-2018 14:25 Transactie:146112 Term:CT373949"
+  },
+  {
+    "Datum": 20180327,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "101,35",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. April 2018 t/m april 2018 IBAN: NL87INGB0000717127 Kenmerk: 10020120621 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180326,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-03-2018 18:07 Transactie:A8A6O9 Term:64WV8C"
+  },
+  {
+    "Datum": 20180326,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,96",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-03-2018 18:00 Transactie:A813K8 Term:543KG8"
+  },
+  {
+    "Datum": 20180326,
+    "Naam / Omschrijving": "Feenstra Verwarming B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL58INGB0664502229",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,19",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Feenstra Verwarming B.V. Omschrijving: incasso Feenstra/Nuon 9032658 Termijn 01-04-2018 - 30-06-2018 IBAN: NL58INGB0664502229 Kenmerk: 1800011-3683-.55P0JGYA7 Machtiging ID: C30628-0667253386 Incassant ID: NL05ZZZ390227460000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180326,
+    "Naam / Omschrijving": "SALSA SHOP Amstelstr AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-03-2018 19:46 Transactie:61U708 Term:G54ZDF"
+  },
+  {
+    "Datum": 20180326,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "157,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Trash tax IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180326,
+    "Naam / Omschrijving": "Belastingdienst",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL89INGB0000004820",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "70,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Belastingdienst Omschrijving: 5646.12.273.H5601 IBAN: NL89INGB0000004820"
+  },
+  {
+    "Datum": 20180323,
+    "Naam / Omschrijving": "TERRACINO ANNA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT20L0306962198100000001716",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "300,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: TERRACINO ANNA Omschrijving: Corso di coding IBAN: IT20L0306962198100000001716"
+  },
+  {
+    "Datum": 20180323,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,75",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908014332314 IBAN: NL61COBA0733974775 Kenmerk: 501311988585 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180322,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,06",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2018-9861047 0020001888490981 Order Number 2018-9861047 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 22-03-2018 19:53 0020001888490981"
+  },
+  {
+    "Datum": 20180322,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,19",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-03-2018 08:13 Transactie:92V2M1 Term:710LFN"
+  },
+  {
+    "Datum": 20180321,
+    "Naam / Omschrijving": "Albert Heijn 4107 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-03-2018 09:00 Transactie:5683X2 Term:1L8GGB"
+  },
+  {
+    "Datum": 20180321,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,76",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-03-2018 18:52 Transactie:50M6E9 Term:15BPS6"
+  },
+  {
+    "Datum": 20180320,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-03-2018 08:16 Transactie:19G5G3 Term:C8QG34"
+  },
+  {
+    "Datum": 20180320,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,68",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-03-2018 08:21 Transactie:19V0E8 Term:726VJ4"
+  },
+  {
+    "Datum": 20180320,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL86INGB0002445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "95,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: MAAND APR. NR. 564612273T800013 VOORSCHOT ZORGTOESLAG 2018 (LEAHY ) MEER INFO OP WWW.TOESLAGEN.NL IBAN: NL86INGB0002445588 Kenmerk: 20180315043261921"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,47",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-03-2018 08:23 Transactie:99S5T2 Term:726VJ4"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "CCV*KING ARTHUR UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-03-2018 12:12 Transactie:49P8I7 Term:CT468845"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "CCV*BAGELS AND BEANS R AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-03-2018 13:18 Transactie:856671 Term:CT449316"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-03-2018 16:44 Transactie:93A9N9 Term:543KG8"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,46",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-03-2018 19:27 Transactie:97D5U7 Term:15BPS6"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "CCV*LANGENDIJK EETCAFE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-03-2018 18:29 Transactie:31W583 Term:CT083267"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "NS-Amsterdam C. 218 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,72",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-03-2018 10:17 Transactie:42Q5O9 Term:475NDQ"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "2THELOO HOOG CATHARIJN UTRECHT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-03-2018 13:13 Transactie:54B612 Term:CT499259"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "Salsa Shop UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-03-2018 13:35 Transactie:5589M0 Term:PB2XBV"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "NS Utrecht CS - 122 UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-03-2018 15:26 Transactie:64E4Q9 Term:7J261F"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "Kiosk UT 3220 UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-03-2018 15:30 Transactie:64V1W2 Term:Q159W5"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "CCV*Jumpsquare Amsterd AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-03-2018 20:41 Transactie:77J161 Term:CT495856"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "ALBERT HEIJN 1009 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,47",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-03-2018 21:22 Transactie:784093 Term:409Z86"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "30,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180319,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "30,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180316,
+    "Naam / Omschrijving": "Energy Dictator AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-03-2018 19:24 Transactie:A3R1H6 Term:686KYN"
+  },
+  {
+    "Datum": 20180316,
+    "Naam / Omschrijving": "CCV*CAFE BELCAMPO AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-03-2018 20:55 Transactie:A5I5L2 Term:CT067255"
+  },
+  {
+    "Datum": 20180315,
+    "Naam / Omschrijving": "ING>KINKERSTRAAT 130A>A   004126",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "15-03-2018 19:51 001     4731488"
+  },
+  {
+    "Datum": 20180315,
+    "Naam / Omschrijving": "Pasta Paradijs AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-03-2018 18:42 Transactie:67E063 Term:70T979"
+  },
+  {
+    "Datum": 20180313,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-03-2018 09:13 Transactie:05P646 Term:64WV8C"
+  },
+  {
+    "Datum": 20180313,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-03-2018 08:36 Transactie:057011 Term:XMX98J"
+  },
+  {
+    "Datum": 20180313,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-03-2018 12:05 Transactie:90Y8I5 Term:T61M88"
+  },
+  {
+    "Datum": 20180312,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-03-2018 08:48 Transactie:84U6Z0 Term:XMX98J"
+  },
+  {
+    "Datum": 20180312,
+    "Naam / Omschrijving": "SUMUP  *FRANGGO BV AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-03-2018 20:58 Transactie:60X783 Term:12D27599"
+  },
+  {
+    "Datum": 20180312,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,31",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-03-2018 13:27 Transactie:36I8X8 Term:543KG8"
+  },
+  {
+    "Datum": 20180312,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-03-2018 15:08 Transactie:44Z4U3 Term:543KG8"
+  },
+  {
+    "Datum": 20180312,
+    "Naam / Omschrijving": "'t Ballonnetje AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-03-2018 21:13 Transactie:60Y7I4 Term:V3Z1BM"
+  },
+  {
+    "Datum": 20180312,
+    "Naam / Omschrijving": "CCV*CAFE BELCAMPO AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-03-2018 15:54 Transactie:01D856 Term:CT067255"
+  },
+  {
+    "Datum": 20180312,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "300,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naar Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180309,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,55",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-03-2018-08-04-2018 IBAN: NL38INGB0703076094 Kenmerk: 6207239 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180309,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-03-2018 15:09 Transactie:59P4B2 Term:18PL10"
+  },
+  {
+    "Datum": 20180309,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-03-2018 15:12 Transactie:69A7F4 Term:543KG8"
+  },
+  {
+    "Datum": 20180308,
+    "Naam / Omschrijving": "Stichting Derdengelden Buckaroo",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL60INGB0653455348",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "23,04",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Stichting Derdengelden Buckaroo Omschrijving: Swapfiets Delft BV: 14-2 Original Normal 15 dagen: 8.04,1-3 Original Normal 31 dagen: 15.00 IBAN: NL60INGB0653455348 Kenmerk: 66C2420E0AAE493D8134BAF98FE4F2A2 Machtiging ID: 0YF-2-49907-83273 Incassant ID: NL39ZZZ302317620000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180308,
+    "Naam / Omschrijving": "The Coffee Company B AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-03-2018 11:15 Transactie:21A048 Term:01Z11Q"
+  },
+  {
+    "Datum": 20180308,
+    "Naam / Omschrijving": "Bagels & Beans Veemk AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-03-2018 14:16 Transactie:3291Q9 Term:J4YHD3"
+  },
+  {
+    "Datum": 20180307,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "450,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-OHANDELSKADE  00008154 PASVOLGNR 001 07-03-2018 12:58 TRANSACTIENR 7760"
+  },
+  {
+    "Datum": 20180306,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,06",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2018-9716370 0020001870245828 Order Number 2018-9716370 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 06-03-2018 20:21 0020001870245828"
+  },
+  {
+    "Datum": 20180306,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,41",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-03-2018 20:36 Transactie:89W6D6 Term:15BPS6"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "CCV*CAFE LE JOURNAL BV UTRECHT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2018 18:58 Transactie:33F5U0 Term:CT320883"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-03-2018 12:12 Transactie:41Z197 Term:64WV8C"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-03-2018 12:50 Transactie:433777 Term:15BPS6"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "CCV*CAFE DE SPIEGEL AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-03-2018 16:06 Transactie:5215K5 Term:CT432549"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-03-2018 17:54 Transactie:5673M1 Term:64WV8C"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,12",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-03-2018 20:17 Transactie:58N1M0 Term:15BPS6"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "Kiosk ASD 2922 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2018 15:04 Transactie:20F2S5 Term:S1H4B6"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "NS-Amsterdam CS 224 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2018 15:02 Transactie:20G1M2 Term:0HGP48"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "7563 AKO Utrecht UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2018 15:50 Transactie:24D181 Term:9MT714"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "NS Utrecht CS - 122 UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,52",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2018 20:02 Transactie:35C9I8 Term:7J261F"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-03-2018 17:04 Transactie:94K9P4 Term:543KG8"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180305,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180302,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Gift Rose IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180302,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180301,
+    "Naam / Omschrijving": "CCV*ST NATIONALE OPERA AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-02-2018 21:48 Transactie:29P524 Term:CT080065"
+  },
+  {
+    "Datum": 20180228,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "500,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233 Rent March"
+  },
+  {
+    "Datum": 20180228,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "500,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent March IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180228,
+    "Naam / Omschrijving": "Primera Waterlooplein AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,35",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-02-2018 17:57 Transactie:A08440 Term:J5T7ZW"
+  },
+  {
+    "Datum": 20180228,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-02-2018 19:16 Transactie:A2Y016 Term:214Y40"
+  },
+  {
+    "Datum": 20180228,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "37,96",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-02-2018 19:59 Transactie:A3T4M8 Term:3C7SX1"
+  },
+  {
+    "Datum": 20180228,
+    "Naam / Omschrijving": "Coffee Comp Waterlpl AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-02-2018 17:22 Transactie:98D4K7 Term:1D3Z50"
+  },
+  {
+    "Datum": 20180228,
+    "Naam / Omschrijving": "HEMA EV348 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-02-2018 17:18 Transactie:9808T9 Term:882T80"
+  },
+  {
+    "Datum": 20180227,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180227,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "101,35",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Maart 2018 t/m maart 2018 IBAN: NL87INGB0000717127 Kenmerk: 10016149983 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180226,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: New York Pizza IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180226,
+    "Naam / Omschrijving": "ABN AMRO Bank NV",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL13ABNA0506417344",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,38",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: ABN AMRO Bank NV Omschrijving: 000020758707 0030002692847614 Sanne NL04RABO0123148758 IBAN: NL13ABNA0506417344 Kenmerk: 26-02-2018 17:49 0030002692847614"
+  },
+  {
+    "Datum": 20180226,
+    "Naam / Omschrijving": "Noodlebar Centraal Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-02-2018 14:23 Transactie:262679 Term:CT069824"
+  },
+  {
+    "Datum": 20180226,
+    "Naam / Omschrijving": "CCV*BAGELS AND BEANS R AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-02-2018 14:42 Transactie:A575O4 Term:CT449316"
+  },
+  {
+    "Datum": 20180226,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-02-2018 15:34 Transactie:60I656 Term:710LFN"
+  },
+  {
+    "Datum": 20180226,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-02-2018 18:28 Transactie:72A821 Term:B4B5SP"
+  },
+  {
+    "Datum": 20180226,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-02-2018 20:33 Transactie:77A6F8 Term:578QY7"
+  },
+  {
+    "Datum": 20180223,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,29",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908013765240 IBAN: NL61COBA0733974775 Kenmerk: 500114038072 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180222,
+    "Naam / Omschrijving": "CCV*CAFE VAN ZUYLEN AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-02-2018 11:17 Transactie:41W747 Term:CT349144"
+  },
+  {
+    "Datum": 20180222,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-02-2018 15:56 Transactie:93K6R4 Term:BM15Z1"
+  },
+  {
+    "Datum": 20180221,
+    "Naam / Omschrijving": "Stichting Derdengelden Buckaroo",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL19DEUT0319821366",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,40",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Stichting Derdengelden Buckaroo Omschrijving: D201806790000016 1150000836860544 Donation Amsterdams Universiteit Stg Amsterdams Universiteitsfonds IBAN: NL19DEUT0319821366 Kenmerk: 21-02-2018 18:43 1150000836860544"
+  },
+  {
+    "Datum": 20180221,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "200,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-1E VAN SWINDEN 00008288 PASVOLGNR 001 21-02-2018 00:00 TRANSACTIENR 56826"
+  },
+  {
+    "Datum": 20180221,
+    "Naam / Omschrijving": "HMSHOST AMSTERDAM SCHI",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-02-2018 14:11 Transactie:52E614 Term:80482186"
+  },
+  {
+    "Datum": 20180221,
+    "Naam / Omschrijving": "Belastingdienst",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL89INGB0000004820",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "70,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Belastingdienst Omschrijving: 5646.12.273.H5601 IBAN: NL89INGB0000004820"
+  },
+  {
+    "Datum": 20180220,
+    "Naam / Omschrijving": "GVB voertuig B360 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-02-2018 09:42 Transactie:38P120 Term:05JG76"
+  },
+  {
+    "Datum": 20180220,
+    "Naam / Omschrijving": "Xenos Amsterd.0017 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-02-2018 14:47 Transactie:2282A9 Term:72BV03"
+  },
+  {
+    "Datum": 20180220,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL86INGB0002445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "95,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: MAAND MRT. NR. 564612273T800013 VOORSCHOT ZORGTOESLAG 2018 (LEAHY ) MEER INFO OP WWW.TOESLAGEN.NL IBAN: NL86INGB0002445588 Kenmerk: 20180215024644340"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "Kruidvat 7206 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,64",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-02-2018 12:29 Transactie:A1L5C2 Term:4CM201"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "Van Gogh Museum Ams AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-02-2018 14:57 Transactie:A788D8 Term:J73R69"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "'t Ballonnetje AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-02-2018 18:38 Transactie:04C7T3 Term:V3Z1BM"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "GVB voertuig T2048CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-02-2018 21:56 Transactie:06Y5B2 Term:557GS2"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "Stichting Amsterdam AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "21,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-02-2018 17:40 Transactie:914029 Term:LB2CQ6"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "Stichting Amsterdam AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-02-2018 18:26 Transactie:92K865 Term:5Q8H01"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "NS-A'dam Muiderp 201 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "30,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-02-2018 14:44 Transactie:34E5W6 Term:5WXQ01"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "NS-A'dam Muiderp 201 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,63",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-02-2018 14:45 Transactie:34F7G9 Term:5WXQ01"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "NS-R'dam Noord 201 ROTTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-02-2018 17:35 Transactie:45Q4T0 Term:5WMS01"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "Het paviljoen ROTTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-02-2018 17:43 Transactie:4617S4 Term:9B3T33"
+  },
+  {
+    "Datum": 20180219,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180216,
+    "Naam / Omschrijving": "NS-A'dam CS 113 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,97",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-02-2018 08:29 Transactie:15L0S5 Term:1ZL410"
+  },
+  {
+    "Datum": 20180216,
+    "Naam / Omschrijving": "NS-Schiphol 209 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-02-2018 08:56 Transactie:15S4B2 Term:099CNB"
+  },
+  {
+    "Datum": 20180216,
+    "Naam / Omschrijving": "Starbucks ASD 2948 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,55",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-02-2018 09:24 Transactie:16N3D0 Term:13RW3B"
+  },
+  {
+    "Datum": 20180216,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "14,66",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-02-2018 19:22 Transactie:10D971 Term:578QY7"
+  },
+  {
+    "Datum": 20180215,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "300,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naar Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180215,
+    "Naam / Omschrijving": "SUMUP  *COFFEESHOP YOY AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-02-2018 15:30 Transactie:7754Q0 Term:12D36977"
+  },
+  {
+    "Datum": 20180215,
+    "Naam / Omschrijving": "CCV*THE READ SHOP EXPR AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-02-2018 12:27 Transactie:66G399 Term:CT460484"
+  },
+  {
+    "Datum": 20180215,
+    "Naam / Omschrijving": "DIRK VDBROEK FIL3166 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,27",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-02-2018 12:34 Transactie:670202 Term:PR0508"
+  },
+  {
+    "Datum": 20180215,
+    "Naam / Omschrijving": "Cafe Brecht AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-02-2018 13:20 Transactie:69D9B0 Term:783XBX"
+  },
+  {
+    "Datum": 20180214,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "24,14",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: 8B7XNA 0030002665258542 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 14-02-2018 19:03 0030002665258542"
+  },
+  {
+    "Datum": 20180214,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180214,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,97",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-02-2018 17:38 Transactie:5001S8 Term:15BPS6"
+  },
+  {
+    "Datum": 20180214,
+    "Naam / Omschrijving": "Coffee Company Javap AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,85",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-02-2018 12:49 Transactie:3580V2 Term:01S9W7"
+  },
+  {
+    "Datum": 20180214,
+    "Naam / Omschrijving": "Coffee Company Javap AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-02-2018 14:01 Transactie:38L302 Term:01S9W7"
+  },
+  {
+    "Datum": 20180213,
+    "Naam / Omschrijving": "Stichting Sisow",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL40INGB0654880735",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "21,45",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Stichting Sisow Omschrijving: 18610 0050003147988573 Ordernummer 18610 Het Hippe Schaap IBAN: NL40INGB0654880735 Kenmerk: 13-02-2018 13:01 0050003147988573"
+  },
+  {
+    "Datum": 20180213,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "440,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-1E VAN SWINDEN 00008279 PASVOLGNR 001 13-02-2018 00:00 TRANSACTIENR 95756"
+  },
+  {
+    "Datum": 20180213,
+    "Naam / Omschrijving": "Hans Prijsoptiek B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL68DEUT0447287117",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "59,40",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hans Prijsoptiek B.V. Omschrijving: 2979941 1150000832121490 Description HANS ANDERS WEBWINKEL IBAN: NL68DEUT0447287117 Kenmerk: 13-02-2018 09:38 1150000832121490"
+  },
+  {
+    "Datum": 20180213,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "60,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180212,
+    "Naam / Omschrijving": "Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL51ABNA0565668625",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "37,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Adyen Omschrijving: 4815184559017462 0030002660634329 Treatwell booking 002610Treatwell IBAN: NL51ABNA0565668625 Kenmerk: 12-02-2018 18:18 0030002660634329"
+  },
+  {
+    "Datum": 20180212,
+    "Naam / Omschrijving": "Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL51ABNA0565668625",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "37,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Adyen Omschrijving: 4815184561538729 0030002660645563 Treatwell booking 002610Treatwell IBAN: NL51ABNA0565668625 Kenmerk: 12-02-2018 18:22 0030002660645563"
+  },
+  {
+    "Datum": 20180212,
+    "Naam / Omschrijving": "HartBiet AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-02-2018 12:38 Transactie:90Z006 Term:611ZG7"
+  },
+  {
+    "Datum": 20180212,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-02-2018 13:36 Transactie:92Z0S7 Term:XMX98J"
+  },
+  {
+    "Datum": 20180212,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,68",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-02-2018 20:32 Transactie:8499G6 Term:5DV3JD"
+  },
+  {
+    "Datum": 20180212,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-02-2018 17:43 Transactie:35I424 Term:543KG8"
+  },
+  {
+    "Datum": 20180212,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-02-2018 21:58 Transactie:42S622 Term:522B9K"
+  },
+  {
+    "Datum": 20180212,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-02-2018 00:41 Transactie:43M9U2 Term:522B9K"
+  },
+  {
+    "Datum": 20180212,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "300,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naar Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180212,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "15,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180209,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,41",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-02-2018 18:48 Transactie:A8U125 Term:578QY7"
+  },
+  {
+    "Datum": 20180209,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,06",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-02-2018-08-03-2018 IBAN: NL38INGB0703076094 Kenmerk: 5533639 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180209,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-02-2018 15:10 Transactie:96R7F5 Term:860L09"
+  },
+  {
+    "Datum": 20180208,
+    "Naam / Omschrijving": "Restaurant Stedelijk AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-02-2018 14:26 Transactie:5929P8 Term:NV26C1"
+  },
+  {
+    "Datum": 20180207,
+    "Naam / Omschrijving": "Brazuca Coffee Ferdi AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-02-2018 16:13 Transactie:3179A7 Term:VN250R"
+  },
+  {
+    "Datum": 20180207,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,96",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-02-2018 19:24 Transactie:39K607 Term:3C7SX1"
+  },
+  {
+    "Datum": 20180206,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "460,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-CEINTUURBAAN  00008086 PASVOLGNR 001 06-02-2018 00:00 TRANSACTIENR 32938"
+  },
+  {
+    "Datum": 20180206,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "30,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-02-2018 13:05 Transactie:A0A796 Term:94JY26"
+  },
+  {
+    "Datum": 20180205,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180205,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-02-2018 12:43 Transactie:7364G6 Term:3C7SX1"
+  },
+  {
+    "Datum": 20180205,
+    "Naam / Omschrijving": "CCV*LABAR AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-02-2018 14:31 Transactie:77X1I3 Term:PY001711"
+  },
+  {
+    "Datum": 20180205,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "23,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-02-2018 10:38 Transactie:3022E0 Term:15BPS6"
+  },
+  {
+    "Datum": 20180205,
+    "Naam / Omschrijving": "GVB voertuig T2109BB AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-02-2018 13:30 Transactie:41R7Y3 Term:8X467R"
+  },
+  {
+    "Datum": 20180205,
+    "Naam / Omschrijving": "WATERKANT AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-02-2018 20:19 Transactie:6657Z2 Term:6FM611"
+  },
+  {
+    "Datum": 20180205,
+    "Naam / Omschrijving": "SALSA SHOP Amstelstr AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-02-2018 21:03 Transactie:6720D4 Term:G54ZDF"
+  },
+  {
+    "Datum": 20180205,
+    "Naam / Omschrijving": "GVB voertuig T830 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-02-2018 00:13 Transactie:68P2D1 Term:225M95"
+  },
+  {
+    "Datum": 20180205,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,08",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-02-2018 20:52 Transactie:22D9J1 Term:543KG8"
+  },
+  {
+    "Datum": 20180205,
+    "Naam / Omschrijving": "TON TON CLUB AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-02-2018 22:17 Transactie:23G9U5 Term:CT476788"
+  },
+  {
+    "Datum": 20180202,
+    "Naam / Omschrijving": "GVB voertuig T2101CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-02-2018 20:45 Transactie:90F9L4 Term:874QBL"
+  },
+  {
+    "Datum": 20180201,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent February IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180201,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180201,
+    "Naam / Omschrijving": "GVB voertuig T2127CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-01-2018 20:35 Transactie:54G420 Term:9PM524"
+  },
+  {
+    "Datum": 20180201,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-01-2018 21:48 Transactie:55J0X6 Term:B54Y65"
+  },
+  {
+    "Datum": 20180131,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180131,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180131,
+    "Naam / Omschrijving": "Texaco Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-01-2018 11:44 Transactie:A5U637 Term:YZ5KLL"
+  },
+  {
+    "Datum": 20180131,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,49",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-01-2018 14:10 Transactie:04N0Z0 Term:CSL8H6"
+  },
+  {
+    "Datum": 20180131,
+    "Naam / Omschrijving": "Bruna-Amsterdam-168 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-01-2018 15:29 Transactie:0900Q1 Term:1MNR6D"
+  },
+  {
+    "Datum": 20180131,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-01-2018 15:52 Transactie:100371 Term:64WV8C"
+  },
+  {
+    "Datum": 20180131,
+    "Naam / Omschrijving": "OPLADEN OV-CHIPKAART AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-01-2018 17:25 Transactie:15F009 Term:NJG0WF"
+  },
+  {
+    "Datum": 20180131,
+    "Naam / Omschrijving": "CCV*LANGENDIJK EETCAFE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-01-2018 23:54 Transactie:98P0B7 Term:CT083834"
+  },
+  {
+    "Datum": 20180130,
+    "Naam / Omschrijving": "Texaco Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-01-2018 11:45 Transactie:A602C3 Term:YZ5KLL"
+  },
+  {
+    "Datum": 20180130,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,23",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-01-2018 12:50 Transactie:78Q6A0 Term:726VJ4"
+  },
+  {
+    "Datum": 20180129,
+    "Naam / Omschrijving": "Albert Heijn 8634 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,49",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-01-2018 16:48 Transactie:36T5I9 Term:J86JL9"
+  },
+  {
+    "Datum": 20180129,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,52",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-01-2018 17:57 Transactie:40V6O4 Term:5DV3JD"
+  },
+  {
+    "Datum": 20180129,
+    "Naam / Omschrijving": "GVB voertuig B365 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-01-2018 00:09 Transactie:46X9I4 Term:0F051S"
+  },
+  {
+    "Datum": 20180129,
+    "Naam / Omschrijving": "CCV*SOHO AMSTERDAM BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-01-2018 01:22 Transactie:47I5Y4 Term:CT447732"
+  },
+  {
+    "Datum": 20180129,
+    "Naam / Omschrijving": "CCV*BAGELS AND BEANS UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "14,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-01-2018 15:01 Transactie:5844G4 Term:CT441617"
+  },
+  {
+    "Datum": 20180129,
+    "Naam / Omschrijving": "NS-A'dam C.121 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,96",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-01-2018 20:09 Transactie:67S2E1 Term:1ZL421"
+  },
+  {
+    "Datum": 20180129,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "101,35",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Februari 2018 t/m februari 2018 IBAN: NL87INGB0000717127 Kenmerk: 10012294371 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180129,
+    "Naam / Omschrijving": "Vermaat OBA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-01-2018 18:08 Transactie:A362Q7 Term:436ZM6"
+  },
+  {
+    "Datum": 20180126,
+    "Naam / Omschrijving": "MMS Online Nederland B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL84INGB0656768436",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "781,16",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: MMS Online Nederland B.V. Omschrijving: 75087441 0050003123285970 OrderId: 75087441 Media Markt Online Nederland IBAN: NL84INGB0656768436 Kenmerk: 26-01-2018 17:54 0050003123285970"
+  },
+  {
+    "Datum": 20180126,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180126,
+    "Naam / Omschrijving": "HartBiet AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-01-2018 14:13 Transactie:4615S4 Term:611ZG7"
+  },
+  {
+    "Datum": 20180126,
+    "Naam / Omschrijving": "HartBiet AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-01-2018 15:40 Transactie:51F065 Term:611ZG7"
+  },
+  {
+    "Datum": 20180125,
+    "Naam / Omschrijving": "ALBERT HEIJN 1647 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,29",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-01-2018 11:32 Transactie:35Z2T3 Term:Y25MR3"
+  },
+  {
+    "Datum": 20180125,
+    "Naam / Omschrijving": "IZ *Stichting Cafe Mez AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-01-2018 21:50 Transactie:27T1V4 Term:88416101"
+  },
+  {
+    "Datum": 20180125,
+    "Naam / Omschrijving": "CCV*H. JONGEJANS REIGE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-01-2018 08:45 Transactie:A339Z3 Term:CT067141"
+  },
+  {
+    "Datum": 20180125,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-01-2018 19:33 Transactie:25X0L3 Term:C8QG34"
+  },
+  {
+    "Datum": 20180125,
+    "Naam / Omschrijving": "HEMA EV020 LINNAEUS. AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,15",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-01-2018 14:01 Transactie:08Z7S7 Term:MD0501"
+  },
+  {
+    "Datum": 20180125,
+    "Naam / Omschrijving": "20 Hema Linnaeusstra AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-01-2018 14:04 Transactie:0946A9 Term:FH5VQ2"
+  },
+  {
+    "Datum": 20180124,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-01-2018 10:23 Transactie:79Y8U8 Term:SP3Z13"
+  },
+  {
+    "Datum": 20180124,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "17,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: pic s IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180123,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,49",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-01-2018 17:36 Transactie:62H0Y5 Term:T61M88"
+  },
+  {
+    "Datum": 20180123,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,05",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908013285487 IBAN: NL61COBA0733974775 Kenmerk: 501814737879 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180123,
+    "Naam / Omschrijving": "HartBiet AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-01-2018 14:11 Transactie:516564 Term:611ZG7"
+  },
+  {
+    "Datum": 20180123,
+    "Naam / Omschrijving": "HartBiet AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-01-2018 14:39 Transactie:52K4Q3 Term:611ZG7"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "Santa Maria 23 BV Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,35",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-01-2018 17:37 Transactie:32W3B1 Term:PPEUC001"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "Santa Maria 23 BV Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-01-2018 17:47 Transactie:3324U4 Term:PPEUC001"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-01-2018 10:27 Transactie:198053 Term:94JY26"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-01-2018 13:50 Transactie:24B189 Term:543KG8"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-01-2018 21:24 Transactie:35W424 Term:4R9Z48"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "GVB voertuig T2030CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-01-2018 17:50 Transactie:11V012 Term:47FK29"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL86INGB0002445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "95,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: MAAND FEB. NR. 564612273T800013 VOORSCHOT ZORGTOESLAG 2018 (LEAHY ) MEER INFO OP WWW.TOESLAGEN.NL IBAN: NL86INGB0002445588 Kenmerk: 20180117008666405"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,06",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2018-9248435 0020001816002232 Order Number 2018-9248435 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 20-01-2018 18:29 0020001816002232"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-01-2018 12:15 Transactie:56G3L8 Term:XMX98J"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "Vermaat OBA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-01-2018 13:51 Transactie:62V4L4 Term:522YJ9"
+  },
+  {
+    "Datum": 20180122,
+    "Naam / Omschrijving": "Cafe de Jaren AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-01-2018 20:04 Transactie:82V9V5 Term:SH5002"
+  },
+  {
+    "Datum": 20180119,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-01-2018 18:19 Transactie:40H383 Term:543KG8"
+  },
+  {
+    "Datum": 20180119,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-01-2018 19:49 Transactie:4279R8 Term:543KG8"
+  },
+  {
+    "Datum": 20180119,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,86",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-01-2018 20:18 Transactie:43T375 Term:15BPS6"
+  },
+  {
+    "Datum": 20180118,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naar Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180118,
+    "Naam / Omschrijving": "TERRACINO ANNA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT20L0306962198100000001716",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "1000,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: TERRACINO ANNA Omschrijving: Corso di Programmazione IBAN: IT20L0306962198100000001716"
+  },
+  {
+    "Datum": 20180118,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-01-2018 17:20 Transactie:09J0I7 Term:94JY26"
+  },
+  {
+    "Datum": 20180117,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-01-2018 09:22 Transactie:95S5Y0 Term:XMX98J"
+  },
+  {
+    "Datum": 20180117,
+    "Naam / Omschrijving": "STARBUCKS 16337 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-01-2018 14:58 Transactie:79S993 Term:CT362566"
+  },
+  {
+    "Datum": 20180117,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,91",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-01-2018 17:27 Transactie:87J588 Term:15BPS6"
+  },
+  {
+    "Datum": 20180117,
+    "Naam / Omschrijving": "GVB voertuig T2066CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-01-2018 22:39 Transactie:93F854 Term:69Y2HM"
+  },
+  {
+    "Datum": 20180117,
+    "Naam / Omschrijving": "Pakhuis de Zwijger AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-01-2018 20:57 Transactie:9311W1 Term:W749D1"
+  },
+  {
+    "Datum": 20180117,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-01-2018 15:48 Transactie:82D997 Term:XMX98J"
+  },
+  {
+    "Datum": 20180116,
+    "Naam / Omschrijving": "HM BECHT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL15ABNA0401141365",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "77,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: HM BECHT IBAN: NL15ABNA0401141365"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "14,24",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2018-9201287 0020001810015063 Order Number 2018-9201287 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 15-01-2018 19:05 0020001810015063"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "CCV*MCDONALDS NIEUWEND AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-01-2018 22:58 Transactie:1744L3 Term:CT394432"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "CCV*PQNL SPUI BV AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-01-2018 12:35 Transactie:21C6L8 Term:CT429627"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-01-2018 13:36 Transactie:23L4H0 Term:D985M6"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "CCV*CAFE MADS AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-01-2018 19:34 Transactie:14K3F0 Term:CT438571"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "The Coffee Company AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-01-2018 11:17 Transactie:92P731 Term:NXC569"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "Stichting Mollie Payments",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL30ABNA0524590958",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "79,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Stichting Mollie Payments Omschrijving: M2381611M1191DW0 0030002590474656 Order ?73362 denieuweyogaschool.nl 127955De Nieuwe Yogaschool BV IBAN: NL30ABNA0524590958 Kenmerk: 14-01-2018 00:21 0030002590474656"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "CCV*CALDI E FREDDI AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-01-2018 13:54 Transactie:62Z5U4 Term:CT622587"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-01-2018 18:38 Transactie:8002X2 Term:543KG8"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,36",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-01-2018 21:05 Transactie:8495Q5 Term:15BPS6"
+  },
+  {
+    "Datum": 20180115,
+    "Naam / Omschrijving": "VOF Cafe il momento AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-01-2018 14:07 Transactie:63U732 Term:8Z372G"
+  },
+  {
+    "Datum": 20180112,
+    "Naam / Omschrijving": "OPLADEN OV-CHIPKAART AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-01-2018 17:12 Transactie:37G8E4 Term:DM26M1"
+  },
+  {
+    "Datum": 20180112,
+    "Naam / Omschrijving": "20 Hema Linnaeusstra AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-01-2018 17:52 Transactie:39L8H3 Term:FH5VQ2"
+  },
+  {
+    "Datum": 20180112,
+    "Naam / Omschrijving": "HEMA EV020 LINNAEUS. AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-01-2018 17:52 Transactie:39X1R2 Term:MD0506"
+  },
+  {
+    "Datum": 20180111,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,52",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-01-2018 21:08 Transactie:11F0C7 Term:15BPS6"
+  },
+  {
+    "Datum": 20180111,
+    "Naam / Omschrijving": "OPLADEN OV-CHIPKAART AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-01-2018 12:50 Transactie:A0Q416 Term:NJG0WF"
+  },
+  {
+    "Datum": 20180111,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-01-2018 13:59 Transactie:A4C459 Term:BM15Z1"
+  },
+  {
+    "Datum": 20180111,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-01-2018 13:58 Transactie:A4D3M8 Term:BM15Z1"
+  },
+  {
+    "Datum": 20180111,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-01-2018 15:22 Transactie:A8K6H7 Term:522B9K"
+  },
+  {
+    "Datum": 20180111,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,27",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-01-2018 15:34 Transactie:A9E405 Term:15BPS6"
+  },
+  {
+    "Datum": 20180111,
+    "Naam / Omschrijving": "Kosten BasisPakket",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,90",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "1 okt t/m 31 dec 2017 ING BANK N.V."
+  },
+  {
+    "Datum": 20180109,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-01-2018 18:05 Transactie:545946 Term:522B9K"
+  },
+  {
+    "Datum": 20180109,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-01-2018 19:28 Transactie:55M630 Term:522B9K"
+  },
+  {
+    "Datum": 20180109,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,06",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-01-2018-08-02-2018 IBAN: NL38INGB0703076094 Kenmerk: 4860697 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20180108,
+    "Naam / Omschrijving": "CCV*LUNCHCAFE KAREL AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-01-2018 14:24 Transactie:98O891 Term:CT463512"
+  },
+  {
+    "Datum": 20180108,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,01",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-01-2018 16:20 Transactie:A8I4C4 Term:3C7SX1"
+  },
+  {
+    "Datum": 20180108,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-01-2018 21:41 Transactie:08T152 Term:710LFN"
+  },
+  {
+    "Datum": 20180108,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,92",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-01-2018 11:15 Transactie:11I9T8 Term:578QY7"
+  },
+  {
+    "Datum": 20180108,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-01-2018 11:07 Transactie:11U358 Term:94JY26"
+  },
+  {
+    "Datum": 20180108,
+    "Naam / Omschrijving": "Rosereijn Amsterdam AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-01-2018 17:42 Transactie:25N933 Term:1D6JCG"
+  },
+  {
+    "Datum": 20180108,
+    "Naam / Omschrijving": "Action 1342 Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-01-2018 15:08 Transactie:A2D724 Term:72185212"
+  },
+  {
+    "Datum": 20180108,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Sushi IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180105,
+    "Naam / Omschrijving": "Hans Prijsoptiek B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL68DEUT0447287117",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hans Prijsoptiek B.V. Omschrijving: 2969777 1150000807503793 Description HANS ANDERS WEBWINKEL IBAN: NL68DEUT0447287117 Kenmerk: 05-01-2018 12:48 1150000807503793"
+  },
+  {
+    "Datum": 20180105,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "200,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naar Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180105,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "300,25",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: 13E RUN IBAN: NL75ABNA0240357450 Kenmerk: 20180104 00604 54625 0004267 010 1"
+  },
+  {
+    "Datum": 20180104,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Greenchoice November IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180104,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Greenchoice October IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180104,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: NYE Dinner IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180104,
+    "Naam / Omschrijving": "Hr D da Cunha Esteves",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL79INGB0700409408",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hr D da Cunha Esteves Omschrijving: Lunch in Lisbon :) IBAN: NL79INGB0700409408"
+  },
+  {
+    "Datum": 20180104,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Greenchoice December IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180104,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-01-2018 17:51 Transactie:A7X2L6 Term:15BPS6"
+  },
+  {
+    "Datum": 20180103,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,12",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-01-2018 14:10 Transactie:63S6I2 Term:T61M88"
+  },
+  {
+    "Datum": 20180102,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naar Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180102,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "440,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-1E VAN SWINDEN 00008288 PASVOLGNR 001 02-01-2018 00:00 TRANSACTIENR 52959"
+  },
+  {
+    "Datum": 20180102,
+    "Naam / Omschrijving": "FNAC LOJA DO CHIADO LISBOA PRT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-12-2017 20:16 Transactie:16T8I0 Term:00400284"
+  },
+  {
+    "Datum": 20180102,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180102,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20180102,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent January IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20180102,
+    "Naam / Omschrijving": "AEROPUERTO BARCELONA BARCELONA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-12-2017 13:37 Transactie:56G1Y1 Term:81106905"
+  },
+  {
+    "Datum": 20171229,
+    "Naam / Omschrijving": "UNIEURO 49 TORRI DI QUAR ITA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "59,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-12-2017 19:54 Transactie:3755K8 Term:11145753"
+  },
+  {
+    "Datum": 20171227,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,03",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908012816155 IBAN: NL61COBA0733974775 Kenmerk: 500113835142 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171227,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "101,35",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Januari 2018 t/m januari 2018 IBAN: NL87INGB0000717127 Kenmerk: 10007975278 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171227,
+    "Naam / Omschrijving": "ISP       6035-VICENZA VICENZA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-12-2017 15:44 Transactie:03R269 Term:97896035"
+  },
+  {
+    "Datum": 20171227,
+    "Naam / Omschrijving": "Shop 2441/ SBF L4 Schiphol Airp",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-12-2017 20:43 Transactie:69E1W3 Term:31465283"
+  },
+  {
+    "Datum": 20171227,
+    "Naam / Omschrijving": "HEMA EV001 KALVERTOR AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,35",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-12-2017 16:57 Transactie:56P6T8 Term:73VT06"
+  },
+  {
+    "Datum": 20171227,
+    "Naam / Omschrijving": "Waterstone's AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "36,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-12-2017 17:37 Transactie:59X8Q7 Term:EP9108"
+  },
+  {
+    "Datum": 20171227,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,31",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-12-2017 19:06 Transactie:65A978 Term:578QY7"
+  },
+  {
+    "Datum": 20171227,
+    "Naam / Omschrijving": "NS Station Schiphol",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-12-2017 20:06 Transactie:67T976 Term:2BB915"
+  },
+  {
+    "Datum": 20171227,
+    "Naam / Omschrijving": "BK 7871 Z7QQ2K SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-12-2017 20:11 Transactie:6875C9 Term:Z7QQ2K"
+  },
+  {
+    "Datum": 20171222,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "814,54",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS DECEMBER IBAN: NL75ABNA0240357450 Kenmerk: 20171218 03546 54625 0004267 008 1"
+  },
+  {
+    "Datum": 20171222,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,49",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-12-2017 12:42 Transactie:9256A1 Term:GZV30Y"
+  },
+  {
+    "Datum": 20171222,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-12-2017 21:33 Transactie:13Q341 Term:214Y40"
+  },
+  {
+    "Datum": 20171222,
+    "Naam / Omschrijving": "Feenstra Verwarming B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL58INGB0664502229",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,19",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Feenstra Verwarming B.V. Omschrijving: incasso Feenstra/Nuon 8819609 Termijn 01-01-2018 - 31-03-2018 IBAN: NL58INGB0664502229 Kenmerk: 1700060-2948-.53310YG0Z Machtiging ID: C30628-0667253386 Incassant ID: NL05ZZZ390227460000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171221,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,46",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-12-2017 09:27 Transactie:80G528 Term:834HR7"
+  },
+  {
+    "Datum": 20171221,
+    "Naam / Omschrijving": "CCV*BAGELS AND BEANS R AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,85",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-12-2017 16:40 Transactie:65B5W8 Term:CT449316"
+  },
+  {
+    "Datum": 20171221,
+    "Naam / Omschrijving": "Gollem Proeflokaal AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-12-2017 19:20 Transactie:73U7G1 Term:5V63H0"
+  },
+  {
+    "Datum": 20171221,
+    "Naam / Omschrijving": "8010-246-UvARECHA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-12-2017 14:04 Transactie:5420A1 Term:Z524DX"
+  },
+  {
+    "Datum": 20171221,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-12-2017 14:42 Transactie:56L6B9 Term:BM15Z1"
+  },
+  {
+    "Datum": 20171220,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,06",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-8953995 0020001779044457 Order Number 2017-8953995 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 20-12-2017 20:35 0020001779044457"
+  },
+  {
+    "Datum": 20171220,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-12-2017 18:43 Transactie:28P9H8 Term:214Y40"
+  },
+  {
+    "Datum": 20171220,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-12-2017 19:05 Transactie:29E6Z4 Term:BM15Z1"
+  },
+  {
+    "Datum": 20171220,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-12-2017 20:28 Transactie:3109J6 Term:F6K67H"
+  },
+  {
+    "Datum": 20171220,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,49",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-12-2017 12:49 Transactie:082985 Term:GZV30Y"
+  },
+  {
+    "Datum": 20171220,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL86INGB0002445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "94,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: MAAND JAN. NR. 564612273T800013 VOORSCHOT ZORGTOESLAG 2018 (LEAHY ) MEER INFO OP WWW.TOESLAGEN.NL IBAN: NL86INGB0002445588 Kenmerk: 20171215004715713"
+  },
+  {
+    "Datum": 20171219,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,43",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-12-2017 20:45 Transactie:A3S8C2 Term:15BPS6"
+  },
+  {
+    "Datum": 20171219,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,67",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-12-2017 20:53 Transactie:A4D3Y1 Term:710LFN"
+  },
+  {
+    "Datum": 20171218,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "120,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naar Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171218,
+    "Naam / Omschrijving": "HM BECHT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL15ABNA0401141365",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "143,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: HM BECHT IBAN: NL15ABNA0401141365"
+  },
+  {
+    "Datum": 20171218,
+    "Naam / Omschrijving": "Blokker353 Amsterdam AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,79",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-12-2017 13:54 Transactie:56C124 Term:0KHQ01"
+  },
+  {
+    "Datum": 20171218,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-12-2017 15:10 Transactie:60G2S6 Term:543KG8"
+  },
+  {
+    "Datum": 20171218,
+    "Naam / Omschrijving": "D&K Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-12-2017 16:52 Transactie:38P3U6 Term:QJC01W"
+  },
+  {
+    "Datum": 20171218,
+    "Naam / Omschrijving": "9e contante storting",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "Betreft kosten storting ING BANK N.V."
+  },
+  {
+    "Datum": 20171218,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,99",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-8929284 0020001775302820 Order Number 2017-8929284 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 17-12-2017 20:14 0020001775302820"
+  },
+  {
+    "Datum": 20171218,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,33",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-12-2017 12:49 Transactie:80X1I0 Term:734JH9"
+  },
+  {
+    "Datum": 20171218,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,58",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-12-2017 12:58 Transactie:81L1Z2 Term:3C7SX1"
+  },
+  {
+    "Datum": 20171218,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,93",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-8899753 0020001773132831 Order Number 2017-8899753 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 15-12-2017 18:10 0020001773132831"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "7550 AKO Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-12-2017 08:24 Transactie:6707E7 Term:9LQC4R"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "GVB Amstel AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-12-2017 08:07 Transactie:675146 Term:NL629T"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "AH Station Amstel AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-12-2017 08:11 Transactie:6761I6 Term:370D03"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "NS-Driebergen Z 201",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,89",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-12-2017 09:37 Transactie:6903W6 Term:5WKX01"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "Huiskamer DBZ 0104 DRIEBERGEN-RI",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-12-2017 09:40 Transactie:692880 Term:810TS6"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "0,01",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: test IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "ING>JULIANAPLEIN 1>AMST   006933",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "90,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "15-12-2017 08:51 001     0633958"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "90,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "CCV*MCDONALDS EERSTE V AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-12-2017 17:01 Transactie:19C058 Term:CT615803"
+  },
+  {
+    "Datum": 20171215,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-12-2017 12:45 Transactie:39Y7L8 Term:B5R227"
+  },
+  {
+    "Datum": 20171214,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,82",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-12-2017 17:30 Transactie:2118O7 Term:3C7SX1"
+  },
+  {
+    "Datum": 20171213,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "350,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naar Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171213,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "400,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-1E VAN SWINDEN 00008288 PASVOLGNR 001 13-12-2017 00:00 TRANSACTIENR 49887"
+  },
+  {
+    "Datum": 20171213,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-12-2017 12:40 Transactie:79V6F6 Term:D985M6"
+  },
+  {
+    "Datum": 20171213,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-12-2017 12:40 Transactie:79Z205 Term:B685Q5"
+  },
+  {
+    "Datum": 20171211,
+    "Naam / Omschrijving": "GVB voertuig T2049CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-12-2017 19:01 Transactie:23O7D3 Term:560WDX"
+  },
+  {
+    "Datum": 20171211,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,06",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-12-2017-08-01-2018 IBAN: NL38INGB0703076094 Kenmerk: 4229687 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171211,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,28",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-12-2017 13:35 Transactie:67F6G3 Term:GZV30Y"
+  },
+  {
+    "Datum": 20171211,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "17,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171207,
+    "Naam / Omschrijving": "Sugar Factory B.V. AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-12-2017 01:07 Transactie:15R8R7 Term:W5RR2K"
+  },
+  {
+    "Datum": 20171206,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-12-2017 08:22 Transactie:90U4G8 Term:7X9XVQ"
+  },
+  {
+    "Datum": 20171206,
+    "Naam / Omschrijving": "ESPRIT Spui AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "71,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-12-2017 16:58 Transactie:82B918 Term:6F9706"
+  },
+  {
+    "Datum": 20171206,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-12-2017 21:28 Transactie:89A769 Term:1S1NDP"
+  },
+  {
+    "Datum": 20171205,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171205,
+    "Naam / Omschrijving": "Albert Heijn 8634 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,09",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-12-2017 21:13 Transactie:53L5P3 Term:J6VN23"
+  },
+  {
+    "Datum": 20171205,
+    "Naam / Omschrijving": "ALBERT HEIJN 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,86",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-12-2017 13:36 Transactie:34O0N6 Term:5YCL5G"
+  },
+  {
+    "Datum": 20171204,
+    "Naam / Omschrijving": "ALBERT HEIJN 5617 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-12-2017 15:14 Transactie:40W593 Term:H305C2"
+  },
+  {
+    "Datum": 20171204,
+    "Naam / Omschrijving": "OPLADEN OV-CHIPKAART AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-12-2017 15:15 Transactie:40X4B2 Term:032T2P"
+  },
+  {
+    "Datum": 20171201,
+    "Naam / Omschrijving": "Stichting Mollie Payments",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL30ABNA0524590958",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Stichting Mollie Payments Omschrijving: M3253864M116CYDM 0030002490355425 Amerpodia - order 70190 189238Amerpodia BV IBAN: NL30ABNA0524590958 Kenmerk: 01-12-2017 14:17 0030002490355425"
+  },
+  {
+    "Datum": 20171201,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-11-2017 14:54 Transactie:A5X5T0 Term:GZV30Y"
+  },
+  {
+    "Datum": 20171201,
+    "Naam / Omschrijving": "GVB voertuig T2023CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-11-2017 22:41 Transactie:13K7R8 Term:40VPK6"
+  },
+  {
+    "Datum": 20171201,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent December IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171201,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171130,
+    "Naam / Omschrijving": "8010-246-UvARECHA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-11-2017 13:32 Transactie:62P7X2 Term:Q79P6B"
+  },
+  {
+    "Datum": 20171130,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-11-2017 14:57 Transactie:68L016 Term:SP3Z13"
+  },
+  {
+    "Datum": 20171129,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-11-2017 19:23 Transactie:43L9C2 Term:1S1NDP"
+  },
+  {
+    "Datum": 20171129,
+    "Naam / Omschrijving": "Kruidvat 7472 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,07",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-11-2017 12:39 Transactie:22B797 Term:5TG601"
+  },
+  {
+    "Datum": 20171128,
+    "Naam / Omschrijving": "AIREST RETAIL S. R. L. VENEZIA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-11-2017 11:52 Transactie:95N2C0 Term:30379205"
+  },
+  {
+    "Datum": 20171128,
+    "Naam / Omschrijving": "NS-Schiphol 226 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-11-2017 15:23 Transactie:A6V7P3 Term:16X6VF"
+  },
+  {
+    "Datum": 20171128,
+    "Naam / Omschrijving": "NS-Schiphol 226 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,73",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-11-2017 15:24 Transactie:A7G1S1 Term:16X6VF"
+  },
+  {
+    "Datum": 20171128,
+    "Naam / Omschrijving": "ALBERT HEIJN 5609 AMSTELVEEN NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-11-2017 15:26 Transactie:A7H3X0 Term:05M314"
+  },
+  {
+    "Datum": 20171127,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. December 2017 t/m december 2017 IBAN: NL87INGB0000717127 Kenmerk: 10004356280 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171127,
+    "Naam / Omschrijving": "TIGOTA TORRI DI QUAR ITA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-11-2017 12:29 Transactie:90D0G9 Term:54106349"
+  },
+  {
+    "Datum": 20171124,
+    "Naam / Omschrijving": "HMSHOST AMSTERDAM SCHI",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-11-2017 14:04 Transactie:54R5X0 Term:80482109"
+  },
+  {
+    "Datum": 20171124,
+    "Naam / Omschrijving": "Shop 2441/ SBF L4 Schiphol Airp",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "14,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-11-2017 14:32 Transactie:56C6N0 Term:31000315"
+  },
+  {
+    "Datum": 20171124,
+    "Naam / Omschrijving": "ALBERT HEIJN 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,02",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-11-2017 12:58 Transactie:50X5I4 Term:0N959W"
+  },
+  {
+    "Datum": 20171124,
+    "Naam / Omschrijving": "NS-A'dam Zuid 203 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-11-2017 13:26 Transactie:52E7V8 Term:5FT18T"
+  },
+  {
+    "Datum": 20171124,
+    "Naam / Omschrijving": "ALBERT HEIJN 1653 SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-11-2017 13:40 Transactie:53J4Y0 Term:F09K9X"
+  },
+  {
+    "Datum": 20171123,
+    "Naam / Omschrijving": "CCV*d&a hummus bistro AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-11-2017 14:08 Transactie:17N505 Term:CT615999"
+  },
+  {
+    "Datum": 20171123,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "21,35",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908012238051 IBAN: NL61COBA0733974775 Kenmerk: 500313855574 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171122,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "0,01",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: test2 IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171122,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "0,01",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: test IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171122,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-11-2017 18:17 Transactie:A57078 Term:XMX98J"
+  },
+  {
+    "Datum": 20171122,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,04",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-11-2017 19:28 Transactie:A76263 Term:578QY7"
+  },
+  {
+    "Datum": 20171121,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "675,98",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS NOVEMBER IBAN: NL75ABNA0240357450 Kenmerk: 20171121 01052 54625 0004267 007 1"
+  },
+  {
+    "Datum": 20171121,
+    "Naam / Omschrijving": "HotelToonPOS Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-11-2017 10:37 Transactie:8057P5 Term:72533599"
+  },
+  {
+    "Datum": 20171121,
+    "Naam / Omschrijving": "AH togo Adm Bijlm 5833 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-11-2017 16:14 Transactie:65I8Q0 Term:0M4T4H"
+  },
+  {
+    "Datum": 20171121,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,89",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-11-2017 16:50 Transactie:677904 Term:710LFN"
+  },
+  {
+    "Datum": 20171121,
+    "Naam / Omschrijving": "NS-Driebergen Z 202",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,59",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-11-2017 15:37 Transactie:63Z0C0 Term:5WKX02"
+  },
+  {
+    "Datum": 20171120,
+    "Naam / Omschrijving": "GVB Weesperplein AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-11-2017 10:11 Transactie:4814J6 Term:45DM7G"
+  },
+  {
+    "Datum": 20171120,
+    "Naam / Omschrijving": "HEMA ASD 2941 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-11-2017 18:58 Transactie:42Q3B4 Term:V20M07"
+  },
+  {
+    "Datum": 20171120,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL86INGB0002445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "92,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: MAAND DEC. NR. 564612273T700013 VOORSCHOT ZORGTOESLAG 2017 (LEAHY ) MEER INFO OP WWW.TOESLAGEN.NL IBAN: NL86INGB0002445588 Kenmerk: 20171115087500729"
+  },
+  {
+    "Datum": 20171117,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,38",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-8625599 0020001741847451 Order Number 2017-8625599 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 17-11-2017 18:41 0020001741847451"
+  },
+  {
+    "Datum": 20171117,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171117,
+    "Naam / Omschrijving": "ETOS 7270 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,09",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-11-2017 16:49 Transactie:38Y3T0 Term:S8MT5P"
+  },
+  {
+    "Datum": 20171117,
+    "Naam / Omschrijving": "SALSA SHOP Amstelstr AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-11-2017 14:17 Transactie:30Y0N3 Term:G54ZDF"
+  },
+  {
+    "Datum": 20171117,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-11-2017 14:51 Transactie:32K354 Term:11Z0PT"
+  },
+  {
+    "Datum": 20171115,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "31,55",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: CR43BG 0030002451965156 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 15-11-2017 19:17 0030002451965156"
+  },
+  {
+    "Datum": 20171115,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "30,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171113,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171113,
+    "Naam / Omschrijving": "AH 8598 Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-11-2017 12:29 Transactie:12Y0X4 Term:268Q79"
+  },
+  {
+    "Datum": 20171113,
+    "Naam / Omschrijving": "AH to go ijhal 5870 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-11-2017 16:03 Transactie:20X2M0 Term:2JF928"
+  },
+  {
+    "Datum": 20171113,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-11-2017 18:21 Transactie:24Y8A9 Term:D985M6"
+  },
+  {
+    "Datum": 20171113,
+    "Naam / Omschrijving": "Salsa Shop A'dam CS AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-11-2017 12:42 Transactie:45J571 Term:44T609"
+  },
+  {
+    "Datum": 20171113,
+    "Naam / Omschrijving": "Kiosk ASD 2925 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-11-2017 15:54 Transactie:584247 Term:50F377"
+  },
+  {
+    "Datum": 20171113,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171110,
+    "Naam / Omschrijving": "NS-Amsterdam CS 222 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-11-2017 21:30 Transactie:30K8J3 Term:0DZX75"
+  },
+  {
+    "Datum": 20171110,
+    "Naam / Omschrijving": "AH to go Oostt.5822 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-11-2017 21:31 Transactie:30X8H1 Term:6F2G9Z"
+  },
+  {
+    "Datum": 20171110,
+    "Naam / Omschrijving": "ALBERT HEIJN 1653 SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,48",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-11-2017 21:59 Transactie:31K507 Term:975L31"
+  },
+  {
+    "Datum": 20171110,
+    "Naam / Omschrijving": "NS Schiphol 216 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-11-2017 22:36 Transactie:31U4H5 Term:G1G670"
+  },
+  {
+    "Datum": 20171110,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171109,
+    "Naam / Omschrijving": "ALBERT HEIJN 1009 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,24",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-11-2017 19:15 Transactie:A3R7I4 Term:409Z86"
+  },
+  {
+    "Datum": 20171109,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,06",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-11-2017-08-12-2017 IBAN: NL38INGB0703076094 Kenmerk: 3557603 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171109,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-11-2017 13:42 Transactie:87D2A9 Term:SP3Z13"
+  },
+  {
+    "Datum": 20171108,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "15,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171107,
+    "Naam / Omschrijving": "OPLADENOV-CHIPKRT691 AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-11-2017 12:38 Transactie:17U619 Term:041KSH"
+  },
+  {
+    "Datum": 20171107,
+    "Naam / Omschrijving": "NS-Driebergen Z 202",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,12",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-11-2017 15:28 Transactie:99E9R4 Term:5WKX02"
+  },
+  {
+    "Datum": 20171106,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "21,89",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-11-2017 11:35 Transactie:14O476 Term:578QY7"
+  },
+  {
+    "Datum": 20171106,
+    "Naam / Omschrijving": "CCV*BAGELS AND BEANS R AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-11-2017 13:32 Transactie:A4V721 Term:CT449316"
+  },
+  {
+    "Datum": 20171106,
+    "Naam / Omschrijving": "CCV*STUDIO K B.V. AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-11-2017 21:13 Transactie:51O3K3 Term:CT308923"
+  },
+  {
+    "Datum": 20171106,
+    "Naam / Omschrijving": "CCV*TABAK E SMOKING AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-11-2017 13:26 Transactie:7200L8 Term:CT450391"
+  },
+  {
+    "Datum": 20171106,
+    "Naam / Omschrijving": "Calf&Bloom AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "21,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-11-2017 17:58 Transactie:91P4C0 Term:5M64HG"
+  },
+  {
+    "Datum": 20171106,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "27,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Waternet November IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171106,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "14,62",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-8524847 0020001730266381 Order Number 2017-8524847 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 05-11-2017 21:07 0020001730266381"
+  },
+  {
+    "Datum": 20171106,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "14,71",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-11-2017 12:32 Transactie:230957 Term:3C7SX1"
+  },
+  {
+    "Datum": 20171103,
+    "Naam / Omschrijving": "Santa Maria 23 BV Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-11-2017 17:40 Transactie:02Q1S5 Term:PPEUC001"
+  },
+  {
+    "Datum": 20171103,
+    "Naam / Omschrijving": "H&M 145 AMSTERDAM Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-11-2017 17:51 Transactie:03E026 Term:RX4SK0"
+  },
+  {
+    "Datum": 20171103,
+    "Naam / Omschrijving": "ALBERT HEIJN 1832 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,05",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-11-2017 18:34 Transactie:04G9H0 Term:190SV3"
+  },
+  {
+    "Datum": 20171103,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,48",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-11-2017 13:01 Transactie:9706C6 Term:GZV30Y"
+  },
+  {
+    "Datum": 20171102,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,64",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-11-2017 20:03 Transactie:81U100 Term:3C7SX1"
+  },
+  {
+    "Datum": 20171102,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL36INGB0003445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "169,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: TERUGGAAF NR. 564612273T660013 NABETALING ZORGTOESLAG 2016 (LEAHY ) MEER INFO OP WWW.TOESLAGEN.NL IBAN: NL36INGB0003445588 Kenmerk: 20171030078786323"
+  },
+  {
+    "Datum": 20171101,
+    "Naam / Omschrijving": "AMERICAN BOOK CENTER AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-10-2017 12:31 Transactie:2582A2 Term:274201"
+  },
+  {
+    "Datum": 20171101,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-10-2017 20:09 Transactie:44Y8O5 Term:522B9K"
+  },
+  {
+    "Datum": 20171101,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-10-2017 20:28 Transactie:45P540 Term:522B9K"
+  },
+  {
+    "Datum": 20171101,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-10-2017 19:33 Transactie:4553A6 Term:1S1NDP"
+  },
+  {
+    "Datum": 20171101,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-10-2017 22:03 Transactie:46Z2T3 Term:MCC30Y"
+  },
+  {
+    "Datum": 20171101,
+    "Naam / Omschrijving": "'t Ballonnetje AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-10-2017 22:45 Transactie:46X6E4 Term:V3Z1BM"
+  },
+  {
+    "Datum": 20171031,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "14,15",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-10-2017 08:05 Transactie:14R9A1 Term:15BPS6"
+  },
+  {
+    "Datum": 20171031,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-10-2017 09:16 Transactie:16L197 Term:94JY26"
+  },
+  {
+    "Datum": 20171031,
+    "Naam / Omschrijving": "HEMA EV348 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-10-2017 16:59 Transactie:06S098 Term:DS9W13"
+  },
+  {
+    "Datum": 20171031,
+    "Naam / Omschrijving": "The Book Exchange AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-10-2017 17:28 Transactie:0808B1 Term:3QPX49"
+  },
+  {
+    "Datum": 20171031,
+    "Naam / Omschrijving": "CCV*VAP NEDERLAND BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-10-2017 20:43 Transactie:1358L1 Term:CT454881"
+  },
+  {
+    "Datum": 20171031,
+    "Naam / Omschrijving": "ALBERT HEIJN 1647 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-10-2017 20:46 Transactie:1359L8 Term:D400R2"
+  },
+  {
+    "Datum": 20171031,
+    "Naam / Omschrijving": "CCV*LANGENDIJK EETCAFE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-10-2017 13:08 Transactie:76W4R1 Term:CT083267"
+  },
+  {
+    "Datum": 20171030,
+    "Naam / Omschrijving": "Hr D da Cunha Esteves",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL79INGB0700409408",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hr D da Cunha Esteves Omschrijving: Beers at Vondelpark IBAN: NL79INGB0700409408"
+  },
+  {
+    "Datum": 20171030,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent November IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171030,
+    "Naam / Omschrijving": "Albert Heijn 8634 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,15",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-10-2017 12:00 Transactie:35P345 Term:J702YW"
+  },
+  {
+    "Datum": 20171030,
+    "Naam / Omschrijving": "Kruidvat 7411 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,26",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-10-2017 17:29 Transactie:62Q3B2 Term:5L2G01"
+  },
+  {
+    "Datum": 20171030,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,93",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-10-2017 20:25 Transactie:91X0B6 Term:15BPS6"
+  },
+  {
+    "Datum": 20171030,
+    "Naam / Omschrijving": "SportCity",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL92INGB0664393268",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "37,50",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: SportCity Omschrijving: 30-10-2017 / 26-11-2017 IBAN: NL92INGB0664393268 Kenmerk: NO105022234-98 Machtiging ID: 105022234 Incassant ID: NL88ZZZ280675940000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171027,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "9,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171027,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-8429184 0020001721207875 Order Number 2017-8429184 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 27-10-2017 19:13 0020001721207875"
+  },
+  {
+    "Datum": 20171027,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-10-2017 12:20 Transactie:60E6E6 Term:B4B5SP"
+  },
+  {
+    "Datum": 20171027,
+    "Naam / Omschrijving": "Flying Tiger A'dam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-10-2017 12:28 Transactie:6119P9 Term:3K3HP4"
+  },
+  {
+    "Datum": 20171027,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. November 2017 t/m november 2017 IBAN: NL87INGB0000717127 Kenmerk: 10000977155 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171026,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-10-2017 19:17 Transactie:46S2N1 Term:MCC30Y"
+  },
+  {
+    "Datum": 20171026,
+    "Naam / Omschrijving": "NS-A'dam Amstel 202 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-10-2017 18:37 Transactie:458452 Term:5WXR02"
+  },
+  {
+    "Datum": 20171026,
+    "Naam / Omschrijving": "ALBERT HEIJN 1009 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,19",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-10-2017 16:11 Transactie:371609 Term:1SLG4N"
+  },
+  {
+    "Datum": 20171025,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "675,98",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS OKTOBER IBAN: NL75ABNA0240357450 Kenmerk: 20171024 01102 54625 0004267 006 1"
+  },
+  {
+    "Datum": 20171025,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,07",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-10-2017 20:50 Transactie:10H3O1 Term:15BPS6"
+  },
+  {
+    "Datum": 20171024,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-10-2017 19:55 Transactie:85F6S8 Term:3C7SX1"
+  },
+  {
+    "Datum": 20171023,
+    "Naam / Omschrijving": "TERRACINO ANNA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT65I0572862190280571192306",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "200,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: TERRACINO ANNA IBAN: IT65I0572862190280571192306"
+  },
+  {
+    "Datum": 20171023,
+    "Naam / Omschrijving": "OV ServicewinkelCS AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-10-2017 23:11 Transactie:54O5V9 Term:CG6Z40"
+  },
+  {
+    "Datum": 20171023,
+    "Naam / Omschrijving": "Salsa Shop A'dam CS AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-10-2017 13:13 Transactie:0621V8 Term:44T609"
+  },
+  {
+    "Datum": 20171023,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-10-2017 19:31 Transactie:30S5D3 Term:D985M6"
+  },
+  {
+    "Datum": 20171023,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,67",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908011783152 IBAN: NL61COBA0733974775 Kenmerk: 502013984713 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171023,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171023,
+    "Naam / Omschrijving": "De Bijenkorf Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-10-2017 18:29 Transactie:92L589 Term:86136935"
+  },
+  {
+    "Datum": 20171023,
+    "Naam / Omschrijving": "BK 13462 45JPG9 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,05",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-10-2017 19:02 Transactie:938795 Term:45JPG9"
+  },
+  {
+    "Datum": 20171023,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-10-2017 19:24 Transactie:94R9S9 Term:L263R6"
+  },
+  {
+    "Datum": 20171023,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-10-2017 21:31 Transactie:988271 Term:L263R6"
+  },
+  {
+    "Datum": 20171020,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-10-2017 13:14 Transactie:33A914 Term:B685Q5"
+  },
+  {
+    "Datum": 20171020,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL86INGB0002445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "91,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: MAAND NOV. NR. 564612273T700013 VOORSCHOT ZORGTOESLAG 2017 (LEAHY ) MEER INFO OP WWW.TOESLAGEN.NL IBAN: NL86INGB0002445588 Kenmerk: 20171017068392363"
+  },
+  {
+    "Datum": 20171019,
+    "Naam / Omschrijving": "Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL51ABNA0565668625",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "27,35",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Adyen Omschrijving: 1515084361412605 0030002395821061 1710191936599 001982HungryGroupAps IBAN: NL51ABNA0565668625 Kenmerk: 19-10-2017 20:03 0030002395821061"
+  },
+  {
+    "Datum": 20171018,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-10-2017 21:41 Transactie:9475D1 Term:1S1NDP"
+  },
+  {
+    "Datum": 20171017,
+    "Naam / Omschrijving": "HEMA ASD 2941 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-10-2017 16:24 Transactie:51Q148 Term:7PX8YV"
+  },
+  {
+    "Datum": 20171017,
+    "Naam / Omschrijving": "Rembrandt van Gogh AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-10-2017 16:58 Transactie:5397J9 Term:8YF5Y0"
+  },
+  {
+    "Datum": 20171017,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,55",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-10-2017 20:09 Transactie:60A7Y9 Term:15BPS6"
+  },
+  {
+    "Datum": 20171017,
+    "Naam / Omschrijving": "Julia's ASD 2950 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-10-2017 12:19 Transactie:38L564 Term:PWR271"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "GVB voertuig B360 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-10-2017 11:20 Transactie:35N414 Term:05JG76"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "GVB voertuig B360 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-10-2017 11:21 Transactie:35Z006 Term:05JG76"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "NS-Amsterdam C 206 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-10-2017 11:34 Transactie:36A676 Term:5WR503"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "NS-Amsterdam C 206 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-10-2017 11:35 Transactie:36H1D3 Term:5WR503"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "ETOS 7590 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-10-2017 11:39 Transactie:36N1N6 Term:0YKP4N"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "AH to go ijhal 5870 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-10-2017 11:48 Transactie:36Y485 Term:2F7Q53"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "CCV*LANGENDIJK EETCAFE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-10-2017 23:18 Transactie:08F640 Term:CT083834"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,33",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-10-2017 19:23 Transactie:27R5K4 Term:15BPS6"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "SALSA SHOP Amstelstr AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-10-2017 20:52 Transactie:0724K7 Term:G54ZDF"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,86",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-10-2017 14:47 Transactie:9953X6 Term:3C7SX1"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-10-2017 20:16 Transactie:72K4G4 Term:L263R6"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "CCV*CAFE MULLIGANS AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-10-2017 21:42 Transactie:74A3K8 Term:CT464503"
+  },
+  {
+    "Datum": 20171016,
+    "Naam / Omschrijving": "TEXACO AMSTERDAM AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,24",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-10-2017 22:58 Transactie:74V663 Term:10031411"
+  },
+  {
+    "Datum": 20171013,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171013,
+    "Naam / Omschrijving": "AH to go 5801 'S-HERTOGENBO NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-10-2017 22:11 Transactie:32P7O8 Term:NC3G57"
+  },
+  {
+    "Datum": 20171013,
+    "Naam / Omschrijving": "NS-Den Bosch 201 RIJEN NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,85",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-10-2017 22:04 Transactie:3346V9 Term:5WF001"
+  },
+  {
+    "Datum": 20171013,
+    "Naam / Omschrijving": "GVB Amstel AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-10-2017 15:09 Transactie:17K370 Term:NL629T"
+  },
+  {
+    "Datum": 20171013,
+    "Naam / Omschrijving": "Kiosk ASA 5307 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,35",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-10-2017 15:14 Transactie:17T2H6 Term:248RBR"
+  },
+  {
+    "Datum": 20171012,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "40,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171012,
+    "Naam / Omschrijving": "CCV*FANOUS BV AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-10-2017 22:17 Transactie:A7F893 Term:CT472022"
+  },
+  {
+    "Datum": 20171012,
+    "Naam / Omschrijving": "Concerto Koffie AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-10-2017 12:50 Transactie:85Y3M3 Term:1D7CF0"
+  },
+  {
+    "Datum": 20171012,
+    "Naam / Omschrijving": "Royal Tobacco AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-10-2017 15:18 Transactie:93W3T1 Term:1LQY8M"
+  },
+  {
+    "Datum": 20171012,
+    "Naam / Omschrijving": "Kosten BasisPakket",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,90",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "1 jul t/m 30 sep 2017 ING BANK N.V."
+  },
+  {
+    "Datum": 20171011,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-10-2017 09:22 Transactie:760141 Term:CSL8H6"
+  },
+  {
+    "Datum": 20171011,
+    "Naam / Omschrijving": "HOW DO YOU ROLL' AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "22,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-10-2017 20:18 Transactie:71V922 Term:411PDG"
+  },
+  {
+    "Datum": 20171011,
+    "Naam / Omschrijving": "'t Ballonnetje AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-10-2017 22:34 Transactie:72X7W9 Term:V3Z1BM"
+  },
+  {
+    "Datum": 20171011,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-10-2017 21:49 Transactie:730373 Term:522B9K"
+  },
+  {
+    "Datum": 20171011,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-10-2017 12:59 Transactie:533386 Term:B54Y65"
+  },
+  {
+    "Datum": 20171011,
+    "Naam / Omschrijving": "Cafe Brecht AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-10-2017 18:24 Transactie:6976R7 Term:783XBX"
+  },
+  {
+    "Datum": 20171010,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "70,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171010,
+    "Naam / Omschrijving": "Tabaksz Daan & Els AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-10-2017 08:37 Transactie:42E4I8 Term:2S1501"
+  },
+  {
+    "Datum": 20171010,
+    "Naam / Omschrijving": "Albert Heijn 1061 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,94",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-10-2017 08:49 Transactie:42M512 Term:084H3J"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,36",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-8266892 0020001703486167 Order Number 2017-8266892 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 09-10-2017 19:03 0020001703486167"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,13",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-10-2017 10:56 Transactie:A36198 Term:3C7SX1"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-10-2017 14:48 Transactie:00S387 Term:522B9K"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "Bioscoop Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-10-2017 16:47 Transactie:05S2A5 Term:522B9K"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,87",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-10-2017 20:24 Transactie:10K629 Term:15BPS6"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "CCV*LANGENDIJK EETCAFE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-10-2017 17:27 Transactie:9410Q9 Term:CT083267"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,06",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-10-2017-08-11-2017 IBAN: NL38INGB0703076094 Kenmerk: 2892464 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "TEXACO AMSTERDAM AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,85",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-10-2017 00:16 Transactie:58Y4O0 Term:10031411"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-10-2017 12:10 Transactie:70J639 Term:XMX98J"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-10-2017 12:02 Transactie:7014N3 Term:860L09"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-10-2017 12:35 Transactie:727806 Term:94JY26"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "Concerto Koffie AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-10-2017 13:47 Transactie:77D9C4 Term:1D7CF0"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "Concerto B.V. AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-10-2017 15:10 Transactie:8485V5 Term:462703"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "AMERICAN BOOK CENTER AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "33,94",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-10-2017 16:25 Transactie:89O9S6 Term:274201"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "CCV*SOHO AMSTERDAM BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-10-2017 23:36 Transactie:16R9M9 Term:CT409228"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "CCV*SOHO AMSTERDAM BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-10-2017 00:19 Transactie:17C1N5 Term:CT439347"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "CCV*SOHO AMSTERDAM BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-10-2017 02:23 Transactie:1759G1 Term:CT409228"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "CCV*SOHO AMSTERDAM BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-10-2017 00:21 Transactie:1764Y6 Term:CT409228"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "CCV*SOHO AMSTERDAM BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-10-2017 01:14 Transactie:1786W2 Term:CT439347"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "STICHTING DE BALIE AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-10-2017 20:48 Transactie:573233 Term:5X9101"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "CCV*CAFE DE BALIE AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-10-2017 23:27 Transactie:58G9P4 Term:CT436345"
+  },
+  {
+    "Datum": 20171009,
+    "Naam / Omschrijving": "GVB voertuig T2033CC AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-10-2017 00:02 Transactie:5961S9 Term:49PCM3"
+  },
+  {
+    "Datum": 20171006,
+    "Naam / Omschrijving": "Ali Ocakbasi AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "32,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-10-2017 22:56 Transactie:16V2X5 Term:111Y56"
+  },
+  {
+    "Datum": 20171005,
+    "Naam / Omschrijving": "Lavinia Eleanor Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT75V0200832974001135172621",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "160,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Lavinia Eleanor Leahy Omschrijving: Biglietto IBAN: IT75V0200832974001135172621"
+  },
+  {
+    "Datum": 20171005,
+    "Naam / Omschrijving": "MARKS AND SPENCER KALV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-10-2017 12:39 Transactie:67L1W5 Term:---"
+  },
+  {
+    "Datum": 20171005,
+    "Naam / Omschrijving": "TERRACINO ANNA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT65I0572862190280571192306",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "200,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: TERRACINO ANNA IBAN: IT65I0572862190280571192306"
+  },
+  {
+    "Datum": 20171004,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171004,
+    "Naam / Omschrijving": "STARBUCKS 16337 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-10-2017 18:10 Transactie:50A2S6 Term:CT362566"
+  },
+  {
+    "Datum": 20171004,
+    "Naam / Omschrijving": "GVB Waterlooplein AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-10-2017 00:03 Transactie:54V930 Term:HPP950"
+  },
+  {
+    "Datum": 20171004,
+    "Naam / Omschrijving": "VAP Rembrandtplein AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-10-2017 22:04 Transactie:5497P4 Term:KSS4X5"
+  },
+  {
+    "Datum": 20171004,
+    "Naam / Omschrijving": "the otherside AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-10-2017 22:53 Transactie:5542R8 Term:21YLR7"
+  },
+  {
+    "Datum": 20171004,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,58",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-10-2017 12:16 Transactie:3175F6 Term:CSL8H6"
+  },
+  {
+    "Datum": 20171004,
+    "Naam / Omschrijving": "8e contante storting",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "Betreft kosten storting ING BANK N.V."
+  },
+  {
+    "Datum": 20171003,
+    "Naam / Omschrijving": "CCV*LANGENDIJK EETCAFE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-10-2017 17:16 Transactie:94R3D4 Term:CT083834"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "500,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-1E VAN SWINDEN 00008333 PASVOLGNR 001 02-10-2017 00:00 TRANSACTIENR 19104"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "Hans Prijsoptiek B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL68DEUT0447287117",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "72,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hans Prijsoptiek B.V. Omschrijving: 2949196 1150000750250342 Description HANS ANDERS WEBWINKEL IBAN: NL68DEUT0447287117 Kenmerk: 02-10-2017 16:56 1150000750250342"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "350,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naar Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "CCV*SOHO AMSTERDAM BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-10-2017 02:34 Transactie:78F368 Term:CT424339"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "HM BECHT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL15ABNA0401141365",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "168,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: HM BECHT IBAN: NL15ABNA0401141365"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "SportCity",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL92INGB0664393268",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: SportCity Omschrijving: 02-10-2017 / 29-10-2017 IBAN: NL92INGB0664393268 Kenmerk: NO105022234-97 Machtiging ID: 105022234 Incassant ID: NL88ZZZ280675940000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-09-2017 14:14 Transactie:54V2L1 Term:XMX98J"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "Cafe 't Hooischip AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-09-2017 20:35 Transactie:74P8Q2 Term:J2B524"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "CCV*MORENA AAN DE AMST AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-09-2017 21:30 Transactie:7685W8 Term:CT406516"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "Kruidvat 3409 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "27,96",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-09-2017 17:09 Transactie:20U8A3 Term:17QC01"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,23",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-09-2017 17:33 Transactie:2320C3 Term:15BPS6"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "NataLisboa Amsterdam AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-09-2017 10:32 Transactie:A571M6 Term:LTS64D"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "Julia's ASS 8908 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-09-2017 14:54 Transactie:12E1C8 Term:J380XG"
+  },
+  {
+    "Datum": 20171002,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20170929,
+    "Naam / Omschrijving": "NS- A'dam Amstel 103 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-09-2017 10:57 Transactie:A6K2A6 Term:20Q003"
+  },
+  {
+    "Datum": 20170929,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "70,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20170929,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-09-2017 20:45 Transactie:97K902 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170928,
+    "Naam / Omschrijving": "OV DaanenEls AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-09-2017 09:15 Transactie:646934 Term:Y0XB48"
+  },
+  {
+    "Datum": 20170928,
+    "Naam / Omschrijving": "ABN-AMRO AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-09-2017 17:25 Transactie:5434N2 Term:S1H440"
+  },
+  {
+    "Datum": 20170927,
+    "Naam / Omschrijving": "Concerto Koffie AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-09-2017 12:12 Transactie:3507G1 Term:1D7CF0"
+  },
+  {
+    "Datum": 20170927,
+    "Naam / Omschrijving": "Spar Rapenburg AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-09-2017 12:40 Transactie:00Y9X7 Term:GW74RL"
+  },
+  {
+    "Datum": 20170927,
+    "Naam / Omschrijving": "ALBERT HEIJN 1009 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-09-2017 14:39 Transactie:07S5F9 Term:01QLX4"
+  },
+  {
+    "Datum": 20170927,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Oktober 2017 t/m oktober 2017 IBAN: NL87INGB0000717127 Kenmerk: 377541702 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170927,
+    "Naam / Omschrijving": "Feenstra Verwarming B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL58INGB0664502229",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,97",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Feenstra Verwarming B.V. Omschrijving: incasso Feenstra/Nuon 8616613 Termijn 01-10-2017 - 31-12-2017 IBAN: NL58INGB0664502229 Kenmerk: 1700044-2514-.50L0IIYX7 Machtiging ID: C30628-0667253386 Incassant ID: NL05ZZZ390227460000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170926,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20170926,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-09-2017 16:40 Transactie:89M6B8 Term:XMX98J"
+  },
+  {
+    "Datum": 20170926,
+    "Naam / Omschrijving": "CCV*CZAAR PETER APOTH AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,34",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-09-2017 16:37 Transactie:89T1B8 Term:BS028698"
+  },
+  {
+    "Datum": 20170926,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,21",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-09-2017 17:18 Transactie:91X4L1 Term:15BPS6"
+  },
+  {
+    "Datum": 20170926,
+    "Naam / Omschrijving": "ETOS 7590 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-09-2017 20:28 Transactie:98K1S3 Term:0YKP4N"
+  },
+  {
+    "Datum": 20170926,
+    "Naam / Omschrijving": "Amsterdam Central 2 Amsterdam",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-09-2017 20:29 Transactie:98B7N9 Term:00009123"
+  },
+  {
+    "Datum": 20170926,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,17",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908011307744 IBAN: NL61COBA0733974775 Kenmerk: 500817320035 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170925,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent October IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170925,
+    "Naam / Omschrijving": "Laura Alexander",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL69INGB0704624141",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,25",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Laura Alexander Omschrijving: Breakfast Saturday Westergasfabriek IBAN: NL69INGB0704624141"
+  },
+  {
+    "Datum": 20170925,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Greenchoice September IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170925,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-09-2017 19:51 Transactie:40H5P3 Term:94JY26"
+  },
+  {
+    "Datum": 20170925,
+    "Naam / Omschrijving": "Cafe 't Hooischip AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-09-2017 23:23 Transactie:4309I9 Term:J2B524"
+  },
+  {
+    "Datum": 20170925,
+    "Naam / Omschrijving": "Bibliotheek IBU 1 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-09-2017 14:14 Transactie:82Q6E9 Term:5WVJ01"
+  },
+  {
+    "Datum": 20170925,
+    "Naam / Omschrijving": "CCV*EYE FILMINSTITUUT AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-09-2017 20:06 Transactie:A368J8 Term:AL054219"
+  },
+  {
+    "Datum": 20170922,
+    "Naam / Omschrijving": "Albert Heijn 8634 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-09-2017 19:40 Transactie:59C1R5 Term:J86JL9"
+  },
+  {
+    "Datum": 20170922,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-09-2017 13:00 Transactie:37I937 Term:B685Q5"
+  },
+  {
+    "Datum": 20170921,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "675,98",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS SEPTEMBER IBAN: NL75ABNA0240357450 Kenmerk: 20170921 00795 54625 0004267 005 1"
+  },
+  {
+    "Datum": 20170921,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-09-2017 18:26 Transactie:19O8P9 Term:1S1NDP"
+  },
+  {
+    "Datum": 20170921,
+    "Naam / Omschrijving": "SALSA SHOP Amstelstr AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-09-2017 22:04 Transactie:247382 Term:G54ZDF"
+  },
+  {
+    "Datum": 20170921,
+    "Naam / Omschrijving": "Concerto Koffie AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-09-2017 12:32 Transactie:A8X9U7 Term:1D7CF0"
+  },
+  {
+    "Datum": 20170920,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL86INGB0002445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "91,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: MAAND OKT. NR. 564612273T700013 VOORSCHOT ZORGTOESLAG 2017 (LEAHY ) MEER INFO OP WWW.TOESLAGEN.NL IBAN: NL86INGB0002445588 Kenmerk: 20170915052889843"
+  },
+  {
+    "Datum": 20170919,
+    "Naam / Omschrijving": "RISTORANTE PIZZ. RE FE PALAU ITA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "54,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-09-2017 13:45 Transactie:48K5C4 Term:01360980"
+  },
+  {
+    "Datum": 20170919,
+    "Naam / Omschrijving": "NS AMSTERDAM CENTRAAL AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-09-2017 21:49 Transactie:64Z736 Term:CT464615"
+  },
+  {
+    "Datum": 20170918,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Spaarrekening voor unicef H87953233"
+  },
+  {
+    "Datum": 20170914,
+    "Naam / Omschrijving": "ISP       6860-LA MADD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-09-2017 20:58 Transactie:08A1T1 Term:97896860"
+  },
+  {
+    "Datum": 20170913,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,98",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Uw eigen bijdrage voor declaratie(s): 17022184, 17022184, 17022184, 17022184, 17022184. IBAN: NL87INGB0000717127 Kenmerk: 376790236 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170911,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,06",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-09-2017-08-10-2017 IBAN: NL38INGB0703076094 Kenmerk: 2291532 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170908,
+    "Naam / Omschrijving": "NS-Amsterdam CS 222 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-09-2017 09:59 Transactie:39Y1V9 Term:0DZX75"
+  },
+  {
+    "Datum": 20170908,
+    "Naam / Omschrijving": "ETOS 7590 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,78",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-09-2017 10:22 Transactie:40Q366 Term:Y87GS8"
+  },
+  {
+    "Datum": 20170908,
+    "Naam / Omschrijving": "Kiosk ASD 2925 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-09-2017 10:32 Transactie:40V7Q7 Term:50F377"
+  },
+  {
+    "Datum": 20170908,
+    "Naam / Omschrijving": "Buckaroo Stichting Derdengelden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "IC",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "19,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Buckaroo Stichting Derdengelden Omschrijving: Stichting Cineville (BSS): Factuur CNV00498105 IBAN: NL28DEUT0265186439 Kenmerk: 57F077260275481D885C9174E504B87B Reden: Terugboeking op verzoek klant Machtiging ID: 0O252662 Incassant ID: NL39ZZZ302317620000 Rentedatum: 04-09-2017"
+  },
+  {
+    "Datum": 20170908,
+    "Naam / Omschrijving": "CCV*AMSTERDAM ROEST B AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-09-2017 20:47 Transactie:A8V7W5 Term:CT067028"
+  },
+  {
+    "Datum": 20170908,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,39",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-09-2017 13:32 Transactie:154143 Term:T61M88"
+  },
+  {
+    "Datum": 20170906,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,48",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-09-2017 12:22 Transactie:52K7E3 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170905,
+    "Naam / Omschrijving": "GVB Weesperplein AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-09-2017 09:34 Transactie:45T4J4 Term:RJM78L"
+  },
+  {
+    "Datum": 20170905,
+    "Naam / Omschrijving": "CCV*AMSTERDAM ROEST BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-09-2017 14:06 Transactie:A8O242 Term:CT062516"
+  },
+  {
+    "Datum": 20170905,
+    "Naam / Omschrijving": "7114 AKO CS Noord AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-09-2017 16:36 Transactie:33R5F3 Term:2RFF02"
+  },
+  {
+    "Datum": 20170905,
+    "Naam / Omschrijving": "Rembrandts Corner AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-09-2017 14:03 Transactie:25U679 Term:1R115F"
+  },
+  {
+    "Datum": 20170905,
+    "Naam / Omschrijving": "NS-Amsterdam C 209 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-09-2017 16:03 Transactie:31U6N9 Term:5WR506"
+  },
+  {
+    "Datum": 20170905,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "82,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170905,
+    "Naam / Omschrijving": "MultiSafepay",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL48DEUT0319887774",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "164,99",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: MultiSafepay Omschrijving: 159330333 1150000733933055 Bestellen ?wx1700006393 ? Lelost Lelo Store NL IBAN: NL48DEUT0319887774 Kenmerk: 04-09-2017 22:26 1150000733933055"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-09-2017 12:30 Transactie:A4P3K5 Term:11Z0PT"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "Buckaroo Stichting Derdengelden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL28DEUT0265186439",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Buckaroo Stichting Derdengelden Omschrijving: Stichting Cineville (BSS): Factuur CNV00498105 IBAN: NL28DEUT0265186439 Kenmerk: 57F077260275481D885C9174E504B87B Machtiging ID: 0O252662 Incassant ID: NL39ZZZ302317620000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "SportCity",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL92INGB0664393268",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: SportCity Omschrijving: 04-09-2017 / 01-10-2017 IBAN: NL92INGB0664393268 Kenmerk: NO105022234-96 Machtiging ID: 105022234 Incassant ID: NL88ZZZ280675940000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL51ABNA0565668625",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "22,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Adyen Omschrijving: 4815043055377210 0030002303334713 Eventbrite 001672Eventbrite IBAN: NL51ABNA0565668625 Kenmerk: 02-09-2017 00:40 0030002303334713"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "CCV*ORFF B.V. AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-08-2017 19:14 Transactie:09K7O5 Term:CT067516"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "Frank's Restaurant AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-09-2017 16:50 Transactie:43Y3R6 Term:R465V6"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "NS-Amsterdam CS 226 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-09-2017 18:16 Transactie:497393 Term:0J7X93"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "ALBERT HEIJN 1653 SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,85",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-09-2017 18:45 Transactie:50B347 Term:95RQS9"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "NS-Schiphol 201 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-09-2017 18:41 Transactie:50E0A6 Term:5WTB01"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "ALBERT HEIJN 5608 SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-09-2017 18:49 Transactie:50G8T6 Term:K3GK90"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "GVB voertuig B1415 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-09-2017 20:22 Transactie:53Z418 Term:S086GH"
+  },
+  {
+    "Datum": 20170904,
+    "Naam / Omschrijving": "CCV*Pizza-Spagetti-Hui AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "86,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-09-2017 22:36 Transactie:557914 Term:CT608258"
+  },
+  {
+    "Datum": 20170901,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-08-2017 12:29 Transactie:9734A0 Term:B685Q5"
+  },
+  {
+    "Datum": 20170901,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-08-2017 17:52 Transactie:06E6M2 Term:1S1NDP"
+  },
+  {
+    "Datum": 20170901,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-08-2017 18:54 Transactie:09D609 Term:7X9XVQ"
+  },
+  {
+    "Datum": 20170831,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,01",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-08-2017 19:36 Transactie:83L715 Term:578QY7"
+  },
+  {
+    "Datum": 20170831,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-08-2017 19:38 Transactie:8338D7 Term:94JY26"
+  },
+  {
+    "Datum": 20170831,
+    "Naam / Omschrijving": "Lavinia Eleanor Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT75V0200832974001135172621",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Lavinia Eleanor Leahy Omschrijving: Viaggio Sardegna IBAN: IT75V0200832974001135172621"
+  },
+  {
+    "Datum": 20170830,
+    "Naam / Omschrijving": "ABN-AMRO AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-08-2017 17:53 Transactie:1037Z2 Term:S1H440"
+  },
+  {
+    "Datum": 20170830,
+    "Naam / Omschrijving": "BRUG 34 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-08-2017 18:11 Transactie:45S4G8 Term:534FXT"
+  },
+  {
+    "Datum": 20170830,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-08-2017 21:12 Transactie:49Q5N8 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170830,
+    "Naam / Omschrijving": "Albert Heijn 1061 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,82",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-08-2017 13:18 Transactie:30P0V1 Term:05S80T"
+  },
+  {
+    "Datum": 20170830,
+    "Naam / Omschrijving": "HotelToonPOS Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-08-2017 18:11 Transactie:45Y0A2 Term:87211827"
+  },
+  {
+    "Datum": 20170829,
+    "Naam / Omschrijving": "Hr D da Cunha Esteves",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL79INGB0700409408",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "17,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hr D da Cunha Esteves Omschrijving: pizza IBAN: NL79INGB0700409408"
+  },
+  {
+    "Datum": 20170829,
+    "Naam / Omschrijving": "CCV*H. JONGEJANS REIGE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-08-2017 18:24 Transactie:11D5O5 Term:CT067139"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,56",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-7888017 0020001664620327 Order Number 2017-7888017 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 28-08-2017 20:03 0020001664620327"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "615,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent September IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,89",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-08-2017 08:57 Transactie:94Q789 Term:7YWB44"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "IZ *Pizzaheart V.O.F. AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "22,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-08-2017 21:30 Transactie:9268T6 Term:88416901"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Bar Basquiat BV Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,05",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-08-2017 13:01 Transactie:76H3I5 Term:32521344"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Regbree 40 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-08-2017 14:12 Transactie:79G4O0 Term:KNM5MZ"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Blue AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-08-2017 15:14 Transactie:8270P4 Term:6DNT01"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "CCV*TABAK E SMOKING AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-08-2017 15:55 Transactie:83Y360 Term:CT450391"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Van Gogh Museum Ams AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-08-2017 17:28 Transactie:87H626 Term:J5QHP3"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "CCV*AMSTERDAM ROEST B AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-08-2017 13:40 Transactie:A8M123 Term:CT067028"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Frank's Restaurant AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-08-2017 16:29 Transactie:5826Z7 Term:R465V6"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Frank's Restaurant AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-08-2017 16:30 Transactie:5894X3 Term:R465V6"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-08-2017 16:48 Transactie:59G4W8 Term:15BPS6"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "McDonald's Muntplein AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-08-2017 21:29 Transactie:68N6N1 Term:2HC404"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. September 2017 t/m september 2017 IBAN: NL87INGB0000717127 Kenmerk: 373724028 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "15,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Hr D da Cunha Esteves",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL79INGB0700409408",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "3,20",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hr D da Cunha Esteves Omschrijving: capuchino IBAN: NL79INGB0700409408"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Artika BV AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-08-2017 18:55 Transactie:18C441 Term:827SJ2"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Cafe van Zuylen AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-08-2017 20:12 Transactie:2108H9 Term:5RSN02"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "SALSA SHOP Amstelstr AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-08-2017 21:14 Transactie:22Z7N1 Term:G54ZDF"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "GRAAN BV AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-08-2017 21:55 Transactie:24C3Y1 Term:VNB2TR"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-08-2017 09:55 Transactie:29J0F0 Term:XMX98J"
+  },
+  {
+    "Datum": 20170828,
+    "Naam / Omschrijving": "The Coffee Company B AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-08-2017 11:56 Transactie:A0Y8W6 Term:01Z11Q"
+  },
+  {
+    "Datum": 20170825,
+    "Naam / Omschrijving": "Massage-O-Matic DenHaag NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-08-2017 15:27 Transactie:8122F1 Term:00010005"
+  },
+  {
+    "Datum": 20170825,
+    "Naam / Omschrijving": "GVB Waterlooplein AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-08-2017 16:55 Transactie:78U7A2 Term:HPP950"
+  },
+  {
+    "Datum": 20170825,
+    "Naam / Omschrijving": "NS-Amsterdam CS 227 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-08-2017 17:01 Transactie:79C3G7 Term:0J8ZL0"
+  },
+  {
+    "Datum": 20170825,
+    "Naam / Omschrijving": "NS-Schiphol 212 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-08-2017 17:22 Transactie:80R3Y5 Term:09WLH6"
+  },
+  {
+    "Datum": 20170825,
+    "Naam / Omschrijving": "GVB voertuig B355 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-08-2017 18:56 Transactie:85N084 Term:LW5X8B"
+  },
+  {
+    "Datum": 20170825,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-08-2017 12:28 Transactie:62Q5Q0 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170824,
+    "Naam / Omschrijving": "CCV*LANGENDIJK EETCAFE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "30,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-08-2017 21:58 Transactie:13Y0N0 Term:CT083834"
+  },
+  {
+    "Datum": 20170824,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,43",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-08-2017 17:43 Transactie:445546 Term:XMX98J"
+  },
+  {
+    "Datum": 20170824,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "40,61",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-08-2017 18:38 Transactie:46N2I4 Term:578QY7"
+  },
+  {
+    "Datum": 20170824,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "74,98",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908010780233 IBAN: NL61COBA0733974775 Kenmerk: 500313505646 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170824,
+    "Naam / Omschrijving": "NS-Amsterdam C 228 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-08-2017 11:16 Transactie:21D6G4 Term:365Z11"
+  },
+  {
+    "Datum": 20170824,
+    "Naam / Omschrijving": "Starbucks ASD 2948 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-08-2017 12:35 Transactie:26F499 Term:13RW3B"
+  },
+  {
+    "Datum": 20170823,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "1009,64",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS AUGUSTUS IBAN: NL75ABNA0240357450 Kenmerk: 20170821 02281 54625 0004267 004 1"
+  },
+  {
+    "Datum": 20170823,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,39",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-08-2017 20:49 Transactie:12V0O4 Term:18PL10"
+  },
+  {
+    "Datum": 20170823,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-08-2017 22:07 Transactie:13G712 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170822,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,89",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-08-2017 08:54 Transactie:9161B5 Term:15BPS6"
+  },
+  {
+    "Datum": 20170821,
+    "Naam / Omschrijving": "Fotografie Museum AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-08-2017 15:47 Transactie:21Y3H4 Term:75L218"
+  },
+  {
+    "Datum": 20170821,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,48",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-08-2017 10:34 Transactie:37O2G3 Term:15BPS6"
+  },
+  {
+    "Datum": 20170821,
+    "Naam / Omschrijving": "NS-A'dam Muiderp 201 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-08-2017 10:44 Transactie:37P1I2 Term:5WXQ01"
+  },
+  {
+    "Datum": 20170821,
+    "Naam / Omschrijving": "NS-Bussum Zuid 201 BUSSUM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-08-2017 11:10 Transactie:37Z2E6 Term:5WS201"
+  },
+  {
+    "Datum": 20170821,
+    "Naam / Omschrijving": "NS-Naarden Bsm 202 BUSSUM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-08-2017 15:44 Transactie:46W6Y5 Term:5WTM02"
+  },
+  {
+    "Datum": 20170821,
+    "Naam / Omschrijving": "AH to Go 5840 BUSSUM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-08-2017 15:43 Transactie:4732M7 Term:0S102F"
+  },
+  {
+    "Datum": 20170821,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL86INGB0002445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "792,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: JAN-SEP NR. 564612273T700013 VOORSCHOT ZORGTOESLAG 2017 (LEAHY ) MEER INFO OP WWW.TOESLAGEN.NL IBAN: NL86INGB0002445588 Kenmerk: 20170816033753044"
+  },
+  {
+    "Datum": 20170818,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-08-2017 12:36 Transactie:41X9Z6 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170817,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-08-2017 20:08 Transactie:29V6R4 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170817,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-08-2017 13:03 Transactie:0926X5 Term:B54Y65"
+  },
+  {
+    "Datum": 20170816,
+    "Naam / Omschrijving": "ALBERT HEIJN 1425 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,01",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-08-2017 17:15 Transactie:98O8C9 Term:901V06"
+  },
+  {
+    "Datum": 20170816,
+    "Naam / Omschrijving": "ALBERT HEIJN 1425 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-08-2017 17:16 Transactie:98S8O9 Term:920YDM"
+  },
+  {
+    "Datum": 20170815,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,04",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-08-2017 21:15 Transactie:73C9S2 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170814,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "70,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170814,
+    "Naam / Omschrijving": "BBGOURMET PORTO PRT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-08-2017 15:32 Transactie:13H1K1 Term:00798611"
+  },
+  {
+    "Datum": 20170814,
+    "Naam / Omschrijving": "CALZEDONIA - COIMBRA S COIMBRA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,35",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-08-2017 16:03 Transactie:1518B2 Term:00455866"
+  },
+  {
+    "Datum": 20170811,
+    "Naam / Omschrijving": "D MARIA PREGARIA PORTO PRT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,10",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-08-2017 16:40 Transactie:48T873 Term:00983296"
+  },
+  {
+    "Datum": 20170811,
+    "Naam / Omschrijving": "R Carmelitas, 32 Porto PRT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "40,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-08-2017 17:34 Transactie:5156E7 Term:00009414"
+  },
+  {
+    "Datum": 20170810,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "70,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170809,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,06",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-08-2017-08-09-2017 IBAN: NL38INGB0703076094 Kenmerk: 1627679 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170809,
+    "Naam / Omschrijving": "Etos Westerstraat AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,08",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-08-2017 13:21 Transactie:78P2R0 Term:YLL7TD"
+  },
+  {
+    "Datum": 20170809,
+    "Naam / Omschrijving": "SINGEL 419 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-08-2017 14:13 Transactie:816267 Term:G3M02H"
+  },
+  {
+    "Datum": 20170809,
+    "Naam / Omschrijving": "Waterstone's AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-08-2017 14:45 Transactie:82N3S1 Term:EP9106"
+  },
+  {
+    "Datum": 20170808,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Waternet drinkwater (less because of feenstra) IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170808,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-08-2017 13:08 Transactie:45T4U3 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170808,
+    "Naam / Omschrijving": "Hr D da Cunha Esteves",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL79INGB0700409408",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "8,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hr D da Cunha Esteves IBAN: NL79INGB0700409408"
+  },
+  {
+    "Datum": 20170808,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "8,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170808,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Greenchoice August IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170807,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "35,42",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-7717770 0020001646484821 Order Number 2017-7717770 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 07-08-2017 20:55 0020001646484821"
+  },
+  {
+    "Datum": 20170807,
+    "Naam / Omschrijving": "CCV*CAFE VIRAN SCHIPHO",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-08-2017 18:55 Transactie:32D2D3 Term:CT473576"
+  },
+  {
+    "Datum": 20170807,
+    "Naam / Omschrijving": "NS-Schiphol 226 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-08-2017 18:51 Transactie:3235Y1 Term:16X6VF"
+  },
+  {
+    "Datum": 20170807,
+    "Naam / Omschrijving": "SportCity",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL92INGB0664393268",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: SportCity Omschrijving: 07-08-2017 / 03-09-2017 IBAN: NL92INGB0664393268 Kenmerk: NO105022234-95 Machtiging ID: 105022234 Incassant ID: NL88ZZZ280675940000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170802,
+    "Naam / Omschrijving": "STARBUCKS 16337 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-08-2017 08:46 Transactie:52G4X6 Term:CT362566"
+  },
+  {
+    "Datum": 20170802,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "200,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170802,
+    "Naam / Omschrijving": "Kruidvat 7472 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-08-2017 17:50 Transactie:78D9B2 Term:5TG601"
+  },
+  {
+    "Datum": 20170802,
+    "Naam / Omschrijving": "SINGEL 419 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-08-2017 17:58 Transactie:7942E9 Term:G3M02H"
+  },
+  {
+    "Datum": 20170802,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-08-2017 12:58 Transactie:62Q2A5 Term:B685Q5"
+  },
+  {
+    "Datum": 20170801,
+    "Naam / Omschrijving": "NS-Schiphol 212 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-08-2017 08:06 Transactie:51R755 Term:09WLH6"
+  },
+  {
+    "Datum": 20170801,
+    "Naam / Omschrijving": "NS-A'dam CS 102 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-08-2017 08:33 Transactie:52G181 Term:1ZL402"
+  },
+  {
+    "Datum": 20170801,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-07-2017 13:19 Transactie:2622I8 Term:B685Q5"
+  },
+  {
+    "Datum": 20170801,
+    "Naam / Omschrijving": "NS-Amsterdam CS 227 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-07-2017 17:49 Transactie:44U5G6 Term:0J8ZL0"
+  },
+  {
+    "Datum": 20170801,
+    "Naam / Omschrijving": "ALBERT HEIJN 1653 SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-07-2017 18:25 Transactie:46E5C3 Term:960CR4"
+  },
+  {
+    "Datum": 20170801,
+    "Naam / Omschrijving": "CCV*TULIP INN AMSTERDA SCHIPHOL",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "170,08",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-07-2017 18:59 Transactie:47N442 Term:CT499423"
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "80,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "OPLADENOV-CHIPKRT691 AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-07-2017 13:46 Transactie:0478V0 Term:041KSH"
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "Artika BV AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "49,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-07-2017 14:24 Transactie:0615W4 Term:827SJ2"
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "HEMA EV002 N'DIJK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-07-2017 14:40 Transactie:067784 Term:MC8710"
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "CoffeeCompany ODE AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-07-2017 16:08 Transactie:10H276 Term:JWM26F"
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "Coffee Comp Waterlpl AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-07-2017 14:32 Transactie:87K2K0 Term:1D3Z50"
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "Kruidvat 7206 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,57",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-07-2017 15:03 Transactie:89N7A0 Term:4CM201"
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening V29217821",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,64",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: MVHW56 0030002242625105 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 30-07-2017 20:57 0030002242625105"
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170731,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170728,
+    "Naam / Omschrijving": "Starbucks ASD 2948 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,10",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-07-2017 09:13 Transactie:27E4X9 Term:2C592B"
+  },
+  {
+    "Datum": 20170728,
+    "Naam / Omschrijving": "Albert Heijn 8634 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,46",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-07-2017 18:46 Transactie:19O0Q9 Term:J702YW"
+  },
+  {
+    "Datum": 20170728,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-07-2017 13:04 Transactie:0021Z1 Term:B54Y65"
+  },
+  {
+    "Datum": 20170728,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Augustus 2017 t/m augustus 2017 IBAN: NL87INGB0000717127 Kenmerk: 369588774 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170728,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "197,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Plane tickets IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170728,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "300,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170727,
+    "Naam / Omschrijving": "CCV*VOF BAKERS EN ROAS AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "41,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-07-2017 13:58 Transactie:75O4Z3 Term:CT451061"
+  },
+  {
+    "Datum": 20170727,
+    "Naam / Omschrijving": "CCV*CZAAR PETER APOTH AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-07-2017 15:55 Transactie:82T540 Term:BS028698"
+  },
+  {
+    "Datum": 20170727,
+    "Naam / Omschrijving": "ALBERT HEIJN 1458 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-07-2017 19:49 Transactie:93Q8K1 Term:6V204C"
+  },
+  {
+    "Datum": 20170727,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-07-2017 14:45 Transactie:7847K5 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170727,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "41,20",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. IBAN: NL87INGB0000717127 Kenmerk: 371354886 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170726,
+    "Naam / Omschrijving": "Bloemhandel Rinus AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-07-2017 11:05 Transactie:64Y7G5 Term:V380BT"
+  },
+  {
+    "Datum": 20170726,
+    "Naam / Omschrijving": "Mw LE Leahy",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Van Oranje spaarrekening V29217821"
+  },
+  {
+    "Datum": 20170726,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-07-2017 18:27 Transactie:5488E9 Term:XMX98J"
+  },
+  {
+    "Datum": 20170726,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,28",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-07-2017 12:23 Transactie:33J723 Term:834HR7"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,73",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-07-2017 09:11 Transactie:A237Z2 Term:15BPS6"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "CCV*CAFE DE CEUVEL AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-07-2017 20:48 Transactie:33A4Y4 Term:CT422029"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "Bibliotheek IBU 1 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-07-2017 10:57 Transactie:43K5X3 Term:5WVJ01"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "Action 1342 Amsterdam AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,16",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-07-2017 13:21 Transactie:53N5O5 Term:19ZG5H"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "20 Hema Linnaeusstra AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-07-2017 13:35 Transactie:557166 Term:FH5VQ2"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "INT 2217 Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-07-2017 14:39 Transactie:6008U2 Term:715H2S"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "NS-Amsterdam CS 222 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-07-2017 18:34 Transactie:74K2R7 Term:0DZX75"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "Salsa Shop A'dam CS AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-07-2017 18:47 Transactie:74X334 Term:M07XF8"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "HEMA ASD 2941 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-07-2017 18:40 Transactie:746683 Term:82LHR8"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "NS-Hilversum 102 HILVERSUM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-07-2017 19:55 Transactie:76H8W7 Term:2BBS02"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "NS-Hilversum 104 HILVERSUM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-07-2017 19:54 Transactie:762715 Term:2BBS04"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-07-2017 12:10 Transactie:82Z9H9 Term:578QY7"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,68",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-07-2017 21:39 Transactie:99R832 Term:578QY7"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,21",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908010369216 IBAN: NL61COBA0733974775 Kenmerk: 501110589478 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Train and other (22nd of July) IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "AH to go ijhal 5870 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-07-2017 18:14 Transactie:27Z8U6 Term:2F7Q53"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "Smullers ASD 2927 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-07-2017 22:05 Transactie:3589F2 Term:2BX1N7"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,62",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-07-2017 10:19 Transactie:A7T7W4 Term:15BPS6"
+  },
+  {
+    "Datum": 20170724,
+    "Naam / Omschrijving": "Coffee Company Javap AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-07-2017 09:44 Transactie:39Y5X6 Term:01S9W7"
+  },
+  {
+    "Datum": 20170721,
+    "Naam / Omschrijving": "Naar Oranje Spaarrekening V29217821",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170721,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170721,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170721,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "615,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent August IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170721,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "1009,64",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS JULI IBAN: NL75ABNA0240357450 Kenmerk: 20170706 00244 54625 0004267 003 1"
+  },
+  {
+    "Datum": 20170721,
+    "Naam / Omschrijving": "STARBUCKS 16337 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-07-2017 18:55 Transactie:97M8I9 Term:CT362566"
+  },
+  {
+    "Datum": 20170721,
+    "Naam / Omschrijving": "VAP Rembrandtplein AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-07-2017 20:12 Transactie:99H9O0 Term:KSS4X5"
+  },
+  {
+    "Datum": 20170721,
+    "Naam / Omschrijving": "HEMA KALVERTOREN AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-07-2017 13:28 Transactie:7919P0 Term:73VT20"
+  },
+  {
+    "Datum": 20170720,
+    "Naam / Omschrijving": "TEXACO AMSTERDAM AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-07-2017 22:19 Transactie:645538 Term:10031411"
+  },
+  {
+    "Datum": 20170720,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening V29217821",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170718,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,84",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-07-2017 11:58 Transactie:05E0L7 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170718,
+    "Naam / Omschrijving": "SportCity",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL92INGB0664393268",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "67,50",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: SportCity IBAN: NL92INGB0664393268 Kenmerk: NO105022234-12665343 Machtiging ID: 105022234 Incassant ID: NL88ZZZ280675940000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170718,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-07-2017 13:04 Transactie:8601S4 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170717,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Dinner IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170717,
+    "Naam / Omschrijving": "CCV*LANGENDIJK EETCAFE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-07-2017 11:27 Transactie:90I6P2 Term:CT083834"
+  },
+  {
+    "Datum": 20170717,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,99",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-7529602 0020001627440235 Order Number 2017-7529602 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 16-07-2017 20:09 0020001627440235"
+  },
+  {
+    "Datum": 20170714,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "350,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170714,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170714,
+    "Naam / Omschrijving": "Transavia.com by Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL33ABNA0621332496",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "252,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Transavia.com by Adyen Omschrijving: 1515000208323359 0030002210086672 UF665U 53559127 IBAN: NL33ABNA0621332496 Kenmerk: 14-07-2017 10:27 0030002210086672"
+  },
+  {
+    "Datum": 20170713,
+    "Naam / Omschrijving": "Kosten BasisPakket",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,90",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "1 apr t/m 30 jun 2017 ING BANK N.V."
+  },
+  {
+    "Datum": 20170711,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "22,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Valeria.s shirt IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170711,
+    "Naam / Omschrijving": "AT B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL74INGB0650602811",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "59,99",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: AT B.V. Omschrijving: 3612809329 0050002826914806 Regenjas Janet America Today IBAN: NL74INGB0650602811 Kenmerk: 11-07-2017 16:25 0050002826914806"
+  },
+  {
+    "Datum": 20170711,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Greenchoice July IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170711,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening V29217821",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170710,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170710,
+    "Naam / Omschrijving": "Naar Oranje Spaarrekening V29217821",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "300,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170710,
+    "Naam / Omschrijving": "Hans Prijsoptiek B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL68DEUT0447287117",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "72,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hans Prijsoptiek B.V. Omschrijving: 2932386 1150000702458730 Description HANS ANDERS WEBWINKEL IBAN: NL68DEUT0447287117 Kenmerk: 10-07-2017 07:51 1150000702458730"
+  },
+  {
+    "Datum": 20170710,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,06",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-07-2017-08-08-2017 IBAN: NL38INGB0703076094 Kenmerk: 971944 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170710,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-07-2017 17:33 Transactie:89X304 Term:XMX98J"
+  },
+  {
+    "Datum": 20170707,
+    "Naam / Omschrijving": "7e contante storting",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "Betreft kosten storting ING BANK N.V."
+  },
+  {
+    "Datum": 20170706,
+    "Naam / Omschrijving": "Coffee Company Javap AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-07-2017 11:04 Transactie:96S198 Term:01S9W7"
+  },
+  {
+    "Datum": 20170705,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "28,34",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: CU3V6P 0030002192602150 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 05-07-2017 20:29 0030002192602150"
+  },
+  {
+    "Datum": 20170705,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "525,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-ROKIN         00008248 PASVOLGNR 001 05-07-2017 00:00 TRANSACTIENR 67481"
+  },
+  {
+    "Datum": 20170705,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,13",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-07-2017 19:14 Transactie:86N1R2 Term:714ZQH"
+  },
+  {
+    "Datum": 20170705,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-07-2017 12:54 Transactie:66X1G5 Term:48CDV8"
+  },
+  {
+    "Datum": 20170704,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,49",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-07-2017 13:06 Transactie:3166E0 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170703,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,49",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-7413904 0020001616246251 Order Number 2017-7413904 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 03-07-2017 19:59 0020001616246251"
+  },
+  {
+    "Datum": 20170703,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,67",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-07-2017 18:28 Transactie:15Y615 Term:5DV3JD"
+  },
+  {
+    "Datum": 20170703,
+    "Naam / Omschrijving": "GRAAN BV AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-07-2017 22:12 Transactie:A6A0U3 Term:VNB2TR"
+  },
+  {
+    "Datum": 20170703,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-07-2017 21:58 Transactie:A615B5 Term:B685Q5"
+  },
+  {
+    "Datum": 20170630,
+    "Naam / Omschrijving": "NS-Duivendrecht 203 DUIVENDRECHT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-06-2017 08:14 Transactie:18P3A1 Term:863C18"
+  },
+  {
+    "Datum": 20170630,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-06-2017 17:45 Transactie:08O469 Term:L263R6"
+  },
+  {
+    "Datum": 20170630,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-06-2017 13:17 Transactie:A343U1 Term:B685Q5"
+  },
+  {
+    "Datum": 20170629,
+    "Naam / Omschrijving": "Buckaroo Stichting Derdengelden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL28DEUT0265186439",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Buckaroo Stichting Derdengelden Omschrijving: Stichting Cineville (BSS): Factuur CNV00439883 IBAN: NL28DEUT0265186439 Kenmerk: DEC55EE783BD4795A89F32FA5E98F8EB Machtiging ID: 0O252504 Incassant ID: NL39ZZZ302317620000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170628,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170628,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,78",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-06-2017 12:27 Transactie:2668I3 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170628,
+    "Naam / Omschrijving": "NS-Amsterdam CS 220 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-06-2017 14:58 Transactie:3535V3 Term:0BF5ZC"
+  },
+  {
+    "Datum": 20170627,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "22,64",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: ZKABIW 0030002175324039 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 27-06-2017 20:02 0030002175324039"
+  },
+  {
+    "Datum": 20170627,
+    "Naam / Omschrijving": "Mw V Posada Villada",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL43INGB0704249219",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "22,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw V Posada Villada Omschrijving: valerias tshirt IBAN: NL43INGB0704249219"
+  },
+  {
+    "Datum": 20170627,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-06-2017 12:33 Transactie:A197G3 Term:GZV30Y"
+  },
+  {
+    "Datum": 20170627,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Juli 2017 t/m juli 2017 IBAN: NL87INGB0000717127 Kenmerk: 365745475 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170626,
+    "Naam / Omschrijving": "CCV*PQNL Linnaeus B.V. AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-06-2017 12:02 Transactie:72T8S3 Term:CT495759"
+  },
+  {
+    "Datum": 20170626,
+    "Naam / Omschrijving": "NS-A'dam Muiderp 201 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-06-2017 12:09 Transactie:73E1Q7 Term:5WXQ01"
+  },
+  {
+    "Datum": 20170626,
+    "Naam / Omschrijving": "CCV*H. JONGEJANS REIGE AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-06-2017 10:59 Transactie:29C8Q9 Term:CT067139"
+  },
+  {
+    "Datum": 20170626,
+    "Naam / Omschrijving": "IKEA BV A'dam ZO AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "31,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-06-2017 13:52 Transactie:43B122 Term:241207"
+  },
+  {
+    "Datum": 20170626,
+    "Naam / Omschrijving": "IKEA BV A'dam ZO AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-06-2017 14:09 Transactie:44J1Z2 Term:241244"
+  },
+  {
+    "Datum": 20170626,
+    "Naam / Omschrijving": "Bloke AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "32,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-06-2017 17:23 Transactie:60M1O0 Term:YBV5Z5"
+  },
+  {
+    "Datum": 20170626,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,35",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908009992863 IBAN: NL61COBA0733974775 Kenmerk: 500313208844 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170626,
+    "Naam / Omschrijving": "Feenstra Verwarming B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL58INGB0664502229",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,97",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Feenstra Verwarming B.V. Omschrijving: incasso Feenstra/Nuon 8412317 Termijn 01-07-2017 - 30-09-2017 IBAN: NL58INGB0664502229 Kenmerk: 1700026-2160-.4Y20HTB4Q Machtiging ID: C30628-0667253386 Incassant ID: NL05ZZZ390227460000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170626,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "16,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170623,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "26,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Water bill June IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170623,
+    "Naam / Omschrijving": "Salsa Shop AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-06-2017 13:25 Transactie:63K3R2 Term:BS063675"
+  },
+  {
+    "Datum": 20170622,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent July 2 IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170622,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent July IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170622,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170622,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "1009,64",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS JUNI IBAN: NL75ABNA0240357450 Kenmerk: 20170620 01454 54625 0004267 002 1"
+  },
+  {
+    "Datum": 20170622,
+    "Naam / Omschrijving": "CCV*MORENA AAN DE AMST AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-06-2017 22:01 Transactie:45W7Z4 Term:CT406516"
+  },
+  {
+    "Datum": 20170622,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-06-2017 14:38 Transactie:2947K9 Term:B54Y65"
+  },
+  {
+    "Datum": 20170621,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,27",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-06-2017 10:47 Transactie:150721 Term:834HR7"
+  },
+  {
+    "Datum": 20170619,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Groceries IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170619,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Greenchoice June IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170619,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-06-2017 14:05 Transactie:38B255 Term:543KG8"
+  },
+  {
+    "Datum": 20170619,
+    "Naam / Omschrijving": "Hotel Arena B.V. AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-06-2017 16:52 Transactie:197734 Term:0BH405"
+  },
+  {
+    "Datum": 20170619,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-06-2017 20:48 Transactie:26J644 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170619,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "24,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-06-2017 21:01 Transactie:27V6U2 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170619,
+    "Naam / Omschrijving": "CCV*AMSTERDAM ROEST BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-06-2017 22:27 Transactie:92T1K3 Term:CT065674"
+  },
+  {
+    "Datum": 20170619,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,36",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-06-2017 11:39 Transactie:59A1A8 Term:714ZQH"
+  },
+  {
+    "Datum": 20170619,
+    "Naam / Omschrijving": "CCV*BAGELS AND BEANS R AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,85",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-06-2017 11:21 Transactie:57V408 Term:CT449316"
+  },
+  {
+    "Datum": 20170616,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "200,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170616,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,19",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-06-2017 21:00 Transactie:48C3M0 Term:15BPS6"
+  },
+  {
+    "Datum": 20170615,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,79",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-06-2017 12:03 Transactie:21O338 Term:826VWQ"
+  },
+  {
+    "Datum": 20170615,
+    "Naam / Omschrijving": "Bibliotheek ODE 0 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "32,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-06-2017 19:03 Transactie:08C4G7 Term:808Y76"
+  },
+  {
+    "Datum": 20170615,
+    "Naam / Omschrijving": "La Place OBA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,85",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-06-2017 19:27 Transactie:08X8P3 Term:Z0TP22"
+  },
+  {
+    "Datum": 20170613,
+    "Naam / Omschrijving": "Groupon by Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL62ABNA0418853592",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "37,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Groupon by Adyen Omschrijving: 4314973719136196 0030002148972198 Groupon IBAN: NL62ABNA0418853592 Kenmerk: 13-06-2017 18:39 0030002148972198"
+  },
+  {
+    "Datum": 20170613,
+    "Naam / Omschrijving": "Muntplein 2 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "59,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-06-2017 10:45 Transactie:5716O9 Term:YH10XK"
+  },
+  {
+    "Datum": 20170613,
+    "Naam / Omschrijving": "ALBERT HEIJN 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,74",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-06-2017 13:30 Transactie:33K2G4 Term:0N959W"
+  },
+  {
+    "Datum": 20170613,
+    "Naam / Omschrijving": "BELASTINGDIENST",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL36INGB0003445588",
+    "Code": "VZ",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "535,00",
+    "MutatieSoort": "Verzamelbetaling",
+    "Mededelingen": "Naam: BELASTINGDIENST Omschrijving: TERUGGAAF NR. 564612273H6001 IB/PVV 2016 (LEAHY ) IBAN: NL36INGB0003445588 Kenmerk: 20170608090032619"
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-06-2017 11:13 Transactie:0378Y5 Term:XMX98J"
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,74",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-06-2017 11:10 Transactie:95Y8T9 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "Stichting Cafe Mezrab Amsterdam",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-06-2017 20:27 Transactie:20R1C9 Term:EP000287"
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "Stichting Cafe Mezrab Amsterdam",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-06-2017 19:51 Transactie:2081Q6 Term:EP000287"
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "IZ *Versal Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-06-2017 22:27 Transactie:2167I3 Term:88413001"
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-06-2017 17:01 Transactie:A145C9 Term:5DV3JD"
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "Wittenburg AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "33,24",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-06-2017 16:42 Transactie:99I9V8 Term:KG1QHM"
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "Wittenburg AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,56",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-06-2017 16:45 Transactie:99X743 Term:KG1QHM"
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "Royal Tobacco AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-06-2017 13:35 Transactie:40N3R1 Term:1LQY8M"
+  },
+  {
+    "Datum": 20170612,
+    "Naam / Omschrijving": "CCV*KAASHUIS TROMP WESTZAAN NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-06-2017 13:33 Transactie:409846 Term:CT453143"
+  },
+  {
+    "Datum": 20170609,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,94",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-7181597 0020001594369322 Order Number 2017-7181597 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 09-06-2017 21:43 0020001594369322"
+  },
+  {
+    "Datum": 20170609,
+    "Naam / Omschrijving": "Laura Alexander",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL69INGB0704624141",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Laura Alexander Omschrijving: Yummy Belgian Chocolate IBAN: NL69INGB0704624141"
+  },
+  {
+    "Datum": 20170609,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,69",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-06-2017 12:01 Transactie:3447O6 Term:84J6HP"
+  },
+  {
+    "Datum": 20170609,
+    "Naam / Omschrijving": "GVB A.J. Ernststraat AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-06-2017 22:27 Transactie:24X8A9 Term:28XZD8"
+  },
+  {
+    "Datum": 20170609,
+    "Naam / Omschrijving": "NATIONALE-NEDERLANDEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL38INGB0703076094",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,06",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: NATIONALE-NEDERLANDEN Omschrijving: ING Aansprakelijkheidsverzekering + polisnr: 55563811 + Periode: 09-06-2017-08-07-2017 IBAN: NL38INGB0703076094 Kenmerk: 426933 Machtiging ID: 10617542 Incassant ID: NL47ZZZ524034240000 Eerste incasso"
+  },
+  {
+    "Datum": 20170609,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170608,
+    "Naam / Omschrijving": "GO METRO PORTE DE NAM BRUXELLES",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-06-2017 08:01 Transactie:6503G1 Term:01916773"
+  },
+  {
+    "Datum": 20170607,
+    "Naam / Omschrijving": "ABN-AMRO SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-06-2017 16:48 Transactie:54Z6M3 Term:S1O226"
+  },
+  {
+    "Datum": 20170607,
+    "Naam / Omschrijving": "BOSC GLASGOW ARGYLE ST GLASGOW",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "37,07",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-06-2017 17:53 Transactie:2972T1 Term:BBE5BC11 Valuta:-30,00 GBP Koers:0,8616584 Kosten:2,25 EUR"
+  },
+  {
+    "Datum": 20170607,
+    "Naam / Omschrijving": "NS-Schiphol-120 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "21,46",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-06-2017 16:46 Transactie:54X9Z8 Term:2BB920"
+  },
+  {
+    "Datum": 20170607,
+    "Naam / Omschrijving": "GVB Voertuig B1606 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-06-2017 18:30 Transactie:601728 Term:314L65"
+  },
+  {
+    "Datum": 20170607,
+    "Naam / Omschrijving": "AH Station A'dam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,74",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-06-2017 19:02 Transactie:613681 Term:1HR303"
+  },
+  {
+    "Datum": 20170607,
+    "Naam / Omschrijving": "ROYAL BK OF SCOTLAND GLASGOW GBR",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "26,33",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-06-2017 23:39 Transactie:31V804 Term:TE19136 Kosten:2,25 EUR"
+  },
+  {
+    "Datum": 20170606,
+    "Naam / Omschrijving": "E00845600000000 GLASGOW GBR",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "29,97",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-06-2017 12:05 Transactie:13V6J0 Term:E008456 Kosten:2,25 EUR"
+  },
+  {
+    "Datum": 20170605,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170605,
+    "Naam / Omschrijving": "E04009800000000 GLASGOW GBR",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "67,47",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-06-2017 15:05 Transactie:85C4A5 Term:E040098 Kosten:2,25 EUR"
+  },
+  {
+    "Datum": 20170605,
+    "Naam / Omschrijving": "Shop 9/ Lounge 2 AV Schiphol A",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-06-2017 07:11 Transactie:08J1V1 Term:31000428"
+  },
+  {
+    "Datum": 20170605,
+    "Naam / Omschrijving": "HMSHOST AMSTERDAM SCHI",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-06-2017 07:15 Transactie:08D471 Term:80482160"
+  },
+  {
+    "Datum": 20170602,
+    "Naam / Omschrijving": "NS-Amsterdam C. 218 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-06-2017 06:29 Transactie:08A2Y4 Term:475NDQ"
+  },
+  {
+    "Datum": 20170602,
+    "Naam / Omschrijving": "ALBERT HEIJN 5608 SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-06-2017 06:54 Transactie:08K045 Term:K471Y7"
+  },
+  {
+    "Datum": 20170602,
+    "Naam / Omschrijving": "TEXACO AMSTERDAM AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,49",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-06-2017 23:33 Transactie:07N4B9 Term:10031411"
+  },
+  {
+    "Datum": 20170601,
+    "Naam / Omschrijving": "SLA Utrechtse BV AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-05-2017 13:14 Transactie:54K1G1 Term:R13Y88"
+  },
+  {
+    "Datum": 20170601,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "12,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170531,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "24,64",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: 13DQ8J 0030002125114669 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 31-05-2017 21:34 0030002125114669"
+  },
+  {
+    "Datum": 20170531,
+    "Naam / Omschrijving": "Mw L Alexander",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL69INGB0704624141",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw L Alexander Omschrijving: Bus money IBAN: NL69INGB0704624141"
+  },
+  {
+    "Datum": 20170531,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "750,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170531,
+    "Naam / Omschrijving": "Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL51ABNA0565668625",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "52,95",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Adyen Omschrijving: 4714962280588212 0030002124011583 Flixbus 002223FlixbusCom IBAN: NL51ABNA0565668625 Kenmerk: 31-05-2017 12:54 0030002124011583"
+  },
+  {
+    "Datum": 20170531,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent June IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170531,
+    "Naam / Omschrijving": "ABN-AMRO SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-05-2017 23:53 Transactie:0424K0 Term:S1Q237"
+  },
+  {
+    "Datum": 20170531,
+    "Naam / Omschrijving": "Buckaroo Stichting Derdengelden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL28DEUT0265186439",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Buckaroo Stichting Derdengelden Omschrijving: Stichting Cineville (BSS): Factuur CNV00411818 IBAN: NL28DEUT0265186439 Kenmerk: E36FB777CA7C4A58A06B342CB19B7476 Machtiging ID: 0O252504 Incassant ID: NL39ZZZ302317620000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170530,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,94",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-7093657 0020001584795242 Order Number 2017-7093657 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 30-05-2017 19:32 0020001584795242"
+  },
+  {
+    "Datum": 20170530,
+    "Naam / Omschrijving": "HMSHOST AMSTERDAM SCHI",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,10",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-05-2017 16:25 Transactie:A6N3X7 Term:80482130"
+  },
+  {
+    "Datum": 20170530,
+    "Naam / Omschrijving": "EDIT0336 Taormina ITA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-05-2017 14:09 Transactie:95Z097 Term:EDIT0336"
+  },
+  {
+    "Datum": 20170530,
+    "Naam / Omschrijving": "SFIZIO MADE IN SICILY CATANIA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-05-2017 19:40 Transactie:01G4N0 Term:11145887"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "BANCACARIGES.PCASSARGE CATANIA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-05-2017 11:07 Transactie:22G2R6 Term:17516902"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Juni 2017 t/m juni 2017 IBAN: NL87INGB0000717127 Kenmerk: 362027422 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "NS-Amsterdam C 209 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-05-2017 15:37 Transactie:A2S5S7 Term:5WR506"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "ALBERT HEIJN 1653 SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,37",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-05-2017 16:05 Transactie:A4M9O1 Term:97YM6H"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "Douglas 24 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "56,10",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-05-2017 10:57 Transactie:77U255 Term:206Q04"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "It's a Present A'dam AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-05-2017 11:49 Transactie:83K8T6 Term:VF27Y2"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "It's a Present A'dam AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-05-2017 11:48 Transactie:83R4S1 Term:VF27Y2"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "ALBERT HEIJN 1001 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,49",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-05-2017 12:02 Transactie:8510I1 Term:KZH7J0"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "York Optiek AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "130,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-05-2017 12:18 Transactie:86B966 Term:486P01"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "Sundays Rokin AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-05-2017 12:31 Transactie:87L764 Term:66WHL0"
+  },
+  {
+    "Datum": 20170529,
+    "Naam / Omschrijving": "ABN-AMRO SCHIPHOL NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-05-2017 16:07 Transactie:A5A1K6 Term:S1K489"
+  },
+  {
+    "Datum": 20170526,
+    "Naam / Omschrijving": "WT Kiosk 2925 ASD AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-05-2017 16:19 Transactie:61B520 Term:50F377"
+  },
+  {
+    "Datum": 20170526,
+    "Naam / Omschrijving": "H&M 018 Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "68,06",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-05-2017 17:12 Transactie:63N897 Term:1VQN08"
+  },
+  {
+    "Datum": 20170526,
+    "Naam / Omschrijving": "SissyBoy Magna Plaza AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,35",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-05-2017 18:19 Transactie:66J0J9 Term:AS1003"
+  },
+  {
+    "Datum": 20170526,
+    "Naam / Omschrijving": "HEMA EV002 N'DIJK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-05-2017 18:50 Transactie:677379 Term:MC8706"
+  },
+  {
+    "Datum": 20170526,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "14,51",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908009596374 IBAN: NL61COBA0733974775 Kenmerk: 500617254343 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170525,
+    "Naam / Omschrijving": "STARBUCKS 16337 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-05-2017 16:43 Transactie:27Q311 Term:CT362566"
+  },
+  {
+    "Datum": 20170525,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,48",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-05-2017 17:21 Transactie:30G680 Term:717S5H"
+  },
+  {
+    "Datum": 20170525,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,87",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-05-2017 21:08 Transactie:40F078 Term:578QY7"
+  },
+  {
+    "Datum": 20170525,
+    "Naam / Omschrijving": "Bouwman, Mondhygiene AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "60,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-05-2017 14:24 Transactie:17J2R2 Term:HWG0SB"
+  },
+  {
+    "Datum": 20170524,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1250,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170524,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-05-2017 11:58 Transactie:76M4M5 Term:834HR7"
+  },
+  {
+    "Datum": 20170523,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "25,64",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS MEI IBAN: NL75ABNA0240357450 Kenmerk: 20170516 02895 54625 0004250 005 1"
+  },
+  {
+    "Datum": 20170523,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "1495,89",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS MEI IBAN: NL75ABNA0240357450 Kenmerk: 20170516 02895 54625 0004267 001 1"
+  },
+  {
+    "Datum": 20170523,
+    "Naam / Omschrijving": "ALBERT HEIJN 1832 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,01",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-05-2017 21:30 Transactie:6650Q5 Term:190SV3"
+  },
+  {
+    "Datum": 20170523,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,77",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-05-2017 13:45 Transactie:46D8N6 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "TERRACINO ANNA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT65I0572862190280571192306",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "350,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: TERRACINO ANNA Omschrijving: spese varie IBAN: IT65I0572862190280571192306"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "Cafe-Rest. Badhuis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-05-2017 20:37 Transactie:09Z5R5 Term:J282P7"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,69",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-05-2017 21:10 Transactie:10K3E8 Term:714ZQH"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "CCV*SOHO AMSTERDAM BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-05-2017 23:08 Transactie:7957E1 Term:CT439347"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "Albert Heijn 8634 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,08",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-05-2017 12:25 Transactie:92X139 Term:J86JL9"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "CCV*SOHO AMSTERDAM BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-05-2017 02:58 Transactie:12J8W1 Term:CT467364"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "Rembrandt van Gogh AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-05-2017 18:03 Transactie:28B798 Term:8YF5Y0"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "ING>VAN BAERLESTRAAT 33   S5A129",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "40,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "21-05-2017 17:28 001     4409387"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-05-2017 20:26 Transactie:76C5Z7 Term:1S1NDP"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "Mister Coco's AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-05-2017 23:54 Transactie:79J4H6 Term:M9L3LF"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "GVB De Boelelaan VU AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-05-2017 00:27 Transactie:79F9P4 Term:P773T4"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "GVB De Boelelaan VU AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-05-2017 00:28 Transactie:79Q474 Term:P773T4"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "La Place OBA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-05-2017 12:12 Transactie:50B2C9 Term:B0NM41"
+  },
+  {
+    "Datum": 20170522,
+    "Naam / Omschrijving": "La Place OBA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,85",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-05-2017 14:47 Transactie:59V4Z9 Term:Z0TP22"
+  },
+  {
+    "Datum": 20170519,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,01",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-05-2017 09:49 Transactie:438310 Term:15BPS6"
+  },
+  {
+    "Datum": 20170519,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170519,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,32",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-05-2017 21:40 Transactie:37J0U6 Term:XMX98J"
+  },
+  {
+    "Datum": 20170519,
+    "Naam / Omschrijving": "NS Schiphol 217 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-05-2017 23:10 Transactie:37S9Q4 Term:G47WF4"
+  },
+  {
+    "Datum": 20170519,
+    "Naam / Omschrijving": "NS-Amsterdam CS 226 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-05-2017 22:27 Transactie:37Z0H0 Term:0J7X93"
+  },
+  {
+    "Datum": 20170519,
+    "Naam / Omschrijving": "GVB Voertuig B1603 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-05-2017 23:46 Transactie:3853U8 Term:2ZGW8H"
+  },
+  {
+    "Datum": 20170519,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-05-2017 13:11 Transactie:1616U5 Term:B685Q5"
+  },
+  {
+    "Datum": 20170518,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,78",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-05-2017 12:51 Transactie:260526 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170518,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,37",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-05-2017 17:45 Transactie:A6M123 Term:GZV30Y"
+  },
+  {
+    "Datum": 20170518,
+    "Naam / Omschrijving": "GRAAN BV AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-05-2017 17:40 Transactie:A627B9 Term:VM8J46"
+  },
+  {
+    "Datum": 20170517,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,07",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-05-2017 21:07 Transactie:76V7U5 Term:15BPS6"
+  },
+  {
+    "Datum": 20170517,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,05",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-05-2017 12:59 Transactie:5748F7 Term:B685Q5"
+  },
+  {
+    "Datum": 20170516,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170515,
+    "Naam / Omschrijving": "Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-05-2017 19:12 Transactie:13C8R2 Term:4R9Z48"
+  },
+  {
+    "Datum": 20170515,
+    "Naam / Omschrijving": "FRISIUS ANTWERPEN BEL",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-05-2017 18:07 Transactie:A1Q2F6 Term:01385757"
+  },
+  {
+    "Datum": 20170515,
+    "Naam / Omschrijving": "SUPER GB 1 ANTWERPEN ANTWERPEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,37",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-05-2017 19:06 Transactie:A3I316 Term:01725791"
+  },
+  {
+    "Datum": 20170515,
+    "Naam / Omschrijving": "NELLIES ANTWERPEN BEL",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-05-2017 11:39 Transactie:7252I7 Term:01690961"
+  },
+  {
+    "Datum": 20170515,
+    "Naam / Omschrijving": "DE SLEGTE ANTWERPEN BEL",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-05-2017 16:49 Transactie:95J1B6 Term:01085831"
+  },
+  {
+    "Datum": 20170515,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "12,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170515,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "38,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170515,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-05-2017 10:54 Transactie:270939 Term:94JY26"
+  },
+  {
+    "Datum": 20170515,
+    "Naam / Omschrijving": "THE BISTRO ANTWERPEN BEL",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-05-2017 16:30 Transactie:47R5E2 Term:34029205"
+  },
+  {
+    "Datum": 20170515,
+    "Naam / Omschrijving": "QUICK 779 ANTWERPEN ANTWERPEN",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-05-2017 22:55 Transactie:6187W7 Term:01910349"
+  },
+  {
+    "Datum": 20170512,
+    "Naam / Omschrijving": "Laura Alexander",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL69INGB0704624141",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Laura Alexander Omschrijving: Biertje IBAN: NL69INGB0704624141"
+  },
+  {
+    "Datum": 20170512,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-05-2017 10:52 Transactie:2707C0 Term:578QY7"
+  },
+  {
+    "Datum": 20170511,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,28",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-05-2017 19:56 Transactie:92L303 Term:15BPS6"
+  },
+  {
+    "Datum": 20170511,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-05-2017 21:42 Transactie:93C5K9 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170511,
+    "Naam / Omschrijving": "Nationale-Nederlanden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL28INGB0006749843",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,05",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Nationale-Nederlanden Omschrijving: Polisnr.: 55563811 INGWoonverzekering 09.05.2017 -09.06.2017 IBAN: NL28INGB0006749843 Kenmerk: 593006546478 Machtiging ID: 55563811-0667253386 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170511,
+    "Naam / Omschrijving": "La Place OBA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-05-2017 12:49 Transactie:7247Q1 Term:Z0TP22"
+  },
+  {
+    "Datum": 20170511,
+    "Naam / Omschrijving": "La Place OBA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-05-2017 15:50 Transactie:81R2Y5 Term:8KX1YK"
+  },
+  {
+    "Datum": 20170510,
+    "Naam / Omschrijving": "Starbuc IJhal 2948 ASD AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-05-2017 10:10 Transactie:63D9W2 Term:13RW3B"
+  },
+  {
+    "Datum": 20170510,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-05-2017 12:44 Transactie:3915S4 Term:B685Q5"
+  },
+  {
+    "Datum": 20170510,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-05-2017 12:45 Transactie:394823 Term:B685Q5"
+  },
+  {
+    "Datum": 20170509,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170509,
+    "Naam / Omschrijving": "Royal Tobacco AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,90",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-05-2017 12:23 Transactie:06P9S6 Term:1LQY8M"
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "70,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: 110 for surprise-50 from greenchoice +10 for grocceries IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "Kruidvat 6572 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,47",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-05-2017 13:05 Transactie:62U0X8 Term:12ZZ01"
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,57",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-05-2017 19:32 Transactie:85U178 Term:15BPS6"
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL51ABNA0565668625",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "117,90",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Adyen Omschrijving: 4614940145543342 0030002081316298 00927939JB011885740102 002214TicketMaster IBAN: NL51ABNA0565668625 Kenmerk: 05-05-2017 22:04 0030002081316298"
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "Booking.com by Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL57ABNA0593403630",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "58,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Booking.com by Adyen Omschrijving: 4714940155623603 0030002081338957 1096361-10941388 The ASH IBAN: NL57ABNA0593403630 Kenmerk: 05-05-2017 22:19 0030002081338957"
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "500,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL51ABNA0565668625",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,90",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Adyen Omschrijving: 4614940160617161 0030002081350342 Flixbus 002223FlixbusCom IBAN: NL51ABNA0565668625 Kenmerk: 05-05-2017 22:28 0030002081350342"
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "500,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-1E VAN SWINDEN 00008279 PASVOLGNR 001 06-05-2017 00:00 TRANSACTIENR 68129"
+  },
+  {
+    "Datum": 20170508,
+    "Naam / Omschrijving": "Amsterdam Tropen Hotel Amsterdam",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "29,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-05-2017 13:58 Transactie:231204 Term:24117614"
+  },
+  {
+    "Datum": 20170505,
+    "Naam / Omschrijving": "Texaco Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-05-2017 08:11 Transactie:06S392 Term:4K241P"
+  },
+  {
+    "Datum": 20170505,
+    "Naam / Omschrijving": "Tropenmusseum A'dam AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-05-2017 11:09 Transactie:1251W8 Term:XT4003"
+  },
+  {
+    "Datum": 20170505,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170505,
+    "Naam / Omschrijving": "Cafe de Roeter AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-05-2017 17:59 Transactie:0055P3 Term:8K820H"
+  },
+  {
+    "Datum": 20170505,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-05-2017 12:41 Transactie:902261 Term:7YWB44"
+  },
+  {
+    "Datum": 20170504,
+    "Naam / Omschrijving": "TICKETSCRIPT by Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL79ABNA0418760748",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "43,48",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: TICKETSCRIPT by Adyen Omschrijving: 4814939120134737 0030002079085365 43529866 IBAN: NL79ABNA0418760748 Kenmerk: 04-05-2017 17:33 0030002079085365"
+  },
+  {
+    "Datum": 20170504,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170503,
+    "Naam / Omschrijving": "ING Bank",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL21INGB0674773837",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,73",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: ING Bank Omschrijving: 100003938 0050002731002975 Bestelling100003938 Pilot Shop NL IBAN: NL21INGB0674773837 Kenmerk: 03-05-2017 17:35 0050002731002975"
+  },
+  {
+    "Datum": 20170503,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-05-2017 13:07 Transactie:23M066 Term:B54Y65"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "21,64",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: KK5JIA 0030002075933574 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 02-05-2017 18:50 0030002075933574"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "Filmhallen B.V. AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-04-2017 15:40 Transactie:55Q706 Term:HX7Q9Q"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "Filmhallen B.V. AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-04-2017 18:22 Transactie:64T4V8 Term:7X6MSP"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-04-2017 17:54 Transactie:8773W6 Term:578QY7"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,57",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-05-2017 09:35 Transactie:92T860 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "Athenaeum Boekhandel AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "22,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-04-2017 14:22 Transactie:0648M5 Term:N2FD81"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "CCV*AAN DEN WEESPERSEY AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-04-2017 17:18 Transactie:862393 Term:CT465977"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "AH to go ijhal 5870 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,39",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-04-2017 18:38 Transactie:230431 Term:2N6J7B"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "AH To Go Hilversum HILVERSUM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-04-2017 19:18 Transactie:24H3G7 Term:66C901"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "NS-Hilversum 201 HILVERSUM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-04-2017 22:28 Transactie:27Y8V6 Term:5WSM01"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "HM BECHT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL15ABNA0401141365",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "222,57",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: HM BECHT IBAN: NL15ABNA0401141365"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "Buckaroo Stichting Derdengelden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL28DEUT0265186439",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Buckaroo Stichting Derdengelden Omschrijving: Stichting Cineville (BSS): Factuur CNV00382878 IBAN: NL28DEUT0265186439 Kenmerk: F70C7B912A044E9189A8D937F005BAD4 Machtiging ID: 0O252504 Incassant ID: NL39ZZZ302317620000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent May IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "GlobalCollect",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL14RABO0155503219",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "138,92",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: GlobalCollect Omschrijving: 267661275339 0020001556306542 KLM?Ref RE8IRV Order KLM IBAN: NL14RABO0155503219 Kenmerk: 30-04-2017 09:42 0020001556306542"
+  },
+  {
+    "Datum": 20170502,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "130,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170428,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170428,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "8,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170428,
+    "Naam / Omschrijving": "CCV*DE VELDKEUKEN BUNNIK NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "14,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-04-2017 14:25 Transactie:835049 Term:CT425810"
+  },
+  {
+    "Datum": 20170428,
+    "Naam / Omschrijving": "NS-Utrecht. CS 218 UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-04-2017 17:02 Transactie:89I8E7 Term:VZ4Z15"
+  },
+  {
+    "Datum": 20170428,
+    "Naam / Omschrijving": "NS-Utrecht. CS 218 UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-04-2017 17:04 Transactie:89N980 Term:VZ4Z15"
+  },
+  {
+    "Datum": 20170428,
+    "Naam / Omschrijving": "AH to go 5865 Utrech UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-04-2017 17:05 Transactie:89W5G7 Term:F1YB74"
+  },
+  {
+    "Datum": 20170428,
+    "Naam / Omschrijving": "AH to go 5865 Utrech UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-04-2017 17:06 Transactie:902146 Term:F2QYT2"
+  },
+  {
+    "Datum": 20170428,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-04-2017 18:49 Transactie:92X1N3 Term:578QY7"
+  },
+  {
+    "Datum": 20170427,
+    "Naam / Omschrijving": "NS-Amsterdam CS 220 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-04-2017 18:33 Transactie:62D6K2 Term:0BF5ZC"
+  },
+  {
+    "Datum": 20170427,
+    "Naam / Omschrijving": "NS-Amsterdam CS 227 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-04-2017 18:32 Transactie:62S275 Term:0J8ZL0"
+  },
+  {
+    "Datum": 20170427,
+    "Naam / Omschrijving": "AH to go 5865 Utrech UTRECHT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-04-2017 19:11 Transactie:6448S4 Term:DTN846"
+  },
+  {
+    "Datum": 20170427,
+    "Naam / Omschrijving": "CCV*THEEHUIS RHIJNAUWE BUNNIK",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-04-2017 21:25 Transactie:67P1M1 Term:CT198579"
+  },
+  {
+    "Datum": 20170427,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Mei 2017 t/m mei 2017 IBAN: NL87INGB0000717127 Kenmerk: 357813617 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170426,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "200,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170426,
+    "Naam / Omschrijving": "ABN-AMRO AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-04-2017 12:37 Transactie:00Z6O9 Term:S1H439"
+  },
+  {
+    "Datum": 20170426,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,53",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-04-2017 19:22 Transactie:22X902 Term:1S1NDP"
+  },
+  {
+    "Datum": 20170426,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,54",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-04-2017 12:44 Transactie:01T1W0 Term:L263R6"
+  },
+  {
+    "Datum": 20170425,
+    "Naam / Omschrijving": "CCV*BANDRA BEHEER BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-04-2017 16:56 Transactie:61W6Q4 Term:CT069691"
+  },
+  {
+    "Datum": 20170425,
+    "Naam / Omschrijving": "CCV*BANDRA BEHEER BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,10",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-04-2017 17:53 Transactie:6410F8 Term:CT069691"
+  },
+  {
+    "Datum": 20170425,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,54",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908009091923 IBAN: NL61COBA0733974775 Kenmerk: 501410085537 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-04-2017 11:44 Transactie:50U345 Term:XMX98J"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 23-04-2017 12:53 Transactie:52S4B6 Term:578QY7"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "Transavia.com by Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL33ABNA0621332496",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "320,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Transavia.com by Adyen Omschrijving: 4514928836640353 0030002059061693 W7BPKC 51343186 IBAN: NL33ABNA0621332496 Kenmerk: 22-04-2017 19:54 0030002059061693"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "Hans Prijsoptiek B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL68DEUT0447287117",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "27,95",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hans Prijsoptiek B.V. Omschrijving: 2915522 1150000657752421 Description HANS ANDERS WEBWINKEL IBAN: NL68DEUT0447287117 Kenmerk: 22-04-2017 19:59 1150000657752421"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "Transavia.com by Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL33ABNA0621332496",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "350,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Transavia.com by Adyen Omschrijving: 4714928842731426 0030002059081606 O7KM7M 51343359 IBAN: NL33ABNA0621332496 Kenmerk: 22-04-2017 20:05 0030002059081606"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "320,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Tickets sicilia IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "320,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Ticket Sicily"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "15,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,94",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-6774033 0020001549579835 Order Number 2017-6774033 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 22-04-2017 19:37 0020001549579835"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "Salsa Shop Kinkerstr AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-04-2017 21:37 Transactie:02Y4V8 Term:PT5QG0"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-04-2017 22:32 Transactie:03U1S8 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170424,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,43",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-04-2017 10:46 Transactie:7875L5 Term:XMX98J"
+  },
+  {
+    "Datum": 20170421,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "166,67",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS APRIL IBAN: NL75ABNA0240357450 Kenmerk: 20170420 01943 54625 0004250 004 1"
+  },
+  {
+    "Datum": 20170421,
+    "Naam / Omschrijving": "Amsterdam Tropen Hotel Amsterdam",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-04-2017 20:40 Transactie:70L9H9 Term:24117614"
+  },
+  {
+    "Datum": 20170421,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,96",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-04-2017 21:54 Transactie:71U300 Term:717S5H"
+  },
+  {
+    "Datum": 20170421,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,04",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-04-2017 13:00 Transactie:47X8W5 Term:825G0D"
+  },
+  {
+    "Datum": 20170420,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,34",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-04-2017 20:40 Transactie:33P017 Term:15BPS6"
+  },
+  {
+    "Datum": 20170419,
+    "Naam / Omschrijving": "Filmtheater Cinecent AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-04-2017 20:51 Transactie:0187S2 Term:XBF79H"
+  },
+  {
+    "Datum": 20170419,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,63",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-04-2017 12:56 Transactie:933103 Term:GZV30Y"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "300,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "198,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Greenchoice April IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "500,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-ROKIN         00008338 PASVOLGNR 001 18-04-2017 00:00 TRANSACTIENR 90156"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-04-2017 11:49 Transactie:66K0J0 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-04-2017 12:06 Transactie:66W119 Term:94JY26"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "Event Company XYZ Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-04-2017 23:43 Transactie:5301Y8 Term:81443735"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "Event Company XYZ Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-04-2017 23:28 Transactie:5311P8 Term:81443735"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "TERRACINO ANNA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT65I0572862190280571192306",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: TERRACINO ANNA Omschrijving: Buona Pasqua IBAN: IT65I0572862190280571192306"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "NS A'dam Amstel 203 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "28,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-04-2017 09:49 Transactie:54A202 Term:ZN5T36"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "NS A'dam Amstel 203 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "28,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-04-2017 09:49 Transactie:54E0O1 Term:ZN5T36"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "NS- A'dam Amstel 103 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-04-2017 18:21 Transactie:7073O4 Term:20Q003"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,89",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-04-2017 12:58 Transactie:52O2P4 Term:GZV30Y"
+  },
+  {
+    "Datum": 20170418,
+    "Naam / Omschrijving": "ALBERT HEIJN 1662 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,04",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-04-2017 15:53 Transactie:6213J3 Term:G209X6"
+  },
+  {
+    "Datum": 20170413,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,71",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-04-2017 17:42 Transactie:33R5B8 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170413,
+    "Naam / Omschrijving": "Kosten BasisPakket",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,90",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "1 jan t/m 31 mrt 2017 ING BANK N.V."
+  },
+  {
+    "Datum": 20170412,
+    "Naam / Omschrijving": "CCV*CAFE VAN LEEUWEN AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-04-2017 18:50 Transactie:80Z3R7 Term:CT067613"
+  },
+  {
+    "Datum": 20170412,
+    "Naam / Omschrijving": "Nationale-Nederlanden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL28INGB0006749843",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,05",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Nationale-Nederlanden Omschrijving: Polisnr.: 55563811 INGWoonverzekering 09.04.2017 -09.05.2017 IBAN: NL28INGB0006749843 Kenmerk: 590006171819 Machtiging ID: 55563811-0667253386 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170411,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-04-2017 08:27 Transactie:84X3K8 Term:714ZQH"
+  },
+  {
+    "Datum": 20170411,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,59",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-04-2017 09:51 Transactie:86J7T2 Term:578QY7"
+  },
+  {
+    "Datum": 20170411,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,67",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-04-2017 12:49 Transactie:64B4V7 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170410,
+    "Naam / Omschrijving": "CCV*AMSTERDAM ROEST B AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-04-2017 17:52 Transactie:27N040 Term:CT067028"
+  },
+  {
+    "Datum": 20170410,
+    "Naam / Omschrijving": "GVB voertuig B362 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-04-2017 08:57 Transactie:34Y568 Term:05T89B"
+  },
+  {
+    "Datum": 20170410,
+    "Naam / Omschrijving": "AH to go A'dam 5868 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-04-2017 09:14 Transactie:35B2E6 Term:517F0T"
+  },
+  {
+    "Datum": 20170410,
+    "Naam / Omschrijving": "CCV*VIVANT FREDS TABAK AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-04-2017 10:30 Transactie:A64120 Term:CT428743"
+  },
+  {
+    "Datum": 20170410,
+    "Naam / Omschrijving": "Bar Basquiat B.V. AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,10",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-04-2017 11:17 Transactie:A8I0F7 Term:CD80Y4"
+  },
+  {
+    "Datum": 20170410,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,79",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-04-2017 13:02 Transactie:06G456 Term:T61M88"
+  },
+  {
+    "Datum": 20170410,
+    "Naam / Omschrijving": "Printerette AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,13",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-04-2017 16:46 Transactie:23U407 Term:3VP201"
+  },
+  {
+    "Datum": 20170410,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Museum Kroller Muller IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170410,
+    "Naam / Omschrijving": "Julia's 2947 ASD AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-04-2017 23:12 Transactie:A0D1X0 Term:HPN640"
+  },
+  {
+    "Datum": 20170407,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-04-2017 08:33 Transactie:60E092 Term:XMX98J"
+  },
+  {
+    "Datum": 20170407,
+    "Naam / Omschrijving": "Cafe Krom AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-04-2017 22:05 Transactie:58B4N1 Term:7NKK77"
+  },
+  {
+    "Datum": 20170407,
+    "Naam / Omschrijving": "McDonald's Muntplein AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-04-2017 22:26 Transactie:58L349 Term:2HC403"
+  },
+  {
+    "Datum": 20170407,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-04-2017 12:35 Transactie:34E0U6 Term:B685Q5"
+  },
+  {
+    "Datum": 20170406,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,03",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-04-2017 13:12 Transactie:00F2M6 Term:578QY7"
+  },
+  {
+    "Datum": 20170406,
+    "Naam / Omschrijving": "BLOKKER0013AMSTERDAM AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,64",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-04-2017 15:07 Transactie:06P0S2 Term:PL558Y"
+  },
+  {
+    "Datum": 20170406,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "24,32",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-04-2017 16:04 Transactie:09T675 Term:T61M88"
+  },
+  {
+    "Datum": 20170405,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "12,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Vomar IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170405,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-04-2017 09:03 Transactie:98F0Q3 Term:XMX98J"
+  },
+  {
+    "Datum": 20170405,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,54",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-04-2017 12:35 Transactie:73R8C6 Term:B54Y65"
+  },
+  {
+    "Datum": 20170405,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-04-2017 12:36 Transactie:74C068 Term:D985M6"
+  },
+  {
+    "Datum": 20170404,
+    "Naam / Omschrijving": "HM BECHT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL15ABNA0401141365",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "156,61",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: HM BECHT IBAN: NL15ABNA0401141365"
+  },
+  {
+    "Datum": 20170404,
+    "Naam / Omschrijving": "Albert Heijn 8634 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "22,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-04-2017 20:01 Transactie:61N870 Term:J6VN23"
+  },
+  {
+    "Datum": 20170404,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,41",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-04-2017 12:58 Transactie:42G9Z7 Term:GZV30Y"
+  },
+  {
+    "Datum": 20170403,
+    "Naam / Omschrijving": "CCV*BAGELS AND BEANS R AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-04-2017 13:24 Transactie:17M3O2 Term:CT449316"
+  },
+  {
+    "Datum": 20170403,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170403,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-04-2017 21:02 Transactie:08I9L6 Term:717S5H"
+  },
+  {
+    "Datum": 20170403,
+    "Naam / Omschrijving": "Buckaroo Stichting Derdengelden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL28DEUT0265186439",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,00",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Buckaroo Stichting Derdengelden Omschrijving: Stichting Cineville (BSS): Factuur CNV00353365 IBAN: NL28DEUT0265186439 Kenmerk: DC5236C818AA4EC6B0D0A8625C362110 Machtiging ID: 0O252504 Incassant ID: NL39ZZZ302317620000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170403,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170403,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,06",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-6619704 0020001532771295 Order Number 2017-6619704 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 02-04-2017 20:51 0020001532771295"
+  },
+  {
+    "Datum": 20170331,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170331,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent April IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170331,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-03-2017 16:56 Transactie:22R9J3 Term:D985M6"
+  },
+  {
+    "Datum": 20170329,
+    "Naam / Omschrijving": "OMA IETJE AMERSFOORT NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-03-2017 09:20 Transactie:7343P7 Term:V511K4"
+  },
+  {
+    "Datum": 20170329,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-03-2017 12:41 Transactie:48I8V1 Term:D985M6"
+  },
+  {
+    "Datum": 20170329,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,44",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-03-2017 12:40 Transactie:48Q1Y2 Term:L263R6"
+  },
+  {
+    "Datum": 20170328,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170328,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,24",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-03-2017 12:31 Transactie:15K0U7 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170327,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. April 2017 t/m april 2017 IBAN: NL87INGB0000717127 Kenmerk: 353924882 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170327,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,24",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-03-2017 12:41 Transactie:19D3D8 Term:GZV30Y"
+  },
+  {
+    "Datum": 20170324,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "29,88",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908008568387 IBAN: NL61COBA0733974775 Kenmerk: 500312794638 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170324,
+    "Naam / Omschrijving": "Feenstra Verwarming B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL58INGB0664502229",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,97",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Feenstra Verwarming B.V. Omschrijving: incasso Feenstra/Nuon 8231258 Termijn 01-04-2017 - 30-06-2017 IBAN: NL58INGB0664502229 Kenmerk: 1700011-1879-.4VJ0HVAWA Machtiging ID: C30628-0667253386 Incassant ID: NL05ZZZ390227460000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170323,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "15,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170323,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "14,99",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-6533253 0020001523976882 Order Number 2017-6533253 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 23-03-2017 19:36 0020001523976882"
+  },
+  {
+    "Datum": 20170323,
+    "Naam / Omschrijving": "LERINO SS DPR TORRI DI QUAR ITA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,55",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-03-2017 08:02 Transactie:43P200 Term:90279932"
+  },
+  {
+    "Datum": 20170323,
+    "Naam / Omschrijving": "LERINO SS DPR TORRI DI QUAR ITA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,55",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-03-2017 08:04 Transactie:4397X8 Term:90279932"
+  },
+  {
+    "Datum": 20170323,
+    "Naam / Omschrijving": "NS Schiphol 218 LUCHTHAVEN SC",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 22-03-2017 15:58 Transactie:6539F0 Term:G598F6"
+  },
+  {
+    "Datum": 20170322,
+    "Naam / Omschrijving": "Hans Prijsoptiek B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL68DEUT0447287117",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "27,95",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hans Prijsoptiek B.V. Omschrijving: 2909721 1150000645629302 Description HANS ANDERS WEBWINKEL IBAN: NL68DEUT0447287117 Kenmerk: 22-03-2017 17:45 1150000645629302"
+  },
+  {
+    "Datum": 20170322,
+    "Naam / Omschrijving": "MODISTI VICENZA CC 126",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 21-03-2017 14:54 Transactie:281696 Term:97671042"
+  },
+  {
+    "Datum": 20170322,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "166,67",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS MAART IBAN: NL75ABNA0240357450 Kenmerk: 20170320 02340 54625 0004250 003 1"
+  },
+  {
+    "Datum": 20170322,
+    "Naam / Omschrijving": "Transavia.com by Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL33ABNA0621332496",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Transavia.com by Adyen Omschrijving: 4614901297375362 0030002008283773 C8YTUZ 50516611 IBAN: NL33ABNA0621332496 Kenmerk: 21-03-2017 21:56 0030002008283773"
+  },
+  {
+    "Datum": 20170321,
+    "Naam / Omschrijving": "TRIESTE C.LE SELF SERV TRIESTE",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-03-2017 16:20 Transactie:0148P0 Term:30331492"
+  },
+  {
+    "Datum": 20170321,
+    "Naam / Omschrijving": "GIUNTI AL PUNTO    995 TRIESTE",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 20-03-2017 16:03 Transactie:00N0J3 Term:97273879"
+  },
+  {
+    "Datum": 20170320,
+    "Naam / Omschrijving": "UNICREDIT - TRIESTE TRIESTE ITA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "40,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "Pasvolgnr:001 19-03-2017 11:56 Transactie:76B1S0 Term:V9013AA0"
+  },
+  {
+    "Datum": 20170320,
+    "Naam / Omschrijving": "BUFFET SIORA ROSA TRIESTE ITA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-03-2017 13:49 Transactie:52B324 Term:20200882"
+  },
+  {
+    "Datum": 20170320,
+    "Naam / Omschrijving": "DA GIOVANNI TRIESTE ITA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "57,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-03-2017 20:27 Transactie:71Q3I8 Term:10394495"
+  },
+  {
+    "Datum": 20170320,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170320,
+    "Naam / Omschrijving": "K COPY TRIESTE ITA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "105,54",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-03-2017 17:57 Transactie:26X3R4 Term:31322550"
+  },
+  {
+    "Datum": 20170317,
+    "Naam / Omschrijving": "MARKS AND SPENCER KALV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-03-2017 12:47 Transactie:82K866 Term:---"
+  },
+  {
+    "Datum": 20170317,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170317,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170317,
+    "Naam / Omschrijving": "SINGEL 419 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "36,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-03-2017 17:51 Transactie:9873S1 Term:G3M02H"
+  },
+  {
+    "Datum": 20170317,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,74",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-03-2017 18:41 Transactie:99P8W2 Term:15BPS6"
+  },
+  {
+    "Datum": 20170317,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,89",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-03-2017 12:35 Transactie:81J7L1 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170316,
+    "Naam / Omschrijving": "ING>SARPHATISTRAAT 670>   S5A111",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GM",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Geldautomaat",
+    "Mededelingen": "16-03-2017 21:22 001     4803847"
+  },
+  {
+    "Datum": 20170316,
+    "Naam / Omschrijving": "Transavia.com by Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL33ABNA0621332496",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Transavia.com by Adyen Omschrijving: 4414896887158214 0030002000498430 C8YTUZ 50402501 IBAN: NL33ABNA0621332496 Kenmerk: 16-03-2017 19:26 0030002000498430"
+  },
+  {
+    "Datum": 20170316,
+    "Naam / Omschrijving": "Printerette AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,17",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-03-2017 13:16 Transactie:50T8L3 Term:4JNM01"
+  },
+  {
+    "Datum": 20170316,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-03-2017 13:17 Transactie:51C090 Term:BM15Z1"
+  },
+  {
+    "Datum": 20170316,
+    "Naam / Omschrijving": "ALBERT HEIJN 1009 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-03-2017 13:28 Transactie:51S341 Term:05H93M"
+  },
+  {
+    "Datum": 20170315,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "300,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170315,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "77,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: trash taxes sent back IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170315,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "156,50",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Trash tax IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170315,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "133,15",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Water taxes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170315,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-03-2017 12:58 Transactie:18R061 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170315,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "9,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170314,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,09",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: NO4JXA 0030001997780166 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 14-03-2017 19:24 0030001997780166"
+  },
+  {
+    "Datum": 20170314,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-03-2017 13:07 Transactie:99P5K3 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170314,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-03-2017 19:11 Transactie:0545C8 Term:1S1NDP"
+  },
+  {
+    "Datum": 20170313,
+    "Naam / Omschrijving": "Van Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "22,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170313,
+    "Naam / Omschrijving": "ANNA TERRACINO",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT65I0572862190280571192306",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "110,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: ANNA TERRACINO Omschrijving: Laurea IBAN: IT65I0572862190280571192306"
+  },
+  {
+    "Datum": 20170313,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,49",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-03-2017 17:40 Transactie:63J8B0 Term:B685Q5"
+  },
+  {
+    "Datum": 20170313,
+    "Naam / Omschrijving": "Nationale-Nederlanden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL28INGB0006749843",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,06",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Nationale-Nederlanden Omschrijving: Polisnr.: 55563811 INGWoonverzekering 09.03.2017 -09.04.2017 IBAN: NL28INGB0006749843 Kenmerk: 593006280967 Machtiging ID: 55563811-0667253386 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170313,
+    "Naam / Omschrijving": "Meghna Indian Rest AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-03-2017 23:25 Transactie:29L2I7 Term:25N801"
+  },
+  {
+    "Datum": 20170313,
+    "Naam / Omschrijving": "Nel Amstelveld AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-03-2017 14:05 Transactie:07T6F4 Term:YGX1ZC"
+  },
+  {
+    "Datum": 20170310,
+    "Naam / Omschrijving": "HEMA EV348 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-03-2017 09:43 Transactie:A3L1U0 Term:DS9W13"
+  },
+  {
+    "Datum": 20170310,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,38",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-03-2017 12:44 Transactie:77K317 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170309,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-03-2017 09:24 Transactie:6920Z1 Term:94JY26"
+  },
+  {
+    "Datum": 20170309,
+    "Naam / Omschrijving": "HM BECHT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL15ABNA0401141365",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "108,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: HM BECHT IBAN: NL15ABNA0401141365"
+  },
+  {
+    "Datum": 20170309,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "OV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "35,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170308,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,69",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-6417774 0020001512147169 Order Number 2017-6417774 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 08-03-2017 18:38 0020001512147169"
+  },
+  {
+    "Datum": 20170308,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170308,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-03-2017 12:40 Transactie:1764L4 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Cafe Smit & Voogt AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-03-2017 14:24 Transactie:79S757 Term:5R2B4S"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Kruidvat 7206 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,54",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-03-2017 14:46 Transactie:80E872 Term:4CM201"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "NEWYORKER MS Amsterdam NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-03-2017 16:02 Transactie:8368K0 Term:31428339"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "MANGO MAGNA PLAZA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "35,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-03-2017 17:25 Transactie:869176 Term:CT460934"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,85",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-03-2017 19:18 Transactie:88E251 Term:710LFN"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "CCV*SKEK B.V. AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2017 21:22 Transactie:30T6F7 Term:CT199677"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-03-2017 19:13 Transactie:68Y4M8 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Stichting Derdengelden Buckaroo",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL19DEUT0319821366",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,05",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Stichting Derdengelden Buckaroo Omschrijving: CVT40162 1150000639173079 Cineville.nl Stichting Cineville IBAN: NL19DEUT0319821366 Kenmerk: 05-03-2017 23:18 1150000639173079"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Transavia.com by Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL33ABNA0621332496",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "105,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Transavia.com by Adyen Omschrijving: 1514886227604600 0030001982884788 C8YTUZ 50120046 IBAN: NL33ABNA0621332496 Kenmerk: 04-03-2017 11:20 0030001982884788"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Groceries IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "125,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2017 13:29 Transactie:08M2R2 Term:GZV30Y"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2017 17:31 Transactie:23I0K1 Term:1S1NDP"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2017 17:48 Transactie:24B315 Term:1S1NDP"
+  },
+  {
+    "Datum": 20170306,
+    "Naam / Omschrijving": "SALSA SHOP Amstelstr AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2017 19:22 Transactie:2809T6 Term:G54ZDF"
+  },
+  {
+    "Datum": 20170303,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-03-2017 09:59 Transactie:A6B8C3 Term:XMX98J"
+  },
+  {
+    "Datum": 20170303,
+    "Naam / Omschrijving": "Albert Heijn 1812 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-03-2017 21:00 Transactie:A1Q899 Term:0J6MVX"
+  },
+  {
+    "Datum": 20170303,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-03-2017 21:00 Transactie:A2A1Q1 Term:TGF5G1"
+  },
+  {
+    "Datum": 20170303,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-03-2017 12:52 Transactie:8102L6 Term:GZV30Y"
+  },
+  {
+    "Datum": 20170302,
+    "Naam / Omschrijving": "Naar Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "450,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170302,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "OV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "35,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170302,
+    "Naam / Omschrijving": "AH to go ijhal 5870 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-03-2017 22:19 Transactie:69Z6A9 Term:2KVD9K"
+  },
+  {
+    "Datum": 20170301,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "500,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-ROKIN         00008338 PASVOLGNR 001 01-03-2017 00:00 TRANSACTIENR 85170"
+  },
+  {
+    "Datum": 20170301,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,31",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-02-2017 19:58 Transactie:35R413 Term:578QY7"
+  },
+  {
+    "Datum": 20170301,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-02-2017 12:50 Transactie:17I651 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170228,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170228,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "600,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Rent March IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170228,
+    "Naam / Omschrijving": "SALSA SHOP Amstelstr AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,73",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-02-2017 18:12 Transactie:03M2A1 Term:G54ZDF"
+  },
+  {
+    "Datum": 20170228,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-02-2017 12:14 Transactie:97M325 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170227,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,96",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-02-2017 14:45 Transactie:8151G3 Term:T61M88"
+  },
+  {
+    "Datum": 20170227,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-02-2017 09:10 Transactie:926435 Term:94JY26"
+  },
+  {
+    "Datum": 20170227,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Maart 2017 t/m maart 2017 IBAN: NL87INGB0000717127 Kenmerk: 349956778 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170227,
+    "Naam / Omschrijving": "CCV*BRUNCHROOM AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-02-2017 09:29 Transactie:33S7N0 Term:BS059010"
+  },
+  {
+    "Datum": 20170227,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,09",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: 2DOGFJ 0030001974211786 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 26-02-2017 20:11 0030001974211786"
+  },
+  {
+    "Datum": 20170223,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "OV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "35,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170223,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "15,02",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908008070637 IBAN: NL61COBA0733974775 Kenmerk: 500413082171 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170222,
+    "Naam / Omschrijving": "TERRACINO ANNA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT65I0572862190280571192306",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: TERRACINO ANNA Omschrijving: Buon onomastico ... baci IBAN: IT65I0572862190280571192306"
+  },
+  {
+    "Datum": 20170222,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "166,67",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS FEBRUARI IBAN: NL75ABNA0240357450 Kenmerk: 20170220 01695 54625 0004250 003 1"
+  },
+  {
+    "Datum": 20170221,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "22,14",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: ZPP2UT 0030001965709026 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 21-02-2017 18:08 0030001965709026"
+  },
+  {
+    "Datum": 20170221,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170220,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170220,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-02-2017 20:09 Transactie:30Q3Q7 Term:710LFN"
+  },
+  {
+    "Datum": 20170220,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,12",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 17-02-2017 14:46 Transactie:15E1F4 Term:578QY7"
+  },
+  {
+    "Datum": 20170220,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-02-2017 10:07 Transactie:36L6A3 Term:XMX98J"
+  },
+  {
+    "Datum": 20170220,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 18-02-2017 11:04 Transactie:39E3G5 Term:15BPS6"
+  },
+  {
+    "Datum": 20170217,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 16-02-2017 12:55 Transactie:8618Q2 Term:48CDV8"
+  },
+  {
+    "Datum": 20170216,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "12,34",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170216,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,34",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-6252674 0020001495525725 Order Number 2017-6252674 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 16-02-2017 18:54 0020001495525725"
+  },
+  {
+    "Datum": 20170216,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "OV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "35,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170215,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,56",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-02-2017 10:35 Transactie:48F4X0 Term:578QY7"
+  },
+  {
+    "Datum": 20170215,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,35",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-02-2017 21:36 Transactie:4354X3 Term:710LFN"
+  },
+  {
+    "Datum": 20170215,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "50,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170215,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "75,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "WT Kiosk  2925 ASD AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,10",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-02-2017 08:50 Transactie:97N448 Term:NG89K7"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "CCV*CAFE VAN ZUYLEN AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "30,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-02-2017 22:04 Transactie:8011P4 Term:CT349145"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "CCV*SOHO AMSTERDAM BV AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-02-2017 03:09 Transactie:81C2Q6 Term:CT467364"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-02-2017 14:02 Transactie:86E403 Term:710LFN"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-02-2017 17:00 Transactie:92G227 Term:94JY26"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-02-2017 17:01 Transactie:9237J8 Term:94JY26"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-02-2017 19:51 Transactie:9519H3 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,66",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-02-2017 12:23 Transactie:54J2Y6 Term:578QY7"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-02-2017 19:56 Transactie:78P0Q4 Term:94JY26"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "Nationale-Nederlanden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL28INGB0006749843",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,05",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Nationale-Nederlanden Omschrijving: Polisnr.: 55563811 INGWoonverzekering 09.02.2017 -09.03.2017 IBAN: NL28INGB0006749843 Kenmerk: 591006171422 Machtiging ID: 55563811-0667253386 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "100,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "STARBUCKS 16337 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-02-2017 11:58 Transactie:A1S6P2 Term:CT362568"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,60",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-02-2017 14:09 Transactie:2560S3 Term:1S1NDP"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-02-2017 14:36 Transactie:2647N2 Term:B54Y65"
+  },
+  {
+    "Datum": 20170213,
+    "Naam / Omschrijving": "Opladen OV-Chipkaart AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 10-02-2017 14:35 Transactie:269946 Term:D985M6"
+  },
+  {
+    "Datum": 20170210,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,39",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-02-2017 17:44 Transactie:029799 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170210,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,02",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 09-02-2017 20:42 Transactie:07J2B9 Term:578QY7"
+  },
+  {
+    "Datum": 20170209,
+    "Naam / Omschrijving": "HM BECHT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL15ABNA0401141365",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "77,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: HM BECHT IBAN: NL15ABNA0401141365"
+  },
+  {
+    "Datum": 20170209,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-02-2017 18:39 Transactie:83O9W8 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170209,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 08-02-2017 17:53 Transactie:8383B0 Term:XMX98J"
+  },
+  {
+    "Datum": 20170208,
+    "Naam / Omschrijving": "Printerette AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,32",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-02-2017 17:24 Transactie:52B555 Term:4JNM01"
+  },
+  {
+    "Datum": 20170208,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,36",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-02-2017 17:39 Transactie:52P8M8 Term:T61M88"
+  },
+  {
+    "Datum": 20170207,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "9,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170207,
+    "Naam / Omschrijving": "Takeaway.com",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL31ABNA0494688556",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "18,34",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Takeaway.com Omschrijving: VYVXU3 0030001945447186 bestelling Thuisbezorgd.nl IBAN: NL31ABNA0494688556 Kenmerk: 07-02-2017 20:19 0030001945447186"
+  },
+  {
+    "Datum": 20170207,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,72",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 07-02-2017 09:18 Transactie:327351 Term:82RF74"
+  },
+  {
+    "Datum": 20170207,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,40",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-02-2017 21:21 Transactie:29N6J3 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170206,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,99",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-6179658 0020001487755447 Order Number 2017-6179658 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 06-02-2017 18:52 0020001487755447"
+  },
+  {
+    "Datum": 20170206,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "12,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: Green choice february IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170206,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "28,92",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-02-2017 11:37 Transactie:98D3N0 Term:710LFN"
+  },
+  {
+    "Datum": 20170206,
+    "Naam / Omschrijving": "Texaco Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-02-2017 11:28 Transactie:41D9G2 Term:YZ5KLL"
+  },
+  {
+    "Datum": 20170206,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,15",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-02-2017 18:55 Transactie:9227X3 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170206,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,95",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-02-2017 18:33 Transactie:9280H8 Term:XMX98J"
+  },
+  {
+    "Datum": 20170206,
+    "Naam / Omschrijving": "Naar Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "350,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170206,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "500,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-1E VAN SWINDEN 00008333 PASVOLGNR 001 04-02-2017 00:00 TRANSACTIENR 72585"
+  },
+  {
+    "Datum": 20170206,
+    "Naam / Omschrijving": "Waternet",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL27INGB0004500043",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "55,42",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Waternet Omschrijving: 8000001027769515 IBAN: NL27INGB0004500043"
+  },
+  {
+    "Datum": 20170203,
+    "Naam / Omschrijving": "SANIFAIR Den Haag Den Haag NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,70",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-01-2017 00:00 Transactie:35Q468 Term:---"
+  },
+  {
+    "Datum": 20170202,
+    "Naam / Omschrijving": "Macaron by RJA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "29,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-02-2017 11:46 Transactie:A3H702 Term:5MM12B"
+  },
+  {
+    "Datum": 20170202,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,99",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-02-2017 11:48 Transactie:A3U5R0 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170202,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "OV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "35,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170202,
+    "Naam / Omschrijving": "LAVINIA GOOD FOOD AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 01-02-2017 13:53 Transactie:8056Y2 Term:85Y849"
+  },
+  {
+    "Datum": 20170201,
+    "Naam / Omschrijving": "Albert Heijn 1812 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "0,33",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-01-2017 18:21 Transactie:62F0L7 Term:0K223B"
+  },
+  {
+    "Datum": 20170131,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,84",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-01-2017 10:40 Transactie:40O426 Term:578QY7"
+  },
+  {
+    "Datum": 20170131,
+    "Naam / Omschrijving": "ALBERT HEIJN 1321 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-01-2017 17:16 Transactie:30Q909 Term:714ZQH"
+  },
+  {
+    "Datum": 20170131,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-01-2017 13:13 Transactie:19S694 Term:CSL8H6"
+  },
+  {
+    "Datum": 20170130,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,78",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 28-01-2017 13:14 Transactie:76B559 Term:5DV3JD"
+  },
+  {
+    "Datum": 20170130,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-01-2017 10:05 Transactie:A3N3K5 Term:XMX98J"
+  },
+  {
+    "Datum": 20170130,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,96",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 29-01-2017 19:36 Transactie:0897V2 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170130,
+    "Naam / Omschrijving": "Van Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "150,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170130,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170130,
+    "Naam / Omschrijving": "Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL51ABNA0565668625",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "130,55",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Adyen Omschrijving: 4414856982548800 0030001931179147 508998118-93464093 002116CTS Eventim Nederland B.V. IBAN: NL51ABNA0565668625 Kenmerk: 29-01-2017 14:57 0030001931179147"
+  },
+  {
+    "Datum": 20170130,
+    "Naam / Omschrijving": "4626 GVC KioskDoorloop",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,80",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-01-2017 17:41 Transactie:52W7O7 Term:668HDM"
+  },
+  {
+    "Datum": 20170130,
+    "Naam / Omschrijving": "NS-Amsterdam C 209 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "24,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-01-2017 11:49 Transactie:30D9Y0 Term:5WR506"
+  },
+  {
+    "Datum": 20170130,
+    "Naam / Omschrijving": "ETOS 7590 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "26,13",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-01-2017 11:54 Transactie:3163A3 Term:0YKP4N"
+  },
+  {
+    "Datum": 20170127,
+    "Naam / Omschrijving": "AH to go 5868 A'dam AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,55",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 27-01-2017 11:56 Transactie:31H241 Term:1G096N"
+  },
+  {
+    "Datum": 20170127,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170127,
+    "Naam / Omschrijving": "OV Bookshop AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-01-2017 19:36 Transactie:19O9L3 Term:53V955"
+  },
+  {
+    "Datum": 20170127,
+    "Naam / Omschrijving": "VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL87INGB0000717127",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "99,15",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: VGZ ZORGVERZEKERAAR NV BETREFT BEWUZT Omschrijving: VGZ Zorgverzekeraar NV inz. Bewuzt.. Zorgverzekering(en) ZVI. Polis 16435485. Februari 2017 t/m februari 2017 IBAN: NL87INGB0000717127 Kenmerk: 346337951 Machtiging ID: 3849232 Incassant ID: NL12ZZZ091567230000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170126,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "675,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes Omschrijving: February IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170126,
+    "Naam / Omschrijving": "Naar Spaarrekening voor UNICEF H87953233",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3285,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170126,
+    "Naam / Omschrijving": "Naar Oranje Spaarrekening A29217819",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1000,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": ""
+  },
+  {
+    "Datum": 20170126,
+    "Naam / Omschrijving": "Stichting Derdengelden Buckaroo",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL19DEUT0319821366",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "25,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Stichting Derdengelden Buckaroo Omschrijving: 861342824 1150000623453989 Tickets van De Balie St. De Balie IBAN: NL19DEUT0319821366 Kenmerk: 26-01-2017 17:35 1150000623453989"
+  },
+  {
+    "Datum": 20170126,
+    "Naam / Omschrijving": "Marqt Utrechtsestraa AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,98",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 26-01-2017 12:09 Transactie:A7U081 Term:GZV30Y"
+  },
+  {
+    "Datum": 20170126,
+    "Naam / Omschrijving": "TERRACINO ANNA",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "IT65I0572862190280571192306",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "5000,00",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: TERRACINO ANNA Omschrijving: Spese universitarie e per l appartamento IBAN: IT65I0572862190280571192306"
+  },
+  {
+    "Datum": 20170126,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-01-2017 12:59 Transactie:78S0K7 Term:BM15Z1"
+  },
+  {
+    "Datum": 20170125,
+    "Naam / Omschrijving": "New York Pizza Delivery B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL98RABO0116746424",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "11,69",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: New York Pizza Delivery B.V. Omschrijving: 2017-6079829 0020001477810633 Order Number 2017-6079829 New York Pizza IBAN: NL98RABO0116746424 Kenmerk: 25-01-2017 18:20 0020001477810633"
+  },
+  {
+    "Datum": 20170125,
+    "Naam / Omschrijving": "8010-246-UvARECHA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,30",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 25-01-2017 11:31 Transactie:72R8U6 Term:Z524DX"
+  },
+  {
+    "Datum": 20170125,
+    "Naam / Omschrijving": "PRINS CLAUS FDS CULT ONT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL75ABNA0240357450",
+    "Code": "OV",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "166,67",
+    "MutatieSoort": "Overschrijving",
+    "Mededelingen": "Naam: PRINS CLAUS FDS CULT ONT Omschrijving: SALARIS JANUARI IBAN: NL75ABNA0240357450 Kenmerk: 20170123 00952 54625 0004250 001 1"
+  },
+  {
+    "Datum": 20170125,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-01-2017 12:46 Transactie:47A3G1 Term:826VWQ"
+  },
+  {
+    "Datum": 20170125,
+    "Naam / Omschrijving": "Albert Heijn 1567 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,93",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-01-2017 12:47 Transactie:477600 Term:826VWQ"
+  },
+  {
+    "Datum": 20170125,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "8,47",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-01-2017 19:25 Transactie:64O208 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170124,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "20,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170124,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 24-01-2017 09:39 Transactie:39B5O9 Term:94JY26"
+  },
+  {
+    "Datum": 20170124,
+    "Naam / Omschrijving": "BEN NEDERLAND",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL61COBA0733974775",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "17,04",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: BEN NEDERLAND Omschrijving: Klant 1.50412812 Factuur 908007569323 IBAN: NL61COBA0733974775 Kenmerk: 500616718392 Machtiging ID: 1.50412812 Incassant ID: NL93ZZZ332656790051 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170123,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "210,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-ROKIN         00008097 PASVOLGNR 001 23-01-2017 00:00 TRANSACTIENR 4920"
+  },
+  {
+    "Datum": 20170116,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 15-01-2017 13:45 Transactie:14I6B2 Term:BM15Z1"
+  },
+  {
+    "Datum": 20170116,
+    "Naam / Omschrijving": "Cafe Langereis AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "16,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 14-01-2017 19:51 Transactie:07M2M7 Term:1S1NDP"
+  },
+  {
+    "Datum": 20170116,
+    "Naam / Omschrijving": "OPLADEN OV-CHIPKAART AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-01-2017 21:25 Transactie:82Z5U7 Term:DM26M1"
+  },
+  {
+    "Datum": 20170116,
+    "Naam / Omschrijving": "Koffiehuis NAW AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 13-01-2017 22:23 Transactie:8336R8 Term:T5RBN1"
+  },
+  {
+    "Datum": 20170113,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "19,37",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 12-01-2017 18:54 Transactie:47K285 Term:3C7SX1"
+  },
+  {
+    "Datum": 20170112,
+    "Naam / Omschrijving": "bol.com b.v.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL27INGB0000026500",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "27,21",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: bol.com b.v. Omschrijving: 4121658010 0050002577439457 bol.com bestelling 4121658010 bol.com IBAN: NL27INGB0000026500 Kenmerk: 12-01-2017 11:02 0050002577439457"
+  },
+  {
+    "Datum": 20170112,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-01-2017 14:42 Transactie:05R108 Term:XMX98J"
+  },
+  {
+    "Datum": 20170112,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-01-2017 15:00 Transactie:06K3Q2 Term:94JY26"
+  },
+  {
+    "Datum": 20170112,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,75",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 11-01-2017 14:59 Transactie:0657Y4 Term:578QY7"
+  },
+  {
+    "Datum": 20170112,
+    "Naam / Omschrijving": "Nationale-Nederlanden",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL28INGB0006749843",
+    "Code": "IC",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,05",
+    "MutatieSoort": "Incasso",
+    "Mededelingen": "Naam: Nationale-Nederlanden Omschrijving: Polisnr.: 55563811 INGWoonverzekering 09.01.2017 -09.02.2017 IBAN: NL28INGB0006749843 Kenmerk: 598005963599 Machtiging ID: 55563811-0667253386 Incassant ID: NL47ZZZ524034240000 Doorlopende incasso"
+  },
+  {
+    "Datum": 20170112,
+    "Naam / Omschrijving": "Kosten BasisPakket",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "1 okt t/m 31 dec 2016 ING BANK N.V."
+  },
+  {
+    "Datum": 20170111,
+    "Naam / Omschrijving": "Stichting Mollie Payments",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL30ABNA0524590958",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "13,30",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Stichting Mollie Payments Omschrijving: M1968481M10R9ER2 0030001904921449 ?16564?: iDEAL Betaling Sranang Mak 105301SiteDish.nl IBAN: NL30ABNA0524590958 Kenmerk: 11-01-2017 20:12 0030001904921449"
+  },
+  {
+    "Datum": 20170111,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "13,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170111,
+    "Naam / Omschrijving": "Hans Prijsoptiek B.V.",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL68DEUT0447287117",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "27,95",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Hans Prijsoptiek B.V. Omschrijving: 2897461 1150000617600508 Description HANS ANDERS WEBWINKEL IBAN: NL68DEUT0447287117 Kenmerk: 11-01-2017 15:11 1150000617600508"
+  },
+  {
+    "Datum": 20170111,
+    "Naam / Omschrijving": "STORTING ING",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "ST",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "135,00",
+    "MutatieSoort": "Storting",
+    "Mededelingen": "AMSTERDAM-1E VAN SWINDEN 00008288 PASVOLGNR 001 11-01-2017 00:00 TRANSACTIENR 2739"
+  },
+  {
+    "Datum": 20170109,
+    "Naam / Omschrijving": "Spirit Amsterdam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 06-01-2017 15:13 Transactie:9398B4 Term:XMX98J"
+  },
+  {
+    "Datum": 20170106,
+    "Naam / Omschrijving": "ALBERT HEIJN 5602 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-01-2017 12:42 Transactie:5159P0 Term:L263R6"
+  },
+  {
+    "Datum": 20170106,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,17",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 05-01-2017 17:58 Transactie:68M6F3 Term:5DV3JD"
+  },
+  {
+    "Datum": 20170105,
+    "Naam / Omschrijving": "8010-246-UvARECHA AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,45",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-01-2017 17:46 Transactie:3764N6 Term:61M65B"
+  },
+  {
+    "Datum": 20170105,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-01-2017 18:18 Transactie:38I611 Term:BM15Z1"
+  },
+  {
+    "Datum": 20170105,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-01-2017 13:38 Transactie:23Z1M0 Term:BM15Z1"
+  },
+  {
+    "Datum": 20170104,
+    "Naam / Omschrijving": "Juncal AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-01-2017 08:59 Transactie:1329E4 Term:894SM9"
+  },
+  {
+    "Datum": 20170104,
+    "Naam / Omschrijving": "8010-247-UvARECHK AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,25",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 04-01-2017 10:59 Transactie:15Y3X3 Term:BM15Z1"
+  },
+  {
+    "Datum": 20170104,
+    "Naam / Omschrijving": "CCV*CZAAR PETER APOTH AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,69",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 03-01-2017 14:16 Transactie:A70104 Term:BS028698"
+  },
+  {
+    "Datum": 20170103,
+    "Naam / Omschrijving": "Transavia.com by Adyen",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL33ABNA0621332496",
+    "Code": "GT",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "24,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Transavia.com by Adyen Omschrijving: 1814834499927470 0030001892558817 P8Y3NM 48851920 IBAN: NL33ABNA0621332496 Kenmerk: 03-01-2017 14:26 0030001892558817"
+  },
+  {
+    "Datum": 20170103,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "10,39",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 02-01-2017 16:32 Transactie:85N4O6 Term:578QY7"
+  },
+  {
+    "Datum": 20170102,
+    "Naam / Omschrijving": "1342 Action A'dam AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "4,92",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-12-2016 14:24 Transactie:46T9B9 Term:19ZG5H"
+  },
+  {
+    "Datum": 20170102,
+    "Naam / Omschrijving": "XENOS A'DAM OOST 192 AMSTERDAM",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "1,79",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 31-12-2016 14:38 Transactie:48B425 Term:L516C0"
+  },
+  {
+    "Datum": 20170102,
+    "Naam / Omschrijving": "Mw I Henriques Lopes",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "NL72INGB0651582741",
+    "Code": "GT",
+    "Af Bij": "Bij",
+    "Bedrag (EUR)": "10,00",
+    "MutatieSoort": "Online bankieren",
+    "Mededelingen": "Naam: Mw I Henriques Lopes IBAN: NL72INGB0651582741"
+  },
+  {
+    "Datum": 20170102,
+    "Naam / Omschrijving": "18e contante storting",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "DV",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "6,00",
+    "MutatieSoort": "Diversen",
+    "Mededelingen": "Betreft kosten storting ING BANK N.V."
+  },
+  {
+    "Datum": 20170102,
+    "Naam / Omschrijving": "HEMA EV348 AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "2,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-12-2016 13:57 Transactie:0219H9 Term:C07N0B"
+  },
+  {
+    "Datum": 20170102,
+    "Naam / Omschrijving": "VOMAR CRUQ AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "3,14",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-12-2016 14:34 Transactie:04X448 Term:5DV3JD"
+  },
+  {
+    "Datum": 20170102,
+    "Naam / Omschrijving": "KIKO AMSTERDAM AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "7,20",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-12-2016 12:47 Transactie:A7H1N0 Term:50091937"
+  },
+  {
+    "Datum": 20170102,
+    "Naam / Omschrijving": "Opladen OV-Chipkrt AMERSFOORT",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "5,00",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-12-2016 21:29 Transactie:24D9S6 Term:94JY26"
+  },
+  {
+    "Datum": 20170102,
+    "Naam / Omschrijving": "Kriterion AMSTERDAM NLD",
+    "Rekening": "NL61INGB0667253386",
+    "Tegenrekening": "",
+    "Code": "BA",
+    "Af Bij": "Af",
+    "Bedrag (EUR)": "9,50",
+    "MutatieSoort": "Betaalautomaat",
+    "Mededelingen": "Pasvolgnr:001 30-12-2016 21:50 Transactie:24S6G7 Term:4R9Z48"
+  }
+]

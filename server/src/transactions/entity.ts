@@ -24,6 +24,10 @@ export default class Transaction extends BaseEntity {
   })
   contractName: string
 
+
+  @Column('text')
+  iban: string
+
   @Column(<ExtendedColumnOptions>{
     type: "varchar",
     nullable: true,
@@ -45,6 +49,9 @@ export default class Transaction extends BaseEntity {
     }
   })
   value: string
+
+  @Column('text')
+  remarks: string
 
   @Column(<ExtendedColumnOptions>{
     type: "varchar",
