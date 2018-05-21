@@ -323,5 +323,10 @@ a:focus {
 .privacyTypography .deleteUserButton {
   margin-top: 30px;
   font-family: 'BrandonText-Bold';
+  background: linear-gradient(0.25turn,#e84435);
+  color: white;
+}
+
+.privacyTypography .deleteUserButton:hover{
   text-decoration: underline;
 }
