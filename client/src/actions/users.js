@@ -28,6 +28,8 @@ export const USER_DECLINE_PRIVACY = 'USER_DECLINE_PRIVACY'
 export const FETCH_USER_PROFILE = "FETCH_USER_PROFILE"
 export const FETCH_USER_PROFILE_FAILED = "FETCH_USER_PROFILE_FAILED"
 
+export const DELETE_USER = "DELETE_USER"
+
 
 export const logout = () => ({
   type: USER_LOGOUT
@@ -180,7 +182,6 @@ export const fetchProfile = (id) => (dispatch) => {
   console.log("console loggind acxtion id", id)
   request
     .get(`${baseUrl}/users/${id}/`)
-    // .send(id)
     .then(result => dispatch({
       type: FETCH_USER_PROFILE,
       payload: result.body
@@ -204,6 +205,7 @@ export const fetchProfile = (id) => (dispatch) => {
         .put(`${baseUrl}/users/${id}`)
         .send(updates)
         .then(result => {
+          console.log("console logging delete action", result)
           dispatch({
             type: UPDATE_USER,
             payload: result.body
@@ -212,5 +214,32 @@ export const fetchProfile = (id) => (dispatch) => {
         .catch(err => console.error(err))
     }
 
+    export const deleteUser = (id) => (dispatch) => {
+      console.log("console logging user id in actions", id)
+      request
+        .delete(`${baseUrl}/users/${id}`)
+        .then(response => dispatch({
+          type: DELETE_USER,
+          payload: id
+        }))
+    }
+    
+    export const deleteUserTransactions = (id) => (dispatch) => {
+      request
+        .delete(`${baseUrl}/users/${id}/transactions`) 
+        .then(response => dispatch({
+          type: DELETE_USER,
+          payload: id
+        }))
+    }
 
+    export const deleteUserFeedback = (id) => (dispatch) => {
+      console.log("console logging user id in actions", id)
+      request
+        .delete(`${baseUrl}/users/${id}/feedback`) 
+        .then(response => dispatch({
+          type: DELETE_USER,
+          payload: id
+        }))
+    }
 

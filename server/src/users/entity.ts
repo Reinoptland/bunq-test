@@ -10,7 +10,6 @@ import Feedback from "../feedbacks/entity"
 @Entity()
 export default class User extends BaseEntity {
 
-  // [x: string]: any;
   @PrimaryGeneratedColumn()
   id?: number
 
@@ -46,11 +45,11 @@ export default class User extends BaseEntity {
   @Column('text',  {default: null, nullable: true})
   bunqKey: string
 
-  @OneToMany(_ => Transaction, transaction => transaction.user)
-  @JoinColumn()
+  @OneToMany(_ => Transaction, transaction => transaction.user, {cascade: true, primary: true})
+  // @JoinColumn()
   transactions: Transaction[]
 
-  @OneToMany(_ => Feedback, feedback => feedback.user)
-  @JoinColumn()
-  feedbacks: Transaction[]
+  @OneToMany(_ => Feedback, feedback => feedback.user, {cascade: true, primary: true})
+  // @JoinColumn()
+  feedbacks: Feedback[]
 }

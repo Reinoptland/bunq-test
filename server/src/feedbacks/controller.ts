@@ -1,6 +1,7 @@
-import { JsonController, Get, Param, Body, NotFoundError, Post } from 'routing-controllers'
+import { JsonController, Get, Param, Body, NotFoundError, Post, Delete } from 'routing-controllers'
 import Feedback from './entity'
 import User from '../users/entity'
+import { userInfo } from 'os';
 
 
 @JsonController()
@@ -48,4 +49,17 @@ export default class FeedbackController {
   
       return createdFeedback
     }
+    
+
+    // deletes feedback from one user
+    @Delete('/users/:id/feedback')
+    async deleteFeedback(
+        @Body() feedback: Feedback,
+        @Param('id') userId: number
+        ) {
+        const user = await User.findOne(userId)
+        if(!user) throw new NotFoundError('A user with this Id does not exist')
+        const deletedFeedback = await Feedback.delete({...feedback, user})
+        return deletedFeedback
+        }
     }
