@@ -50,11 +50,9 @@ class ProfilePage extends PureComponent {
       <Redirect to="/login" />
     )
 
-    const {firstName, lastName, email, permission, bunqKey } = this.props.user
+    const {firstName, lastName, email, permission } = this.props.user
 
-   
-    console.log("props user riga 44", this.props.user)
-    return(
+       return(
       <div className="editForm">
           <h1>
             Dit is een overzicht van u profiel gegevens:
