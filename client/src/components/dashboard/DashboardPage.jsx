@@ -41,6 +41,7 @@ class DashboardPage extends PureComponent {
     }
     console.log(data)
     return(
+      <div>
       <Grid container alignItems={'center'} style={{width: '100%', flex: 1}} spacing={16}>
         <Grid xs={12} s={12} item>
           <Typography style={{textAlign: 'center'}}>
@@ -55,6 +56,7 @@ class DashboardPage extends PureComponent {
           </Typography>
         </Grid>
       </Grid>
+      </div>
     )
   }
 }

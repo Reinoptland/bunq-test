@@ -8,7 +8,7 @@ export default class Feedback extends BaseEntity {
   @PrimaryGeneratedColumn()
   id?: number
   
-  @ManyToOne(_ => User, user => user.transactions, { eager: true })
+  @ManyToOne(_ => User, user => user.feedbacks, { eager: true })
   @JoinColumn()
   user: User
 
