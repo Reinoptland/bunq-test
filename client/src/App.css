@@ -74,11 +74,6 @@ h4 {
   padding: 5px 30px 5px 3px;
 }
 
-/* .signupFormLabels input:focus {
-  outline: 2px solid #e84435;
-  color: #51595f
-} */
-
 .roosTitle {
   margin: 2rem 0 3rem 0;
 }
@@ -104,6 +99,10 @@ h4 {
 .feedbackForm input {
   border: 1px solid #bec1c2;
   margin-left: 10px;
+}
+
+.feedbackForm .feedbackButton:focus{
+  outline: 2px solid #e84435;
 }
 
 #PieChart {
@@ -323,5 +322,10 @@ a:focus {
 .privacyTypography .deleteUserButton {
   margin-top: 30px;
   font-family: 'BrandonText-Bold';
+  background: linear-gradient(0.25turn,#e84435);
+  color: white;
+}
+
+.privacyTypography .deleteUserButton:hover{
   text-decoration: underline;
 }
