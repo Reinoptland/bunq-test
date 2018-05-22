@@ -15,7 +15,7 @@ class ProfilePage extends PureComponent {
   }
 
   componentWillMount() {
-    if(this.props.user === null) return (<Redirect to='/logout' />)
+    if(this.props.user === null || !this.props.user) return (<Redirect to='/logout' />)
     
     if (this.props.user !== null) { 
       this.props.fetchProfile(this.props.user)}
@@ -46,11 +46,12 @@ class ProfilePage extends PureComponent {
 
 
   render(){
-    if (!this.props.user || this.props.user === null) return (
-      <Redirect to="/logout" />
-    )
-
     const {firstName, lastName, email, permission } = this.props.user
+
+    console.log("console logging this props user", this.props.user)
+    if (!this.props.user || this.props.user === null) return (
+      <Redirect to='/logout' />
+    )
 
        return(
       <div className="editForm">

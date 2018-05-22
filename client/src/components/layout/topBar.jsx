@@ -15,22 +15,16 @@ const TopBar = (props) => {
   return (
     <AppBar position="absolute" style={{ fontFamily: '', background: 'linear-gradient(to right, #E84435, #F57F17)', zIndex: 10 }}>
       <Toolbar>
-        <Link to='/profile'>
+       {user !== null ? <Link to='/profile' >
           {person()}
-        </Link>
-        <Typography variant="title" color="inherit" style={{ textAlign: 'center', flex: 1 }}>
+        </Link>: null}
 
-       
-          {logo()}
-    
+        <Typography variant="title" color="inherit" style={{ textAlign: 'center', flex: 1 }}>
+          {logo()}  
           </Typography>
         <a href='mailto:service@halloroos.nl'>
           {comment()}
         </a>
-        {
-          user &&
-          <Button color="inherit">{user.firstName}</Button>
-        }
 
         {
           location.pathname.indexOf('signup') > 0 &&
@@ -40,10 +34,7 @@ const TopBar = (props) => {
           location.pathname.indexOf('login') > 0 &&
           <Button color="inherit" onClick={() => history.push('/signup')}>Aanmelden</Button>
         }
-        {
-          location.pathname.indexOf('games/') > 0 &&
-          <Button color="inherit" onClick={() => history.push('/dashboard')}>Dashboard</Button>
-        }
+       
         {
           /dashboard$/.test(location.pathname) &&
           <Button color="inherit" onClick={() => history.push('/logout')}>Log out</Button>
