@@ -11,6 +11,7 @@ export const FETCH_CONTRACTS_FAILED = "FETCH_CONTRACTS_FAILED"
 export const FETCH_TRANSACTIONS = "FETCH_TRANSACTIONS"
 export const FETCH_TRANSACTIONS_FAILED = "FETCH_TRANSACTIONS_FAILED"
 export const ADD_TRANSACTIONS = "ADD_TRANSACTIONS"
+export const DELETE_TRANSACTION = "DELETE_TRANSACTION"
 
 export const fetchTransactions = (id) => (dispatch, getState) => {
   console.log(id)
@@ -81,4 +82,13 @@ export const fetchContracts = (id) => (dispatch, getState) => {
         console.error(err)
       }
     })
+}
+
+export const deleteTransaction = (id) => (dispatch, getState) => {
+  request
+  .delete(`${baseUrl}/transactions/${id}`)
+  .then(result => dispatch({
+    type: DELETE_TRANSACTION,
+    return: result.body
+  }))
 }

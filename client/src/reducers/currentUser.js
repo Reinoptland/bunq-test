@@ -29,28 +29,15 @@ export default function (state = initialState, { type, payload }) {
       case USER_LOGOUT:
       return null
       
-    case USER_ACCEPT_PRIVACY:
-      return { ...state, 
-        user: {
-          permission: payload.user.permission
-        }
-      }
+      case USER_ACCEPT_PRIVACY:
+      return {...state, user: payload }
 
-    case UPDATE_USER:
+      case UPDATE_USER:
       // state.user = payload
       return {...state, user: payload}
     
-    
       case DELETE_USER:
       return delete payload.id
-
-     
-      // case UPDATE_USER:
-      // console.log("reducer update user", type, payload)
-      // return {
-      //   ...state,
-      //    payload
-      // } 
 
       case ADD_USER:
       return {
