@@ -24,7 +24,6 @@ export default class Transaction extends BaseEntity {
   })
   contractName: string
 
-
   @Column(<ExtendedColumnOptions>{
     type: "varchar",
     nullable: true,

@@ -6,7 +6,7 @@ import LogoutPage from './components/logout/LogoutPage'
 import DashboardPage from './components/dashboard/DashboardPage'
 import ContractsPage from './components/contracts/ContractsPage'
 import SignupPage from './components/signup/SignupPage'
-import BunqPage from './components/bunqDetails/BunqPage'
+import UploadCSVPage from './components/uploadCSV/UploadCSVPage'
 import TopBar from './components/layout/topBar'
 import BottomNav from './components/layout/bottomNav'
 import FeedbackPage from './components/feedback/FeedbackPage'
@@ -26,7 +26,7 @@ class App extends Component {
           <main style={{ margin: '80px 0 0 20px' }}>
             <Route exact path='/login' component={LoginPage} />
             <Route exact path="/logout" component={LogoutPage} />
-            <Route exact path='/bunq' component={BunqPage} />
+            <Route exact path='/csv' component={UploadCSVPage} />
             <Route exact path='/feedback' component={FeedbackPage} />
             <Route exact path='/dashboard' component={DashboardPage} />
             <Route exact path='/contracts' component={ContractsPage} />
