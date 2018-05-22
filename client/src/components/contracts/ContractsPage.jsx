@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import Typography from 'material-ui/Typography'
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
-import {Redirect} from 'react-router-dom'
+import {Redirect, Link} from 'react-router-dom'
 
 const renderContract = ({ ...props }) => {
   return (
@@ -14,15 +14,12 @@ const renderContract = ({ ...props }) => {
 }
 
 class ContractsPage extends PureComponent {
-  componentWillMount() {
-    if (this.props.transactions === null) {
-      this.props.fetchTransactions(1)
-    }
+  state = {
+    buttons: this.props.buttons
   }
+
   render() {
-    // console.log(this.props)
     const { transactions } = this.props
-    console.log(this.props.user)
     if(this.props.user === null || !this.props.user) return( <Redirect to='/login' /> )
     return (
       <div className="center">
@@ -30,7 +27,7 @@ class ContractsPage extends PureComponent {
         {
             transactions ? transactions.map(t => {
               return t.type === 'insurance' ?
-                (renderContract(t)) : null
+                (<Link to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>) : null
             }) : <p>Contracts loading...</p>
           }
         </Typography>
@@ -38,7 +35,7 @@ class ContractsPage extends PureComponent {
           {
             transactions ? transactions.map(t => {
               return t.type === 'telecom' ?
-                (renderContract(t)) : null
+                (<Link to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>) : null
             }) : <p>Contracts loading...</p>
           }
         </Typography>
@@ -46,7 +43,7 @@ class ContractsPage extends PureComponent {
         {
             transactions ? transactions.map(t => {
               return t.type === 'energy' ?
-                (renderContract(t)) : null
+                (<Link to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>) : null
             }) : <p>Contracts loading...</p>
           }
         </Typography>
@@ -54,7 +51,7 @@ class ContractsPage extends PureComponent {
         {
             transactions ? transactions.map(t => {
               return t.type === 'other' ?
-                (renderContract(t)) : null
+                (<Link to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>) : null
             }) : <p>Contracts loading...</p>
         }
         </Typography>
