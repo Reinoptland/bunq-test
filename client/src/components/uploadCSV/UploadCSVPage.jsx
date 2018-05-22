@@ -20,7 +20,9 @@ class UploadCSVPage extends PureComponent {
 
         {this.props.error && <span style={{ color: 'red' }}>{this.props.error}</span>}
         <Link to='/dashboard'><button className='privacyButton'>Submit</button></Link>
-        <AlertDialog privacy={this.props.privacy} user={this.props.user} fetchProfile={this.props.fetchProfile}/>
+        <div>
+          <AlertDialog privacy={this.props.privacy} user={this.props.user} fetchProfile={this.props.fetchProfile}/>
+        </div>
       </div>
     )
   }
