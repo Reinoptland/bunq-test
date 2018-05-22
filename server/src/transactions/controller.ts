@@ -16,7 +16,7 @@ export default class TransactionController {
     ){
       const transactions = await Transaction.find({where: {user: id}})
       if(!transactions) throw new NotFoundError('This user has no transactions yet!')
-  
+     
       return {transactions}
     }
 

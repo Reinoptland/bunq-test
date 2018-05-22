@@ -27,7 +27,7 @@ class ContractsPage extends PureComponent {
         {
             transactions ? transactions.map(t => {
               return t.type === 'insurance' ?
-                (<Link to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>) : null
+                (<Link to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>) : null
             }) : <p>Contracts loading...</p>
           }
         </Typography>
@@ -35,7 +35,7 @@ class ContractsPage extends PureComponent {
           {
             transactions ? transactions.map(t => {
               return t.type === 'telecom' ?
-                (<Link to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>) : null
+                (<Link to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>) : null
             }) : <p>Contracts loading...</p>
           }
         </Typography>
@@ -43,7 +43,7 @@ class ContractsPage extends PureComponent {
         {
             transactions ? transactions.map(t => {
               return t.type === 'energy' ?
-                (<Link to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>) : null
+                (<Link to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>) : null
             }) : <p>Contracts loading...</p>
           }
         </Typography>
@@ -51,7 +51,7 @@ class ContractsPage extends PureComponent {
         {
             transactions ? transactions.map(t => {
               return t.type === 'other' ?
-                (<Link to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>) : null
+                (<Link to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>) : null
             }) : <p>Contracts loading...</p>
         }
         </Typography>

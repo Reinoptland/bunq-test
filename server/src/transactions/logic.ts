@@ -40,9 +40,9 @@ export const getTransactions = (csvData, contractTypes) => {
       remarks: object['Mededelingen']
   }))
   .map(object => {
-    if (contractTypes.insurances.filter(string => object.contractName.includes(string)).length > 0) return {...object, type: "insurance"}
-    else if(contractTypes.energy.filter(string => object.contractName.includes(string)).length > 0) return {...object, type: "energy"}
-    else if(contractTypes.telecom.filter(string => object.contractName.includes(string)).length > 0) return {...object, type: "telecom"}
+    if (contractTypes.insurances.filter(string => object.contractName.toLowerCase().includes(string)).length > 0) return {...object, type: "insurance"}
+    else if(contractTypes.energy.filter(string => object.contractName.toLowerCase().includes(string)).length > 0) return {...object, type: "energy"}
+    else if(contractTypes.telecom.filter(string => object.contractName.toLowerCase().includes(string)).length > 0) return {...object, type: "telecom"}
     else return object
   })
 
