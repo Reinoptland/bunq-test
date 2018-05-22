@@ -6,7 +6,7 @@ export default function (state = null, { type, payload }) {
             return payload
 
         case DELETE_CONTRACT:
-            return state.filter(contract => contract.contractName !== payload.contractName)
+            return state.filter(contract => contract.contractName !== payload[0].contractName)
 
         default:
             return state
