@@ -64,12 +64,14 @@ export const fetchContracts = (id) => (dispatch, getState) => {
   if (!state.currentUser) return null
   const jwt = state.currentUser.jwt
 
+  console.log('fetchContracts action working', id)
+
   request
     .get(`${baseUrl}/users/${id}/contracts`)
     .send(id)
     .then(result => dispatch({
       type: FETCH_CONTRACTS,
-      payload: result.body.contracts
+      payload: result.body
     }))
     .catch(err => {
       if (err.status === 400) {
@@ -83,6 +85,7 @@ export const fetchContracts = (id) => (dispatch, getState) => {
       }
     })
 }
+
 
 export const deleteTransaction = (id) => (dispatch, getState) => {
   const state = getState()

@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import Typography from 'material-ui/Typography'
 import { connect } from 'react-redux'
-import { fetchTransactions, deleteTransaction } from '../../actions/transactions'
+import { fetchContracts, deleteTransaction } from '../../actions/transactions'
 import {Redirect, Link} from 'react-router-dom'
 // import { Button } from 'material-ui';
 import Clear from '@material-ui/icons/Clear'
@@ -9,7 +9,7 @@ import Clear from '@material-ui/icons/Clear'
 const renderContract = ({ ...props }) => {
   return (
     <div key={`${props.id}-outer`}>
-      <Typography key={`${props.id}-name`} variant='headline'>{props.contractName}</Typography>
+      <Typography key={`${props.id}-name`} variant='headline'>{props.contractName} <br /> average: {props.average}</Typography>
       <Typography key={`${props.id}-value`}>{props.value}</Typography>
     </div>
   )
@@ -25,7 +25,7 @@ class ContractsPage extends PureComponent {
   }
   componentWillMount(){
     if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
-    this.props.fetchTransactions(this.props.user.id)
+    this.props.fetchContracts(this.props.user.id)
     if(this.props.buttons === false) this.setState({
       buttons: false
     })
@@ -37,7 +37,7 @@ class ContractsPage extends PureComponent {
 
   render() {
     console.log(this.props)
-    const { transactions } = this.props
+    const { contracts } = this.props
     if(this.props.user === null || !this.props.user) return( <Redirect to='/logout' /> )
     return (
       <div className="center">
@@ -46,7 +46,7 @@ class ContractsPage extends PureComponent {
       }
         <Typography style={{margin: '0 0 30px 0'}} variant='display1'> Verzekering
         {
-            transactions ? transactions.map(t => {
+            contracts ? contracts.map(t => {
               return t.type === 'insurance' ?
 
                 (<div key={`${t.id}-div`}>
@@ -62,7 +62,7 @@ class ContractsPage extends PureComponent {
         </Typography>
         <Typography style={{ margin: '30px 0' }} variant='display1'> Telecom
           {
-            transactions ? transactions.map(t => {
+            contracts ? contracts.map(t => {
               return t.type === 'telecom' ?
                 (<div key={`${t.id}-div`}>
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
@@ -78,7 +78,7 @@ class ContractsPage extends PureComponent {
         </Typography>
         <Typography style={{ margin: '30px 0' }} variant='display1'> Energy
         {
-            transactions ? transactions.map(t => {
+            contracts ? contracts.map(t => {
               return t.type === 'energy' ?
                 (<div>
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
@@ -93,7 +93,7 @@ class ContractsPage extends PureComponent {
         </Typography>
         <Typography style={{ margin: '30px 0' }} variant='display1'> Overig 
         {
-            transactions ? transactions.map(t => {
+            contracts ? contracts.map(t => {
               return t.type === 'other' ?
                 (<div key={`${t.id}-div`}>
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
@@ -113,8 +113,10 @@ class ContractsPage extends PureComponent {
 }
 
 const mapStateToProps = (state, props) => ({
-  transactions: state.transactions,
+  contracts: state.contracts,
   user: state.currentUser ? state.currentUser.user : null
 })
 
-export default connect(mapStateToProps, { fetchTransactions, deleteTransaction })(ContractsPage)
+
+export default connect(mapStateToProps, { fetchContracts, deleteTransaction })(ContractsPage)
+
