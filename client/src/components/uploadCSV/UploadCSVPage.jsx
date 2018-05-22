@@ -14,7 +14,7 @@ class UploadCSVPage extends PureComponent {
 
     return (
       <div className='center'>
-        <h1>Bunq Login</h1>
+        <h1>Upload your CSV file</h1>
 
         <UploadCSVForm />
 
