@@ -50,18 +50,22 @@ export const getTransactions = (csvData, contractTypes) => {
 
 
 
-export const getOnlyContractsNamesAndTotals = (transactions) => {
+export const getContracts = (transactions) => {
   const contractsNames = transactions
       .map(transaction => transaction.contractName)
       .filter((v, i, a) => a.indexOf(v) === i);
-  
+
   const totals = contractsNames.map(contract => {
       const total = transactions
           .filter(transaction => 
               transaction.contractName === contract)
           .map(transaction => Number(transaction.value))
           .reduce((total, transaction) => total + transaction)
-      return {contractName: contract, totaal: total.toFixed(2)}
+      const type = transactions
+          .filter(transaction => 
+              transaction.contractName === contract)
+          
+      return {contractName: contract, totaal: total.toFixed(2), type: type[0].type}
   })
 
 return totals
