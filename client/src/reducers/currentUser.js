@@ -43,15 +43,14 @@ export default function (state = initialState, { type, payload }) {
     
       case DELETE_USER:
       return delete payload.id
-      console.log("delete user case in reducer", payload.id)
 
      
-      case UPDATE_USER:
-      console.log("reducer update user", type, payload)
-      return {
-        ...state,
-         payload
-      } 
+      // case UPDATE_USER:
+      // console.log("reducer update user", type, payload)
+      // return {
+      //   ...state,
+      //    payload
+      // } 
 
       case ADD_USER:
       return {

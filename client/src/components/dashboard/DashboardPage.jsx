@@ -1,8 +1,6 @@
 import React, { PureComponent } from 'react'
-import pieGraph from './Graph'
 import BarGraph from './BarGraph'
-// import LineGraph from './LineGraph'
-import { Grid, Typography, Divider } from 'material-ui';
+import { Grid, Divider } from 'material-ui';
 import { connect } from 'react-redux'
 import { fetchContracts, fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
