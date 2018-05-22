@@ -87,5 +87,19 @@ export default class TransactionController {
 
         return getContracts(transactions)
         }
+
+    @Delete('/users/:id/contracts/')
+    async deleteContractTransactions(
+        @Body() contractName: string,
+        @Param('id') userId: number,
+        ) {
+        
+        let transactions = await Transaction.find({where: {user: userId}})
+        transactions = transactions.filter(transaction => transaction.contractName === ` ${Object.values(contractName)[0]} `)
+
+        if(!transactions) throw new NotFoundError('No transactions found under this contract')
+        const deletedTransaction = await Transaction.remove(transactions)
+        return deletedTransaction
+    }
     }
   
