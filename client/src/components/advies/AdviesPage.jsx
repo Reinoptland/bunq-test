@@ -5,14 +5,16 @@ import { Redirect } from 'react-router-dom'
 export default class AdviesPage extends PureComponent {
 
     render() {
-        if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
+        // if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
         return (
             <form>
 
                 <h1>Advies</h1>
                 <div className="adviesForm">
-                    <p> Thank you for visiting, we have not yet implemented this page but feel free click on the link below to get more information.</p>
-                    <a href='https://halloroos.nl/energy/2/energy-check'> Follow Me! </a>
+                    Dank voor het gebruik van onze ROOS app. Momenteel is deze pagina nog niet beschikbaar, maar u kunt op de onderstaande link klikken voor meer informatie.
+                    <br/>
+                    <br />
+                    <a href='https://halloroos.nl/over-roos/contact' target='blank'>ROOS contact</a>
                 </div>
             </form>
         )
