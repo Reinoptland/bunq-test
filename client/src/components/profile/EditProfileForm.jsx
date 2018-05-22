@@ -43,7 +43,7 @@ export default class EditProfileForm extends PureComponent {
       return(
         <form onSubmit={this.handleSubmit} className="editProfileForm">
 
-          <h2>Change your profile details:</h2>
+          <h2>Wijzig uw profiel gegevens:</h2>
 
           <TextField
             id='firstName'

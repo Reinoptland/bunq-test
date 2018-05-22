@@ -52,11 +52,11 @@ export default class AlertDeleteUser extends React.Component {
                     style={{margin: 'auto'}}
                     >
 
-                    <DialogTitle id="alert-dialog-title">{"Bent u zeker dat u uw account willt verwijderen?"}</DialogTitle>
+                    <DialogTitle id="alert-dialog-title">{"Weet u zeker dat u uw account willt verwijderen?"}</DialogTitle>
                     <DialogContent>
                       <DialogContentText id="alert-dialog-description">
                       <Typography align='justify' paragraph={true}>
-                      Als u 'ja' kiezen zullen uw account permanent gesloten worden.
+                      Als u 'ja' kiest zal uw account permanent verwijderd worden.
                         </Typography>
                         <Divider style={{margin: '1.5rem 0'}} />
                 <div style={{position: 'relative', left: '45%'}}>
