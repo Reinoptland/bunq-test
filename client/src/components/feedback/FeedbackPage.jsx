@@ -8,7 +8,7 @@ class FeedbackPage extends PureComponent {
     // console.log(data)
     this.props.feedback(data, this.props.user.id)
     alert('Thanks for your feedback!');
-    window.location = '/login';  }
+    window.location = '/logout';  }
 
     render() {
         return (
