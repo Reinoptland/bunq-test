@@ -7,14 +7,14 @@ import { Redirect } from 'react-router-dom'
 import ContractsPage from '../contracts/ContractsPage'
 
 
-const calculateTransactions = (arr) => {
+const calculateContracts = (arr) => {
   const colors = ['#127ECF', '#90C227', '#F57E18', '#E94435']
   let insurance = 0 
   let telecom = 0  
   let energy = 0 
   let other = 0
 arr.map(t => {
-  let value =  (- Number(t.value))
+  let value =  (Number(t.average))
   if(t.type === 'insurance') insurance = insurance + value
   if(t.type === 'telecom') telecom = telecom + value
   if(t.type === 'energy') energy = energy + value
@@ -45,8 +45,8 @@ class DashboardPage extends PureComponent {
     let data = [["Category", "Amount"],[]]
     const colors = ['#127ECF', '#90C227', '#F57E18', '#E94435']
     const {firstName, lastName} = this.props.user
-    if(this.props.transactions) {
-    data = calculateTransactions(this.props.transactions)
+    if(this.props.contracts) {
+    data = calculateContracts(this.props.contracts)
     }
     return(
       <div>
@@ -56,7 +56,7 @@ class DashboardPage extends PureComponent {
             Hi {firstName} {lastName}! Hier vindt je een overzicht van je transacties.
             <Divider style={{margin: '20px 0 20px 0'}}/>
             {
-              this.props.transactions ? (BarGraph({ data, colors})) : null
+              this.props.contracts ? (BarGraph({ data, colors})) : null
             }
               <ContractsPage buttons={false}/>
           </div>
