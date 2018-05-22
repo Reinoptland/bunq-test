@@ -30,7 +30,7 @@ export default function (state = initialState, { type, payload }) {
       return null
       
     case USER_ACCEPT_PRIVACY:
-      return {
+      return { ...state, 
         user: {
           permission: payload.user.permission
         }
