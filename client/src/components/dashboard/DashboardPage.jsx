@@ -52,9 +52,9 @@ class DashboardPage extends PureComponent {
       <div>
       <Grid container alignItems={'center'} style={{width: '100%', flex: 1}} spacing={16}>
         <Grid xs={12} s={12} item>
-          <div style={{textAlign: 'center'}}>
+          <div style={{textAlign: 'center', fontSize:"25px", fontFamily: 'BrandonText-Bold'}}>
             Hi {firstName} {lastName}! Hier vindt je een overzicht van je transacties.
-            <Divider style={{margin: '10px 0 20px 0'}}/>
+            <Divider style={{margin: '20px 0 20px 0'}}/>
             {
               this.props.transactions ? (BarGraph({ data, colors})) : null
             }
