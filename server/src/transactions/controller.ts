@@ -71,22 +71,3 @@ export default class TransactionController {
         }
     }
   
-    // @Get('/transactions')
-    // async all() {
-    // const transactions = await Transaction.find()
-    // if (!transactions) throw new NotFoundError(`There are no transactions available in this table`)
-    // return { transactions }
-    // }
-  
-
-    // @Post('/transactions')
-    // async createTransaction(
-    //     @Body() transaction: Transaction
-    // ) {
-    // const { id, ...info } = transaction
-    // const entity = Transaction.create(info)
-    // entity.user = await User.findOne({where: {id}})
-
-    // return entity.save()
-    // }
-

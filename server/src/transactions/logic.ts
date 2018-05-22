@@ -38,7 +38,6 @@ export const getTransactions = (csvData, contractTypes) => {
   const contracts = mappedPayments.filter(object => Object.keys(object).includes('type'))
   
   const rest = mappedPayments.filter(object => !Object.keys(object).includes('type'))
-  console.log(rest)
 
   const recurrentPayments = rest.map(object => {
       if (rest.filter(obj => obj.contractName === object.contractName && Number(obj.value) > (Number(object.value) - 3) && Number(obj.value) < (Number(object.value) + 3)).length >= 5) return {...object, type: "other"}
@@ -46,7 +45,6 @@ export const getTransactions = (csvData, contractTypes) => {
 
   return contracts.concat(recurrentPayments)
 }
-
 
 
 
