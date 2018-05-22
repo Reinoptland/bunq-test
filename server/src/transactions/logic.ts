@@ -11,8 +11,8 @@ export const contractTypes = {
         "zlm", "zelf.nl", "witgeld.nl", "vvs", "vvaa", "voogd & voogd", "verzekeruzelf", "verzekersnel", "verzeker-je-auto", "van kampen groep", "univé", "united insurance", "unigarant", "turien & co", "sns bank", "route mobiel", "reaal", "proteq", "premio", "polisvoormij", "polis direct", "onna-onna",
         "ohra", "nh1816 verzekeringen", "neerlandia", "de nederlanden van nu", "nationale-nederlanden", "national academic", "london verzekeringen", "lancyr", "kruitvat", "klik & go", "klaverblad", "interpolis", "inshared", "ing", "hema", "hdi-gerling", "generali", "fbto", "eag", "ditzo", "delta lloyd", "de zeeuwse",
         "de kilometerverzekering", "de goudse", "centraal beheer achmea", "budgio", "brunsten brink", "bovemij", "bovag", "avero achmea", "assicuro", "a.s.r. verzekeringen", "aon direct", "anwb", "allsecur", "allianz", "aegon", "acura", "abn amro"],
-  telecom: ["ZIGGO", "TELE2", "BEN"],
-  energy: ["ENECO ", "Essent "]
+  telecom: ["hi", "ben", "kpn","vodafone","tele2","telfort","simyo","hollandsnieuwe","sizz","anders","upc","ziggo","stipte","xs4all","canaldigitaal","concepts ict","online.nl","t-mobile"],
+  energy: ["anode energie", "atoomstroom","bas","budget energie","delta","dgb energie","dong energie","e.d.mij","e.on","electrabel","eneco","energiedirect.nl","energieflex","essent","gazprom energy","greenchoice","greenfoot","hallo yellow","hezelaer","huismerk energie", "hvc","innova energie","kas energie","main energie","mkb energie","nederlandse energie maatschappij","nhec","nieuwestroom","nuon","oxxio","qurrent","qwint","raedthuys group","robin energie","scholt energy control","sepa green","twence","unitedconsumers","woonenergie","engie","powerpeers"]
 }
 
 export const getTransactions = (csvData, contractTypes) => {
@@ -65,18 +65,22 @@ export const getContracts = (transactions) => {
       .filter((v, i, a) => a.indexOf(v) === i);
 
   const totals = contractsNames.map(contract => {
-      const total = transactions
+      const filteredContracts = transactions
           .filter(transaction => 
               transaction.contractName === contract)
-          .map(transaction => Number(transaction.value))
-          .reduce((total, transaction) => total + transaction)
+          .map(transaction => Number(transaction.value ) * -1)
+    
+      const value = filteredContracts
+          .reduce((total, transaction) => (total + transaction))
+        
+      const average = value/filteredContracts.length
+
       const type = transactions
           .filter(transaction => 
               transaction.contractName === contract)
           
-      return {contractName: contract, totaal: total.toFixed(2), type: type[0].type}
+      return {contractName: contract, average: average.toFixed(2), type: type[0].type}
   })
-
 return totals
   
 }

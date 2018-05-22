@@ -45,8 +45,7 @@ export class AlertDialog extends React.Component {
         >
           <DialogTitle id="alert-dialog-title">{"Privacybeleid van Roos"}</DialogTitle>
             <DialogContent>
-              <DialogContentText id="alert-dialog-description">
-              <Typography align='justify' paragraph={true}>
+              <DialogContent id="alert-dialog-description">
                   Roos vindt jouw privacy misschien wel belangrijker dan jijzelf. Als je online of via Facebook een wekker
                   zetof een product bestelt, staat ze er 100% voor in dat je gegevens zorgvuldig behandeld en verwerkt worden.
                   Zo blijven je gegevens van jou alleen en krijgt niemand krijgt er toegang toe. Pottenkijkers,
@@ -284,7 +283,6 @@ export class AlertDialog extends React.Component {
                   Roos behoudt het recht om wijzigingen aan te brengen in het privacybeleid in verband met nieuwe ontwikkelingen. 
                 De meeste recente versie kan je altijd vinden op de website van Roos en we raden je aan de tekst met enige regelmaat 
                 te raadplegen indien van je Roos gebruik maakt.
-                  </Typography>
                 <Divider style={{margin: '1.5rem 0'}} />
                 <div style={{position: 'relative', left: '45%'}}>
                   <Link to='/feedback'>
@@ -296,7 +294,7 @@ export class AlertDialog extends React.Component {
                       Akkoord
                   </Button>
                 </div>
-              </DialogContentText>                
+              </DialogContent>                
             </DialogContent>
         </Dialog>
       </div>
