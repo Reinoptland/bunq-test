@@ -42,9 +42,6 @@ export default class User extends BaseEntity {
   @Column('boolean', {default: false, nullable: true})
   permission: boolean
 
-  @Column('text',  {default: null, nullable: true})
-  bunqKey: string
-
   @OneToMany(_ => Transaction, transaction => transaction.user, {cascade: true, primary: true})
   // @JoinColumn()
   transactions: Transaction[]
