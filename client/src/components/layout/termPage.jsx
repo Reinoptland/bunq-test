@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
-import { Redirect } from 'react-router-dom'
 import Typography from 'material-ui/Typography';
 import Divider from 'material-ui/Divider'
 

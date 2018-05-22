@@ -37,7 +37,6 @@ class UploadCSVForm extends PureComponent {
     var reader = new FileReader();
     reader.onload = function(e) {
     // // Use reader.result
-    const text = reader.result
     console.log(Papa.parse(reader.result, config).data)
     addTransactions(Papa.parse(reader.result, config).data, id)
     }

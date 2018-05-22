@@ -3,14 +3,14 @@ import { Chart } from 'react-google-charts';
 
 const BarGraph = ({...props}) => {
   console.log(props)
-  const data = [
-    ['Categorie', 'Bedrag', { role: 'style' }],
-    ['New York City, NY', 8175000, `color: ${props.colors[0]}`],
-    ['Los Angeles, CA', 3792000, 'color: blue'],
-    ['Chicago, IL', 2695000, 'color: blue'],
-    ['Houston, TX', 2099000, 'color: blue'],
-    ['Philadelphia, PA', 1526000, 'color: blue']
-  ]
+  // const data = [
+  //   ['Categorie', 'Bedrag', { role: 'style' }],
+  //   ['New York City, NY', 8175000, `color: ${props.colors[0]}`],
+  //   ['Los Angeles, CA', 3792000, 'color: blue'],
+  //   ['Chicago, IL', 2695000, 'color: blue'],
+  //   ['Houston, TX', 2099000, 'color: blue'],
+  //   ['Philadelphia, PA', 1526000, 'color: blue']
+  // ]
 
   const options = {
     title: 'Jouw Transacties',

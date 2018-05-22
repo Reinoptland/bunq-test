@@ -6,10 +6,10 @@ import {Redirect} from 'react-router-dom'
 
 const renderContract = ({ ...props }) => {
   return (
-    <Typography>
-      <Typography variant='headline'>{props.contractName}</Typography>
-      <Typography>{props.value}</Typography>
-    </Typography>
+    <div key={`${props.id}-outer`}>
+      <Typography key={`${props.id}-name`} variant='headline'>{props.contractName}</Typography>
+      <Typography key={`${props.id}-value`}>{props.value}</Typography>
+    </div>
   )
 }
 
