@@ -93,12 +93,13 @@ export default class TransactionController {
         @Body() contractName: string,
         @Param('id') userId: number,
         ) {
-        
+        console.log(contractName)
         let transactions = await Transaction.find({where: {user: userId}})
-        transactions = transactions.filter(transaction => transaction.contractName === ` ${Object.values(contractName)[0]} `)
+        transactions = transactions.filter(transaction => transaction.contractName === Object.values(contractName)[0])
 
         if(!transactions) throw new NotFoundError('No transactions found under this contract')
         const deletedTransaction = await Transaction.remove(transactions)
+        console.log(deletedTransaction)
         return deletedTransaction
     }
     }
