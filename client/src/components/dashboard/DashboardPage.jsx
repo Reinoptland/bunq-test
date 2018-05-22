@@ -4,7 +4,7 @@ import BarGraph from './BarGraph'
 // import LineGraph from './LineGraph'
 import { Grid, Typography, Divider } from 'material-ui';
 import { connect } from 'react-redux'
-import { fetchTransactions } from '../../actions/transactions'
+import { fetchContracts, fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
 import ContractsPage from '../contracts/ContractsPage'
 
@@ -30,6 +30,7 @@ class DashboardPage extends PureComponent {
   componentWillMount() {
    if(this.props.user === null) return (<Redirect to='/login' />)
     if (this.props.transactions === null && this.props.user) {
+      this.props.fetchContracts(this.props.user.id)
       this.props.fetchTransactions(this.props.user.id)
     }
   }
@@ -55,7 +56,7 @@ class DashboardPage extends PureComponent {
             {
               BarGraph({ data, colors})
             }
-              <ContractsPage />
+              <ContractsPage buttons={false}/>
           </div>
         </Grid>
       </Grid>
@@ -69,4 +70,4 @@ const mapStateToProps = (state, props) => ({
   transactions: state.transactions
 })
 
-export default connect(mapStateToProps, { fetchTransactions })(DashboardPage)
+export default connect(mapStateToProps, { fetchContracts, fetchTransactions })(DashboardPage)

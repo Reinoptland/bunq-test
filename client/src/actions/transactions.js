@@ -63,7 +63,7 @@ export const fetchContracts = (id) => (dispatch, getState) => {
   const jwt = state.currentUser.jwt
 
   request
-    .get(`${baseUrl}/users/${id}/transactions`)
+    .get(`${baseUrl}/users/${id}/contracts`)
     .send(id)
     .then(result => dispatch({
       type: FETCH_CONTRACTS,
