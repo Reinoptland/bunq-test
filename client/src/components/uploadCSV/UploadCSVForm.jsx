@@ -3,6 +3,7 @@ import ReactFileReader from 'react-file-reader';
 import Papa from 'papaparse'
 import { addTransactions } from '../../actions/transactions'
 import {connect} from 'react-redux'
+import {Redirect} from 'react-router-dom'
 
 const config = {
 	delimiter: "",	// auto-detect
@@ -46,6 +47,7 @@ class UploadCSVForm extends PureComponent {
 }
 
   render() {
+		if(!this.props.user) return(<Redirect to='/login' />)
     return (
           <ReactFileReader handleFiles={this.handleFiles} fileTypes={'.csv'}>
             <button className='btn'>Upload</button>
