@@ -1,7 +1,7 @@
 export const contractTypes = {
   insurances: ["Zilveren", "DELA NATURA", "CZ Groep"],
-  telecom: ["ZIGGO", "TELE2", "BEN"],
-  energy: ["ENECO ", "Essent "]
+  telecom: ["hi", "ben", "kpn","vodafone","tele2","telfort","simyo","hollandsnieuwe","sizz","anders","upc","ziggo","stipte","xs4all","canaldigitaal","concepts ict","online.nl","t-mobile"],
+  energy: ["anode energie", "atoomstroom","bas","budget energie","delta","dgb energie","dong energie","e.d.mij","e.on","electrabel","eneco","energiedirect.nl","energieflex","essent","gazprom energy","greenchoice","greenfoot","hallo yellow","hezelaer","huismerk energie", "hvc","innova energie","kas energie","main energie","mkb energie","nederlandse energie maatschappij","nhec","nieuwestroom","nuon","oxxio","qurrent","qwint","raedthuys group","robin energie","scholt energy control","sepa green","twence","unitedconsumers","woonenergie","engie","powerpeers"]
 }
 
 export const getTransactions = (csvData, contractTypes) => {
