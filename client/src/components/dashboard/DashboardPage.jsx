@@ -69,7 +69,8 @@ class DashboardPage extends PureComponent {
 
 const mapStateToProps = (state, props) => ({
   user: state.currentUser ? state.currentUser.user : null ,
-  transactions: state.transactions
+  transactions: state.transactions,
+  contracts: state.contracts
 })
 
 export default connect(mapStateToProps, { fetchContracts, fetchTransactions })(DashboardPage)

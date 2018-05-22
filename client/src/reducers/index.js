@@ -4,6 +4,7 @@ import login from './login'
 import privacy from './privacy'
 import feedback from './feedback'
 import transactions from './transactions'
+import contracts from './contracts'
 
 
 
@@ -14,5 +15,6 @@ export default {
     privacy,
     feedback,
     transactions,
+    contracts
     
 }
