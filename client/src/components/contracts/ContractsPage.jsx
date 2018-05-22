@@ -84,13 +84,14 @@ class ContractsPage extends PureComponent {
             }) : <p>Contracts loading...</p>
           }
         </Typography>
-        <Typography style={{ margin: '30px 0' }} variant='display1'> Overig
+        <Typography style={{ margin: '30px 0' }} variant='display1'> Overig 
         {
             transactions ? transactions.map(t => {
               return t.type === 'other' ?
                 (<div>
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
                   {
+                    // to delete contracts just send the contract name instead of the transaction id -- REPLACE THIS!
                     this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.id)} color='primary' variant='fab' mini></Clear>) : null
                   }                
                   </div>) : null
