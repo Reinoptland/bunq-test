@@ -91,6 +91,6 @@ export const deleteTransaction = (id) => (dispatch, getState) => {
   console.log(result.body)
   dispatch({
     type: DELETE_TRANSACTION,
-    payload: result.body.transactions
+    payload: result.body
   })})
 }
