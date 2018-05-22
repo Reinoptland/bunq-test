@@ -28,8 +28,10 @@ arr.map(t => {
 
 class DashboardPage extends PureComponent {
   componentWillMount() {
+    console.log('mounting...')
    if(this.props.user === null) return (<Redirect to='/login' />)
     if (this.props.transactions === null && this.props.user) {
+      console.log('fetching transactions...')
       this.props.fetchTransactions(this.props.user.id)
     }
   }
