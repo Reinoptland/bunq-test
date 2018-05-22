@@ -27,7 +27,7 @@ arr.map(t => {
 class DashboardPage extends PureComponent {
   componentWillMount() {
     console.log('mounting...')
-   if(this.props.user === null) return (<Redirect to='/login' />)
+   if(this.props.user === null) return (<Redirect to='/logout' />)
     if (this.props.transactions === null && this.props.user) {
       this.props.fetchContracts(this.props.user.id)
       this.props.fetchTransactions(this.props.user.id)
@@ -35,8 +35,11 @@ class DashboardPage extends PureComponent {
   }
 
   render(){
-    if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
-   if(this.props.user.permission === false )
+
+    if (this.props.user === null || !this.props.user) return (<Redirect to='/logout' />)
+    if(this.props.user.permission === false)
+
+
       return( <Redirect to="/csv"/>)
  
     let data = [["Category", "Amount"],[]]
