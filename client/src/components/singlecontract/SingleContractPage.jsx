@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react'
-import { Grid, Typography, Divider } from 'material-ui';
 import { connect } from 'react-redux'
-import { fetchContracts, fetchTransactions } from '../../actions/transactions'
+import { fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
 import AreaGraph from './AreaGraph'
 
@@ -27,7 +26,7 @@ class SingleContractPage extends PureComponent {
 
       const filteredTransactions = transactions
         .filter(transaction => transaction.contractName.toLowerCase().split(" ").join("") === this.props.match.params.name)
-        .sort((a,b) => {(a.date > b.date) ? 1 : ((b.date > a.date) ? -1 : 0)})
+        .sort((a,b) => (a.date > b.date) ? 1 : ((b.date > a.date) ? -1 : 0))
 
       const contractName = filteredTransactions[0].contractName
 
@@ -47,7 +46,7 @@ class SingleContractPage extends PureComponent {
         {
           filteredTransactions.map(transaction => {
             return (
-              <p>{`Date: ${transaction.date}, Contract Name: ${transaction.contractName}, Amount: ${transaction.value}`}</p>)
+              <p key={transaction.id}>{`Date: ${transaction.date}, Contract Name: ${transaction.contractName}, Amount: ${transaction.value}`}</p>)
           })
         }
 
