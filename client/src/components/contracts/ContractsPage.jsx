@@ -50,6 +50,14 @@ class ContractsPage extends PureComponent {
             }) : <p>Contracts loading...</p>
           }
         </Typography>
+        <Typography style={{ margin: '30px 0' }} variant='display1'> Other
+        {
+            transactions ? transactions.map(t => {
+              return t.type === 'other' ?
+                (renderContract(t)) : null
+            }) : <p>Contracts loading...</p>
+        }
+        </Typography>
       </div>
     )
   }
