@@ -22,13 +22,14 @@ class MeerMenu extends React.Component {
     const { anchorEl } = this.state;
 
     return (
-      <div>
+      <div >
         <Button
+          className="bottom-nav"
           aria-owns={anchorEl ? 'simple-menu' : null}
           aria-haspopup="true"
           onClick={this.handleClick}
         >
-        <img src="../../../icons/meer.svg" alt="meer-icon"></img>
+          <img src="../../../icons/meer.svg" alt="meer-icon"></img>
         </Button>
         <Menu
           id="simple-menu"
