@@ -5,7 +5,6 @@ import { Redirect } from 'react-router-dom'
 export default class AdviesPage extends PureComponent {
 
     render() {
-        // if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
         return (
             <form>
 

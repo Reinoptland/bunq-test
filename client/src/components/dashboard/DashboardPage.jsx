@@ -6,6 +6,7 @@ import { Grid, Typography, Divider } from 'material-ui';
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
+import ContractsPage from '../contracts/ContractsPage'
 
 
 const calculateTransactions = (arr) => {
@@ -27,7 +28,7 @@ arr.map(t => {
 
 class DashboardPage extends PureComponent {
   componentWillMount() {
-    if(this.props.user === null) return (<Redirect to='/login' />)
+   if(this.props.user === null) return (<Redirect to='/login' />)
     if (this.props.transactions === null && this.props.user) {
       this.props.fetchTransactions(this.props.user.id)
     }
@@ -35,9 +36,10 @@ class DashboardPage extends PureComponent {
 
   render(){
     if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
-    if(this.props.user.permission === false || this.props.user.bunqKey === 'null'){
+    if(this.props.user.permission === false)
+
       return( <Redirect to="/csv"/>)
-    }
+ 
     let data = [["Category", "Amount"],[]]
     const colors = ['#127ECF', '#90C227', '#F57E18', '#E94435']
     const {firstName, lastName} = this.props.user
@@ -54,6 +56,7 @@ class DashboardPage extends PureComponent {
             {
               BarGraph({ data, colors})
             }
+              <ContractsPage />
           </div>
         </Grid>
       </Grid>
