@@ -2,7 +2,7 @@ import { JsonController, Get, Param, NotFoundError, Post, Delete, Body } from 'r
 import Transaction from './entity'
 import User from '../users/entity'
 // import  { data }  from './dummyData';
-import { getTransactions } from './logic';
+import { getTransactions, getContracts } from './logic';
 import { contractTypes } from './logic';
 
 
@@ -60,24 +60,15 @@ export default class TransactionController {
         const deletedTransaction = await Transaction.delete({...transactions, user})
         return deletedTransaction
         }
+
+    @Get('/users/:id/contracts')
+    async getContracts(
+        @Param('id') id: number
+    ) {
+        const transactions = await Transaction.find({where: {user: id}})
+        if(!transactions) throw new NotFoundError('This user has no transactions yet!') 
+
+        return getContracts(transactions)
+        }
     }
   
-    // @Get('/transactions')
-    // async all() {
-    // const transactions = await Transaction.find()
-    // if (!transactions) throw new NotFoundError(`There are no transactions available in this table`)
-    // return { transactions }
-    // }
-  
-
-    // @Post('/transactions')
-    // async createTransaction(
-    //     @Body() transaction: Transaction
-    // ) {
-    // const { id, ...info } = transaction
-    // const entity = Transaction.create(info)
-    // entity.user = await User.findOne({where: {id}})
-
-    // return entity.save()
-    // }
-
