@@ -2,16 +2,6 @@ import React from 'react'
 import { Chart } from 'react-google-charts';
 
 const BarGraph = ({...props}) => {
-  console.log(props)
-  const data = [
-    ['Categorie', 'Bedrag'],
-    ['New York City, NY', 8175000],
-    ['Los Angeles, CA', 3792000],
-    ['Chicago, IL', 2695000],
-    ['Houston, TX', 2099000],
-    ['Philadelphia, PA', 1526000]
-  ]
-
   const options = {
     title: 'Jouw Transacties',
     chartArea: { width: '80%' },
