@@ -181,7 +181,7 @@ export const feedback = (data, id) => (dispatch, getState) =>{
 export const fetchProfile = (id) => (dispatch) => {
   console.log("console loggind acxtion id", id)
   request
-    .get(`${baseUrl}/users/${id}/`)
+    .get(`${baseUrl}/users/${id.id}/`)
     .then(result => dispatch({
       type: FETCH_USER_PROFILE,
       payload: result.body

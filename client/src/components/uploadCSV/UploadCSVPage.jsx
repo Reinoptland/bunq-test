@@ -34,7 +34,7 @@ class UploadCSVPage extends PureComponent {
 
 const mapStateToProps = function (state) {
   return {
-    user: state.currentUser.user ? state.currentUser.user : null
+    user: state.currentUser ? state.currentUser.user : null
   }
 }
 
