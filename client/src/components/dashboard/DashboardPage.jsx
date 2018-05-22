@@ -56,7 +56,7 @@ class DashboardPage extends PureComponent {
             Hi {firstName} {lastName}! Hier vindt je een overzicht van je transacties.
             <Divider style={{margin: '10px 0 20px 0'}}/>
             {
-              BarGraph({ data, colors})
+              this.props.transactions ? (BarGraph({ data, colors})) : null
             }
               <ContractsPage buttons={false}/>
           </div>
