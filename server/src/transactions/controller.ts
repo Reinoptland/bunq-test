@@ -35,6 +35,7 @@ export default class TransactionController {
         @Body() data: Transaction[],
         @Param('id') id: number
     ) {
+        console.log(data)
       const user = await User.findOne(id)
       if(!user) throw new NotFoundError('A user with this Id does not exist')
       

@@ -7,9 +7,17 @@ import {Link} from 'react-router-dom'
 
 
 export class AlertDialog extends React.Component {
+  componentWillMount(){
+    if(this.props.user.permission){
+      this.setState({
+        open: false
+      })
+    } 
+  }
   state = {
     open: true,
   };
+
 
   handleClickOpen = () => {
     this.setState({ open: true });
