@@ -54,18 +54,22 @@ export const getContracts = (transactions) => {
       .filter((v, i, a) => a.indexOf(v) === i);
 
   const totals = contractsNames.map(contract => {
-      const total = transactions
+      const filteredContracts = transactions
           .filter(transaction => 
               transaction.contractName === contract)
-          .map(transaction => Number(transaction.value))
-          .reduce((total, transaction) => total + transaction)
+          .map(transaction => Number(transaction.value ) * -1)
+    
+      const value = filteredContracts
+          .reduce((total, transaction) => (total + transaction))
+        
+      const average = value/filteredContracts.length
+
       const type = transactions
           .filter(transaction => 
               transaction.contractName === contract)
           
-      return {contractName: contract, totaal: total.toFixed(2), type: type[0].type}
+      return {contractName: contract, average: average.toFixed(2), type: type[0].type}
   })
-
 return totals
   
 }
