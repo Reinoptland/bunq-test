@@ -47,7 +47,7 @@ export default class UserController {
   ) {
     const user = await User.findOne(id)
     if (!user) throw new NotFoundError('User doesn\'t exist')
-    if(user) User.delete(id)
+    if(user) User.remove(user)
     return 'successfully deleted'
   }
 

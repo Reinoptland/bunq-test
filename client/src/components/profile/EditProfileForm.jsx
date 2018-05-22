@@ -43,12 +43,12 @@ export default class EditProfileForm extends PureComponent {
       return(
         <form onSubmit={this.handleSubmit} className="editProfileForm">
 
-          <h2>Change your profile details:</h2>
+          <h2>Wijzig uw profiel gegevens:</h2>
 
           <TextField
             id='firstName'
             name='firstName'
-            label='First Name'
+            label='Voornaam'
             className="editProfileLabel"
             value={this.state.firstName || initialValues.firstName || ''}
             onChange={this.handleChange}
@@ -57,7 +57,7 @@ export default class EditProfileForm extends PureComponent {
           <TextField
             id='lastName'
             name='lastName'
-            label='Last Name'
+            label='Achternaam'
             className="editProfileLabel"
             value={this.state.lastName || initialValues.lastName || ''}
             onChange={this.handleChange}
@@ -72,7 +72,7 @@ export default class EditProfileForm extends PureComponent {
             onChange={this.handleChange}
             />
             <h4>
-            Change the status of your privacy agreement:
+            Wijzig de status van uw privacy overeenkomst:
             </h4>
             <RadioGroup
             aria-label="permission"
@@ -81,12 +81,12 @@ export default class EditProfileForm extends PureComponent {
             value={`${this.state.permission || initialValues.permission || ''}`}
             onChange={this.handleChange}
             >
-            <FormControlLabel value="true" control={<Radio />} label="I agree to the privacy" />
-            <FormControlLabel value="false" control={<Radio />} label="I disagree to the privacy" />
+            <FormControlLabel value="true" control={<Radio />} label="Ik ga akkoord met de privacybeleid" />
+            <FormControlLabel value="false" control={<Radio />} label="Ik ga niet akkoord met de privacybeleid" />
             </RadioGroup>
            
             <h4 className="readPrivacyTitle">
-            Read again the privacy statement:
+            Lezen het privacybeleid nog eens door:
             </h4>
             <Typography variant='body2' className="privacyOnEditPage"><Button onClick={this.handleClickOpen} className="privacyButtonOnEditPage">Privacybeleid</Button></Typography>
             <Dialog
@@ -255,7 +255,7 @@ export default class EditProfileForm extends PureComponent {
                   </Typography>
                 <Divider style={{margin: '1.5rem 0'}} />
                 <Button onClick={this.handleClose} color="primary">
-                  Close
+                  Sluiten
                 </Button>
               </DialogContentText>                
             </DialogContent>
@@ -267,7 +267,7 @@ export default class EditProfileForm extends PureComponent {
             color="secondary"
             variant="raised"
             className="saveEditedProfile"
-            > Save changes 
+            > Wijzingen opslaan 
             </Button>
 
         </form>

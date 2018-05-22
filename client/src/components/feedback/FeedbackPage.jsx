@@ -7,8 +7,8 @@ class FeedbackPage extends PureComponent {
   handleSubmit = (data) => {
     // console.log(data)
     this.props.feedback(data, this.props.user.id)
-    // console.log('data')
-  }
+    alert('Thanks for your feedback!');
+    window.location = '/logout';  }
 
     render() {
         return (

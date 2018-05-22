@@ -1,4 +1,4 @@
-import { JsonController, Get, Param, NotFoundError, Post, Body } from 'routing-controllers'
+import { JsonController, Get, Param, NotFoundError, Post, Delete, Body } from 'routing-controllers'
 import Transaction from './entity'
 import User from '../users/entity'
 // import  { data }  from './dummyData';
@@ -49,8 +49,17 @@ export default class TransactionController {
       return transactions
     }
 
-
-  
+    @Delete('/users/:id/transactions')
+    async deleteTransactionsUser(
+        @Body() transactions: Transaction,
+        @Param('id') userId: number
+        ) {
+        const user = await User.findOne(userId)
+        if(!user) throw new NotFoundError('A user with this Id does not exist')
+        const deletedTransaction = await Transaction.delete({...transactions, user})
+        return deletedTransaction
+        }
+    }
   
     // @Get('/transactions')
     // async all() {
@@ -70,4 +79,4 @@ export default class TransactionController {
 
     // return entity.save()
     // }
-}
+
