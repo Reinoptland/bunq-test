@@ -41,7 +41,7 @@ class App extends Component {
 
             <Route exact path='/terms' component={TermsPage} />
 
-            <Route exact path="/" render={() => <Redirect to="/login" />} />
+            <Route exact path="/" render={() => <Redirect to="/logout" />} />
           </main>
           <nav> 
             <BottomNav />
