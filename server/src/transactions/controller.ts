@@ -43,7 +43,7 @@ export default class TransactionController {
         //    return { transactions }
         }
         else throw new NotFoundError('Transaction Not Found!')
-        return { message: 'Transaction successfully deleted!', transactions }
+        return { message: 'Transaction successfully deleted!', transactions, transaction }
     }
     
     // posts a new transaction per user 

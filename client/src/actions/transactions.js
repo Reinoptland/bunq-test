@@ -85,12 +85,13 @@ export const fetchContracts = (id) => (dispatch, getState) => {
 }
 
 export const deleteTransaction = (id) => (dispatch, getState) => {
+  const state = getState()
   request
   .delete(`${baseUrl}/transactions/${id}`)
   .then(result =>{
-  console.log(result.body)
+  console.log(result.body, id)
   dispatch({
     type: DELETE_TRANSACTION,
-    payload: result.body
+    payload: id
   })})
 }

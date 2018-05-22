@@ -9,7 +9,7 @@ export default function(state = null, {type, payload}){
     return payload
 
     case DELETE_TRANSACTION:
-    return state
+      return state.filter(transaction => transaction.id !== payload)
 
     default:
     return state
