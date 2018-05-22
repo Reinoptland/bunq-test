@@ -6,6 +6,7 @@ import { Grid, Typography, Divider } from 'material-ui';
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
+import ContractsPage from '../contracts/ContractsPage'
 
 
 const calculateTransactions = (arr) => {
@@ -54,6 +55,7 @@ class DashboardPage extends PureComponent {
             {
               BarGraph({ data, colors})
             }
+              <ContractsPage />
           </div>
         </Grid>
       </Grid>
