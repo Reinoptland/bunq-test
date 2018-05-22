@@ -33,7 +33,7 @@ class App extends Component {
             <Route exact path='/csv' component={UploadCSVPage} />
             <Route exact path='/feedback' component={FeedbackPage} />
             <Route exact path='/dashboard' component={DashboardPage} />
-            <Route exact path='/contracts' component={ContractsPage} />
+            <Route exact path='/contracts' component={ContractsPage} buttons={true}/>
             <Route exact path='/profile' component={ProfilePage} />
             <Route exact path='/signup' component={SignupPage} />
 
