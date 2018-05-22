@@ -4,6 +4,7 @@ import { Chart } from 'react-google-charts';
 const BarGraph = ({...props}) => {
   const options = {
     title: 'Jouw Transacties',
+    backgroundColor: 'transparent',
     chartArea: { width: '90%' },
     hAxis: {
       title: 'Bedrag',

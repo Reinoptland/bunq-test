@@ -3,7 +3,7 @@ import Typography from 'material-ui/Typography'
 import { connect } from 'react-redux'
 import { fetchContracts, deleteTransaction } from '../../actions/transactions'
 import {Redirect, Link} from 'react-router-dom'
-// import { Button } from 'material-ui';
+import { Button } from 'material-ui';
 import Clear from '@material-ui/icons/Clear'
 
 const renderContract = ({ ...props }) => {
@@ -44,13 +44,13 @@ class ContractsPage extends PureComponent {
       {
         this.props.trans
       }
-        <Typography style={{margin: '0 0 30px 0'}} variant='display1'> Verzekering
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1' className="contractList"> Verzekering
         {
             contracts ? contracts.map(t => {
               return t.type === 'insurance' ?
 
                 (<div key={`${t.id}-div`}>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
                     this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.id)} color='primary' variant='fab'></Clear>) : null
@@ -60,12 +60,12 @@ class ContractsPage extends PureComponent {
             }) : <p>Contracts loading...</p>
           }
         </Typography>
-        <Typography style={{ margin: '30px 0' }} variant='display1'> Telecom
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Telecom
           {
             contracts ? contracts.map(t => {
               return t.type === 'telecom' ?
                 (<div key={`${t.id}-div`}>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
                     //when delete button clicked, delete the contract
 
@@ -76,12 +76,12 @@ class ContractsPage extends PureComponent {
             }) : <p>Contracts loading...</p>
           }
         </Typography>
-        <Typography style={{ margin: '30px 0' }} variant='display1'> Energy
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Energy
         {
             contracts ? contracts.map(t => {
               return t.type === 'energy' ?
                 (<div>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
                     this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.id)} color='primary' variant='fab'></Clear>) : null
@@ -91,12 +91,12 @@ class ContractsPage extends PureComponent {
             }) : <p>Contracts loading...</p>
           }
         </Typography>
-        <Typography style={{ margin: '30px 0' }} variant='display1'> Overig 
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Overig 
         {
             contracts ? contracts.map(t => {
               return t.type === 'other' ?
                 (<div key={`${t.id}-div`}>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
                     // to delete contracts just send the contract name instead of the transaction id -- REPLACE THIS!
