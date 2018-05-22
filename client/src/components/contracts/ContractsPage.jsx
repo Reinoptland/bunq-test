@@ -37,8 +37,9 @@ class ContractsPage extends PureComponent {
         {
             transactions ? transactions.map(t => {
               return t.type === 'insurance' ?
+
                 (<div>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
+                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
                   {
                     this.state.buttons ? (<Clear color='primary' variant='fab' mini></Clear>) : null
                   }                  
@@ -51,7 +52,7 @@ class ContractsPage extends PureComponent {
             transactions ? transactions.map(t => {
               return t.type === 'telecom' ?
                 (<div>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
+                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
                   {
                     //when delete button clicked, delete the contract
                     this.state.buttons ? (<Clear onClick={() => console.log('clicked!')} color='primary' variant='fab' mini></Clear>) : null
@@ -65,7 +66,7 @@ class ContractsPage extends PureComponent {
             transactions ? transactions.map(t => {
               return t.type === 'energy' ?
                 (<div>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
+                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
                   {
                     this.state.buttons ? (<Clear color='primary' variant='fab' mini></Clear>) : null
                   }                
@@ -78,7 +79,7 @@ class ContractsPage extends PureComponent {
             transactions ? transactions.map(t => {
               return t.type === 'other' ?
                 (<div>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
+                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
                   {
                     this.state.buttons ? (<Clear color='primary' variant='fab' mini></Clear>) : null
                   }                

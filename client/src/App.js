@@ -5,6 +5,7 @@ import LoginPage from './components/login/LoginPage'
 import LogoutPage from './components/logout/LogoutPage'
 import DashboardPage from './components/dashboard/DashboardPage'
 import ContractsPage from './components/contracts/ContractsPage'
+import SingleContractPage from './components/singlecontract/SingleContractPage'
 import SignupPage from './components/signup/SignupPage'
 import UploadCSVPage from './components/uploadCSV/UploadCSVPage'
 import TopBar from './components/layout/topBar'
@@ -33,6 +34,8 @@ class App extends Component {
             <Route exact path='/csv' component={UploadCSVPage} />
             <Route exact path='/feedback' component={FeedbackPage} />
             <Route exact path='/dashboard' component={DashboardPage} />
+            <Route exact path='/contracts' component={ContractsPage} />
+            <Route exact path='/contracts/:name' component={SingleContractPage} />
             <Route exact path='/contracts' component={ContractsPage} buttons={true}/>
             <Route exact path='/profile' component={ProfilePage} />
             <Route exact path='/signup' component={SignupPage} />
