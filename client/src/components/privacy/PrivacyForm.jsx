@@ -7,26 +7,25 @@ import {Link} from 'react-router-dom'
 
 
 export class AlertDialog extends React.Component {
-  componentWillMount(){
-    if(this.props.user.permission){
-      this.setState({
-        open: false
-      })
-    } 
-  }
   state = {
     open: true,
   };
 
+  componentWillMount(){
+    if(this.props.user.permission) this.setState({
+      open: false
+    })
+  }
 
   handleClickOpen = () => {
     this.setState({ open: true });
   };
 
   handleClose = (e) => {
+    console.log(this.props.user)
     if (e.target.textContent === 'Akkoord'){
       // dispatch action to update permissions
-      this.props.privacy(this.props.user)
+      this.props.privacy(this.props.user.id)
     }
       this.setState({ open: false });
   };

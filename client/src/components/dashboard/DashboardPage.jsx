@@ -35,7 +35,8 @@ class DashboardPage extends PureComponent {
 
   render(){
     if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
-   if(this.props.user.permission === false )
+    if(this.props.user.permission === false)
+
       return( <Redirect to="/csv"/>)
  
     let data = [["Category", "Amount"],[]]
