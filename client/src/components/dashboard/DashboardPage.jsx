@@ -23,7 +23,7 @@ arr.map(t => {
   if(t.type === 'other') other= other + value
   return {insurance, energy, telecom, other}
 })
-  return [["Categorie", "Bedrag", {role: 'style'}, { role: 'annotation'}], ["Verzekering", insurance, colors[0], "Verzekering"], ["Telecom", telecom, colors[1], "Telecom"], ["Energie", energy, colors[2], "Energie"], ["Overig", other, colors[3], "Other"]]
+  return [["Categorie", "Bedrag", {role: 'style'}, { role: 'annotation'}], ["Verzekering", insurance, colors[0], "Verzekering"], ["Telecom", telecom, colors[1], "Telecom"], ["Energie", energy, colors[2], "Energie"], ["Overig", other, colors[3], "Overig"]]
 }
 
 class DashboardPage extends PureComponent {
@@ -36,8 +36,7 @@ class DashboardPage extends PureComponent {
 
   render(){
     if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
-    if(this.props.user.permission === false)
-
+   if(this.props.user.permission === false )
       return( <Redirect to="/csv"/>)
  
     let data = [["Category", "Amount"],[]]
