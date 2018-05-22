@@ -12,7 +12,10 @@ const BarGraph = ({...props}) => {
     vAxis: {
       title: 'Categorie'
     },
-    color: props.colors
+    color: props.colors,
+    legend: {
+      position: 'none'
+    }
   }
   return (
     <Chart className={'my-pretty-chart-container'}
