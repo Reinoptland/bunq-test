@@ -23,11 +23,23 @@ class SingleContractPage extends PureComponent {
       const {transactions} = this.props
       const filteredTransactions = transactions.filter(transaction => transaction.contractName.toLowerCase().split(" ").join("") === this.props.match.params.name)
       const contractName = filteredTransactions[0].contractName
+      console.log(filteredTransactions)
 
 
     console.log(filteredTransactions)
     return(
+      <div>
       <h1>{contractName}</h1>
+      <div className="center">
+        
+      {
+        filteredTransactions.map(transaction => {
+                return  (<p>{`Date: ${transaction.date}, Contract Name: ${transaction.contractName}, Amount: ${transaction.value}`}</p>)
+            })
+          }
+
+        </div>
+        </div>
     )
   }
 }

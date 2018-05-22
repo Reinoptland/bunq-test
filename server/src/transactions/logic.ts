@@ -32,13 +32,20 @@ export const getTransactions = (csvData, contractTypes) => {
 
   const payments = lastSixMonth.filter(object => object['Af Bij'] === 'Af')
 
-  const mappedPayments = payments.map(object => ({
-      date: String(object['Datum']), 
-      contractName: " " + object['Naam / Omschrijving'] + " ", 
-      IBAN: object['Tegenrekening'], 
-      value: '-' + object['Bedrag (EUR)'].replace(/,/, '.'), 
-      remarks: object['Mededelingen']
-  }))
+  const mappedPayments = payments.map(object => {
+
+        const year = String(object['Datum']).slice(0, 4)
+        const month = String(object['Datum']).slice(4,6)
+        const day = String(object['Datum']).slice(6, 8)
+        const date = year + '-' + month + '-' + day 
+
+        return {
+            date: date, 
+            contractName: " " + object['Naam / Omschrijving'] + " ", 
+            IBAN: object['Tegenrekening'], 
+            value: '-' + object['Bedrag (EUR)'].replace(/,/, '.'), 
+            remarks: object['Mededelingen']
+  }})
   .map(object => {
     if (contractTypes.insurances.filter(string => object.contractName.toLowerCase().includes(string)).length > 0) return {...object, type: "insurance"}
     else if(contractTypes.energy.filter(string => object.contractName.toLowerCase().includes(string)).length > 0) return {...object, type: "energy"}
