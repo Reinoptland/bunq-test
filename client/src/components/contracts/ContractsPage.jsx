@@ -32,7 +32,7 @@ class ContractsPage extends PureComponent {
     if(this.props.user === null || !this.props.user) return( <Redirect to='/login' /> )
     return (
       <div className="center">
-        <Typography style={{margin: '0 0 30px 0'}} variant='display1'> Insurance
+        <Typography style={{margin: '0 0 30px 0'}} variant='display1'> Verzekering
         {
             transactions ? transactions.map(t => {
               return t.type === 'insurance' ?
@@ -72,7 +72,7 @@ class ContractsPage extends PureComponent {
             }) : <p>Contracts loading...</p>
           }
         </Typography>
-        <Typography style={{ margin: '30px 0' }} variant='display1'> Other
+        <Typography style={{ margin: '30px 0' }} variant='display1'> Overig
         {
             transactions ? transactions.map(t => {
               return t.type === 'other' ?

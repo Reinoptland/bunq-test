@@ -256,12 +256,6 @@ a:focus {
   outline: 0px;
 }
 
-
-.sleutelIcon {
-  margin-bottom: 15px;
-}
-
-
  .editForm .editProfile {
   margin-top: 30px;
   padding: 8px 20px;
@@ -339,5 +333,9 @@ a:focus {
 
 .privacyTypography .deleteUserButton:hover{
   text-decoration: underline;
+}
+
+form .adviesForm .back-button.pull-left {
+display: none
 }
 

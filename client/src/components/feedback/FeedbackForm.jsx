@@ -30,7 +30,7 @@ export default class FeedbackForm extends PureComponent {
 
                     <div className="radio">
                     <input type="radio" id="contactChoice1" name="choice" value="option1" onChange={this.handleChange}/>
-                    <label for="contactChoice1"> Ik heb geen Bunq account</label>
+                    <label for="contactChoice1"> Ik heb geen Nederlandse bankrekening</label>
                   
                     <br />
                     

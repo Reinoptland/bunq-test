@@ -13,6 +13,7 @@ export const FETCH_TRANSACTIONS_FAILED = "FETCH_TRANSACTIONS_FAILED"
 export const ADD_TRANSACTIONS = "ADD_TRANSACTIONS"
 
 export const fetchTransactions = (id) => (dispatch, getState) => {
+  console.log(id)
   request
     .get(`${baseUrl}/users/${id}/transactions`)
     .send(id)
