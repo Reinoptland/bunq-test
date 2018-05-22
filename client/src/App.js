@@ -13,6 +13,7 @@ import BottomNav from './components/layout/bottomNav'
 import FeedbackPage from './components/feedback/FeedbackPage'
 import ProfilePage from './components/profile/ProfilePage'
 import { withTheme } from 'material-ui/styles'
+import AdviesPage from './components/advies/AdviesPage'
 
 
 class App extends Component {
@@ -32,6 +33,7 @@ class App extends Component {
             <Route exact path='/contracts' component={ContractsPage} />
             <Route exact path='/profile' component={ProfilePage} />
             <Route exact path='/signup' component={SignupPage} />
+            <Route exact path='/advies' component={AdviesPage} />
             <Route exact path="/" render={() => <Redirect to="/login" />} />
           </main>
           <nav> 

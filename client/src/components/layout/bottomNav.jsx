@@ -14,8 +14,8 @@ class BottomNav extends Component {
                     <Link to='/contracts'>
                     <img src="../../../icons/contracten.svg" alt="contract-icon"></img>
                     </Link>
-                    <Link to='/bunq' >
-                    <img className='sleutelIcon' src="../../../icons/horizontalkey.svg" alt="key-icon"></img>
+                    <Link to='/advies' >
+                    <img className='advies' src="../../../icons/advies.svg" alt="key-icon"></img>
                     </Link>            
                 <MeerMenu className="meerMenu" />
             </div>
