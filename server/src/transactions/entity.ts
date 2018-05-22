@@ -15,8 +15,8 @@ export default class Transaction extends BaseEntity {
   @Column('text')
   contractName: string
 
-  @Column('text')
-  IBAN: string
+  @Column('text', {nullable: true})
+  iban: string
 
   @Column('text')
   date: string
@@ -24,7 +24,7 @@ export default class Transaction extends BaseEntity {
   @Column('text')
   value: string
 
-  @Column('text')
+  @Column('text', {nullable: true})
   remarks: string
 
   @Column('text')

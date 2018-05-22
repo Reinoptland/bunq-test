@@ -13,7 +13,7 @@ class LoginPage extends PureComponent {
     if (this.props.currentUser && this.props.currentUser.user) {
       if(this.props.currentUser.user.bunqKey !== 'null') return ( <Redirect to='/dashboard'/>)
       return (
-      <Redirect to="/bunq" />
+      <Redirect to="/csv" />
     )
   }
 

@@ -1,7 +1,7 @@
-import { JsonController, Get, Param, NotFoundError, Post } from 'routing-controllers'
+import { JsonController, Get, Param, NotFoundError, Post, Body } from 'routing-controllers'
 import Transaction from './entity'
 import User from '../users/entity'
-import  { data }  from './dummyData';
+// import  { data }  from './dummyData';
 import { getTransactions } from './logic';
 import { contractTypes } from './logic';
 
@@ -32,9 +32,9 @@ export default class TransactionController {
     // posts a new transaction per user 
     @Post('/users/:id/transactions')
     async createDetailedTransaction(
-      @Param('id') id: number
+        @Body() data: Transaction[],
+        @Param('id') id: number
     ) {
-        console.log('Contract Types: ', contractTypes)
       const user = await User.findOne(id)
       if(!user) throw new NotFoundError('A user with this Id does not exist')
       

@@ -31,7 +31,7 @@ class DashboardPage extends PureComponent {
   render(){
     if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
     if(this.props.user.permission === false || this.props.user.bunqKey === 'null'){
-      return( <Redirect to="/bunq"/>)
+      return( <Redirect to="/csv"/>)
     }
     let data = [["Category", "Amount"],[]]
     const colors = ['#127ECF', '#90C227', '#F57E18', '#E94435']
