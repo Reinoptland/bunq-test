@@ -1,11 +1,13 @@
-import { USER_LOGIN_SUCCESS, USER_LOGOUT } from '../actions/users'
+import { USER_LOGIN_SUCCESS, USER_LOGOUT, UPDATE_USER, DELETE_USER } from '../actions/users'
 import { localStorageJwtKey } from '../constants'
 
 let initialState = null
+
 try {
   const jwt = localStorage.getItem(localStorageJwtKey)
+  const id = Number(localStorage.getItem('user'))
   if (jwt) {
-    initialState = { jwt }
+    initialState = { jwt, id }
   }
 }
 catch (e) {
@@ -19,6 +21,14 @@ export default function (state = initialState, { type, payload }) {
 
     case USER_LOGOUT:
       return null
+
+    case "UPDATE_USER":
+      // state.user = payload
+      return {...state, user: payload}
+    
+    case DELETE_USER:
+      return delete payload.id
+      console.log("delete user case in reducer", payload.id)
 
     default:
       return state

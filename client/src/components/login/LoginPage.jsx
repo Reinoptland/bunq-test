@@ -13,13 +13,13 @@ class LoginPage extends PureComponent {
     if (this.props.currentUser && this.props.currentUser.user) {
       if(this.props.currentUser.user.bunqKey !== 'null') return ( <Redirect to='/dashboard'/>)
       return (
-      <Redirect to="/bunq" />
+      <Redirect to="/csv" />
     )
   }
 
     return (
-      <div>
-        <h1>Inloggen</h1>
+      <div className='center'>
+        <h1 className='inloggen'>Inloggen</h1>
 
         <LoginForm onSubmit={this.handleSubmit} />
 

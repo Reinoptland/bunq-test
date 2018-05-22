@@ -28,6 +28,8 @@ export const USER_DECLINE_PRIVACY = 'USER_DECLINE_PRIVACY'
 export const FETCH_USER_PROFILE = "FETCH_USER_PROFILE"
 export const FETCH_USER_PROFILE_FAILED = "FETCH_USER_PROFILE_FAILED"
 
+export const DELETE_USER = "DELETE_USER"
+
 
 export const logout = () => ({
   type: USER_LOGOUT
@@ -80,8 +82,12 @@ export const signup = (data) => (dispatch) =>
       }
     })
 
-export const bunqLogin = (id, bunqKey) => (dispatch) => {
-  console.log(id, bunqKey)
+export const bunqLogin = (id, bunqKey) => (dispatch, getState) => {
+  const state = getState()
+  if (!state.currentUser) return null
+  const jwt = state.currentUser.jwt
+
+  if (isExpired(jwt)) return dispatch(logout())
   request
     .put(`${baseUrl}/users/${id}`)
     .send({ id, bunqKey })
@@ -115,9 +121,13 @@ export const bunqLogin = (id, bunqKey) => (dispatch) => {
     )
 }
 
-export const privacy = (id) => (dispatch) =>{
+export const privacy = (id) => (dispatch, getState) =>{
+  const state = getState()
+  if (!state.currentUser) return null
+  const jwt = state.currentUser.jwt
+
+  if (isExpired(jwt)) return dispatch(logout())
   const permission = true
-  console.log(permission, id)
   request
     .put(`${baseUrl}/users/${id}`)
     .send({id, permission})
@@ -140,7 +150,11 @@ export const privacy = (id) => (dispatch) =>{
     })}
 
 export const feedback = (data, id) => (dispatch, getState) =>{
-  console.log(data, id)
+  const state = getState()
+  if (!state.currentUser) return null
+  const jwt = state.currentUser.jwt
+
+  if (isExpired(jwt)) return dispatch(logout())
   request
     .post(`${baseUrl}/users/${id}/feedback`)
     .send(data)
@@ -164,10 +178,10 @@ export const feedback = (data, id) => (dispatch, getState) =>{
     })
 }
 
-export const fetchProfile = (id) => (dispatch, getState) => {
+export const fetchProfile = (id) => (dispatch) => {
+  console.log("console loggind acxtion id", id)
   request
     .get(`${baseUrl}/users/${id}/`)
-    .send(id)
     .then(result => dispatch({
       type: FETCH_USER_PROFILE,
       payload: result.body
@@ -182,7 +196,50 @@ export const fetchProfile = (id) => (dispatch, getState) => {
       else {
         console.error(err)
       }
-    })
-}
+    })}
 
+
+    export const updateProfile = (id, updates) => (dispatch) => {
+      // console.log(id, updates)
+      request
+        .put(`${baseUrl}/users/${id}`)
+        .send(updates)
+        .then(result => {
+          console.log("console logging delete action", result)
+          dispatch({
+            type: UPDATE_USER,
+            payload: result.body
+          })
+        })
+        .catch(err => console.error(err))
+    }
+
+    export const deleteUser = (id) => (dispatch) => {
+      console.log("console logging user id in actions", id)
+      request
+        .delete(`${baseUrl}/users/${id}`)
+        .then(response => dispatch({
+          type: DELETE_USER,
+          payload: id
+        }))
+    }
+    
+    export const deleteUserTransactions = (id) => (dispatch) => {
+      request
+        .delete(`${baseUrl}/users/${id}/transactions`) 
+        .then(response => dispatch({
+          type: DELETE_USER,
+          payload: id
+        }))
+    }
+
+    export const deleteUserFeedback = (id) => (dispatch) => {
+      console.log("console logging user id in actions", id)
+      request
+        .delete(`${baseUrl}/users/${id}/feedback`) 
+        .then(response => dispatch({
+          type: DELETE_USER,
+          payload: id
+        }))
+    }
 

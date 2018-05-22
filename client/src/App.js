@@ -5,15 +5,18 @@ import LoginPage from './components/login/LoginPage'
 import LogoutPage from './components/logout/LogoutPage'
 import DashboardPage from './components/dashboard/DashboardPage'
 import ContractsPage from './components/contracts/ContractsPage'
-import register, { unregister } from './registerServiceWorker'
 import SignupPage from './components/signup/SignupPage'
-import BunqPage from './components/bunqDetails/BunqPage'
+import UploadCSVPage from './components/uploadCSV/UploadCSVPage'
 import TopBar from './components/layout/topBar'
 import BottomNav from './components/layout/bottomNav'
 import FeedbackPage from './components/feedback/FeedbackPage'
 import ProfilePage from './components/profile/ProfilePage'
 import { withTheme } from 'material-ui/styles'
+
 import AdviesPage from './components/advies/AdviesPage'
+
+import TermsPage from './components/layout/termPage'
+
 
 
 class App extends Component {
@@ -27,13 +30,17 @@ class App extends Component {
           <main style={{ margin: '80px 0 0 20px' }}>
             <Route exact path='/login' component={LoginPage} />
             <Route exact path="/logout" component={LogoutPage} />
-            <Route exact path='/bunq' component={BunqPage} />
+            <Route exact path='/csv' component={UploadCSVPage} />
             <Route exact path='/feedback' component={FeedbackPage} />
             <Route exact path='/dashboard' component={DashboardPage} />
             <Route exact path='/contracts' component={ContractsPage} />
             <Route exact path='/profile' component={ProfilePage} />
             <Route exact path='/signup' component={SignupPage} />
+
             <Route exact path='/advies' component={AdviesPage} />
+
+            <Route exact path='/terms' component={TermsPage} />
+
             <Route exact path="/" render={() => <Redirect to="/login" />} />
           </main>
           <nav> 
