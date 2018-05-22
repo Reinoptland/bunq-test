@@ -30,22 +30,22 @@ export default class FeedbackForm extends PureComponent {
 
                     <div className="radio">
                     <input type="radio" id="contactChoice1" name="choice" value="option1" onChange={this.handleChange}/>
-                    <label for="contactChoice1"> Ik heb geen Nederlandse bankrekening</label>
+                    <label htmlFor="contactChoice1"> Ik heb geen Nederlandse bankrekening</label>
                   
                     <br />
                     
                     <input type="radio" id="contactChoice2" name="choice" value="option2"onChange={this.handleChange} />
-                    <label for="contactChoice2"> PSD regelement is mij niet duidelijk</label>
+                    <label htmlFor="contactChoice2"> PSD regelement is mij niet duidelijk</label>
                   
                     <br />
                     
                     <input type="radio" id="contactChoice3" name="choice" value="option3" onChange={this.handleChange}/>
-                    <label for="contactChoice3"> Ik vind het te riskant om mijn gegevens op internet te plaatsen</label>
+                    <label htmlFor="contactChoice3"> Ik vind het te riskant om mijn gegevens op internet te plaatsen</label>
                   
                     <br />
                     
                     <input type="radio" id="contactChoice4" name="choice" value="option4" onChange={this.handleChange}/>
-                    <label for="contactChoice4"> Ik ben van gedachte veranderd</label>
+                    <label htmlFor="contactChoice4"> Ik ben van gedachte veranderd</label>
                   
                     <br />
                     <br />

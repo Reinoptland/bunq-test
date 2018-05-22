@@ -7,6 +7,11 @@ export default function (state = {}, { type, payload }) {
                 error: payload
             }
 
+        case USER_ACCEPT_PRIVACY:
+            return {
+                permission: payload
+        }   
+
         default:
             return state
     }

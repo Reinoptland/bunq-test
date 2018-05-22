@@ -3,31 +3,47 @@ import Typography from 'material-ui/Typography'
 import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
 import {Redirect, Link} from 'react-router-dom'
+// import { Button } from 'material-ui';
+import Clear from '@material-ui/icons/Clear'
 
 const renderContract = ({ ...props }) => {
   return (
-    <Typography>
-      <Typography variant='headline'>{props.contractName}</Typography>
-      <Typography>{props.value}</Typography>
-    </Typography>
+    <div key={`${props.id}-outer`}>
+      <Typography key={`${props.id}-name`} variant='headline'>{props.contractName}</Typography>
+      <Typography key={`${props.id}-value`}>{props.value}</Typography>
+    </div>
   )
 }
 
 class ContractsPage extends PureComponent {
   state = {
-    buttons: this.props.buttons
+    buttons: true
+  }
+  componentWillMount(){
+    if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
+    this.props.fetchTransactions(this.props.user.id)
+    if(this.props.buttons === false) this.setState({
+      buttons: false
+    })
   }
 
   render() {
+    console.log(this.props)
     const { transactions } = this.props
-    if(this.props.user === null || !this.props.user) return( <Redirect to='/login' /> )
+    if(this.props.user === null || !this.props.user) return( <Redirect to='/logout' /> )
     return (
       <div className="center">
         <Typography style={{margin: '0 0 30px 0'}} variant='display1'> Verzekering
         {
             transactions ? transactions.map(t => {
               return t.type === 'insurance' ?
-                (<Link to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>) : null
+
+                (<div>
+                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                  {
+                    this.state.buttons ? (<Clear color='primary' variant='fab' mini></Clear>) : null
+                  }                  
+                  </div>) : null
             }) : <p>Contracts loading...</p>
           }
         </Typography>
@@ -35,7 +51,13 @@ class ContractsPage extends PureComponent {
           {
             transactions ? transactions.map(t => {
               return t.type === 'telecom' ?
-                (<Link to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>) : null
+                (<div>
+                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                  {
+                    //when delete button clicked, delete the contract
+                    this.state.buttons ? (<Clear onClick={() => console.log('clicked!')} color='primary' variant='fab' mini></Clear>) : null
+                  }
+                  </div>) : null
             }) : <p>Contracts loading...</p>
           }
         </Typography>
@@ -43,7 +65,12 @@ class ContractsPage extends PureComponent {
         {
             transactions ? transactions.map(t => {
               return t.type === 'energy' ?
-                (<Link to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>) : null
+                (<div>
+                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                  {
+                    this.state.buttons ? (<Clear color='primary' variant='fab' mini></Clear>) : null
+                  }                
+                  </div>) : null
             }) : <p>Contracts loading...</p>
           }
         </Typography>
@@ -51,7 +78,12 @@ class ContractsPage extends PureComponent {
         {
             transactions ? transactions.map(t => {
               return t.type === 'other' ?
-                (<Link to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>) : null
+                (<div>
+                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                  {
+                    this.state.buttons ? (<Clear color='primary' variant='fab' mini></Clear>) : null
+                  }                
+                  </div>) : null
             }) : <p>Contracts loading...</p>
         }
         </Typography>

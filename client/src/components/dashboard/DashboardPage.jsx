@@ -1,8 +1,6 @@
 import React, { PureComponent } from 'react'
-import pieGraph from './Graph'
 import BarGraph from './BarGraph'
-// import LineGraph from './LineGraph'
-import { Grid, Typography, Divider } from 'material-ui';
+import { Grid, Divider } from 'material-ui';
 import { connect } from 'react-redux'
 import { fetchContracts, fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
@@ -29,7 +27,7 @@ arr.map(t => {
 class DashboardPage extends PureComponent {
   componentWillMount() {
     console.log('mounting...')
-   if(this.props.user === null) return (<Redirect to='/login' />)
+   if(this.props.user === null) return (<Redirect to='/logout' />)
     if (this.props.transactions === null && this.props.user) {
       this.props.fetchContracts(this.props.user.id)
       this.props.fetchTransactions(this.props.user.id)
@@ -37,8 +35,11 @@ class DashboardPage extends PureComponent {
   }
 
   render(){
-    if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
-   if(this.props.user.permission === false )
+
+    if (this.props.user === null || !this.props.user) return (<Redirect to='/logout' />)
+    if(this.props.user.permission === false)
+
+
       return( <Redirect to="/csv"/>)
  
     let data = [["Category", "Amount"],[]]

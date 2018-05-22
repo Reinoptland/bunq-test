@@ -36,6 +36,7 @@ class App extends Component {
             <Route exact path='/dashboard' component={DashboardPage} />
             <Route exact path='/contracts' component={ContractsPage} />
             <Route exact path='/contracts/:name' component={SingleContractPage} />
+            <Route exact path='/contracts' component={ContractsPage} buttons={true}/>
             <Route exact path='/profile' component={ProfilePage} />
             <Route exact path='/signup' component={SignupPage} />
 
@@ -43,7 +44,7 @@ class App extends Component {
 
             <Route exact path='/terms' component={TermsPage} />
 
-            <Route exact path="/" render={() => <Redirect to="/login" />} />
+            <Route exact path="/" render={() => <Redirect to="/logout" />} />
           </main>
           <nav> 
             <BottomNav />

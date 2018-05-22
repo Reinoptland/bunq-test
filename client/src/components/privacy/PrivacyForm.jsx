@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from 'material-ui/Button';
-import Dialog, { DialogContent, DialogContentText, DialogTitle } from 'material-ui/Dialog';
+import Dialog, { DialogContent, DialogTitle } from 'material-ui/Dialog';
 import Typography from 'material-ui/Typography';
 import Divider from 'material-ui/Divider'
 import {Link} from 'react-router-dom'

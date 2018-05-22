@@ -4,15 +4,15 @@ import TextField from 'material-ui/TextField'
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormControl from '@material-ui/core/FormControl';
-import FormLabel from '@material-ui/core/FormLabel';
 import Divider from 'material-ui/Divider'
-import Dialog, { DialogContent, DialogContentText, DialogTitle } from 'material-ui/Dialog';
+import Dialog, { DialogContent, DialogContentText } from 'material-ui/Dialog';
 import Typography from 'material-ui/Typography';
 
 export default class EditProfileForm extends PureComponent {
 
-    state = {}
+    state = {
+      open: false
+    }
 
     handleSubmit = (e) => {
       e.preventDefault()
@@ -50,6 +50,7 @@ export default class EditProfileForm extends PureComponent {
             name='firstName'
             label='Voornaam'
             className="editProfileLabel"
+            autoComplete='true'
             value={this.state.firstName || initialValues.firstName || ''}
             onChange={this.handleChange}
           />
@@ -59,6 +60,7 @@ export default class EditProfileForm extends PureComponent {
             name='lastName'
             label='Achternaam'
             className="editProfileLabel"
+            autoComplete='true'
             value={this.state.lastName || initialValues.lastName || ''}
             onChange={this.handleChange}
             />
@@ -68,6 +70,7 @@ export default class EditProfileForm extends PureComponent {
             name='email'
             label='Email'
             className="editProfileLabel"
+            autoComplete='true'
             value={this.state.email || initialValues.email || ''}
             onChange={this.handleChange}
             />
