@@ -14,13 +14,15 @@ class UploadCSVPage extends PureComponent {
 
     return (
       <div className='center'>
-        <h1>Bunq Login</h1>
+        <h1>Upload your CSV file</h1>
 
         <UploadCSVForm />
 
         {this.props.error && <span style={{ color: 'red' }}>{this.props.error}</span>}
         <Link to='/dashboard'><button className='privacyButton'>Submit</button></Link>
-        <AlertDialog privacy={this.props.privacy} user={this.props.user} fetchProfile={this.props.fetchProfile}/>
+        <div>
+          <AlertDialog privacy={this.props.privacy} user={this.props.user} fetchProfile={this.props.fetchProfile}/>
+        </div>
       </div>
     )
   }

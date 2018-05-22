@@ -46,7 +46,7 @@ export const login = (email, password) => (dispatch) =>
       })
     })
     .catch(err => {
-      if (err.status === 400) {
+      if (err.status === 404) {
         dispatch({
           type: USER_LOGIN_FAILED,
           payload: err.response.body.message || 'Unknown error'
