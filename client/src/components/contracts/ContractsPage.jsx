@@ -15,6 +15,10 @@ const renderContract = ({ ...props }) => {
   )
 }
 
+// const handleDelete = (id, d) => {
+//   console.log('deleted!')
+//   d(id)
+// }
 class ContractsPage extends PureComponent {
   state = {
     buttons: true
@@ -27,12 +31,19 @@ class ContractsPage extends PureComponent {
     })
   }
 
+  handleDelete = (id) => {
+    this.props.deleteTransaction(id)
+  }
+
   render() {
     console.log(this.props)
     const { transactions } = this.props
     if(this.props.user === null || !this.props.user) return( <Redirect to='/logout' /> )
     return (
       <div className="center">
+      {
+        this.props.trans
+      }
         <Typography style={{margin: '0 0 30px 0'}} variant='display1'> Verzekering
         {
             transactions ? transactions.map(t => {
@@ -40,7 +51,7 @@ class ContractsPage extends PureComponent {
                 (<div>
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
                   {
-                    this.state.buttons ? (<Clear onClick={this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
+                    this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.id)} color='primary' variant='fab' mini></Clear>) : null
                   }                  
                   </div>) : null
             }) : <p>Contracts loading...</p>
@@ -54,7 +65,7 @@ class ContractsPage extends PureComponent {
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
                   {
                     //when delete button clicked, delete the contract
-                    this.state.buttons ? (<Clear onClick={this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
+                    this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.id)} color='primary' variant='fab' mini></Clear>) : null
                   }
                   </div>) : null
             }) : <p>Contracts loading...</p>
@@ -67,7 +78,7 @@ class ContractsPage extends PureComponent {
                 (<div>
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
                   {
-                    this.state.buttons ? (<Clear onClick={this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
+                    this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.id)} color='primary' variant='fab' mini></Clear>) : null
                   }                
                   </div>) : null
             }) : <p>Contracts loading...</p>
@@ -80,7 +91,7 @@ class ContractsPage extends PureComponent {
                 (<div>
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
                   {
-                    this.state.buttons ? (<Clear onClick={this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
+                    this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.id)} color='primary' variant='fab' mini></Clear>) : null
                   }                
                   </div>) : null
             }) : <p>Contracts loading...</p>

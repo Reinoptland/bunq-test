@@ -34,9 +34,16 @@ export default class TransactionController {
         @Param('id') id: number,
     ){
        const transaction = await Transaction.findOne(id)
-       if(transaction) await transaction.remove()
-       else throw new NotFoundError('Transaction Not Found!')
-       return 'Transaction successfully delted!'
+       let transactions;
+       //    return { userId }
+       if(transaction) {
+            const userId = await transaction.user.id
+            transactions = await Transaction.find({where: { user: userId }})
+            await transaction.remove()
+        //    return { transactions }
+        }
+        else throw new NotFoundError('Transaction Not Found!')
+        return { message: 'Transaction successfully deleted!', transactions }
     }
     
     // posts a new transaction per user 

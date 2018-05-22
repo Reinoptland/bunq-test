@@ -1,4 +1,4 @@
-import { FETCH_TRANSACTIONS, FETCH_CONTRACTS } from '../actions/transactions'
+import { FETCH_TRANSACTIONS, FETCH_CONTRACTS, DELETE_TRANSACTION } from '../actions/transactions'
 
 export default function(state = null, {type, payload}){
   switch(type){
@@ -6,6 +6,9 @@ export default function(state = null, {type, payload}){
     return payload
 
     case FETCH_CONTRACTS:
+    return payload
+
+    case DELETE_TRANSACTION:
     return payload
 
     default:
