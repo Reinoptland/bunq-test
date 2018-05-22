@@ -92,11 +92,7 @@ export const privacy = (id) => (dispatch, getState) =>{
     .then(result => {
       dispatch({
         type: USER_ACCEPT_PRIVACY,
-        payload: {
-          user: {
-            permission: result.body.permission
-          }
-        }
+        payload: result.body
       })
     })
     .catch(err => {

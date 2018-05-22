@@ -28,6 +28,16 @@ export default class TransactionController {
         const transaction = await Transaction.findOne(id)
         return { transaction }
     }
+
+    @Delete('/transactions/:id')
+    async deleteTransaction(
+        @Param('id') id: number,
+    ){
+       const transaction = await Transaction.findOne(id)
+       if(transaction) await transaction.remove()
+       else throw new NotFoundError('Transaction Not Found!')
+       return 'Transaction successfully delted!'
+    }
     
     // posts a new transaction per user 
     @Post('/users/:id/transactions')
@@ -59,7 +69,7 @@ export default class TransactionController {
         if(!user) throw new NotFoundError('A user with this Id does not exist')
         const deletedTransaction = await Transaction.delete({...transactions, user})
         return deletedTransaction
-        }
+    }
 
     @Get('/users/:id/contracts')
     async getContracts(

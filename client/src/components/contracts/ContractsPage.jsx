@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import Typography from 'material-ui/Typography'
 import { connect } from 'react-redux'
-import { fetchTransactions } from '../../actions/transactions'
+import { fetchTransactions, deleteTransaction } from '../../actions/transactions'
 import {Redirect, Link} from 'react-router-dom'
 // import { Button } from 'material-ui';
 import Clear from '@material-ui/icons/Clear'
@@ -40,7 +40,7 @@ class ContractsPage extends PureComponent {
                 (<div>
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
                   {
-                    this.state.buttons ? (<Clear color='primary' variant='fab' mini></Clear>) : null
+                    this.state.buttons ? (<Clear onClick={this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
                   }                  
                   </div>) : null
             }) : <p>Contracts loading...</p>
@@ -54,7 +54,7 @@ class ContractsPage extends PureComponent {
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
                   {
                     //when delete button clicked, delete the contract
-                    this.state.buttons ? (<Clear onClick={() => console.log('clicked!')} color='primary' variant='fab' mini></Clear>) : null
+                    this.state.buttons ? (<Clear onClick={this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
                   }
                   </div>) : null
             }) : <p>Contracts loading...</p>
@@ -67,7 +67,7 @@ class ContractsPage extends PureComponent {
                 (<div>
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
                   {
-                    this.state.buttons ? (<Clear color='primary' variant='fab' mini></Clear>) : null
+                    this.state.buttons ? (<Clear onClick={this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
                   }                
                   </div>) : null
             }) : <p>Contracts loading...</p>
@@ -80,7 +80,7 @@ class ContractsPage extends PureComponent {
                 (<div>
                   <Link key={`${t.id}-link`} to={`/contracts/${t.contractName}`}>{renderContract(t)}</Link>
                   {
-                    this.state.buttons ? (<Clear color='primary' variant='fab' mini></Clear>) : null
+                    this.state.buttons ? (<Clear onClick={this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
                   }                
                   </div>) : null
             }) : <p>Contracts loading...</p>
@@ -96,4 +96,4 @@ const mapStateToProps = (state, props) => ({
   user: state.currentUser ? state.currentUser.user : null
 })
 
-export default connect(mapStateToProps, { fetchTransactions })(ContractsPage)
+export default connect(mapStateToProps, { fetchTransactions, deleteTransaction })(ContractsPage)
