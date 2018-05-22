@@ -30,7 +30,7 @@ class ContractsPage extends PureComponent {
   render() {
     console.log(this.props)
     const { transactions } = this.props
-    if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
+    if(this.props.user === null || !this.props.user) return( <Redirect to='/logout' /> )
     return (
       <div className="center">
         <Typography style={{margin: '0 0 30px 0'}} variant='display1'> Verzekering
