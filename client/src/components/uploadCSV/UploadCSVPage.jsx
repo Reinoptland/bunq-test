@@ -49,7 +49,7 @@ class UploadCSVPage extends PureComponent {
       {this.state.upload === true &&
       <div>
         <h1>De upload is successvol afgerond!</h1>
-      <Link to='/dashboard'><Button className='privacyButton'>Go to overview</Button></Link>
+      <Link to='/dashboard'><Button className='privacyButton'>Bekijk uw dashboard</Button></Link>
       </div> }
     </div>
     )
