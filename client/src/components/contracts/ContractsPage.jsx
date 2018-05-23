@@ -45,8 +45,8 @@ class ContractsPage extends PureComponent {
             contracts ? contracts.map(t => {
               return t.type === 'insurance' ?
 
-                (<div key={`${t.id}-div`}>
-                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
+                (<div key={`${t.contractName}-div`}>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.contractName}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
                     this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
@@ -60,8 +60,8 @@ class ContractsPage extends PureComponent {
           {
             contracts ? contracts.map(t => {
               return t.type === 'telecom' ?
-                (<div key={`${t.id}-div`}>
-                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
+                (<div key={`${t.contractName}-div`}>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.contractName}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
                     //when delete button clicked, delete the contract
 
@@ -76,8 +76,8 @@ class ContractsPage extends PureComponent {
         {
             contracts ? contracts.map(t => {
               return t.type === 'energy' ?
-                (<div>
-                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
+                (<div key={`${t.contractName}-div`}>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.contractName}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
                     this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
@@ -91,8 +91,8 @@ class ContractsPage extends PureComponent {
         {
             contracts ? contracts.map(t => {
               return t.type === 'other' ?
-                (<div key={`${t.id}-div`}>
-                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
+                (<div key={`${t.contractName}-div`}>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.contractName}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
                     // to Contract verwijderens just send the contract name instead of the transaction id -- REPLACE THIS!
