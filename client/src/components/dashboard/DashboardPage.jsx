@@ -52,9 +52,9 @@ class DashboardPage extends PureComponent {
       <Grid container alignItems={'center'} style={{width: '100%', flex: 1}} spacing={16}>
         <Grid xs={12} s={12} item>
           <div style={{textAlign: 'center', fontSize:"25px", fontFamily: 'BrandonText-Bold'}}>
-            Hi {firstName} {lastName}! Hier vindt je een overzicht van je contracten.
+            Hi {firstName} {lastName}! Hier vindt u een overzicht van je contracten.
             <Divider style={{margin: '20px 0 20px 0'}}/>
-            <h2 style={{fontSize:"20px", fontFamily: 'BrandonText-Bold', fontWeight: 'lighter'}}>Jouw Maandelijkse Uitgaven</h2>
+            <h2 style={{fontSize:"20px", fontFamily: 'BrandonText-Bold', fontWeight: 'lighter'}}>Uw maandelijkse uitgaven</h2>
             {
               this.props.contracts ? (BarGraph({ data, colors})) : null
             }

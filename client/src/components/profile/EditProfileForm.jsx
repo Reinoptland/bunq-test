@@ -89,7 +89,7 @@ export default class EditProfileForm extends PureComponent {
             </RadioGroup>
            
             <h4 className="readPrivacyTitle">
-            Lezen het privacybeleid nog eens door:
+            Lees het privacybeleid nog eens door:
             </h4>
             <Typography variant='body2' className="privacyOnEditPage"><Button onClick={this.handleClickOpen} className="privacyButtonOnEditPage">Privacybeleid</Button></Typography>
             <Dialog
@@ -270,7 +270,7 @@ export default class EditProfileForm extends PureComponent {
             color="secondary"
             variant="raised"
             className="saveEditedProfile"
-            > Wijzingen opslaan 
+            > Wijzigingen opslaan 
             </Button>
 
         </form>

@@ -38,9 +38,9 @@ class MeerMenu extends React.Component {
           onClose={this.handleClose}
         >
         
-          <Link to='/terms' component={TermsPage}><MenuItem onClick={this.handleClose}>Terms and conditions</MenuItem></Link>
-          <Link to='/csv'><MenuItem onClick={this.handleClose}>Upload CSV file</MenuItem></Link>
-          <Link to='/logout'><MenuItem onClick={this.handleClose}>Logout</MenuItem></Link>
+          <Link to='/terms' component={TermsPage}><MenuItem onClick={this.handleClose}>Gebruikersvoorwaarden</MenuItem></Link>
+          <Link to='/csv'><MenuItem onClick={this.handleClose}>Upload CSV bestand</MenuItem></Link>
+          <Link to='/logout'><MenuItem onClick={this.handleClose}>Uitloggen</MenuItem></Link>
         </Menu>
       </div>
     );

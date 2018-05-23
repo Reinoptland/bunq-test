@@ -4,12 +4,12 @@ import { connect } from 'react-redux'
 import { fetchContracts, deleteContract } from '../../actions/transactions'
 import {Redirect, Link} from 'react-router-dom'
 import { Button } from 'material-ui';
-import Clear from '@material-ui/icons/Clear'
+// import Clear from '@material-ui/icons/Clear'
 
 const renderContract = ({ ...props }) => {
   return (
     <div key={`${props.id}-outer`}>
-      <Typography key={`${props.id}-name`} style={{fontFamily: 'BrandonText-Regular', fontSize: 20, textTransform: "none"}}>Supplier: <strong>{props.contractName}</strong> <br /> Average per month: <strong>€ {props.average}</strong><br /></Typography>
+      <Typography key={`${props.id}-name`} style={{fontFamily: 'BrandonText-Regular', fontSize: 20, textTransform: "none"}}>Leverancier: <strong>{props.contractName}</strong> <br /> Gemiddelde per maand: <strong>€ {props.average}</strong><br /></Typography>
       {/* <Typography key={`${props.id}-value`}>{props.value}</Typography> */}
     </div>
   )
@@ -49,11 +49,11 @@ class ContractsPage extends PureComponent {
                   <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
-                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Delete Contract</Button>) : null
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
 
                   }                  
                   </div>) : null
-            }) : <p>Contracts loading...</p>
+            }) : <p>Contracten worden geladen...</p>
           }
         </Typography>
         <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Telecom
@@ -65,14 +65,14 @@ class ContractsPage extends PureComponent {
                   {
                     //when delete button clicked, delete the contract
 
-                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Delete Contract</Button>) : null
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
 
                   }
                   </div>) : null
-            }) : <p>Contracts loading...</p>
+            }) : <p>Contracten worden geladen...</p>
           }
         </Typography>
-        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Energy
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Energie
         {
             contracts ? contracts.map(t => {
               return t.type === 'energy' ?
@@ -80,11 +80,11 @@ class ContractsPage extends PureComponent {
                   <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
-                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Delete Contract</Button>) : null
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
 
                   }                
                   </div>) : null
-            }) : <p>Contracts loading...</p>
+            }) : <p>Contracten worden geladen...</p>
           }
         </Typography>
         <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Overig 
@@ -95,12 +95,12 @@ class ContractsPage extends PureComponent {
                   <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
-                    // to delete contracts just send the contract name instead of the transaction id -- REPLACE THIS!
-                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Delete Contract</Button>) : null
+                    // to Contract verwijderens just send the contract name instead of the transaction id -- REPLACE THIS!
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
 
                   }                
                   </div>) : null
-            }) : <p>Contracts loading...</p>
+            }) : <p>Contracten worden geladen...</p>
         }
         </Typography>
       </div>
