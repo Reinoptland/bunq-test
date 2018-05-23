@@ -170,6 +170,14 @@ h4 {
 .feedbackText {
   font-size: 20px;
   font-family: 'BrandonText-Bold';
+  max-width: 500px;
+}
+
+.adviesText {
+  font-size: 20px;
+  font-family: 'BrandonText-Bold';
+  text-align: center;
+  margin: 0 0 0 -5px 
 }
 
 .feedbackButton{
@@ -196,7 +204,7 @@ align-items: center;
 margin-top: 30px;
 }
 
-.bunqButton {
+/* .bunqButton {
   margin-top: 50px;
   padding: 10px 25px;
   border-radius: 3px;
@@ -211,10 +219,11 @@ margin-top: 30px;
 
 .bunqButton:hover {
   background: #e84435;
-}
+} */
 
 .privacyTypography .privacyButton {
   margin-top: 30px;
+  margin-bottom: 30px;
   padding: 8px 20px;
   border-radius: 3px;
   font-size: 14px;
@@ -389,8 +398,80 @@ display: none
   background-color: #fafafa;
 }
 
+.uploadCsv .uploadButton {
+  padding: 10px 35px;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  margin-top: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: linear-gradient(0.25turn,#e84435, #f57f17);
+  color: white;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.uploadCsv .uploadButton:hover {
+  background: #e84435;
+}
+
+.csvPage .uploadCsvDiv h1{
+  text-align: center;
+}
+
+.csvPage .howToExport{
+  display: flex;
+  font-family: 'BrandonText-Regular';
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.csvPage .howToExport h2{
+  font-size: 28px;
+  align-items: center;
+  margin-left: -10px;
+
+}
+
+.csvPage .howToExport ol li span{
+  font-size: 20px;
+  line-height: 2em;
+  font-weight: normal;
+}
 
 
-/* .editForm .termsAndConditions:hover{
-  color: #e84435 !important;
-} */
+.howToExport ol{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+
+.uploadCsvDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center .privacyInCsv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center .privacyInCsv .privacyButtonCsv {
+  padding: 8px 15px;
+  border-radius: 3px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #51595f;
+  border: 2px solid #e2e6e7;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'BrandonText-Regular';
+}
+

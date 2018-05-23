@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import { Alert } from 'react-alert'
 
 export default class FeedbackForm extends PureComponent {
 
@@ -58,8 +59,12 @@ export default class FeedbackForm extends PureComponent {
                     this.state.remarks || '' } onChange={this.handleChange}/>
                     <br />
                     </div>
-                    <button type="submit" className="feedbackButton">Verzenden</button>
-                    
+                    <Alert>
+                        {alert => {
+                            return <button type="submit" onClick={() => alert.show('Dank voor uw feedback!')} className="feedbackButton">Verzenden</button>
+                        }}
+                    </Alert>
+
                 </div>
             </form>
           
