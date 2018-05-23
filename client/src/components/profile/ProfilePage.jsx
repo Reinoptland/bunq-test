@@ -50,7 +50,6 @@ class ProfilePage extends PureComponent {
 
   render(){
     
-    console.log("console logging this props user", this.props.user)
     if (!this.props.user || this.props.user === null) return (
       <Redirect to='/logout' />
     )
@@ -59,7 +58,7 @@ class ProfilePage extends PureComponent {
        return(
          <div>
                     
-                    <Paper>
+      <Paper>
       <div className="editForm">
           
           <h1>
@@ -91,8 +90,7 @@ class ProfilePage extends PureComponent {
            className="privacyButtonOnEditPage">
            <Link to='/terms'>Bekijk onze gebruikersvoorwaarden</Link>
            </Button>
-           </Typography>
-           
+           </Typography>         
       </div>
       </Paper>
      </div>
