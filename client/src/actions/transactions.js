@@ -1,5 +1,4 @@
 import * as request from 'superagent'
-// import { baseUrl } from '../constants'
 import { isExpired } from '../jwt'
 import { logout } from './users'
 
@@ -15,7 +14,6 @@ export const DELETE_TRANSACTION = "DELETE_TRANSACTION"
 export const DELETE_CONTRACT = "DELETE_CONTRACT"
 
 export const fetchTransactions = (id) => (dispatch, getState) => {
-  console.log(id)
   request
     .get(`${baseUrl}/users/${id}/transactions`)
     .send(id)
@@ -38,12 +36,12 @@ export const fetchTransactions = (id) => (dispatch, getState) => {
 
 export const addTransactions = (data, id) => (dispatch, getState) =>{
   const state = getState()
+
   if (!state.currentUser) return null
   const jwt = state.currentUser.jwt
 
-  console.log('in action!!')
-
   if (isExpired(jwt)) return dispatch(logout())
+
   request
     .post(`${baseUrl}/users/${id}/transactions`)
     .send(data)
@@ -65,7 +63,7 @@ export const fetchContracts = (id) => (dispatch, getState) => {
   if (!state.currentUser) return null
   const jwt = state.currentUser.jwt
 
-  console.log('fetchContracts action working', id)
+  if (isExpired(jwt)) return dispatch(logout())
 
   request
     .get(`${baseUrl}/users/${id}/contracts`)
@@ -85,19 +83,6 @@ export const fetchContracts = (id) => (dispatch, getState) => {
         console.error(err)
       }
     })
-}
-
-
-export const deleteTransaction = (id) => (dispatch, getState) => {
-  const state = getState()
-  request
-  .delete(`${baseUrl}/transactions/${id}`)
-  .then(result =>{
-  console.log(result.body, id)
-  dispatch({
-    type: DELETE_TRANSACTION,
-    payload: id
-  })})
 }
 
 export const deleteContract = (id, contractName) => (dispatch) => {

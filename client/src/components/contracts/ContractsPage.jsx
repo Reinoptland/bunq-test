@@ -15,10 +15,6 @@ const renderContract = ({ ...props }) => {
   )
 }
 
-// const handleDelete = (id, d) => {
-//   console.log('deleted!')
-//   d(id)
-// }
 class ContractsPage extends PureComponent {
   state = {
     buttons: true
@@ -36,7 +32,7 @@ class ContractsPage extends PureComponent {
   }
 
   render() {
-    console.log(this.props)
+
     const { contracts } = this.props
     if(this.props.user === null || !this.props.user) return( <Redirect to='/logout' /> )
     return (
