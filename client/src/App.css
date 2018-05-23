@@ -363,7 +363,7 @@ display: none
   box-shadow: none !important
 }
 
-.uploadCsv .uploadButton {
+#uploadButton {
   padding: 10px 35px;
   margin-bottom: 40px;
   border-radius: 3px;
@@ -376,8 +376,8 @@ display: none
   font-weight: bold;
   letter-spacing: 1px;
 }
-.uploadCsv .uploadButton:hover {
-  background: #e84435;
+#uploadButton:hover {
+  background: linear-gradient(0.25turn,#e84435, #e84435);
 }
 
 .csvPage .uploadCsvDiv h1{
@@ -440,16 +440,13 @@ display: none
   font-family: 'BrandonText-Regular';
 }
 
-.privacyDiv .privacyDialogTitle {
-  margin-top: 30px;
-  margin-bottom: 0px;
-  font-size: 40px;
-  font-family: 'BrandonText-Regular';
-
+#alert-dialog-title h4 {
+  font-size: 30px;
+  font-family: 'BrandonText-Bold';
 }
 
 .privacyDialogPopup .privacyDialogContent {
-  margin-top: -10px;
+  margin-top: -40px;
   line-height: 1.5em;
   text-align: justify;
   font-family: 'BrandonText-Regular';
