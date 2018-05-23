@@ -42,6 +42,8 @@ class UploadCSVPage extends PureComponent {
         <p>> Klik op 'Download'</p>
         <p>> Klik vervolgens op 'Upload' om de CSV te importeren</p>
 
+        <AlertDialog privacy={this.props.privacy} user={this.props.user} fetchProfile={this.props.fetchProfile}/>
+
       {this.props.error && <span style={{ color: 'red' }}>{this.props.error}</span>}
       </div>}
       {this.state.upload === true &&
