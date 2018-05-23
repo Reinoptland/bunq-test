@@ -486,3 +486,13 @@ display: none
 
 }
 
+.centerPaper {
+  display: block;
+  align-items: center;
+  padding: 50px;
+  margin: 0, auto;
+}
+
+.detailedTransactions {
+  margin-top: 20px;
+}
