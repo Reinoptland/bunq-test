@@ -25,31 +25,35 @@ class UploadCSVPage extends PureComponent {
     return (
       <div className='center'>
       {this.state.upload === false &&
-        <div>
-      
-          <h1>Upload hier uw CSV bestand</h1>
+        <div className="csvPage">
+          <div className="uploadCsvDiv">
+          <h1 className="titleCsv">Upload hier uw CSV bestand</h1>
 
              <UploadCSVForm toggleUpload={this.toggleUpload}/>
-
-        <p>Af- en bijschrijvingen exporteren vanuit Mijn ING</p>
-        <p>> Ga naar Mijn ING</p>
-        <p>> Log in met uw gebruikersnaam en wachtwoord</p>
-        <p>> Klik op Service</p>
-        <p>> Klik op Af- en bijschrijvingen downloaden</p>
-        <p>> Selecteer uw Rekening</p>
-        <p>> Voer in de datumvelden in vanaf welke dag en tot welke dag uw overzicht moet lopen (bijvoorbeeld 01-01-2017 en 31-12-2017 voor een jaaroverzicht van 2017)</p>
-        <p>> Kies bij 'Bestandsformaat' voor Kommagescheiden CSV</p>
-        <p>> Klik op 'Download'</p>
-        <p>> Klik vervolgens op 'Upload' om de CSV te importeren</p>
-
-        <AlertDialog privacy={this.props.privacy} user={this.props.user} fetchProfile={this.props.fetchProfile}/>
+        </div>
+        <div className="howToExport">
+        <ol>
+        <h2>Af- en bijschrijvingen exporteren vanuit <a href="https://mijn.ing.nl/login/"> Mijn ING</a></h2>
+        <li><span>Ga naar Mijn ING</span></li>
+        <li><span>Log in met uw gebruikersnaam en wachtwoord</span></li>
+        <li><span>Klik op Service</span></li>
+        <li><span>Klik op Af- en bijschrijvingen downloaden</span></li>
+        <li><span>Selecteer uw Rekening</span></li>
+        <li><span>Voer in de datumvelden in vanaf welke dag en tot welke dag uw overzicht moet lopen (bijvoorbeeld 01-01-2017 en 31-12-2017 voor een jaaroverzicht van 2017)</span></li>
+        <li><span>Kies bij 'Bestandsformaat' voor Kommagescheiden CSV</span></li>
+        <li><span>Klik op 'Download'</span></li>
+        <li><span>Klik vervolgens op 'Upload' om de CSV te importeren</span></li>
+        </ol>
+        </div>
+        <AlertDialog className="dialogCsv" privacy={this.props.privacy} user={this.props.user} fetchProfile={this.props.fetchProfile}/>
 
       {this.props.error && <span style={{ color: 'red' }}>{this.props.error}</span>}
       </div>}
       {this.state.upload === true &&
-      <div>
+      <div className="privacyInCsv">
         <h1>De upload is successvol afgerond!</h1>
-      <Link to='/dashboard'><Button className='privacyButton'>Bekijk uw dashboard</Button></Link>
+      <Link to='/dashboard'><Button className='privacyButtonCsv'>Bekijk uw dashboard</Button></Link>
+
       </div> }
     </div>
     )
