@@ -22,7 +22,6 @@ export class AlertDialog extends React.Component {
   };
 
   handleClose = (e) => {
-    console.log(this.props.user)
     if (e.target.textContent === 'Akkoord'){
       // dispatch action to update permissions
       this.props.privacy(this.props.user.id)
