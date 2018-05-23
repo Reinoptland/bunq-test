@@ -18,7 +18,6 @@ class UploadCSVPage extends PureComponent {
   }
 
   render() {
-
     if (this.props.user === null || !this.props.user) {
       return (<Redirect to='/logout' />)
     }
