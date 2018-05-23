@@ -80,7 +80,7 @@ class ContractsPage extends PureComponent {
         {
             contracts ? contracts.map(t => {
               return t.type === 'energy' ?
-                (<div key={`${t.contractName}-div`}
+                (<div key={`${t.contractName}-div`}>
                   <Button className="contractButtons" style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.contractName}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
 
                   {
