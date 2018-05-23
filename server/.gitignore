@@ -66,3 +66,4 @@ typings/
 
 #yarn.lock
 .lock
+yarn.lock
