@@ -40,7 +40,7 @@ class ContractsPage extends PureComponent {
       {
         this.props.trans
       }
-        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 35px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Verzekering
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 35px', border: "1px solid #e2e6e7", fontSize:"40px", textAlign:"center", fontFamily: "BrandonText-Bold"}} variant='display1'> Verzekering
         {
             contracts ? contracts.map(t => {
               return t.type === 'insurance' ?
@@ -56,7 +56,7 @@ class ContractsPage extends PureComponent {
             }) : <p>Contracten worden geladen...</p>
           }
         </Typography>
-        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 35px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Telecom
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 35px', border: "1px solid #e2e6e7", fontSize:"40px",textAlign:"center", fontFamily: "BrandonText-Bold"}} variant='display1'> Telecom
           {
             contracts ? contracts.map(t => {
               return t.type === 'telecom' ?
@@ -72,7 +72,7 @@ class ContractsPage extends PureComponent {
             }) : <p>Contracten worden geladen...</p>
           }
         </Typography>
-        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 35px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Energie
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 35px', border: "1px solid #e2e6e7", fontSize:"40px",textAlign:"center", fontFamily: "BrandonText-Bold"}} variant='display1'> Energie
         {
             contracts ? contracts.map(t => {
               return t.type === 'energy' ?
@@ -87,7 +87,7 @@ class ContractsPage extends PureComponent {
             }) : <p>Contracten worden geladen...</p>
           }
         </Typography>
-        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 35px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Overig 
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 35px', border: "1px solid #e2e6e7", fontSize:"40px", textAlign:"center", fontFamily: "BrandonText-Bold"}} variant='display1'> Overig 
         {
             contracts ? contracts.map(t => {
               return t.type === 'other' ?
