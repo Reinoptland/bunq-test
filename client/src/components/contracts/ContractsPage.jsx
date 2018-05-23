@@ -4,13 +4,13 @@ import { connect } from 'react-redux'
 import { fetchContracts, deleteContract } from '../../actions/transactions'
 import {Redirect, Link} from 'react-router-dom'
 import { Button } from 'material-ui';
-// import Clear from '@material-ui/icons/Clear'
+
 
 const renderContract = ({ ...props }) => {
   return (
     <div key={`${props.id}-outer`}>
       <Typography key={`${props.id}-name`} style={{fontFamily: 'BrandonText-Regular', fontSize: 20, textTransform: "none"}}>Leverancier: <strong>{props.contractName}</strong> <br /> Gemiddelde per maand: <strong>€ {props.average}</strong><br /></Typography>
-      {/* <Typography key={`${props.id}-value`}>{props.value}</Typography> */}
+    
     </div>
   )
 }
@@ -40,7 +40,7 @@ class ContractsPage extends PureComponent {
       {
         this.props.trans
       }
-        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 35px', border: "1px solid #e2e6e7", fontSize:"40px", textAlign:"center", fontFamily: "BrandonText-Bold"}} variant='display1'> Verzekering
+        <Typography style={{width:"80%", color:"#e84435", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 35px', border: "1px solid #e2e6e7", fontSize:"40px", textAlign:"center", fontFamily: "BrandonText-Bold"}} variant='display1'> Verzekering
         {
             contracts ? contracts.map(t => {
               return t.type === 'insurance' ?
@@ -63,7 +63,7 @@ class ContractsPage extends PureComponent {
                 (<div key={`${t.contractName}-div`}>
                   <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.contractName}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
-                    //when delete button clicked, delete the contract
+             
 
                     this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
 
@@ -95,7 +95,6 @@ class ContractsPage extends PureComponent {
                   <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.contractName}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
-                    // to Contract verwijderens just send the contract name instead of the transaction id -- REPLACE THIS!
                     this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
 
                   }                
