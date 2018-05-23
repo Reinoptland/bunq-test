@@ -12,7 +12,7 @@ export default class AdviesPage extends PureComponent {
                     Dank voor het gebruik van onze ROOS app. Momenteel is deze pagina nog niet beschikbaar, maar u kunt op de onderstaande link klikken voor meer informatie.
                     <br/>
                     <br />
-                    <a href='https://halloroos.nl/over-roos/contact' target='blank'>ROOS contact</a>
+                    <a href='https://halloroos.nl/over-roos/contact' target='blank' className="signupButton">ROOS contact</a>
                 </div>
             </form>
         )
