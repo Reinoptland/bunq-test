@@ -31,7 +31,7 @@ export class AlertDialog extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="privacyDiv">
       <Typography variant='body2' className="privacyTypography"><Button onClick={this.handleClickOpen} className="privacyButton">Privacybeleid</Button></Typography>
         <Dialog
             open={this.state.open}
@@ -42,9 +42,10 @@ export class AlertDialog extends React.Component {
             disableBackdropClick={true}
             disableEscapeKeyDown={true}
         >
-          <DialogTitle id="alert-dialog-title">{"Privacybeleid van Roos"}</DialogTitle>
-            <DialogContent>
-              <DialogContent id="alert-dialog-description">
+        <div className="privacyDiv">
+          <DialogTitle style={{fontFamily: 'BrandonText-Regular'}} className="privacyDialogTitle" id="alert-dialog-title">{"Privacybeleid van Roos"}</DialogTitle></div>
+              <div className="privacyDialogPopup">
+              <DialogContent className="privacyDialogContent" id="alert-dialog-description">
                   Roos vindt jouw privacy misschien wel belangrijker dan jijzelf. Als je online of via Facebook een wekker
                   zetof een product bestelt, staat ze er 100% voor in dat je gegevens zorgvuldig behandeld en verwerkt worden.
                   Zo blijven je gegevens van jou alleen en krijgt niemand krijgt er toegang toe. Pottenkijkers,
@@ -63,7 +64,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>
 
-                  <Typography variant='headline'>Bescherming persoonsgegevens</Typography>
+                  <Typography className="privacyDialogTypography" variant='headline'>Bescherming persoonsgegevens</Typography>
                     
                   Roos wil absoluut niet dat onbevoegden toegang krijgen tot jouw persoonsgegevens. Om dat te vermijden
                   gebruikt ze geavanceerde veiligheidssystemen en technologie. Wanneer je de website bezoekt, wordt meteen een
@@ -83,7 +84,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>
 
-                  <Typography variant='headline'>Persoonlijke gegevens</Typography>
+                  <Typography className="privacyDialogTypography" variant='headline'>Persoonlijke gegevens</Typography>
     
                   Roos gebruikt je gegevens om je ervaring met de contractwekker zo persoonlijk en eenvoudig mogelijk te
                   maken. Zo kan ze je vragen om bij je ingevoerde contract je actuele verbruik en voorkeuren toe te voegen, 
@@ -94,7 +95,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>      
 
-                  <Typography variant='headline'>In overeenstemming met gedragscodes</Typography>
+                  <Typography className="privacyDialogTypography" variant='headline'>In overeenstemming met gedragscodes</Typography>
                   Je persoonsgegevens worden door Roos en haar partners (verzekeringen, telecom en energie) verwerkt in
                   overeenstemming met Wet bescherming persoonsgegevens (Wbp) en met de ‘Gedragscode Verwerking 
                   Persoonsgegevens Financiële Instellingen’. Deze gedragscode is speciaal geschreven voor banken en 
@@ -104,7 +105,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
       
-                  <Typography variant='headline'>Waarvoor worden jouw gegevens gebruikt?</Typography>
+                  <Typography className="privacyDialogTypography" variant='headline'>Waarvoor worden jouw gegevens gebruikt?</Typography>
                   Je gegevens worden gebruikt voor verschillende doelen, die hieronder worden toegelicht. Roos gebruikt de 
                   door jou gedeelde gegevens, maar ook door haar verzamelde gegevens over bijvoorbeeld je gebruik van de 
                   contractwekker en bezoek aan de website.
@@ -112,7 +113,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
         
-                  <Typography variant='subheading'>Wekker aanmaken</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Wekker aanmaken</Typography>
                   Voor het aanmaken van je wekker is het nodig om de aanbieder en einddatum van dat contract in te vullen. 
                   Ook je e-mailadres vraagt Roos. Dat gebruikt ze namelijk om je een e-mail te sturen wanneer je contract 
                   de einddatum nadert. Optioneel kan je ook een sms-melding krijgen op je mobiel bij het verlopen van het 
@@ -121,7 +122,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
                   
-                  <Typography variant='subheading'>De beste deals voor jouw situatie en voorkeuren</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>De beste deals voor jouw situatie en voorkeuren</Typography>
                   In de e-mail die je krijgt wanneer je contract gaat verlopen, krijg je ook meteen persoonlijk advies. Roos 
                   heeft gecheckt of je wel nog goed zit bij je huidige aanbieder, en laat je weten of je beter kan overstappen, 
                   verlengen met een betere deal of gewoon blijven waar je zit. Om dat uit te kunnen zoeken en het advies zo 
@@ -134,7 +135,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Account op Mijn Roos</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Account op Mijn Roos</Typography>
                   Om je contractwekkers makkelijk te kunnen beheren is er het Mijn Roos-account. Daar kan je de wekkers aanmaken 
                   en, mocht dat nodig zijn, later ook wijzigen. Naast je wekkers beheren kan je hier ook je persoonlijke 
                   informatie aanpassen, zoals je naam, adres(sen), telefoonnummer, e-mailadres, en geboortedatum. Daarnaast is 
@@ -145,7 +146,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Een bestelling voor een nieuw product plaatsen</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Een bestelling voor een nieuw product plaatsen</Typography>
                   Wil je overstappen of je contract verlengen via de website of Facebook? Dan zorgt Roos voor de afhandeling 
                   van je aanvraag. Naast je persoonlijke gegevens, adres- en betaalgegevens is er soms extra informatie nodig
                   om je aanvraag af te handelen. Roos werkt namelijk samen met externe partijen zoals de aanbieders en partners. 
@@ -155,7 +156,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Klantenservice</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Klantenservice</Typography>
                   Je kan met Roos e-mailen, bellen en chatten op de website. Om je snel en efficiënt te helpen bij vragen over
                   je contracten en bestellingen worden aantekeningen van het gesprek gemaakt. Dat is handig als je nog een keer 
                   belt. Gegevens over het telefoongesprek met jou worden dus geregistreerd, en ook een chatgesprek wordt bewaard. 
@@ -166,7 +167,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Chatbot/Facebook</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Chatbot/Facebook</Typography>
                   Roos maakt gebruik van Facebook Messenger. Op basis van gegevens zoals je postcode, kenteken, grootte van 
                   je huishouden of databundels en minuten kan Roos eenvoudig een vergelijking maken. Als je Facebook Messenger 
                   gebruikt kunnen wij op basis van je naam en geslacht je makkelijk aanspreken en als het e-mail adres wordt 
@@ -181,7 +182,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Nieuwsbrieven</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Nieuwsbrieven</Typography>
                   Roos stuurt je, als je dat wenst, graag een nieuwsbrief. Zo blijf je op de hoogte van relevante ontwikkelingen 
                   op de markt, aantrekkelijke acties en aanbiedingen, en nieuws over Roos. Dat zijn algemene nieuwsbrieven die 
                   Roos afstemt op jouw persoonlijke situatie.
@@ -189,7 +190,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
                   
-                  <Typography variant='subheading'>E-mails voor jouw contracten of bestellingen</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>E-mails voor jouw contracten of bestellingen</Typography>
                   Maak je een wekker aan op Roos (www.halloroos.nl), dan krijg je persoonlijke e-mails als je contract gaat 
                   verlopen, e-mails met adviezen voor het overstappen of verlengen en eventueel andere belangrijke wijzigingen 
                   over jouw product (wijziging premie of voorwaarden). Deze e-mails zijn zo goed mogelijk afgestemd op jouw 
@@ -200,21 +201,21 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Reviews</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Reviews</Typography>
                   Roos is dol op reviews. Ervaringen van anderen helpen je betere beslissingen te maken! Wil je die ene aanbieder 
                   reviewen? Dan kan dat met of zonder je naam. In je Mijn Roos-account vind je al je reviews terug, per aanbieder.
                   
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Winacties</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Winacties</Typography>
                   Als je meedoet aan een winactie of prijsvraag, dan vraagt Roos je naam en e-mailadres. Die heeft ze nodig om 
                   de winnaar bekend te maken. Daarnaast wil ze ook graag weten wie er meedoet.
 
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Verbetering van diensten</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Verbetering van diensten</Typography>
                   Roos werkt er hard aan om elke dag een beetje beter te worden. Dat doet ze door te meten hoe de website wordt 
                   gebruikt en wat er wordt ingevuld. Daarnaast vraagt ze of je wilt meedoen aan een klant- of marktonderzoek. 
                   Dat is uiteraard geheel vrijblijvend. Als Roos voor dat onderzoek samenwerkt met een andere partij, behandelt 
@@ -224,7 +225,7 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Social media</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Social media</Typography>
                   Op Roos haar blog kun je artikelen leuk vinden of delen op Facebook en Twitter. Die actie verschijnt dan op 
                   je social media-account. Roos heeft geen toegang tot jouw account. Stel je Roos een vraag via social media, 
                   dan bewaart ze je bericht en accountnaam, zodat ze op jouw bericht kan reageren.
@@ -232,21 +233,21 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Fraudebestrijding</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Fraudebestrijding</Typography>
                   Wij proberen bij het gebruik maken en afsluiten van producten fraude tegen te gaan. Dat is in jouw en ons 
                   belang.
 
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Wettelijke bepalingen</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Wettelijke bepalingen</Typography>
                   Steeds vaker stelt de overheid wettelijke bepalingen op waar wij ons aan moeten houden. Dat geldt dus ook 
                   voor Roos.
 
                   <br/>
                   <br/>  
 
-                  <Typography variant='subheading'>Bijzondere gegevens</Typography>
+                  <Typography className="privacyDialogTypography" variant='subheading'>Bijzondere gegevens</Typography>
                   Voor financiële dienstverlening zijn er specifieke gegevens van je nodig, bijvoorbeeld of je een strafrechtelijk 
                   verleden hebt. Als we dit aan je vragen gaat het over strafrechtelijke gegevens voor de aanvraag van een financiële
                     dienst en gaat het over de afgelopen 8 jaar.
@@ -254,14 +255,14 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
 
-                  <Typography variant='headline'>Wat doet Roos niet met je gegevens</Typography>
+                  <Typography className="privacyDialogTypography" variant='headline'>Wat doet Roos niet met je gegevens</Typography>
                   Roos verstrekt of verkoopt je gegevens niet aan derden. Je gegevens worden alleen gebruikt om te zorgen dat 
                   je contractwekkers en een persoonlijk advies kan ontvangen, en je direct bij Roos een product kan afsluiten.
                   
                   <br/>
                   <br/>  
 
-                  <Typography variant='headline'>Inzage en correctie van je gegevens</Typography>
+                  <Typography className="privacyDialogTypography" variant='headline'>Inzage en correctie van je gegevens</Typography>
                   De Wet bescherming persoonsgegevens (Wbp) geeft je de mogelijkheid om Roos te vragen welke gegevens van jou 
                   door ons worden verwerkt. Je kan ons altijd een overzicht van je gegevens vragen, daarvoor vragen wij wel een 
                   kopie van een geldig identiteitsbewijs te tonen. Zie je in het overzicht van de gegevens onjuistheden? Stuur ons 
@@ -272,13 +273,13 @@ export class AlertDialog extends React.Component {
                   <br/>
                   <br/>  
 
-                  <Typography variant='headline'>Contact</Typography>
+                  <Typography className="privacyDialogTypography" variant='headline'>Contact</Typography>
                   Heb je vragen of opmerkingen over het privacybeleid van Roos? Roos kun je bereiken via e-mail: service@halloroos.nl.
                   
                   <br/>
                   <br/>  
 
-                  <Typography variant='headline'>Wijzigingen van privacybeleid</Typography>
+                  <Typography className="privacyDialogTypography" variant='headline'>Wijzigingen van privacybeleid</Typography>
                   Roos behoudt het recht om wijzigingen aan te brengen in het privacybeleid in verband met nieuwe ontwikkelingen. 
                 De meeste recente versie kan je altijd vinden op de website van Roos en we raden je aan de tekst met enige regelmaat 
                 te raadplegen indien van je Roos gebruik maakt.
@@ -289,12 +290,12 @@ export class AlertDialog extends React.Component {
                       Niet akkoord
                     </Button>
                   </Link>
-              <Button variant='raised' name='agree' onClick={this.handleClose} color="primary" style={{ marginLeft: 20}}>
+                  <Button variant='raised' name='agree' onClick={this.handleClose} color="primary" style={{ marginLeft: 20}}>
                       Akkoord
                   </Button>
                 </div>
-              </DialogContent>                
-            </DialogContent>
+              </DialogContent> 
+              </div>               
         </Dialog>
       </div>
     );

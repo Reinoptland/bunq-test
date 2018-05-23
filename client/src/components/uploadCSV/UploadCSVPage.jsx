@@ -33,7 +33,7 @@ class UploadCSVPage extends PureComponent {
         </div>
         <div className="howToExport">
         <ol>
-        <h2>Af- en bijschrijvingen exporteren vanuit <a href="https://mijn.ing.nl/login/"> Mijn ING</a></h2>
+        <h2>Af- en bijschrijvingen exporteren vanuit <a href="https://mijn.ing.nl/login/" target="blank"> Mijn ING</a></h2>
         <li><span>Ga naar Mijn ING</span></li>
         <li><span>Log in met uw gebruikersnaam en wachtwoord</span></li>
         <li><span>Klik op Service</span></li>
