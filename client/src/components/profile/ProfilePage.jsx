@@ -46,12 +46,12 @@ class ProfilePage extends PureComponent {
 
 
   render(){
-    const {firstName, lastName, email, permission } = this.props.user
-
+    
     console.log("console logging this props user", this.props.user)
     if (!this.props.user || this.props.user === null) return (
       <Redirect to='/logout' />
     )
+    const {firstName, lastName, email, permission } = this.props.user
 
        return(
       <div className="editForm">

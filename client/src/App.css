@@ -350,3 +350,12 @@ display: none
   font-size:"13px";
   font-family: 'BrandonText-Regular';
 }
+
+.position-static .jss2 {
+  position: static !important;
+}
+
+.no-box-shadow {
+  box-shadow: none !important
+}
+
