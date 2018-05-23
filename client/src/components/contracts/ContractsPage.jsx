@@ -34,7 +34,7 @@ const renderContract = ({ ...props }) => {
         textAlign: 'center',        
         padding: "3px"
         }}><br/><br/>
-        Gemiddelde per maand:<br/> <strong>€ {props.average}</strong><br />
+        Gemiddelde per maand:<br/> <strong>€ {props.average}</strong><br /><br />
       </Typography>
         </div>
     </div>
@@ -88,10 +88,19 @@ class ContractsPage extends PureComponent {
                   
 
                   {
-
-                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
-
-                  }   
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} 
+                      style={{color:"#FFF", 
+                      backgroundColor: "#e84435",
+                      fontFamily: 'BrandonText-Bold',
+                      textTransform: 'none',
+                      marginLeft: 'auto',
+                      marginRight: 'auto',                      
+                      borderRadius: '3px', 
+                    }}
+                      className="deleteContractButton">
+                      Contract verwjjderen</Button>
+                  ): null}
+                     
                   </Card>               
                   </div>) : null
             }) : <p>Contracten worden geladen...</p>
@@ -118,10 +127,13 @@ class ContractsPage extends PureComponent {
                   
 
                   {
-
-                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
-
-                  }   
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} 
+                      style={{color:"#51595f"}}
+                      id="gebruikersvoorwaarden"
+                      className="privacyButtonOnEditPage">
+                      Contract verwjjderen</Button>
+                  ): null}
+                     
                   </Card>               
                   </div>) : null
             }) : <p>Contracten worden geladen...</p>
@@ -148,10 +160,13 @@ class ContractsPage extends PureComponent {
                   
 
                   {
-
-                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
-
-                  }   
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} 
+                      style={{color:"#51595f"}}
+                      id="gebruikersvoorwaarden"
+                      className="privacyButtonOnEditPage">
+                      Contract verwjjderen</Button>
+                  ): null}
+                     
                   </Card>               
                   </div>) : null
             }) : <p>Contracten worden geladen...</p>
@@ -178,10 +193,13 @@ class ContractsPage extends PureComponent {
                   
 
                   {
-
-                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
-
-                  }   
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} 
+                      style={{color:"#51595f"}}
+                      id="gebruikersvoorwaarden"
+                      className="privacyButtonOnEditPage">
+                      Contract verwijderen</Button>
+                  ): null}
+                     
                   </Card>               
                   </div>) : null
             }) : <p>Contracten worden geladen...</p>

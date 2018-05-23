@@ -501,6 +501,8 @@ display: none
   border-radius: 20px;
   color: #51595f;
   align-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .centerDashboard {
@@ -521,3 +523,15 @@ display: none
 .cardBody {
   justify-content: center
 }
+
+/* .deleteContractButton {
+  padding: 8px 15px;
+  border-radius: 3px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #000; 
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'BrandonText-Regular';
+} */
