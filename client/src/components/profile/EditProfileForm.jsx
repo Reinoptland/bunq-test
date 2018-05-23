@@ -7,6 +7,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Divider from 'material-ui/Divider'
 import Dialog, { DialogContent, DialogContentText } from 'material-ui/Dialog';
 import Typography from 'material-ui/Typography';
+import { Link } from 'react-router-dom'
 
 export default class EditProfileForm extends PureComponent {
 
@@ -273,7 +274,9 @@ export default class EditProfileForm extends PureComponent {
             > Wijzigingen opslaan 
             </Button>
 
+          <Link to='/terms'><p>Bekijk onze gebruikersvoorwaarden</p></Link>
+
         </form>
       )
     }
-}
+  }

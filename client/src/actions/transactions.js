@@ -90,7 +90,6 @@ export const deleteContract = (id, contractName) => (dispatch) => {
     .delete(`${baseUrl}/users/${id}/contracts`)
     .send({contractName})
     .then(result =>{
-      console.log(result.body)
       dispatch({
         type: DELETE_CONTRACT,
         payload: result.body

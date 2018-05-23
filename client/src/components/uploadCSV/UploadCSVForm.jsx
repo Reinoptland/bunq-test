@@ -51,8 +51,10 @@ class UploadCSVForm extends PureComponent {
 		if(!this.props.user) return(<Redirect to='/logout' />)
     return (
           <div>		
-						<ReactFileReader handleFiles={this.handleFiles} fileTypes={'.csv'}>   
-						<Button className='btn'>Upload</Button>
+						<ReactFileReader handleFiles={this.handleFiles} fileTypes={'.csv'}> 
+						<span className='position-static'>  
+							<Button>Upload</Button>
+						</span>  
 						</ReactFileReader>	
 				</div>      
     )
