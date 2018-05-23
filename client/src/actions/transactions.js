@@ -14,8 +14,15 @@ export const DELETE_TRANSACTION = "DELETE_TRANSACTION"
 export const DELETE_CONTRACT = "DELETE_CONTRACT"
 
 export const fetchTransactions = (id) => (dispatch, getState) => {
+  const state = getState()
+  if (!state.currentUser) return null
+  const jwt = state.currentUser.jwt
+
+  if (isExpired(jwt)) return dispatch(logout())
+  
   request
     .get(`${baseUrl}/users/${id}/transactions`)
+    .set(`Authorization`, `Bearer ${jwt}`)
     .send(id)
     .then(result => dispatch({
       type: FETCH_TRANSACTIONS,
@@ -44,6 +51,7 @@ export const addTransactions = (data, id) => (dispatch, getState) =>{
 
   request
     .post(`${baseUrl}/users/${id}/transactions`)
+    .set(`Authorization`, `Bearer ${jwt}`)
     .send(data)
     .then(response => {
       console.log('response')
@@ -67,6 +75,7 @@ export const fetchContracts = (id) => (dispatch, getState) => {
 
   request
     .get(`${baseUrl}/users/${id}/contracts`)
+    .set(`Authorization`, `Bearer ${jwt}`)
     .send(id)
     .then(result => dispatch({
       type: FETCH_CONTRACTS,
@@ -85,9 +94,16 @@ export const fetchContracts = (id) => (dispatch, getState) => {
     })
 }
 
-export const deleteContract = (id, contractName) => (dispatch) => {
+export const deleteContract = (id, contractName) => (dispatch, getState) => {
+  const state = getState()
+  if (!state.currentUser) return null
+  const jwt = state.currentUser.jwt
+
+  if (isExpired(jwt)) return dispatch(logout())
+
   request
     .delete(`${baseUrl}/users/${id}/contracts`)
+    .set(`Authorization`, `Bearer ${jwt}`)
     .send({contractName})
     .then(result =>{
       dispatch({

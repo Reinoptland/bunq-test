@@ -1,4 +1,4 @@
-import { JsonController, Get, Param, Body, NotFoundError, Post, Delete } from 'routing-controllers'
+import { JsonController, Get, Param, Body, NotFoundError, Post, Delete, Authorized } from 'routing-controllers'
 import Feedback from './entity'
 import User from '../users/entity'
 // import { userInfo } from 'os';
@@ -8,6 +8,7 @@ import User from '../users/entity'
 export default class FeedbackController {
 
     // gets feedback associated with one specific user
+    @Authorized()
     @Get('/users/:id/feedbacks')
     async getFeedbacks(
         @Param('id') id: number
@@ -18,7 +19,8 @@ export default class FeedbackController {
       return {feedbacks}
     }
 
-    // gets one specific feedback 
+    // gets one specific feedback
+    @Authorized() 
     @Get('/feedbacks/:id')
     async feedback(
         @Param('id') id: number
@@ -28,6 +30,7 @@ export default class FeedbackController {
     }
 
     // gets all feedbacks regardless of the user
+    @Authorized()
     @Get('/feedbacks')
     async allFeedbacks(){
       const feedbacks = await Feedback.find()
@@ -35,7 +38,8 @@ export default class FeedbackController {
       return {feedbacks}
     }
     
-    // posts a new feedback per user 
+    // posts a new feedback per user
+    @Authorized() 
     @Post('/users/:id/feedback') 
     async createFeedback(
      @Body() feedback: Feedback,
@@ -52,6 +56,7 @@ export default class FeedbackController {
     
 
     // deletes feedback from one user
+    @Authorized()
     @Delete('/users/:id/feedback')
     async deleteFeedback(
         @Body() feedback: Feedback,

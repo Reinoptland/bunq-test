@@ -1,14 +1,19 @@
 import { USER_LOGIN_SUCCESS, USER_LOGOUT, UPDATE_USER, DELETE_USER, USER_ACCEPT_PRIVACY } from '../actions/users'
-import { localStorageJwtKey } from '../constants'
+import {jwtSecret, localStorageJwtKey} from '../constants'
 import { ADD_USER, FETCH_USER_PROFILE  } from '../actions/users'
+import * as jwt from 'jsonwebtoken'
 
 let initialState = null
 
 try {
-  const jwt = localStorage.getItem(localStorageJwtKey)
-  const id = Number(localStorage.getItem('user'))
-  if (jwt) {
-    initialState = { jwt, id }
+  const jwtToken = localStorage.getItem(localStorageJwtKey)
+    const user = jwt.verify(jwtToken, jwtSecret)
+    const permission = localStorage.getItem('permission')
+
+    if(permission !== null) user.permission = permission
+
+    if (jwt) {
+    initialState = { jwt: jwtToken, user }
   }
 }
 catch (e) {
@@ -25,11 +30,11 @@ export default function (state = initialState, { type, payload }) {
       return null
       
     case USER_ACCEPT_PRIVACY:
-      return {...state, user: payload }
+      return {...state, ...payload }
 
     case UPDATE_USER:
       // state.user = payload
-      return {...state, user: payload}
+      return {...state, ...payload}
     
     case DELETE_USER:
       return delete payload.id
@@ -41,7 +46,7 @@ export default function (state = initialState, { type, payload }) {
       }
 
     case FETCH_USER_PROFILE:
-      return payload
+      return {...state, ...payload}
 
     default:
       return state

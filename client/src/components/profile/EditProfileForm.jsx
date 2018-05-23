@@ -7,7 +7,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Divider from 'material-ui/Divider'
 import Dialog, { DialogContent, DialogContentText } from 'material-ui/Dialog';
 import Typography from 'material-ui/Typography';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export default class EditProfileForm extends PureComponent {
 

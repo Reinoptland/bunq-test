@@ -1,4 +1,4 @@
-import { JsonController, Get, Param, NotFoundError, Post, Delete, Body } from 'routing-controllers'
+import { JsonController, Get, Param, NotFoundError, Post, Delete, Body, Authorized } from 'routing-controllers'
 import Transaction from './entity'
 import User from '../users/entity'
 // import  { data }  from './dummyData';
@@ -10,6 +10,7 @@ import { contractTypes } from './logic';
 export default class TransactionController {
 
     // gets all transactions associated with one specific user
+    @Authorized()
     @Get('/users/:id/transactions')
     async getTransactions(
         @Param('id') id: number
@@ -21,6 +22,7 @@ export default class TransactionController {
     }
 
     // gets one specific transaction for one specific user
+    @Authorized()
     @Get('/users/:id/transactions/:id')
     async transaction(
         @Param('id') id: number
@@ -29,6 +31,7 @@ export default class TransactionController {
         return { transaction }
     }
 
+    @Authorized()
     @Delete('/transactions/:id')
     async deleteTransaction(
         @Param('id') id: number,
@@ -46,7 +49,8 @@ export default class TransactionController {
         return { message: 'Transaction successfully deleted!', transactions, transaction }
     }
     
-    // posts a new transaction per user 
+    // posts a new transaction per user
+    @Authorized() 
     @Post('/users/:id/transactions')
     async createDetailedTransaction(
         @Body() data: Transaction[],
@@ -67,6 +71,7 @@ export default class TransactionController {
       return transactions
     }
 
+    @Authorized()
     @Delete('/users/:id/transactions')
     async deleteTransactionsUser(
         @Body() transactions: Transaction,
@@ -78,6 +83,7 @@ export default class TransactionController {
         return deletedTransaction
     }
 
+    @Authorized()
     @Get('/users/:id/contracts')
     async getContracts(
         @Param('id') id: number
@@ -88,6 +94,7 @@ export default class TransactionController {
         return getContracts(transactions)
         }
 
+    @Authorized()
     @Delete('/users/:id/contracts/')
     async deleteContractTransactions(
         @Body() contractName: string,
