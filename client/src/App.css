@@ -204,23 +204,6 @@ align-items: center;
 margin-top: 30px;
 }
 
-/* .bunqButton {
-  margin-top: 50px;
-  padding: 10px 25px;
-  border-radius: 3px;
-  font-size: 14px;
-  text-transform: uppercase;
-  background: linear-gradient(0.25turn,#e84435, #f57f17);
-  color: white;
-  border: none;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.bunqButton:hover {
-  background: #e84435;
-} */
-
 .privacyTypography .privacyButton {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -479,5 +462,27 @@ display: none
   font-weight: bold;
   letter-spacing: 1px;
   font-family: 'BrandonText-Regular';
+}
+
+
+.privacyDiv .privacyDialogTitle {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: 'BrandonText-Regular';
+
+}
+
+.privacyDialogPopup .privacyDialogContent {
+  margin-top: -10px;
+  line-height: 1.5em;
+  text-align: justify;
+  font-family: 'BrandonText-Regular';
+}
+
+.privacyDialogContent .privacyDialogTypography {
+  margin-bottom: 20px;
+  font-family: 'BrandonText-Regular';
+
 }
 
