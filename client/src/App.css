@@ -345,3 +345,8 @@ display: none
 #delete2 {  
   margin-top: 30px;
 }
+
+.BarChart .my-pretty-chart-container {
+  font-size:"13px";
+  font-family: 'BrandonText-Regular';
+}

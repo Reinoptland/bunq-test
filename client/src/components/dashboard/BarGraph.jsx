@@ -4,15 +4,16 @@ import { Chart } from 'react-google-charts';
 const BarGraph = ({...props}) => {
   const options = {
     backgroundColor: 'transparent',
-    fontName: 'BrandonText-Regular',
     chartArea: { width: '90%' },
+    annotations:{
+    textStyle: {
+        fontSize:13.5,
+        fontName: 'BrandonText-Regular',
+    }},
     hAxis: {
-      title: 'Bedrag',
       minValue: 0
     },
-    vAxis: {
-      title: 'Categorie'
-    },
+    
     color: props.colors,
     legend: {
       position: 'none'
