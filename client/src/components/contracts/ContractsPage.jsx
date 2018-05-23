@@ -9,16 +9,12 @@ import Clear from '@material-ui/icons/Clear'
 const renderContract = ({ ...props }) => {
   return (
     <div key={`${props.id}-outer`}>
-      <Typography key={`${props.id}-name`} variant='headline'>{props.contractName} <br /> average: {props.average}</Typography>
-      <Typography key={`${props.id}-value`}>{props.value}</Typography>
+      <Typography key={`${props.id}-name`} style={{fontFamily: 'BrandonText-Regular', fontSize: 20, textTransform: "none"}}>Supplier: <strong>{props.contractName}</strong> <br /> Average per month: <strong>€ {props.average}</strong><br /></Typography>
+      {/* <Typography key={`${props.id}-value`}>{props.value}</Typography> */}
     </div>
   )
 }
 
-// const handleDelete = (id, d) => {
-//   console.log('deleted!')
-//   d(id)
-// }
 class ContractsPage extends PureComponent {
   state = {
     buttons: true
@@ -44,7 +40,7 @@ class ContractsPage extends PureComponent {
       {
         this.props.trans
       }
-        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1' className="contractList"> Verzekering
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Verzekering
         {
             contracts ? contracts.map(t => {
               return t.type === 'insurance' ?
@@ -53,7 +49,7 @@ class ContractsPage extends PureComponent {
                   <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
-                    this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.contractName)} color='primary' variant='fab'></Clear>) : null
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Delete Contract</Button>) : null
 
                   }                  
                   </div>) : null
@@ -69,7 +65,7 @@ class ContractsPage extends PureComponent {
                   {
                     //when delete button clicked, delete the contract
 
-                    this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.contractName)} color='primary' variant='fab'></Clear>) : null
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Delete Contract</Button>) : null
 
                   }
                   </div>) : null
@@ -84,7 +80,7 @@ class ContractsPage extends PureComponent {
                   <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
 
-                    this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.contractName)} color='primary' variant='fab'></Clear>) : null
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Delete Contract</Button>) : null
 
                   }                
                   </div>) : null
@@ -100,7 +96,7 @@ class ContractsPage extends PureComponent {
                   {
 
                     // to delete contracts just send the contract name instead of the transaction id -- REPLACE THIS!
-                    this.state.buttons ? (<Clear onClick={() => this.handleDelete(t.contractName)} color='primary' variant='fab'></Clear>) : null
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Delete Contract</Button>) : null
 
                   }                
                   </div>) : null

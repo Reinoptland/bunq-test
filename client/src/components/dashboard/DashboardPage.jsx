@@ -26,7 +26,6 @@ arr.map(t => {
 
 class DashboardPage extends PureComponent {
   componentWillMount() {
-    console.log('mounting...')
    if(this.props.user === null) return (<Redirect to='/logout' />)
     if (this.props.transactions === null && this.props.user) {
       this.props.fetchContracts(this.props.user.id)
@@ -53,8 +52,9 @@ class DashboardPage extends PureComponent {
       <Grid container alignItems={'center'} style={{width: '100%', flex: 1}} spacing={16}>
         <Grid xs={12} s={12} item>
           <div style={{textAlign: 'center', fontSize:"25px", fontFamily: 'BrandonText-Bold'}}>
-            Hi {firstName} {lastName}! Hier vindt je een overzicht van je transacties.
+            Hi {firstName} {lastName}! Hier vindt je een overzicht van je contracten.
             <Divider style={{margin: '20px 0 20px 0'}}/>
+            <h2 style={{fontSize:"20px", fontFamily: 'BrandonText-Bold', fontWeight: 'lighter'}}>Jouw Maandelijkse Uitgaven</h2>
             {
               this.props.contracts ? (BarGraph({ data, colors})) : null
             }
