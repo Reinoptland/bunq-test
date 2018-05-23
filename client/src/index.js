@@ -7,6 +7,8 @@ import { Provider } from 'react-redux'
 import store from './store'
 import CssBaseline from 'material-ui/CssBaseline'
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
+import { Provider as AlertProvider } from 'react-alert'
+import AlertTemplate from 'react-alert-template-basic'
 
 const theme = createMuiTheme({
   palette: {
@@ -22,14 +24,23 @@ const theme = createMuiTheme({
   },
 });
 
+const options = {
+  position: 'top center',
+  timeout: 3000,
+  offset: '30px',
+  transition: 'scale'
+}
+
 registerServiceWorker();
 ReactDOM.render(
   <Provider store={store}>
-    <CssBaseline>
-      <MuiThemeProvider theme={theme}>
-        <App />
-      </MuiThemeProvider>
-    </CssBaseline>
+    <AlertProvider template={AlertTemplate} {...options}>
+      <CssBaseline>
+        <MuiThemeProvider theme={theme}>
+          <App />
+        </MuiThemeProvider>
+      </CssBaseline>
+    </AlertProvider>
   </Provider>
   , document.getElementById('root'));
 //   let deferredPrompt;
