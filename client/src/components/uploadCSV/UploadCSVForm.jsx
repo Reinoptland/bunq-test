@@ -53,7 +53,7 @@ class UploadCSVForm extends PureComponent {
           <div className="uploadCsv">		
 						<ReactFileReader handleFiles={this.handleFiles} fileTypes={'.csv'}> 
 						<span className='position-static'>  
-							<Button className="uploadButton">Upload</Button>
+							<Button className="uploadButton" id="uploadButton">Upload</Button>
 						</span>  
 						</ReactFileReader>	
 				</div>      

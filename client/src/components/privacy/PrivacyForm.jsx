@@ -43,7 +43,7 @@ export class AlertDialog extends React.Component {
             disableEscapeKeyDown={true}
         >
         <div className="privacyDiv">
-          <DialogTitle style={{fontFamily: 'BrandonText-Regular'}} className="privacyDialogTitle" id="alert-dialog-title">{"Privacybeleid van Roos"}</DialogTitle></div>
+          <DialogTitle style={{fontFamily: 'BrandonText-Regular'}} className="privacyDialogTitle" id="alert-dialog-title"><h4>Privacybeleid van Roos</h4></DialogTitle></div>
               <div className="privacyDialogPopup">
               <DialogContent className="privacyDialogContent" id="alert-dialog-description">
                   Roos vindt jouw privacy misschien wel belangrijker dan jijzelf. Als je online of via Facebook een wekker
