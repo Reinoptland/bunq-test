@@ -278,6 +278,13 @@ a:focus {
   font-family: 'BrandonText-Regular';
 }
 
+#gebruikersvoorwaarden {
+  margin: 10px 0 0 0;
+}
+
+#gebruikersvoorwaarden a {
+  color: #51595f;
+}
 
 .editProfileForm .saveEditedProfile {
   margin-top: 40px;
@@ -315,10 +322,26 @@ a:focus {
   font-family: 'BrandonText-Regular';
 }
 
+.termslink {
+  padding: 8px 15px;
+  border-radius: 3px;
+  font-size: 13px;
+  background-color:yellow; 
+  text-transform: uppercase;
+  color: #51595f;
+  border: 2px solid #e2e6e7;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'BrandonText-Regular';
+}
+
 .privacyOnEditPage .privacyButtonOnEditPage:hover{
   color: #e84435;
 }
 
+.termslink{
+  color: #e84435;
+}
 .readPrivacyTitle {
   font-family: 'BrandonText-Regular';
 }
@@ -360,24 +383,19 @@ display: none
   font-family: 'BrandonText-Regular';
 }
 
-.center .contractTypography {
-  background: linear-gradient(0.25turn,#e84435, #f57f17);
-  color: white;
-}
-
-.MuiTypography-body1-47 {
-  color: white !important;
-  border: 0.04rem solid #fff;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.position-static .jss2 {
-  position: static !important;
-}
-
-.no-box-shadow {
-  box-shadow: none !important
+.editForm .termsAndConditions {
+  margin-top: 30px;
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #51595f !important;
+  border: 2px solid #e2e6e7;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'BrandonText-Regular';
+  box-shadow: none;
+  background-color: #fafafa;
 }
 
 .uploadCsv .uploadButton {
@@ -456,3 +474,4 @@ display: none
   letter-spacing: 1px;
   font-family: 'BrandonText-Regular';
 }
+
