@@ -85,7 +85,6 @@ export const privacy = (id) => (dispatch, getState) =>{
 
   
   if (isExpired(jwt)) return dispatch(logout())
-  console.log(id)
   request
     .put(`${baseUrl}/users/${id}`)
     .send({id, permission: true})
@@ -117,7 +116,6 @@ export const feedback = (data, id) => (dispatch, getState) =>{
     .post(`${baseUrl}/users/${id}/feedback`)
     .send(data)
     .then(response => {
-      console.log('response')
       dispatch({
         type: USER_FEEDBACK,
         payload: response.body
@@ -137,7 +135,6 @@ export const feedback = (data, id) => (dispatch, getState) =>{
 }
 
 export const fetchProfile = (id) => (dispatch) => {
-  console.log("console loggind acxtion id", id)
   request
     .get(`${baseUrl}/users/${id.id}/`)
     .then(result => dispatch({
@@ -158,12 +155,10 @@ export const fetchProfile = (id) => (dispatch) => {
 
 
     export const updateProfile = (id, updates) => (dispatch) => {
-      // console.log(id, updates)
       request
         .put(`${baseUrl}/users/${id}`)
         .send(updates)
         .then(result => {
-          console.log("console logging delete action", result)
           dispatch({
             type: UPDATE_USER,
             payload: result.body
@@ -173,7 +168,6 @@ export const fetchProfile = (id) => (dispatch) => {
     }
 
     export const deleteUser = (id) => (dispatch) => {
-      console.log("console logging user id in actions", id)
       request
         .delete(`${baseUrl}/users/${id}`)
         .then(response => dispatch({
@@ -192,7 +186,6 @@ export const fetchProfile = (id) => (dispatch) => {
     }
 
     export const deleteUserFeedback = (id) => (dispatch) => {
-      console.log("console logging user id in actions", id)
       request
         .delete(`${baseUrl}/users/${id}/feedback`) 
         .then(response => dispatch({
