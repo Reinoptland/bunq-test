@@ -1,17 +1,15 @@
 import React from 'react'
 import { Chart } from 'react-google-charts';
 
-const BarGraph = ({...props}) => {
+const AreaGraph = ({...props}) => {
   const options = {
-    backgroundColor: 'transparent',
-    fontName: 'BrandonText-Regular',
+    title: 'Uw transacties',
     chartArea: { width: '90%' },
     hAxis: {
-      title: 'Bedrag',
-      minValue: 0
+      title: 'Datum',
     },
     vAxis: {
-      title: 'Categorie'
+      title: 'Bedrag'
     },
     color: props.colors,
     legend: {
@@ -20,13 +18,13 @@ const BarGraph = ({...props}) => {
   }
   return (
     <Chart className={'my-pretty-chart-container'}
-      chartType="BarChart"
+      chartType="AreaChart"
       data={props.data}
       options={options}
-      graph_id="BarChart"
+      graph_id="AreaChart"
       legend_toggle
     />
   )
 }
 
-export default BarGraph
+export default AreaGraph

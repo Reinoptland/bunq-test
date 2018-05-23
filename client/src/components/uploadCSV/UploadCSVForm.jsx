@@ -4,6 +4,7 @@ import Papa from 'papaparse'
 import { addTransactions } from '../../actions/transactions'
 import {connect} from 'react-redux'
 import {Redirect} from 'react-router-dom'
+import Button from '@material-ui/core/Button';
 
 const config = {
 	delimiter: "",	// auto-detect
@@ -27,6 +28,7 @@ const config = {
 	beforeFirstChunk: undefined,
 	withCredentials: undefined
 }
+ 
 
 class UploadCSVForm extends PureComponent {
 
@@ -38,19 +40,20 @@ class UploadCSVForm extends PureComponent {
     reader.onload = function(e) {
     // // Use reader.result
     console.log(Papa.parse(reader.result, config).data)
-    addTransactions(Papa.parse(reader.result, config).data, id)
-    }
+		addTransactions(Papa.parse(reader.result, config).data, id)
+		}
 
-   return reader.readAsText(files[0])
-   
-}
+	 return reader.readAsText(files[0])
+		}
 
   render() {
 		if(!this.props.user) return(<Redirect to='/logout' />)
     return (
-          <ReactFileReader handleFiles={this.handleFiles} fileTypes={'.csv'}>
-            <button className='btn'>Upload</button>
-          </ReactFileReader>
+          <div>		
+						<ReactFileReader handleFiles={this.handleFiles} fileTypes={'.csv'}>   
+						<Button className='btn'>Upload</Button>
+						</ReactFileReader>	
+				</div>      
     )
   }
 }

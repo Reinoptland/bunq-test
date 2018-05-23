@@ -1,16 +1,16 @@
 import React, { PureComponent } from 'react';
 import Typography from 'material-ui/Typography'
 import { connect } from 'react-redux'
-import { fetchTransactions, deleteTransaction } from '../../actions/transactions'
+import { fetchContracts, deleteContract } from '../../actions/transactions'
 import {Redirect, Link} from 'react-router-dom'
-// import { Button } from 'material-ui';
-import Clear from '@material-ui/icons/Clear'
+import { Button } from 'material-ui';
+// import Clear from '@material-ui/icons/Clear'
 
 const renderContract = ({ ...props }) => {
   return (
     <div key={`${props.id}-outer`}>
-      <Typography key={`${props.id}-name`} variant='headline'>{props.contractName}</Typography>
-      <Typography key={`${props.id}-value`}>{props.value}</Typography>
+      <Typography key={`${props.id}-name`} style={{fontFamily: 'BrandonText-Regular', fontSize: 20, textTransform: "none"}}>Leverancier: <strong>{props.contractName}</strong> <br /> Gemiddelde per maand: <strong>€ {props.average}</strong><br /></Typography>
+      {/* <Typography key={`${props.id}-value`}>{props.value}</Typography> */}
     </div>
   )
 }
@@ -21,70 +21,86 @@ class ContractsPage extends PureComponent {
   }
   componentWillMount(){
     if (this.props.user === null || !this.props.user) return (<Redirect to='/login' />)
-    this.props.fetchTransactions(this.props.user.id)
+    this.props.fetchContracts(this.props.user.id)
     if(this.props.buttons === false) this.setState({
       buttons: false
     })
   }
 
+  handleDelete = (contractName) => {
+    this.props.deleteContract(this.props.user.id, contractName)
+  }
+
   render() {
-    console.log(this.props)
-    const { transactions } = this.props
+
+    const { contracts } = this.props
     if(this.props.user === null || !this.props.user) return( <Redirect to='/logout' /> )
     return (
       <div className="center">
-        <Typography style={{margin: '0 0 30px 0'}} variant='display1'> Verzekering
+      {
+        this.props.trans
+      }
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Verzekering
         {
-            transactions ? transactions.map(t => {
+            contracts ? contracts.map(t => {
               return t.type === 'insurance' ?
 
-                (<div>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                (<div key={`${t.id}-div`}>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
-                    this.state.buttons ? (<Clear onClick={() => this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
+
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
+
                   }                  
                   </div>) : null
-            }) : <p>Contracts loading...</p>
+            }) : <p>Contracten worden geladen...</p>
           }
         </Typography>
-        <Typography style={{ margin: '30px 0' }} variant='display1'> Telecom
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Telecom
           {
-            transactions ? transactions.map(t => {
+            contracts ? contracts.map(t => {
               return t.type === 'telecom' ?
-                (<div>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                (<div key={`${t.id}-div`}>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
                     //when delete button clicked, delete the contract
-                    this.state.buttons ? (<Clear onClick={() => this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
+
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
+
                   }
                   </div>) : null
-            }) : <p>Contracts loading...</p>
+            }) : <p>Contracten worden geladen...</p>
           }
         </Typography>
-        <Typography style={{ margin: '30px 0' }} variant='display1'> Energy
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Energie
         {
-            transactions ? transactions.map(t => {
+            contracts ? contracts.map(t => {
               return t.type === 'energy' ?
                 (<div>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
-                    this.state.buttons ? (<Clear onClick={() => this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
+
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
+
                   }                
                   </div>) : null
-            }) : <p>Contracts loading...</p>
+            }) : <p>Contracten worden geladen...</p>
           }
         </Typography>
-        <Typography style={{ margin: '30px 0' }} variant='display1'> Overig
+        <Typography style={{width:"80%", margin: '60px 0 30px 0', background:"", boxShadow: "3px 5px", padding: '50px 40px', border: "1px solid #e2e6e7", fontSize:"40px", fontFamily: "BrandonText-Bold"}} variant='display1'> Overig 
         {
-            transactions ? transactions.map(t => {
+            contracts ? contracts.map(t => {
               return t.type === 'other' ?
-                (<div>
-                  <Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link>
+                (<div key={`${t.id}-div`}>
+                  <Button style={{margin: '10px 0 10px 0', padding: "15px"}}><Link key={`${t.id}-link`} to={`/contracts/${t.contractName.toLowerCase().split(" ").join("")}`}>{renderContract(t)}</Link></Button>
                   {
-                    this.state.buttons ? (<Clear onClick={() => this.props.deleteTransaction(t.id)} color='primary' variant='fab' mini></Clear>) : null
+
+                    // to Contract verwijderens just send the contract name instead of the transaction id -- REPLACE THIS!
+                    this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} className="signupButton">Contract verwijderen</Button>) : null
+
                   }                
                   </div>) : null
-            }) : <p>Contracts loading...</p>
+            }) : <p>Contracten worden geladen...</p>
         }
         </Typography>
       </div>
@@ -93,8 +109,10 @@ class ContractsPage extends PureComponent {
 }
 
 const mapStateToProps = (state, props) => ({
-  transactions: state.transactions,
+  contracts: state.contracts,
   user: state.currentUser ? state.currentUser.user : null
 })
 
-export default connect(mapStateToProps, { fetchTransactions, deleteTransaction })(ContractsPage)
+
+export default connect(mapStateToProps, { fetchContracts, deleteContract })(ContractsPage)
+

@@ -4,6 +4,7 @@ import { privacy, fetchProfile } from '../../actions/users'
 import UploadCSVForm from './UploadCSVForm'
 import { AlertDialog } from '../privacy/PrivacyForm'
 import { Link, Redirect } from 'react-router-dom'
+import Button from '@material-ui/core/Button';
 
 class UploadCSVPage extends PureComponent {
   render() {
@@ -14,12 +15,12 @@ class UploadCSVPage extends PureComponent {
 
     return (
       <div className='center'>
-        <h1>Upload your CSV file</h1>
+        <h1>Upload hier uw CSV bestand</h1>
 
         <UploadCSVForm />
 
         {this.props.error && <span style={{ color: 'red' }}>{this.props.error}</span>}
-        <Link to='/dashboard'><button className='privacyButton'>Submit</button></Link>
+        <Link to='/dashboard'><Button className='privacyButton'>Opslaan</Button></Link>
         <div>
           <AlertDialog privacy={this.props.privacy} user={this.props.user} fetchProfile={this.props.fetchProfile}/>
         </div>

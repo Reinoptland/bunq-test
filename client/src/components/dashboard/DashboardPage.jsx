@@ -7,14 +7,14 @@ import { Redirect } from 'react-router-dom'
 import ContractsPage from '../contracts/ContractsPage'
 
 
-const calculateTransactions = (arr) => {
+const calculateContracts = (arr) => {
   const colors = ['#127ECF', '#90C227', '#F57E18', '#E94435']
   let insurance = 0 
   let telecom = 0  
   let energy = 0 
   let other = 0
 arr.map(t => {
-  let value =  (- Number(t.value))
+  let value =  (Number(t.average))
   if(t.type === 'insurance') insurance = insurance + value
   if(t.type === 'telecom') telecom = telecom + value
   if(t.type === 'energy') energy = energy + value
@@ -26,7 +26,6 @@ arr.map(t => {
 
 class DashboardPage extends PureComponent {
   componentWillMount() {
-    console.log('mounting...')
    if(this.props.user === null) return (<Redirect to='/logout' />)
     if (this.props.transactions === null && this.props.user) {
       this.props.fetchContracts(this.props.user.id)
@@ -45,18 +44,19 @@ class DashboardPage extends PureComponent {
     let data = [["Category", "Amount"],[]]
     const colors = ['#127ECF', '#90C227', '#F57E18', '#E94435']
     const {firstName, lastName} = this.props.user
-    if(this.props.transactions) {
-    data = calculateTransactions(this.props.transactions)
+    if(this.props.contracts) {
+    data = calculateContracts(this.props.contracts)
     }
     return(
       <div>
       <Grid container alignItems={'center'} style={{width: '100%', flex: 1}} spacing={16}>
         <Grid xs={12} s={12} item>
-          <div style={{textAlign: 'center'}}>
-            Hi {firstName} {lastName}! Hier vindt je een overzicht van je transacties.
-            <Divider style={{margin: '10px 0 20px 0'}}/>
+          <div style={{textAlign: 'center', fontSize:"25px", fontFamily: 'BrandonText-Bold'}}>
+            Hi {firstName} {lastName}! Hier vindt u een overzicht van je contracten.
+            <Divider style={{margin: '20px 0 20px 0'}}/>
+            <h2 style={{fontSize:"20px", fontFamily: 'BrandonText-Bold', fontWeight: 'lighter'}}>Uw maandelijkse uitgaven</h2>
             {
-              BarGraph({ data, colors})
+              this.props.contracts ? (BarGraph({ data, colors})) : null
             }
               <ContractsPage buttons={false}/>
           </div>
@@ -69,7 +69,8 @@ class DashboardPage extends PureComponent {
 
 const mapStateToProps = (state, props) => ({
   user: state.currentUser ? state.currentUser.user : null ,
-  transactions: state.transactions
+  transactions: state.transactions,
+  contracts: state.contracts
 })
 
 export default connect(mapStateToProps, { fetchContracts, fetchTransactions })(DashboardPage)

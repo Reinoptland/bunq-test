@@ -37,7 +37,7 @@ const TopBar = (props) => {
        
         {
           /dashboard$/.test(location.pathname) &&
-          <Button color="inherit" onClick={() => history.push('/logout')}>Log out</Button>
+          <Button color="inherit" onClick={() => history.push('/logout')}>Uitloggen</Button>
         }
       </Toolbar>
     </AppBar>
