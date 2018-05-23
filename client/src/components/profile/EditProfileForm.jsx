@@ -264,17 +264,26 @@ export default class EditProfileForm extends PureComponent {
               </DialogContentText>                
             </DialogContent>
             </Dialog>
-     
 
-            <Button
+          <br/>
+          <br/>
+  
+          <br/>
+
+            <Typography variant="raised" color="secondary" className="privacyTypography"><Button
             type='submit'
             color="secondary"
             variant="raised"
             className="saveEditedProfile"
             > Wijzigingen opslaan 
             </Button>
+            </Typography>
 
-          <Link to='/terms'><p>Bekijk onze gebruikersvoorwaarden</p></Link>
+
+          
+
+
+    
 
         </form>
       )

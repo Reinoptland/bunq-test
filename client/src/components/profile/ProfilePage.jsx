@@ -5,7 +5,10 @@ import { Redirect } from 'react-router-dom'
 import Button from 'material-ui/Button'
 import EditProfileForm from "./EditProfileForm"
 import AlertDeleteUser from "./DeleteProfile"
+import Typography from 'material-ui/Typography';
+import { Link } from 'react-router-dom'
 import {updateProfile, deleteUser, deleteUserTransactions, deleteUserFeedback} from "../../actions/users"
+import { Paper } from '@material-ui/core';
 
 
 class ProfilePage extends PureComponent {
@@ -54,14 +57,18 @@ class ProfilePage extends PureComponent {
     const {firstName, lastName, email, permission } = this.props.user
 
        return(
+         <div>
+                    
+                    <Paper>
       <div className="editForm">
+          
           <h1>
             Dit is een overzicht van u profiel gegevens:
           </h1>
-               <p>voornaam: {firstName}</p> 
-               <p>achternaam: {lastName}</p> 
-               <p>email: {email}</p> 
-               <p>akkoord (privacy): {permission===true ? "True" : "False"}</p> 
+               <p><strong>Voornaam:</strong> {firstName}</p> 
+               <p><strong>Achternaam: </strong>{lastName}</p> 
+               <p><strong>Email: </strong>{email}</p> 
+               <p><strong>Akkoord (privacy): </strong>{permission===true ? "True" : "False"}</p> 
                {
                this.props.user !== null && this.props.user ? console.log("this.props.user = ", this.props.user) : console.log('nope')
                }
@@ -73,9 +80,22 @@ class ProfilePage extends PureComponent {
             this.state.editProfile &&
             <EditProfileForm initialValues={this.props.user} onSubmit={this.updateProfile}/>
           }
+          
           <AlertDeleteUser deleteUser={this.props.deleteUser} deleteUserFeedback={this.props.deleteUserFeedback} deleteUserTransactions={this.props.deleteUserTransactions} user={this.props.user.id} />
+          <Typography variant='body2' className="privacyOnEditPage">
+          <br/>
+          <Button onClick={this.handleClickOpen} 
+          style={{color:"#51595f"}}
+         
+          id="gebruikersvoorwaarden"
+           className="privacyButtonOnEditPage">
+           <Link to='/terms'>Bekijk onze gebruikersvoorwaarden</Link>
+           </Button>
+           </Typography>
+           
       </div>
-     
+      </Paper>
+     </div>
     )
   }
 }
