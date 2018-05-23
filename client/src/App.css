@@ -351,6 +351,18 @@ display: none
   font-family: 'BrandonText-Regular';
 }
 
+.center .contractTypography {
+  background: linear-gradient(0.25turn,#e84435, #f57f17);
+  color: white;
+}
+
+.MuiTypography-body1-47 {
+  color: white !important;
+  border: 0.04rem solid #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
 .position-static .jss2 {
   position: static !important;
 }
