@@ -4,6 +4,7 @@ import { Chart } from 'react-google-charts';
 const AreaGraph = ({...props}) => {
   const options = {
     title: 'Uw transacties',
+    backgroundColor: 'transparent',
     chartArea: { width: '90%' },
     hAxis: {
       title: 'Datum',
