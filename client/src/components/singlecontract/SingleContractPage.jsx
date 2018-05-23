@@ -3,16 +3,15 @@ import { connect } from 'react-redux'
 import { fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
 import AreaGraph from './AreaGraph'
+import { Paper } from '@material-ui/core'
 
 class SingleContractPage extends PureComponent {
   
   componentWillMount() {
-
     if(this.props.user === null) return (<Redirect to='/login' />)
+    
     if(this.props.transactions === null && this.props.user) {
-    
       this.props.fetchTransactions(this.props.user.id)
-    
     }
   }
 
@@ -22,38 +21,44 @@ class SingleContractPage extends PureComponent {
     if(this.props.user.permission === false )
       return( <Redirect to="/csv"/>)
 
-      const {transactions} = this.props
-      if(transactions === null) return (<div>Transacties inladen....</div>)
+    const {transactions} = this.props
+    if(transactions === null) return (<div>Transacties inladen....</div>)
 
-      const filteredTransactions = transactions
-        .filter(transaction => transaction.contractName.toLowerCase().split(" ").join("") === this.props.match.params.name)
-        .sort((a,b) => (a.date > b.date) ? 1 : ((b.date > a.date) ? -1 : 0))
+    const filteredTransactions = transactions
+      .filter(transaction => transaction.contractName.toLowerCase().split(" ").join("") === this.props.match.params.name)
+      .sort((a,b) => (a.date > b.date) ? 1 : ((b.date > a.date) ? -1 : 0))
 
-          const contractName = filteredTransactions[0].contractName
+    const contractName = filteredTransactions[0].contractName
 
-          let results = filteredTransactions
-        .map(transaction => [transaction.date, Number(transaction.value.substring(1))])
-          let data = [ ['Bedrag', 'Datum'] ];
-
-          data = data.concat(results)
+    let results = filteredTransactions
+      .map(transaction => [transaction.date, Number(transaction.value.substring(1))])
+    
+    let data = [ ['Bedrag', 'Datum'] ];
+    data = data.concat(results)
 
     return(
       <div>
-        <h1>{contractName}</h1>
-        <div className="center">
-
-        {
-          this.props.transactions ? (AreaGraph({data})) : null
-        }
-          
-        {
-          filteredTransactions.map(transaction => {
-            return (
-              <p key={transaction.id}>{`Datum: ${transaction.date}, Contract naam: ${transaction.contractName}, Uitgave: ${transaction.value}`}</p>)
-          })
-        }
-
-        </div>
+        <Paper className="centerPaper">
+          <div className="titleAndGraph">
+          <h1>{contractName}</h1>
+          {
+            this.props.transactions ? (AreaGraph({data})) : null
+          }
+          </div>
+          <div className="detailedTransactions">
+          <h2>Uw Transacties</h2>
+          <ul>
+          {
+            filteredTransactions.map(transaction => {
+              return (
+                <li><p key={transaction.id}><strong>{transaction.contractName}</strong><br/>
+                Transactie Datum: <strong>{transaction.date}</strong><br/>
+                Uitgave: <strong>{transaction.value} €</strong></p></li>)
+            })
+          }
+          </ul>
+          </div>
+        </Paper>
       </div>
     )
   }
