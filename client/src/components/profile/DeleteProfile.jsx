@@ -38,11 +38,12 @@ export default class AlertDeleteUser extends React.Component {
     deleteUserTransactions = (id) => {
         this.props.deleteUserTransactions(id)
     }
+  
 
         render() {
             return (
               <div>
-              <Typography variant='body2' className="privacyTypography"><Button onClick={this.handleClickOpen} className="deleteUserButton">Account verwijderen</Button></Typography>
+              <Typography variant="raised" color="secondary" className="privacyTypography"><Button onClick={this.handleClickOpen} className="deleteUserButton">Account verwijderen</Button></Typography>
               <Dialog
                     open={this.state.open}
                     onClose={this.handleClose}

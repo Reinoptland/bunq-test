@@ -5,6 +5,8 @@ import { Redirect } from 'react-router-dom'
 import Button from 'material-ui/Button'
 import EditProfileForm from "./EditProfileForm"
 import AlertDeleteUser from "./DeleteProfile"
+import Typography from 'material-ui/Typography';
+import { Link } from 'react-router-dom'
 import {updateProfile, deleteUser, deleteUserTransactions, deleteUserFeedback} from "../../actions/users"
 
 
@@ -54,6 +56,9 @@ class ProfilePage extends PureComponent {
     const {firstName, lastName, email, permission } = this.props.user
 
        return(
+         <div>
+                    
+
       <div className="editForm">
           <h1>
             Dit is een overzicht van u profiel gegevens:
@@ -73,9 +78,20 @@ class ProfilePage extends PureComponent {
             this.state.editProfile &&
             <EditProfileForm initialValues={this.props.user} onSubmit={this.updateProfile}/>
           }
+          
           <AlertDeleteUser deleteUser={this.props.deleteUser} deleteUserFeedback={this.props.deleteUserFeedback} deleteUserTransactions={this.props.deleteUserTransactions} user={this.props.user.id} />
+          <Typography variant='body2' className="privacyOnEditPage">
+          <br/>
+          <Button onClick={this.handleClickOpen} 
+          style={{color:"#51595f"}}
+         
+          id="gebruikersvoorwaarden"
+           className="privacyButtonOnEditPage">
+           <Link to='/terms'>Bekijk onze gebruikersvoorwaarden</Link>
+           </Button>
+           </Typography>
       </div>
-     
+     </div>
     )
   }
 }
