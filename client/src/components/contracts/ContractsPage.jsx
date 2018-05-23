@@ -98,7 +98,7 @@ class ContractsPage extends PureComponent {
                       borderRadius: '3px', 
                     }}
                       className="deleteContractButton">
-                      Contract verwjjderen</Button>
+                      Contract verwijderen</Button>
                   ): null}
                      
                   </Card>               
@@ -128,10 +128,16 @@ class ContractsPage extends PureComponent {
 
                   {
                     this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} 
-                      style={{color:"#51595f"}}
-                      id="gebruikersvoorwaarden"
-                      className="privacyButtonOnEditPage">
-                      Contract verwjjderen</Button>
+                      style={{color:"#FFF", 
+                      backgroundColor: "#e84435",
+                      fontFamily: 'BrandonText-Bold',
+                      textTransform: 'none',
+                      marginLeft: 'auto',
+                      marginRight: 'auto',                      
+                      borderRadius: '3px', 
+                    }}
+                      className="deleteContractButton">
+                      Contract verwijderen</Button>
                   ): null}
                      
                   </Card>               
@@ -161,10 +167,16 @@ class ContractsPage extends PureComponent {
 
                   {
                     this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} 
-                      style={{color:"#51595f"}}
-                      id="gebruikersvoorwaarden"
-                      className="privacyButtonOnEditPage">
-                      Contract verwjjderen</Button>
+                      style={{color:"#FFF", 
+                      backgroundColor: "#e84435",
+                      fontFamily: 'BrandonText-Bold',
+                      textTransform: 'none',
+                      marginLeft: 'auto',
+                      marginRight: 'auto',                      
+                      borderRadius: '3px', 
+                    }}
+                      className="deleteContractButton">
+                      Contract verwijderen</Button>
                   ): null}
                      
                   </Card>               
@@ -194,9 +206,15 @@ class ContractsPage extends PureComponent {
 
                   {
                     this.state.buttons ? (<Button onClick={() => this.handleDelete(t.contractName)} 
-                      style={{color:"#51595f"}}
-                      id="gebruikersvoorwaarden"
-                      className="privacyButtonOnEditPage">
+                      style={{color:"#FFF", 
+                      backgroundColor: "#e84435",
+                      fontFamily: 'BrandonText-Bold',
+                      textTransform: 'none',
+                      marginLeft: 'auto',
+                      marginRight: 'auto',                      
+                      borderRadius: '3px', 
+                    }}
+                      className="deleteContractButton">
                       Contract verwijderen</Button>
                   ): null}
                      
