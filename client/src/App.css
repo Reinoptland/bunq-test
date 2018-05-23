@@ -170,6 +170,14 @@ h4 {
 .feedbackText {
   font-size: 20px;
   font-family: 'BrandonText-Bold';
+  max-width: 500px;
+}
+
+.adviesText {
+  font-size: 20px;
+  font-family: 'BrandonText-Bold';
+  text-align: center;
+  margin: 0 0 0 -5px 
 }
 
 .feedbackButton{
