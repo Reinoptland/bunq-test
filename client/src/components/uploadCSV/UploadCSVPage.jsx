@@ -5,6 +5,8 @@ import UploadCSVForm from './UploadCSVForm'
 import { AlertDialog } from '../privacy/PrivacyForm'
 import { Link, Redirect } from 'react-router-dom'
 import Button from '@material-ui/core/Button';
+import { Paper } from '@material-ui/core';
+
 
 class UploadCSVPage extends PureComponent {
   state ={
@@ -23,6 +25,7 @@ class UploadCSVPage extends PureComponent {
     }
 
     return (
+      <Paper className='paper-upload-csv' >
       <div className='center'>
       {this.state.upload === false &&
         <div className="csvPage">
@@ -45,17 +48,20 @@ class UploadCSVPage extends PureComponent {
         <li><span>Klik vervolgens op 'Upload' om de CSV te importeren</span></li>
         </ol>
         </div>
-        <AlertDialog className="dialogCsv" privacy={this.props.privacy} user={this.props.user} fetchProfile={this.props.fetchProfile}/>
 
+        <div className="privDialogCsv">
+        <AlertDialog className="dialogCsv" privacy={this.props.privacy} user={this.props.user} fetchProfile={this.props.fetchProfile}/>
+        </div>
       {this.props.error && <span style={{ color: 'red' }}>{this.props.error}</span>}
       </div>}
       {this.state.upload === true &&
       <div className="privacyInCsv">
-        <h1>De upload is successvol afgerond!</h1>
+        <h1 id="uploadSuccess">De upload is successvol afgerond!</h1>
       <Link to='/dashboard'><Button className='privacyButtonCsv'>Bekijk uw dashboard</Button></Link>
 
       </div> }
     </div>
+    </Paper>
     )
   }
 }
