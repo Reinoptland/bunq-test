@@ -23,16 +23,19 @@ class SingleContractPage extends PureComponent {
       return( <Redirect to="/csv"/>)
 
       const {transactions} = this.props
+      if(transactions === null) return (<div>Transacties inladen....</div>)
 
       const filteredTransactions = transactions
         .filter(transaction => transaction.contractName.toLowerCase().split(" ").join("") === this.props.match.params.name)
         .sort((a,b) => (a.date > b.date) ? 1 : ((b.date > a.date) ? -1 : 0))
 
-      const contractName = filteredTransactions[0].contractName
+          const contractName = filteredTransactions[0].contractName
 
-      let data = filteredTransactions
+          let results = filteredTransactions
         .map(transaction => [transaction.date, Number(transaction.value.substring(1))])
-      data[0] = ['Datum', 'Bedrag']
+          let data = [ ['Bedrag', 'Datum'] ];
+
+          data = data.concat(results)
 
     return(
       <div>
