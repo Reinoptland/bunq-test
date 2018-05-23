@@ -8,7 +8,6 @@ import Button from '@material-ui/core/Button';
 
 class UploadCSVPage extends PureComponent {
   render() {
-    console.log(this.props.user)
     if (this.props.user === null || !this.props.user) {
       return (<Redirect to='/logout' />)
     }
