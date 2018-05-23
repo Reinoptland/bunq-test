@@ -42,6 +42,8 @@ class UploadCSVForm extends PureComponent {
 		addTransactions(Papa.parse(reader.result, config).data, id)
 		}
 
+		this.props.toggleUpload()
+
 	 return reader.readAsText(files[0])
 		}
 
