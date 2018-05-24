@@ -24,7 +24,7 @@ export default class LoginController {
     if(!user) throw new NotFoundError('De combinatie email en wachtwoord is incorrect')
     if(!await user.checkPassword(password)) throw new BadRequestError('De combinatie email en wachtwoord is incorrect')
 
-    const jwt = sign({id: user.id!})
+    const jwt = sign({id: user.id!, firstName: user.firstName, lastName: user.lastName, email: user.email, permission: user.permission})
     return {
       jwt,
       user

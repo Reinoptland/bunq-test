@@ -1,5 +1,6 @@
 import { JsonController, Get, Param, HttpCode, Put, Body, Post, Delete, NotFoundError, Authorized } from 'routing-controllers'
 import User from './entity'
+import {sign} from "../jwt";
 
 @JsonController()
 export default class UserController {
@@ -24,10 +25,11 @@ export default class UserController {
     const entity = User.create(rest)
     await entity.setPassword(password)
     const user = await entity.save()
-
-    return user
+    return { user }
   }
+
   // edits a user
+  @Authorized()
   @Put('/users/:id')
   async editUser(
     @Param('id') id: number,
@@ -37,10 +39,15 @@ export default class UserController {
     const user = await User.findOne(id)
     if (!user) throw new NotFoundError('User doesn\'t exist')
 
-    return User.merge(user, update).save()
+
+      const updatedUser = await User.merge(user, update).save()
+      const jwt = sign({id: user.id!, firstName: user.firstName, lastName: user.lastName, email: user.email, permission: user.permission})
+
+      return { user: updatedUser, jwt }
   }
   
   // deletes a user
+  @Authorized()
   @Delete('/users/:id')
   async deleteUser(
     @Param('id') id: number

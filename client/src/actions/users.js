@@ -1,5 +1,6 @@
 import * as request from 'superagent'
-// import { baseUrl } from '../constants'
+import * as jwt from 'jsonwebtoken'
+import { jwtSecret } from '../constants'
 import { isExpired } from '../jwt'
 
 const baseUrl = 'http://localhost:4000'
@@ -41,7 +42,7 @@ export const login = (email, password) => (dispatch) =>
         type: USER_LOGIN_SUCCESS,
         payload: {
           jwt: result.body.jwt,
-          user: result.body.user
+          user: jwt.verify(result.body.jwt, jwtSecret)
         }
       })
     })
@@ -85,8 +86,10 @@ export const privacy = (id) => (dispatch, getState) =>{
 
   
   if (isExpired(jwt)) return dispatch(logout())
+  
   request
     .put(`${baseUrl}/users/${id}`)
+    .set(`Authorization`, `Bearer ${jwt}`)
     .send({id, permission: true})
     .then(result => {
       dispatch({
@@ -112,8 +115,10 @@ export const feedback = (data, id) => (dispatch, getState) =>{
   const jwt = state.currentUser.jwt
 
   if (isExpired(jwt)) return dispatch(logout())
+
   request
     .post(`${baseUrl}/users/${id}/feedback`)
+    .set(`Authorization`, `Bearer ${jwt}`)
     .send(data)
     .then(response => {
       dispatch({
@@ -134,9 +139,16 @@ export const feedback = (data, id) => (dispatch, getState) =>{
     })
 }
 
-export const fetchProfile = (id) => (dispatch) => {
+export const fetchProfile = (id) => (dispatch, getState) => {
+  const state = getState()
+  if (!state.currentUser) return null
+  const jwt = state.currentUser.jwt
+
+  if (isExpired(jwt)) return dispatch(logout())
+
   request
     .get(`${baseUrl}/users/${id.id}/`)
+    .set(`Authorization`, `Bearer ${jwt}`)
     .then(result => dispatch({
       type: FETCH_USER_PROFILE,
       payload: result.body
@@ -154,9 +166,16 @@ export const fetchProfile = (id) => (dispatch) => {
     })}
 
 
-    export const updateProfile = (id, updates) => (dispatch) => {
+    export const updateProfile = (id, updates) => (dispatch, getState) => {
+      const state = getState()
+      if (!state.currentUser) return null
+      const jwt = state.currentUser.jwt
+    
+      if (isExpired(jwt)) return dispatch(logout())
+
       request
         .put(`${baseUrl}/users/${id}`)
+        .set(`Authorization`, `Bearer ${jwt}`)
         .send(updates)
         .then(result => {
           dispatch({
@@ -167,27 +186,48 @@ export const fetchProfile = (id) => (dispatch) => {
         .catch(err => console.error(err))
     }
 
-    export const deleteUser = (id) => (dispatch) => {
+    export const deleteUser = (id) => (dispatch, getState) => {
+      const state = getState()
+      if (!state.currentUser) return null
+      const jwt = state.currentUser.jwt
+    
+      if (isExpired(jwt)) return dispatch(logout())
+
       request
         .delete(`${baseUrl}/users/${id}`)
+        .set(`Authorization`, `Bearer ${jwt}`)
         .then(response => dispatch({
           type: DELETE_USER,
           payload: id
         }))
     }
     
-    export const deleteUserTransactions = (id) => (dispatch) => {
+    export const deleteUserTransactions = (id) => (dispatch, getState) => {
+      const state = getState()
+      if (!state.currentUser) return null
+      const jwt = state.currentUser.jwt
+    
+      if (isExpired(jwt)) return dispatch(logout())
+
       request
-        .delete(`${baseUrl}/users/${id}/transactions`) 
+        .delete(`${baseUrl}/users/${id}/transactions`)
+        .set(`Authorization`, `Bearer ${jwt}`) 
         .then(response => dispatch({
           type: DELETE_USER,
           payload: id
         }))
     }
 
-    export const deleteUserFeedback = (id) => (dispatch) => {
+    export const deleteUserFeedback = (id) => (dispatch, getState) => {
+      const state = getState()
+      if (!state.currentUser) return null
+      const jwt = state.currentUser.jwt
+    
+      if (isExpired(jwt)) return dispatch(logout())
+
       request
         .delete(`${baseUrl}/users/${id}/feedback`) 
+        .set(`Authorization`, `Bearer ${jwt}`)
         .then(response => dispatch({
           type: DELETE_USER,
           payload: id
