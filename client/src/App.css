@@ -375,6 +375,7 @@ display: none
 .BarChart .my-pretty-chart-container {
   font-size:"13px";
   font-family: 'BrandonText-Regular';
+  width: '500px',
 }
 
 .editForm .termsAndConditions {
@@ -520,6 +521,73 @@ text-align: center
 
 }
 
+
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contractCard {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  color: #51595f;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.centerDashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardTitle {
+  background: linear-gradient(0.25turn,#e84435, #f57f17);
+  height: 90px;
+  margin-top: -5px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBody {
+  justify-content: center
+}
+
+.topPage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center; 
+  background: linear-gradient(0.25turn,#e84435, #f57f17);
+  color: #FFF;  
+  margin-top: -100px;
+  margin-left: -100px;
+  margin-right: -100px;
+  padding-bottom: 40px;
+}
+
+.topPage h1 {
+  width: 400px;
+  font-family: 'BrandonText-Regular';
+  margin-right: 150px;
+  color: #FFF;
+  margin-top: 150px;
+}
+
+.graph {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
+}
+
 .centerPaper {
   display: block;
   align-items: center;
@@ -530,3 +598,4 @@ text-align: center
 .detailedTransactions {
   margin-top: 20px;
 }
+

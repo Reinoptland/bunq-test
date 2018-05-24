@@ -49,19 +49,18 @@ class DashboardPage extends PureComponent {
     }
     return(
       <div>
-      <Grid container alignItems={'center'} style={{width: '100%', flex: 1}} spacing={16}>
-        <Grid xs={12} s={12} item>
-          <div style={{textAlign: 'center', fontSize:"25px", fontFamily: 'BrandonText-Bold'}}>
-            Hi {firstName} {lastName}! Hier vindt u een overzicht van je contracten.
-            <Divider style={{margin: '20px 0 30px 0'}}/>
-            <h2 style={{fontSize:"20px", fontFamily: 'BrandonText-Bold', fontWeight: 'lighter', margin: "0px 0px -20px 0px"}}>Uw maandelijkse uitgaven</h2>
-            {
-              this.props.contracts ? (BarGraph({ data, colors})) : null
-            }
-              <ContractsPage buttons={false}/>
-          </div>
-        </Grid>
-      </Grid>
+        <div className = "topPage">
+
+                <h1>Hi {firstName} {lastName}! Hier vindt u een overzicht van je contracten.</h1><br/><br/>
+                <div className="graph">
+                <h2 style={{fontSize:"20px", fontFamily: 'BrandonText-Bold', fontWeight: 'lighter', margin: "0px 0px -20px 0px"}}>Uw maandelijkse uitgaven</h2>
+                {
+                  this.props.contracts ? (BarGraph({ data, colors})) : null
+                }
+              </div>
+
+        </div>
+        <ContractsPage buttons={false}/>
       </div>
     )
   }
@@ -74,3 +73,4 @@ const mapStateToProps = (state, props) => ({
 })
 
 export default connect(mapStateToProps, { fetchContracts, fetchTransactions })(DashboardPage)
+

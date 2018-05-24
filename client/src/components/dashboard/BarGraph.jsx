@@ -3,7 +3,8 @@ import { Chart } from 'react-google-charts';
 
 const BarGraph = ({...props}) => {
   const options = {
-    backgroundColor: 'transparent',
+    backgroundColor: 'white',
+    title: 'Uw maandelijkse uitgaven',
     chartArea: { width: '90%' },
     annotations:{
     textStyle: {
