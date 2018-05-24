@@ -51,7 +51,7 @@ class DashboardPage extends PureComponent {
       <div>
         <div className = "topPage">
                 <div className="dashboard-title">
-                <h1>Hi {firstName} {lastName}! Hier vindt u een overzicht van je contracten.</h1><br/><br/>
+                <h1>Hi {firstName} {lastName}! Hier vindt u een overzicht van uw contracten.</h1><br/><br/>
                 </div>
                 <div className="graph">
                 {
