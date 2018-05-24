@@ -675,3 +675,7 @@ text-align: center
 .detailedTransactions {
   margin-top: 20px;
 }
+
+h1.MuiTypography-root-38.MuiTypography-display1-42.contractTypography {
+  text-align: center;
+}
