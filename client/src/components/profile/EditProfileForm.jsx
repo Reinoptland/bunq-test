@@ -278,13 +278,7 @@ export default class EditProfileForm extends PureComponent {
             > Wijzigingen opslaan 
             </Button>
             </Typography>
-
-
-          
-
-
-    
-
+            <Divider style={{margin: '1rem 0'}} />
         </form>
       )
     }
