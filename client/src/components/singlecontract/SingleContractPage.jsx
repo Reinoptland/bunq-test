@@ -51,7 +51,7 @@ class SingleContractPage extends PureComponent {
           {
             filteredTransactions.map(transaction => {
               return (
-                <li><p key={transaction.id}><strong>{transaction.contractName}</strong><br/>
+                <li key={`${transaction.id}-li`}><p key={transaction.id}><strong>{transaction.contractName}</strong><br/>
                 Transactie Datum: <strong>{transaction.date}</strong><br/>
                 Uitgave: <strong>{transaction.value} €</strong></p></li>)
             })

@@ -133,7 +133,7 @@ h4 {
 }
 
 .radio {
-  margin: 0 0 0 -100px; 
+  margin: 0 0 0 0px; 
 }
 
 .bottom-nav {
@@ -200,6 +200,7 @@ h4 {
 
 .remarks {
 display: flex;
+flex-wrap: wrap;
 flex-direction: row;
 justify-content: start;
 align-items: center;
@@ -460,6 +461,12 @@ text-align: center
  padding: 30px;
  line-height: 2em;
 }
+
+.feedbackPage{
+  padding: 30px;
+  line-height: 2em;
+ 
+ }
 
 .csvPage .howToExport ol li span{
   font-size: 20px;

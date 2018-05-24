@@ -1,11 +1,10 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from 'react'
 import Typography from 'material-ui/Typography'
 import { connect } from 'react-redux'
 import { fetchContracts, deleteContract } from '../../actions/transactions'
 import {Redirect, Link} from 'react-router-dom'
-import { Button } from 'material-ui';
-import { Card } from '@material-ui/core';
-import { Divider } from 'material-ui';
+import { Button } from 'material-ui'
+import { Card } from '@material-ui/core'
 
 
 
@@ -66,6 +65,14 @@ class ContractsPage extends PureComponent {
       {
         this.props.trans
       }
+      {
+        this.state.buttons ? (
+          <div>
+            <h1>Contractenoverzicht</h1>
+            <p>Aan de hand van uw transacties zijn de onderstaande contracten opgemaakt.<br/> U kunt de contracten verwijderen die u niet wilt volgen.<br/>
+Binnenkort zal ROOS de mogelijkheid bieden om wekkers te zetten voor uw contracten en abonnementen. Op basis daarvan zal u advies krijgen.<br/> Voor meer informatie kunt u op ‘Advies’ klikken.</p> 
+          </div>
+      ): null}
 
         <Typography className="contractTypography" style={{
           width:"80%", 
