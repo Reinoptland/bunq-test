@@ -42,7 +42,7 @@ class SingleContractPage extends PureComponent {
           <div className="titleAndGraph">
           <h1>{contractName}</h1>
           {
-            this.props.transactions ? (AreaGraph({data})) : null
+            this.props.transactions ? (<div className='graph'>{AreaGraph({data})}</div>) : null
           }
           </div>
           <div className="detailedTransactions">

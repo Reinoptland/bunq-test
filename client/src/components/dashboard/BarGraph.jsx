@@ -14,6 +14,7 @@ const BarGraph = ({...props}) => {
     hAxis: {
       minValue: 0
     },
+    vAxis: {minValue: 0},
     
     color: props.colors,
     legend: {
@@ -21,7 +22,7 @@ const BarGraph = ({...props}) => {
     }
   }
   return (
-    <Chart className={'my-pretty-chart-container'}
+    <Chart className='my-pretty-chart-container'
       chartType="BarChart"
       data={props.data}
       options={options}
