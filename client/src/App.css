@@ -529,19 +529,26 @@ display: none
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: flex-start;
-  margin-top: 150px;
-  
+  align-items: center; 
+  background: linear-gradient(0.25turn,#e84435, #f57f17);
+  color: #FFF;  
+  margin-top: -100px;
+  margin-left: -100px;
+  margin-right: -100px;
+  padding-bottom: 40px;
 }
 
 .topPage h1 {
   width: 400px;
   font-family: 'BrandonText-Regular';
   margin-right: 150px;
+  color: #FFF;
+  margin-top: 150px;
 }
 
 .graph {
   display: flex;
   flex-direction: column;
-  text-align: center
+  text-align: center;
+  margin-top: 150px;
 }

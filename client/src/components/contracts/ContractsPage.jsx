@@ -69,12 +69,10 @@ class ContractsPage extends PureComponent {
 
         <Typography className="contractTypography" style={{
           width:"80%", 
-          margin: '60px 0 30px 0', 
+          margin: '20px 0 30px 0', 
           background:"", 
-          padding: '50px 35px', 
-          fontSize:"40px",
-          color: "#e84435",           
-          color: "#e84435",
+          padding: '20px 35px', 
+          fontSize:"40px",        
           fontFamily: "BrandonText-Bold"}} variant='display1'> Verzekering <br/><br/>
         
         <div className="cardContainer">
@@ -109,11 +107,10 @@ class ContractsPage extends PureComponent {
         </Typography>
         <Typography className="contractTypography" style={{
           width:"80%", 
-          margin: '60px 0 30px 0', 
+          margin: '20px 0 30px 0', 
           background:"", 
-          padding: '50px 35px', 
-          fontSize:"40px",
-          color: "#e84435",           
+          padding: '20px 35px', 
+          fontSize:"40px",        
           fontFamily: "BrandonText-Bold"}} variant='display1'> Telecom <br/><br/>
         
         <div className="cardContainer">
@@ -148,11 +145,10 @@ class ContractsPage extends PureComponent {
         </Typography>
         <Typography className="contractTypography" style={{
           width:"80%", 
-          margin: '60px 0 30px 0', 
+          margin: '20px 0 30px 0', 
           background:"", 
-          padding: '50px 35px', 
-          fontSize:"40px",
-          color: "#e84435",           
+          padding: '20px 35px', 
+          fontSize:"40px",        
           fontFamily: "BrandonText-Bold"}} variant='display1'> Energie <br/><br/>
         
         <div className="cardContainer">
@@ -187,11 +183,10 @@ class ContractsPage extends PureComponent {
         </Typography>
         <Typography className="contractTypography" style={{
           width:"80%", 
-          margin: '60px 0 30px 0', 
+          margin: '20px 0 30px 0', 
           background:"", 
-          padding: '50px 35px', 
-          fontSize:"40px",
-          color: "#e84435",           
+          padding: '20px 35px', 
+          fontSize:"40px",        
           fontFamily: "BrandonText-Bold"}} variant='display1'> Overig <br/><br/>
         
         <div className="cardContainer">
