@@ -15,7 +15,11 @@ class FeedbackPage extends PureComponent {
 
     render() {
         return (
+           
             <Paper>
+                 <div className="feedbackPage">
+                <br/>
+                    <br/>
             <div>
 
                 <h1 style={{textAlign: 'center', margin:'0 0 0 -5px'}}>Feedback</h1>
@@ -25,7 +29,9 @@ class FeedbackPage extends PureComponent {
                     <br/>
                 </div>
             </div>
+            </div>
             </Paper>
+            
         )
     }
 }
