@@ -27,9 +27,9 @@ class SingleContractPage extends PureComponent {
     const filteredTransactions = transactions
       .filter(transaction => transaction.contractName.toLowerCase().split(" ").join("") === this.props.match.params.name)
       .sort((a,b) => (a.date > b.date) ? 1 : ((b.date > a.date) ? -1 : 0))
-
-    const contractName = filteredTransactions[0].contractName
-
+      let contractName;
+      if(filteredTransactions[0]) contractName = filteredTransactions[0].contractName
+      else window.location.reload()
     let results = filteredTransactions
       .map(transaction => [transaction.date, Number(transaction.value.substring(1))])
     
