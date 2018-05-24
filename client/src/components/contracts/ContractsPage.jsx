@@ -1,11 +1,10 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from 'react'
 import Typography from 'material-ui/Typography'
 import { connect } from 'react-redux'
 import { fetchContracts, deleteContract } from '../../actions/transactions'
 import {Redirect, Link} from 'react-router-dom'
-import { Button } from 'material-ui';
-import { Card } from '@material-ui/core';
-import { Divider } from 'material-ui';
+import { Button } from 'material-ui'
+import { Card } from '@material-ui/core'
 
 
 
