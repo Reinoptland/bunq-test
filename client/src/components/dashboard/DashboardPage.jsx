@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import BarGraph from './BarGraph'
-import { Grid, Divider } from 'material-ui';
+import { Grid, Divider, Typography } from 'material-ui';
 import { connect } from 'react-redux'
 import { fetchContracts, fetchTransactions } from '../../actions/transactions'
 import { Redirect } from 'react-router-dom'
@@ -50,10 +50,10 @@ class DashboardPage extends PureComponent {
     return(
       <div>
         <div className = "topPage">
-
+                <div className="dashboard-title">
                 <h1>Hi {firstName} {lastName}! Hier vindt u een overzicht van je contracten.</h1><br/><br/>
+                </div>
                 <div className="graph">
-                <h2 style={{fontSize:"20px", fontFamily: 'BrandonText-Bold', fontWeight: 'lighter', margin: "0px 0px -20px 0px"}}>Uw maandelijkse uitgaven</h2>
                 {
                   this.props.contracts ? (BarGraph({ data, colors})) : null
                 }

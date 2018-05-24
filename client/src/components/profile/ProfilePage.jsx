@@ -58,7 +58,7 @@ class ProfilePage extends PureComponent {
        return(
          <div>
                     
-      <Paper>
+      <Paper className="editFormPaper">
       <div className="editForm">
           
           <h1>

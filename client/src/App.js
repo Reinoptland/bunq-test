@@ -28,7 +28,7 @@ class App extends Component {
           <nav>
             <TopBar />
           </nav>
-          <main style={{ margin: '80px 0 0 20px' }}>
+          <main style={{ margin: '80px 0 10px 20px' }}>
             <Route exact path='/login' component={LoginPage} />
             <Route exact path="/logout" component={LogoutPage} />
             <Route exact path='/csv' component={UploadCSVPage} />
