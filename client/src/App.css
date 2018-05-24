@@ -281,7 +281,7 @@ margin-bottom: 20px;
 }
 
 .editProfileForm .saveEditedProfile {
-  margin-top: -20%;
+  margin-top: 0px;
   padding: 10px 25px;
   border-radius: 3px;
   font-size: 14px;
