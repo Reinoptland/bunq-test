@@ -632,9 +632,32 @@ text-align: center
      .centerPaper .titleAndGraph h1 {
        font-size: 1.5rem;
      }
-  }
- 
 
+     .contract-title {
+       max-width: 80%;
+     }
+
+     .contract-title h1{
+      font-size: 1.5rem;
+      font-family: 'BrandonText-Bold';
+      color: #51595f;
+     }
+
+     .contract-title p {
+      font-family: 'BrandonText-Regular';
+     }
+  }
+
+.contract-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 70%;
+    line-height: 1.8em;
+ }
+  
 .graph {
   display: flex;
   flex-direction: column;
