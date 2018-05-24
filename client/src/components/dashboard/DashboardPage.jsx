@@ -50,18 +50,15 @@ class DashboardPage extends PureComponent {
     return(
       <div>
         <div className = "topPage">
-          <Grid container alignItems={'center'} style={{width: '100%', flex: 1}} spacing={16}>
-            <Grid xs={12} s={12} item>
-              <div style={{textAlign: 'center', fontSize:"28px", fontFamily: 'BrandonText-Bold', margin: '20px 0 30px 0'}}>
-                Hi {firstName} {lastName}! Hier vindt u een overzicht van je contracten.<br/><br/>
-                <Divider style={{margin: '20px 0 30px 0'}}/>
+
+                <h1>Hi {firstName} {lastName}! Hier vindt u een overzicht van je contracten.</h1><br/><br/>
+                <div className="graph">
                 <h2 style={{fontSize:"20px", fontFamily: 'BrandonText-Bold', fontWeight: 'lighter', margin: "0px 0px -20px 0px"}}>Uw maandelijkse uitgaven</h2>
                 {
                   this.props.contracts ? (BarGraph({ data, colors})) : null
                 }
               </div>
-            </Grid>
-          </Grid>
+
         </div>
         <ContractsPage buttons={false}/>
       </div>
