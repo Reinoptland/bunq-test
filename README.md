@@ -12,6 +12,10 @@ The Dashboard page gives the user a list of contracts, with an average per month
 
 When you click on one specific contract, it will bring you to the page of the single contract, showing a line graph (outlining your transactions for the past 6 months).
 
+<img src=https://github.com/Reinoptland/bunq-test/blob/master/dashboard.png width="200" height="400" /> <img src=https://github.com/Reinoptland/bunq-test/blob/master/contracts.png width="200" height="400" /> <img src=https://github.com/Reinoptland/bunq-test/blob/master/signup.png width="200" height="400" />
+
+
+
 ## How to run: 
 **1.** Install **node.js** --> https://nodejs.org/en/
 
@@ -59,3 +63,7 @@ When you click on one specific contract, it will bring you to the page of the si
     $ yarn start 
     
   *important*: keep the **yarn start** tab open in the terminal
+  
+## Algorithm: 
+
+## API: 
