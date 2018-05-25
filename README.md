@@ -1,6 +1,14 @@
 # A Smart Contract Assistant for Roos 
   https://halloroos.nl/
   
+  This project was created with **ReactJS**, **TypeScript** and **JavaScript**.
+
+   https://reactjs.org/
+
+   https://www.typescriptlang.org/
+
+   https://www.javascript.com/
+  
 ## Introduction: 
 The project owner for this project is **Roos** (www.halloroos.nl). Currently, Roos users have to manually input their contract details onto the website, which is time consuming, and often users may lose track of how many contracts they actually have. 
 For this reason, our project goal was to make the Roos experience easier and faster. 
@@ -31,7 +39,6 @@ The following are screenshots of the app.
   3. Signup page 
   
   <img src=https://github.com/Reinoptland/bunq-test/blob/master/signup.png width="200" height="400" />
-
 
 
 ## How to run: 
@@ -97,7 +104,7 @@ energy: [],
 telecom: []
 }
 
-- Csv Data (array of objects) : user uploads their csv document through form in client/src/components/uploadCSV/uploadCSVForm.js, which is converted to JSON with papaparse <link>
+- Csv Data (array of objects) : user uploads their csv document through form in client/src/components/uploadCSV/uploadCSVForm.js, which is converted to JSON with papaparse https://www.papaparse.com/
 
 #### Step 1 - Filter out transactions which are older than six months
 
