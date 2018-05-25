@@ -1,6 +1,5 @@
 import { IsString } from 'class-validator'
 import { JsonController, Post, Body, BadRequestError, NotFoundError } from 'routing-controllers'
-// import * as superagent from 'superagent'
 import User from '../users/entity'
 import { sign } from '../jwt';
 

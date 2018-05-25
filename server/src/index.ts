@@ -1,5 +1,5 @@
 import 'reflect-metadata'
-import {BadRequestError, Action, useKoaServer} from "routing-controllers"
+import {BadRequestError, Action, useKoaServer, JsonController} from "routing-controllers"
 import setupDb from './db'
 import UserController from './users/controller'
 import LoginController from './logins/controller'
@@ -10,10 +10,27 @@ import User from './users/entity'
 import * as Koa from 'koa'
 import {Server} from 'http'
 
+const path = require('path')
+const serve = require('koa-static');
 const app = new Koa()
 const server = new Server(app.callback())
 const port = process.env.PORT || 4000
+const send = require('koa-send');
 
+/*
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.use(serve(__dirname + '/test/fixtures'));
+
+
+*/
+
+// app.use(serve('../../client/build/public'))
+
+app.use(async (ctx) => {
+  if ('/' == ctx.path) return ctx.body = 'Try GET /package.json';
+  await send(ctx, ctx.path, { root: '../client/'+ '/build' });
+})
 
 useKoaServer(app, {
   cors: true,
